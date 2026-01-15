@@ -1,0 +1,285 @@
+{
+  "asset_groups": [
+    {
+      "resource_name": "customers/9256598060/assetGroups/6483780791",
+      "id": "6483780791",
+      "name": "Products merchant campaign",
+      "status": "ENABLED",
+      "primary_status": "ELIGIBLE",
+      "primary_status_reasons": null
+    }
+  ],
+  "listing_group_filters": [
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~11335504124",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "SUBDIVISION",
+      "listing_source": "SHOPPING",
+      "case_value": {}
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505561",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {}
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "SUBDIVISION",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "hvac parts supplies"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505852",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_EXCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {}
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505855",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "april aire filter cabinets"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505858",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "aprilaire zoning"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505861",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "collars"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505864",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "condensation pumps safety switches accessories"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505867",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "copper fittings solder refrigerant accessories"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505870",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "drain pans and mounting accessories"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505873",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "exterior ventilation caps"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505876",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "filters"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505879",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "flat return boots"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505882",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "gas pipe fittings trac pipe"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505885",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "indoor air quality"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505888",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "motors motor accessories"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505891",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "registers and grilles"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505894",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "saw blades and drill bits"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505897",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "singlewall pipe fittings and elbows"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968040",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "tape sealants screws fasteners accessories"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968043",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "winter service parts"
+        }
+      }
+    },
+    {
+      "resource_name": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968046",
+      "asset_group": "customers/9256598060/assetGroups/6483780791",
+      "type": "UNIT_INCLUDED",
+      "listing_source": "SHOPPING",
+      "case_value": {
+        "productType": {
+          "value": "wire electrical accessories"
+        }
+      }
+    }
+  ],
+  "shared_sets": [
+    {
+      "shared_set_id": "11182753341",
+      "shared_set_name": "Negatives",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "member_count": "7"
+    },
+    {
+      "shared_set_id": "11927866500",
+      "shared_set_name": "Brand Terms - Auto Generated 20260109_1616",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "member_count": "16"
+    },
+    {
+      "shared_set_id": "11929404019",
+      "shared_set_name": "Brand Terms - Auto Generated 20260109_1525",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "member_count": "6"
+    },
+    {
+      "shared_set_id": "11932597174",
+      "shared_set_name": "BCD Brand Exclusions",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "member_count": "9"
+    },
+    {
+      "shared_set_id": "11932597177",
+      "shared_set_name": "Manufacturer Brand Exclusions",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "member_count": "15"
+    }
+  ]
+}

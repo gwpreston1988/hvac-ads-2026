@@ -1,0 +1,11 @@
+{
+  "brand_terms": [
+    "rheem", "goodman", "solace", "bcd", "buy comfort direct",
+    "buycomfortdirect", "buy comfort", "comfort direct"
+  ],
+  "brand_variants": {
+    "rheem": ["rheem", "ruud"],
+    "goodman": ["goodman", "amana", "daikin"],
+    "solace": ["solace", "solace air"]
+  }
+}

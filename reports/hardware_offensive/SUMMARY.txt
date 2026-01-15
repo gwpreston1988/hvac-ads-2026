@@ -1,0 +1,40 @@
+================================================================================
+SEARCH: BCD - Hardware Offensive - 2026 (ID: 23445812072)
+================================================================================
+
+BIDDING
+-------
+Strategy: MAXIMIZE_CONVERSION_VALUE
+Target ROAS: 3.5
+Budget: $50/day
+Manual CPC Controls: NOT AVAILABLE
+Keyword Bids: IGNORED by smart bidding
+
+PERFORMANCE (30D)
+-----------------
+Spend: $14.86
+Conversions: 0
+ROAS: 0.00
+Avg CPC: $0.05 (throttled due to 0 conversions)
+Impression Share: 9.99%
+
+STRUCTURE
+---------
+Ad Groups: 3
+- High-Efficiency Furnaces (18 keywords)
+- SEER2 Heat Pumps (13 keywords)
+- Private Label - Solace (10 keywords)
+
+Keywords: 41 total (37 enabled, 4 paused)
+Campaign Negatives: 102
+Shared Negative Set: 1 (Brand Terms)
+
+ISSUES FIXED
+------------
+- Removed "best" negative (was blocking "best gas furnace", "best heat pump")
+
+FILES IN THIS FOLDER
+--------------------
+- offensive_bidding_state_dump.json (full API data)
+- negative_keyword_conflicts_*.txt (conflict report)
+- bidding_audit_report_20260113.txt (full audit)

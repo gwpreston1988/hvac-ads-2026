@@ -1,0 +1,49 @@
+keyword,match_type,suggested_bid,intent
+14.3 seer2,PHRASE,2.5,high
+15.2 seer2,PHRASE,2.5,high
+16.2 seer2,PHRASE,2.5,high
+17.2 seer2,PHRASE,2.5,high
+14.3 seer2 heat pump,PHRASE,2.5,high
+15.2 seer2 heat pump,PHRASE,2.5,high
+16.2 seer2 heat pump,PHRASE,2.5,high
+14.3 seer2 air conditioner,PHRASE,2.5,high
+15.2 seer2 air conditioner,PHRASE,2.5,high
+80 afue furnace,PHRASE,2.5,high
+92 afue furnace,PHRASE,2.5,high
+96 afue furnace,PHRASE,2.5,high
+80% afue,PHRASE,2.5,high
+92% afue,PHRASE,2.5,high
+96% afue,PHRASE,2.5,high
+high efficiency gas furnace,PHRASE,2.5,high
+two stage furnace,PHRASE,2.5,high
+variable speed furnace,PHRASE,2.5,high
+2 ton heat pump,PHRASE,2.5,high
+2.5 ton heat pump,PHRASE,2.5,high
+3 ton heat pump,PHRASE,2.5,high
+3.5 ton heat pump,PHRASE,2.5,high
+4 ton heat pump,PHRASE,2.5,high
+5 ton heat pump,PHRASE,2.5,high
+2 ton ac system,PHRASE,2.5,high
+3 ton ac system,PHRASE,2.5,high
+4 ton ac system,PHRASE,2.5,high
+5 ton ac system,PHRASE,2.5,high
+r-32 air conditioner,PHRASE,2.5,high
+r-32 heat pump,PHRASE,2.5,high
+r32 hvac,PHRASE,2.5,high
+split system hvac,PHRASE,2.5,high
+package unit hvac,PHRASE,2.5,high
+dual fuel system,PHRASE,2.5,high
+heat pump with gas furnace,PHRASE,2.5,high
+air handler with heat pump,PHRASE,2.5,high
+60000 btu furnace,PHRASE,2.5,high
+80000 btu furnace,PHRASE,2.5,high
+100000 btu furnace,PHRASE,2.5,high
+24000 btu air conditioner,PHRASE,2.5,high
+36000 btu air conditioner,PHRASE,2.5,high
+48000 btu air conditioner,PHRASE,2.5,high
+92% afue gas furnace,EXACT,3.5,very_high
+96% afue gas furnace,EXACT,3.5,very_high
+15.2 seer2 heat pump,EXACT,3.5,very_high
+16.2 seer2 heat pump,EXACT,3.5,very_high
+3 ton heat pump,EXACT,3.5,very_high
+4 ton heat pump,EXACT,3.5,very_high

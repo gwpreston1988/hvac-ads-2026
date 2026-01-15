@@ -1,0 +1,24 @@
+{
+  "errors": [
+    {
+      "endpoint_or_view": "asset_group_top_combination_view",
+      "attempted_query": "SELECT asset_group_top_combination_view.resource_name, ... FROM asset_group_top_combination_view",
+      "error": "INTERNAL_ERROR (500) - Google internal error",
+      "impact": "Cannot retrieve served asset combinations. This view may have intermittent availability.",
+      "workaround": "Performance labels available per asset in asset_group_asset view"
+    },
+    {
+      "endpoint_or_view": "campaign_asset (for PMax)",
+      "attempted_query": "SELECT campaign_asset.* FROM campaign_asset WHERE campaign.id = 20815709270",
+      "error": "No results returned",
+      "impact": "No campaign-level assets attached to PMax campaign (normal for PMax - assets live at asset group level)",
+      "status": "expected_behavior"
+    }
+  ],
+  "notes": [
+    "PMax campaigns use asset_group_asset for asset linkages, not campaign_asset",
+    "Listing group filters successfully retrieved (22 filters + 44 product group views)",
+    "All 221 unique assets fully extracted with payloads"
+  ],
+  "timestamp": "2026-01-13T14:45:56.408088"
+}

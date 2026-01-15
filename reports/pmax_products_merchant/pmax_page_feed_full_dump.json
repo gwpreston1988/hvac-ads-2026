@@ -1,0 +1,333 @@
+{
+  "asset_sets": [
+    {
+      "assetSet": {
+        "resourceName": "customers/9256598060/assetSets/7283282570",
+        "name": "Merchant Center Data ID 5308355318 Label US",
+        "type": "MERCHANT_CENTER_FEED",
+        "status": "ENABLED",
+        "id": "7283282570"
+      }
+    },
+    {
+      "assetSet": {
+        "resourceName": "customers/9256598060/assetSets/7312904616",
+        "name": "UberversalPageFeedAssetSet|5308355318|0",
+        "type": "PAGE_FEED",
+        "status": "REMOVED",
+        "id": "7312904616"
+      }
+    },
+    {
+      "assetSet": {
+        "resourceName": "customers/9256598060/assetSets/9102144225",
+        "name": "UberversalPageFeedAssetSet|5308355318|0",
+        "type": "PAGE_FEED",
+        "status": "REMOVED",
+        "id": "9102144225"
+      }
+    },
+    {
+      "assetSet": {
+        "resourceName": "customers/9256598060/assetSets/9103708725",
+        "name": "UberversalPageFeedAssetSet|5308355318|0",
+        "type": "PAGE_FEED",
+        "status": "ENABLED",
+        "id": "9103708725"
+      }
+    }
+  ],
+  "asset_set_assets": [
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094796763",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094796763",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094817319",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094817319",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851474",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851474",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851492",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851492",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851495",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851495",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851555",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851555",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851642",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851642",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299094851651",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299094851651",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172230032",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172230032",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299695",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299695",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299770",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299770",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299773",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299773",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299791",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299791",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299854",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299854",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299881",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299881",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299884",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299884",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299902",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299902",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172299911",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172299911",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172300175",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172300175",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172300235",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172300235",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172300265",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172300265",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299172300289",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299172300289",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299211732105",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299211732105",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299211742299",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299211742299",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299211744090",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299211744090",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299717177499",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299717177499",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~299947081573",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/299947081573",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~300757926831",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/300757926831",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~301122155309",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/301122155309",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~301122157172",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/301122157172",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~301122159401",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/301122159401",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~306624525600",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/306624525600",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~307995692968",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/307995692968",
+        "status": "REMOVED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~308906919808",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/308906919808",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "assetSetAsset": {
+        "resourceName": "customers/9256598060/assetSetAssets/9103708725~314378079737",
+        "assetSet": "customers/9256598060/assetSets/9103708725",
+        "asset": "customers/9256598060/assets/314378079737",
+        "status": "ENABLED"
+      }
+    }
+  ],
+  "campaign_asset_sets": [
+    {
+      "campaignAssetSet": {
+        "resourceName": "customers/9256598060/campaignAssetSets/20815709270~7283282570",
+        "campaign": "customers/9256598060/campaigns/20815709270",
+        "assetSet": "customers/9256598060/assetSets/7283282570",
+        "status": "ENABLED"
+      }
+    }
+  ],
+  "errors": []
+}

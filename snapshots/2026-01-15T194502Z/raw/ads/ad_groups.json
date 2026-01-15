@@ -1,0 +1,92 @@
+{
+  "extracted_at": "2026-01-15T19:45:03.847547Z",
+  "count": 8,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/adGroups/154784588541",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "154784588541",
+      "name": "Branded Terms",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "cpcBidMicros": "10000",
+      "targetCpaMicros": "0",
+      "targetRoas": 3
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/161992105091",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "161992105091",
+      "name": "HVAC Services",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "cpcBidMicros": "10000",
+      "targetCpaMicros": "0"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/162465487154",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "162465487154",
+      "name": "Top Selling Prodiucts",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "cpcBidMicros": "10000",
+      "targetCpaMicros": "0"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/163319302746",
+      "status": "PAUSED",
+      "type": "SEARCH_STANDARD",
+      "id": "163319302746",
+      "name": "Ad group 2",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "cpcBidMicros": "10000",
+      "targetCpaMicros": "0",
+      "targetRoas": 3
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/189856018285",
+      "status": "ENABLED",
+      "type": "SHOPPING_PRODUCT_ADS",
+      "id": "189856018285",
+      "name": "Ad group 1",
+      "campaign": "customers/9256598060/campaigns/23447458056",
+      "cpcBidMicros": "10000",
+      "targetCpaMicros": "0",
+      "targetRoas": 2
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/190099169894",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "190099169894",
+      "name": "High-Efficiency Furnaces",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "cpcBidMicros": "3500000",
+      "targetCpaMicros": "0",
+      "targetRoas": 3
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/190099169934",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "190099169934",
+      "name": "SEER2 Heat Pumps",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "cpcBidMicros": "4000000",
+      "targetCpaMicros": "0",
+      "targetRoas": 3
+    },
+    {
+      "resourceName": "customers/9256598060/adGroups/190099169974",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "id": "190099169974",
+      "name": "Private Label - Solace",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "cpcBidMicros": "3000000",
+      "targetCpaMicros": "0",
+      "targetRoas": 3
+    }
+  ]
+}

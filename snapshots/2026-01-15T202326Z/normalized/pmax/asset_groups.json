@@ -1,0 +1,93 @@
+{
+  "extracted_at": "2026-01-15T20:23:40.130017Z",
+  "count": 5,
+  "records": [
+    {
+      "id": "6482508720",
+      "campaign_id": "20772170367",
+      "name": "Asset Group 1",
+      "status": "ENABLED",
+      "final_url": "https://buycomfortdirect.com",
+      "ad_strength": "AVERAGE",
+      "asset_counts": {
+        "HEADLINE": 17,
+        "PORTRAIT_MARKETING_IMAGE": 2,
+        "SQUARE_MARKETING_IMAGE": 15,
+        "DESCRIPTION": 9,
+        "LONG_HEADLINE": 5,
+        "MARKETING_IMAGE": 3,
+        "YOUTUBE_VIDEO": 2
+      }
+    },
+    {
+      "id": "6483780791",
+      "campaign_id": "20815709270",
+      "name": "Products merchant campaign",
+      "status": "ENABLED",
+      "final_url": "https://buycomfortdirect.com",
+      "ad_strength": "EXCELLENT",
+      "asset_counts": {
+        "HEADLINE": 18,
+        "DESCRIPTION": 5,
+        "LONG_HEADLINE": 7,
+        "YOUTUBE_VIDEO": 3,
+        "MARKETING_IMAGE": 6,
+        "AD_IMAGE": 7,
+        "SQUARE_MARKETING_IMAGE": 7,
+        "PORTRAIT_MARKETING_IMAGE": 3,
+        "CALL_TO_ACTION_SELECTION": 1
+      }
+    },
+    {
+      "id": "6484626908",
+      "campaign_id": "20838650769",
+      "name": "Performance Max asset group 32a9cc94-3edf-4df3-a163-42f0e920a837",
+      "status": "ENABLED",
+      "final_url": "https://buycomfortdirect.com",
+      "ad_strength": "POOR",
+      "asset_counts": {
+        "LOGO": 2,
+        "BUSINESS_NAME": 1,
+        "HEADLINE": 5,
+        "DESCRIPTION": 5,
+        "SQUARE_MARKETING_IMAGE": 1,
+        "MARKETING_IMAGE": 1,
+        "LONG_HEADLINE": 3
+      }
+    },
+    {
+      "id": "6516129878",
+      "campaign_id": "21688703980",
+      "name": "Products merchant campaign",
+      "status": "ENABLED",
+      "final_url": "https://buycomfortdirect.com",
+      "ad_strength": "EXCELLENT",
+      "asset_counts": {
+        "HEADLINE": 18,
+        "DESCRIPTION": 5,
+        "LONG_HEADLINE": 7,
+        "YOUTUBE_VIDEO": 3,
+        "MARKETING_IMAGE": 11,
+        "SQUARE_MARKETING_IMAGE": 4,
+        "PORTRAIT_MARKETING_IMAGE": 2
+      }
+    },
+    {
+      "id": "6610813176",
+      "campaign_id": "23028588419",
+      "name": "Products merchant campaign",
+      "status": "ENABLED",
+      "final_url": "https://buycomfortdirect.com",
+      "ad_strength": "EXCELLENT",
+      "asset_counts": {
+        "HEADLINE": 15,
+        "DESCRIPTION": 5,
+        "LONG_HEADLINE": 5,
+        "YOUTUBE_VIDEO": 3,
+        "MARKETING_IMAGE": 9,
+        "SQUARE_MARKETING_IMAGE": 7,
+        "PORTRAIT_MARKETING_IMAGE": 2
+      }
+    }
+  ]
+}

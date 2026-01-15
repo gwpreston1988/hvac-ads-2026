@@ -1,0 +1,32 @@
+{
+  "generated": "2026-01-13T13:04:11.226669",
+  "pmax": {
+    "campaign_id": "20815709270",
+    "campaign_name": "Products merchant campaign",
+    "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+    "target_roas": 2.0,
+    "max_cpc_available": false,
+    "bid_ceiling_available": false,
+    "keyword_bids_used": false,
+    "portfolio_strategy": null,
+    "budget_daily": 750.0,
+    "notes": "PMax uses fully automated bidding. No manual CPC controls available. Only lever is target ROAS (currently 2.0)."
+  },
+  "hardware_offensive": {
+    "campaign_id": "23445812072",
+    "campaign_name": "BCD - Hardware Offensive - 2026",
+    "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+    "target_roas": 3.5,
+    "max_cpc_available": false,
+    "bid_ceiling_available": false,
+    "keyword_bids_used": false,
+    "portfolio_strategy": null,
+    "budget_daily": 50.0,
+    "ad_group_bids": {
+      "High-Efficiency Furnaces": 3.5,
+      "SEER2 Heat Pumps": 4.0,
+      "Private Label - Solace": 3.0
+    },
+    "notes": "Smart bidding overrides ad group/keyword bids. Bids shown are IGNORED by Maximize Conversion Value strategy."
+  }
+}

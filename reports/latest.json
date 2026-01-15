@@ -1,0 +1,44 @@
+{
+  "snapshot_id": "2026-01-15T202326Z",
+  "snapshot_version": "A3.0",
+  "extraction_finished_utc": "2026-01-15T20:23:51.480532Z",
+  "snapshot_age_minutes": 98,
+  "confidence_verdict": "GREEN",
+  "confidence_reasons": [
+    "Snapshot fresh and validated"
+  ],
+  "fingerprint": {
+    "total_campaigns": 8,
+    "enabled_campaigns": 3,
+    "pmax_campaigns": 4,
+    "search_campaigns": 3,
+    "branded_detected": true,
+    "branded_warning": null,
+    "branded_name": "BCD Branded",
+    "branded_id": "20958985895",
+    "branded_bidding_strategy": "MANUAL_CPC",
+    "branded_enabled_keyword_count": 3,
+    "branded_enabled_keywords_top10": [
+      "buy comfort direct",
+      "buycomfortdirect",
+      "buycomfortdirect.com"
+    ],
+    "branded_negative_count": 0,
+    "branded_most_recent_change": "2026-01-13 13:31:19.825871"
+  },
+  "report_generated_utc": "2026-01-15T22:02:23.259578+00:00",
+  "brand_protection": {
+    "status": "WARN",
+    "fail_triggers": [],
+    "warn_triggers": [
+      "Avg CPC $6.19 > $2.00 threshold",
+      "8 keyword change(s) in last 14 days"
+    ]
+  },
+  "executive_summary": {
+    "ads_running": "\u2713 Yes \u2014 4 active campaigns, $4,399.21 spent last 7 days",
+    "brand_protection": "WARN",
+    "shopping_eligibility": "\u2713 1,089/1,101 equipment approved (99%)",
+    "biggest_risk": "12 equipment products currently disapproved in Merchant Center. Check image links and landing pages."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "asset_groups": [
+    {
+      "assetGroup": {
+        "resourceName": "customers/9256598060/assetGroups/6483780791",
+        "campaign": "customers/9256598060/campaigns/20815709270",
+        "name": "Products merchant campaign",
+        "finalUrls": [
+          "https://buycomfortdirect.com"
+        ],
+        "status": "ENABLED",
+        "id": "6483780791"
+      }
+    }
+  ],
+  "errors": []
+}

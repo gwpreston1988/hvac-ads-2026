@@ -1,0 +1,54 @@
+{
+  "snapshot_id": "2026-01-15T194502Z",
+  "snapshot_version": "A2.1",
+  "extraction_started_utc": "2026-01-15T19:45:01.968552Z",
+  "extraction_finished_utc": "2026-01-15T19:45:18.046805Z",
+  "duration_seconds": 16.08,
+  "accounts": {
+    "google_ads": {
+      "customer_id": "9256598060",
+      "login_customer_id": "5194867886"
+    }
+  },
+  "api_versions": {
+    "google_ads": "v19"
+  },
+  "file_counts": {
+    "raw": 16,
+    "normalized": 12
+  },
+  "record_counts": {
+    "raw": {
+      "campaigns": 8,
+      "ad_groups": 8,
+      "keywords": 438,
+      "campaign_negatives": 102,
+      "adgroup_negatives": 0,
+      "ads": 8,
+      "assets": 11961,
+      "asset_links": 175,
+      "change_history": 307,
+      "pmax_campaigns": 4,
+      "asset_groups": 5,
+      "asset_group_assets": 224,
+      "listing_groups": 529
+    },
+    "normalized": {
+      "campaigns": 8,
+      "pmax_campaigns": 4,
+      "ad_groups": 8,
+      "keywords": 438,
+      "negatives": 102,
+      "ads": 8,
+      "assets": 11961,
+      "asset_groups": 5,
+      "listing_groups": 529,
+      "change_events": 307
+    }
+  },
+  "validation": {
+    "keywords_null_campaign_ids": 0,
+    "total_validation_errors": 0
+  },
+  "errors": []
+}

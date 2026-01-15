@@ -1,0 +1,79 @@
+{
+  "extracted_at": "2026-01-15T19:45:15.228571Z",
+  "count": 4,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/campaigns/20772170367",
+      "status": "PAUSED",
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "name": "BCD Default Campaign",
+      "id": "20772170367",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13140080781",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13140080781",
+        "amountMicros": "25000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/20815709270",
+      "status": "ENABLED",
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.36
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "name": "Products merchant campaign",
+      "id": "20815709270",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13185095712",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13185095712",
+        "amountMicros": "500000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/21688703980",
+      "status": "PAUSED",
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.75
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "name": "Products merchant campaign 12AM-4PM",
+      "id": "21688703980",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13898648594",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13898648594",
+        "amountMicros": "1000000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/23028588419",
+      "status": "PAUSED",
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.75
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "name": "Products merchant campaign #2",
+      "id": "23028588419",
+      "campaignBudget": "customers/9256598060/campaignBudgets/14939828526",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/14939828526",
+        "amountMicros": "4000000000"
+      }
+    }
+  ]
+}

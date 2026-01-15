@@ -1,0 +1,37 @@
+{
+  "feed_name": "Brand Exclusions - Shopping Ads",
+  "description": "Excludes non-goodman/rheem/solace/daikin products from Shopping ads",
+  "gcs_bucket": "bcd-merchant-feeds",
+  "gcs_project": "bcd-literature-library",
+  "files": {
+    "latest": {
+      "gcs_path": "gs://bcd-merchant-feeds/merchant/supplemental/exclusions_latest.tsv",
+      "public_url": "https://storage.googleapis.com/bcd-merchant-feeds/merchant/supplemental/exclusions_latest.tsv",
+      "format": "TSV",
+      "columns": [
+        "id",
+        "excluded_destination"
+      ]
+    },
+    "history": {
+      "gcs_path": "gs://bcd-merchant-feeds/merchant/supplemental/history/",
+      "pattern": "exclusions_YYYY-MM-DD.tsv"
+    }
+  },
+  "merchant_center": {
+    "account_id": "5308355318",
+    "feed_type": "supplemental",
+    "input_method": "FETCH",
+    "fetch_schedule": "manual"
+  },
+  "allowed_brands": [
+    "goodman",
+    "rheem",
+    "solace",
+    "daikin"
+  ],
+  "exclusion_count": 654,
+  "show_count": 1109,
+  "last_updated": "2026-01-15T16:31:58.687455Z",
+  "refresh_command": "python audit/generate_exclusion_feed.py"
+}

@@ -1,0 +1,104 @@
+================================================================================
+NEGATIVE KEYWORD CONFLICT REPORT
+Campaign: BCD - Hardware Offensive - 2026
+Generated: 2026-01-13 11:45:43
+================================================================================
+
+SUMMARY
+-------
+Total Positive Keywords: 41
+Total Campaign Negatives: 103
+CONFLICTS FOUND: 6
+
+================================================================================
+CONFLICTING KEYWORDS
+================================================================================
+
+NEGATIVE: "best" (BROAD) - blocks 4 keyword(s)
+--------------------------------------------------------------------------------
+  ✓ ENABLED  [BROAD]   "best gas furnace"
+             Ad Group: High-Efficiency Furnaces
+             Impressions: 80, Clicks: 7
+
+  ⏸ PAUSED   [PHRASE]  "best gas furnace"
+             Ad Group: High-Efficiency Furnaces
+             Impressions: 11, Clicks: 0
+
+  ✓ ENABLED  [BROAD]   "best heat pump"
+             Ad Group: SEER2 Heat Pumps
+             Impressions: 176, Clicks: 20
+
+  ⏸ PAUSED   [PHRASE]  "best heat pump"
+             Ad Group: SEER2 Heat Pumps
+             Impressions: 23, Clicks: 0
+
+
+NEGATIVE: "reviews" (BROAD) - blocks 2 keyword(s)
+--------------------------------------------------------------------------------
+  ⏸ PAUSED   [PHRASE]  "Solace reviews"
+             Ad Group: Private Label - Solace
+             Impressions: 0, Clicks: 0
+
+  ⏸ PAUSED   [PHRASE]  "Solace HVAC reviews"
+             Ad Group: Private Label - Solace
+             Impressions: 0, Clicks: 0
+
+
+================================================================================
+SEVERITY ANALYSIS
+================================================================================
+
+CRITICAL (ENABLED keywords blocked): 2
+  • "best gas furnace" (BROAD) - 80 impressions, 7 clicks
+  • "best heat pump" (BROAD) - 176 impressions, 20 clicks
+
+LOW (PAUSED keywords blocked): 4
+  • "best gas furnace" (PHRASE)
+  • "best heat pump" (PHRASE)
+  • "Solace reviews" (PHRASE)
+  • "Solace HVAC reviews" (PHRASE)
+
+Estimated Blocked Traffic (ENABLED keywords only):
+  • Total Impressions: 256
+  • Total Clicks: 27
+
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. REMOVE negative keyword "best" (BROAD match)
+   - Currently blocking 2 ENABLED keywords
+   - Lost traffic: ~256 impressions, ~27 clicks
+   - Affected ad groups: High-Efficiency Furnaces, SEER2 Heat Pumps
+
+2. OPTIONAL: Remove negative keyword "reviews" (BROAD match)
+   - Only affects PAUSED keywords (Solace reviews)
+   - If you plan to enable these, remove the negative first
+
+
+================================================================================
+RAW DATA
+================================================================================
+
+All Campaign-Level Negative Keywords (103 total):
+--------------------------------------------------------------------------------
+test, repair, filters, comparison, job, jobs, fix, problems, forum, schematic,
+manual, diagram, exam, school, how to, parts, training, circuit board, belt,
+filter, class, hiring, valve, troubleshooting, reviews, best, course,
+certification, career, recall, wiring, license, transformer, top, pressure switch,
+cheapest, compressor, coil, diy, salary, complaints, issues, noise, opinion,
+ratings, pdf, thermostat, consumer reports, capacitor, epa, frozen, lawsuit,
+technician, igniter, relay, apprentice, flashing light, vs, installer, fuse,
+loud, refrigerant, freon, bearing, recommend, troubleshoot, fan motor, buzzing,
+clicking, reset, control board, contactor, r22, r410a, dripping, pros and cons,
+error code, evaporator coil, hvac jobs, not working, blower motor, condenser fan,
+hvac training, hvac school, hvac technician, hvac certification, replacement part,
+leaking, why is, hvac license, short cycling, should i, won't start, average cost,
+reddit, worth it, youtube, not cooling, cost to fix, not heating, flame sensor,
+blowing cold, blowing hot
+
+
+================================================================================
+END OF REPORT
+================================================================================

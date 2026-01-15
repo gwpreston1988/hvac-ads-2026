@@ -1,0 +1,1307 @@
+{
+  "campaign_config": {
+    "campaign_id": "23445812072",
+    "campaign_name": "BCD - Hardware Offensive - 2026",
+    "status": "ENABLED",
+    "channel_type": "SEARCH",
+    "bidding_strategy_type": "MAXIMIZE_CONVERSION_VALUE",
+    "bidding_strategy_resource": null,
+    "manual_cpc": null,
+    "maximize_conversions": null,
+    "maximize_conversion_value": {
+      "targetRoas": 3.5
+    },
+    "target_cpa": null,
+    "target_roas": null,
+    "percent_cpc": null,
+    "network_settings": {
+      "targetGoogleSearch": true,
+      "targetSearchNetwork": true,
+      "targetContentNetwork": true
+    },
+    "start_date": "2026-01-09",
+    "end_date": "2037-12-30",
+    "budget_amount_micros": "50000000",
+    "budget_delivery_method": "STANDARD"
+  },
+  "bid_controls": {
+    "max_cpc_available": false,
+    "bid_ceiling_available": false,
+    "keyword_bids_used": false,
+    "target_roas": 3.5
+  },
+  "perf_30d": {
+    "impressions": "3040",
+    "clicks": 323,
+    "cost_micros": "14856971",
+    "cost_dollars": 14.856971,
+    "conversions": 0.0,
+    "conversion_value": 0.0,
+    "average_cpc": 0.045996,
+    "cpa": 0,
+    "roas": 0.0,
+    "search_impression_share": 0.0999
+  },
+  "perf_7d": {
+    "impressions": "3040",
+    "clicks": 323,
+    "cost_micros": "14856971",
+    "cost_dollars": 14.856971,
+    "conversions": 0.0,
+    "conversion_value": 0.0,
+    "average_cpc": 0.045996,
+    "cpa": 0,
+    "roas": 0.0,
+    "search_impression_share": 0.0999
+  },
+  "device_breakdown": [
+    {
+      "device": "DESKTOP",
+      "clicks": "7",
+      "cost": 3.097736,
+      "avg_cpc": 0.442533
+    },
+    {
+      "device": "MOBILE",
+      "clicks": "309",
+      "cost": 11.64826,
+      "avg_cpc": 0.037696
+    },
+    {
+      "device": "TABLET",
+      "clicks": "7",
+      "cost": 0.110975,
+      "avg_cpc": 0.015853
+    }
+  ],
+  "ad_groups": [
+    {
+      "id": "190099169894",
+      "name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "3500000",
+      "effective_cpc_bid_micros": null
+    },
+    {
+      "id": "190099169934",
+      "name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "4000000",
+      "effective_cpc_bid_micros": null
+    },
+    {
+      "id": "190099169974",
+      "name": "Private Label - Solace",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "3000000",
+      "effective_cpc_bid_micros": null
+    }
+  ],
+  "keywords": [
+    {
+      "criterion_id": "2419041529840",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "96 AFUE furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "383490183118",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "96 AFUE gas furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "94820413",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "best gas furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "301756686",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "PAUSED",
+      "keyword_text": "best gas furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "18591211",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "energy efficient furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "789632100",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "energy efficient furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "11365013",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "furnace wholesale",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "320050245598",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "furnace wholesale",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "11922772",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "high efficiency furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "301770006",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "high efficiency furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "19977981",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "high efficiency gas furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "334757019",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "high efficiency gas furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "301255055725",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "modulating furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "307409501249",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "modulating furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "131864597",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "two stage gas furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "1301048209",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "two stage gas furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "121057657",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "variable speed furnace",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "397809035477",
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "keyword_text": "variable speed furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3500000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066444",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace 4 ton AC",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066164",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace AC unit",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2460528896119",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace HVAC",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2462593776958",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace HVAC",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066644",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "PAUSED",
+      "keyword_text": "Solace HVAC reviews",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066364",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace air conditioning",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066404",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace furnace",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2462593778318",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066204",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "ENABLED",
+      "keyword_text": "Solace mini split",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2489205066604",
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "status": "PAUSED",
+      "keyword_text": "Solace reviews",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "3000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "1634903188036",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "18 SEER heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": 6,
+      "creative_quality_score": "AVERAGE",
+      "search_predicted_ctr": "AVERAGE",
+      "post_click_quality_score": "AVERAGE",
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2483837441954",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "20 SEER heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "2483837443394",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "SEER2 heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "116914209",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "best heat pump",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "1016406364",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "PAUSED",
+      "keyword_text": "best heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "301309671588",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "energy efficient heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "12816723",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "heat pump prices",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": 7,
+      "creative_quality_score": "ABOVE_AVERAGE",
+      "search_predicted_ctr": "ABOVE_AVERAGE",
+      "post_click_quality_score": "BELOW_AVERAGE",
+      "final_urls": null
+    },
+    {
+      "criterion_id": "89256539",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "heat pump prices",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": 7,
+      "creative_quality_score": "ABOVE_AVERAGE",
+      "search_predicted_ctr": "ABOVE_AVERAGE",
+      "post_click_quality_score": "BELOW_AVERAGE",
+      "final_urls": null
+    },
+    {
+      "criterion_id": "319537347264",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "heat pump wholesale",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "314713835",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "high efficiency heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "1810822231",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "inverter heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "295729591350",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "inverter heat pump",
+      "match_type": "BROAD",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    },
+    {
+      "criterion_id": "337639388836",
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "keyword_text": "variable speed heat pump",
+      "match_type": "PHRASE",
+      "cpc_bid_micros": null,
+      "effective_cpc_bid_micros": "4000000",
+      "quality_score": "N/A",
+      "creative_quality_score": null,
+      "search_predicted_ctr": null,
+      "post_click_quality_score": null,
+      "final_urls": null
+    }
+  ],
+  "shared_sets": [
+    {
+      "shared_set_id": "11927866500",
+      "shared_set_name": "Brand Terms - Auto Generated 20260109_1616",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "member_count": "16",
+      "keywords": [
+        {
+          "text": "bcd",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buy comfort",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "comfort direct",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "bcd ac",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buy comfort direct",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buycomfortdirect.com",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buy comfort direct reviews",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buycomfortdirect",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "comfort direct hvac",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "bcd furnace",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "bcd heat pump",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "bcd hvac",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buy comfort direct coupon",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buy comfort direct promo",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "comfort direct reviews",
+          "match_type": "BROAD"
+        },
+        {
+          "text": "buycomfort",
+          "match_type": "BROAD"
+        }
+      ]
+    }
+  ],
+  "campaign_level_negatives": [
+    {
+      "criterion_id": "11898851",
+      "text": "apprentice",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "297626959",
+      "text": "average cost",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12727716",
+      "text": "bearing",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10060951",
+      "text": "belt",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "23898841",
+      "text": "blower motor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "396989753427",
+      "text": "blowing cold",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "405340342740",
+      "text": "blowing hot",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "15126302",
+      "text": "buzzing",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10695296",
+      "text": "capacitor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10205881",
+      "text": "career",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10186991",
+      "text": "certification",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10280821",
+      "text": "cheapest",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10041140",
+      "text": "circuit board",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10082360",
+      "text": "class",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "15803451",
+      "text": "clicking",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10296801",
+      "text": "coil",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10004450",
+      "text": "comparison",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10364891",
+      "text": "complaints",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10295331",
+      "text": "compressor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "24930790",
+      "text": "condenser fan",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10661111",
+      "text": "consumer reports",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "16779536",
+      "text": "contactor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "16316066",
+      "text": "control board",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "295444349973",
+      "text": "cost to fix",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10169890",
+      "text": "course",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10009921",
+      "text": "diagram",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10317231",
+      "text": "diy",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "17945531",
+      "text": "dripping",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10746126",
+      "text": "epa",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "19371000",
+      "text": "error code",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "19976521",
+      "text": "evaporator coil",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10010361",
+      "text": "exam",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "14560683",
+      "text": "fan motor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10077081",
+      "text": "filter",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10003830",
+      "text": "filters",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10007041",
+      "text": "fix",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "321211779514",
+      "text": "flame sensor",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12203881",
+      "text": "flashing light",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10009741",
+      "text": "forum",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12720976",
+      "text": "freon",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "11375221",
+      "text": "frozen",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12533456",
+      "text": "fuse",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10083101",
+      "text": "hiring",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10023311",
+      "text": "how to",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "28047740",
+      "text": "hvac certification",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "23354136",
+      "text": "hvac jobs",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "100079033",
+      "text": "hvac license",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "26276891",
+      "text": "hvac school",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "27844483",
+      "text": "hvac technician",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "26276841",
+      "text": "hvac training",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "11689681",
+      "text": "igniter",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12448811",
+      "text": "installer",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10373601",
+      "text": "issues",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10005011",
+      "text": "job",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10005021",
+      "text": "jobs",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "11453601",
+      "text": "lawsuit",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "39229730",
+      "text": "leaking",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10241911",
+      "text": "license",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12704346",
+      "text": "loud",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10009911",
+      "text": "manual",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10399671",
+      "text": "noise",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "721223838",
+      "text": "not cooling",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "302019835899",
+      "text": "not heating",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "23492306",
+      "text": "not working",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10409366",
+      "text": "opinion",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10029591",
+      "text": "parts",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10444811",
+      "text": "pdf",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10270091",
+      "text": "pressure switch",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10009721",
+      "text": "problems",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "19122696",
+      "text": "pros and cons",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "17771770",
+      "text": "r22",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "17771780",
+      "text": "r410a",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10429451",
+      "text": "ratings",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10218121",
+      "text": "recall",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12752906",
+      "text": "recommend",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "329532753",
+      "text": "reddit",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12716086",
+      "text": "refrigerant",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "11825696",
+      "text": "relay",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10001281",
+      "text": "repair",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "33898951",
+      "text": "replacement part",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "15810731",
+      "text": "reset",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10117821",
+      "text": "reviews",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10319341",
+      "text": "salary",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10009901",
+      "text": "schematic",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10013241",
+      "text": "school",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "164552756",
+      "text": "short cycling",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "253558127",
+      "text": "should i",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "11468031",
+      "text": "technician",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10000010",
+      "text": "test",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10624201",
+      "text": "thermostat",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10258751",
+      "text": "top",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10031431",
+      "text": "training",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10241931",
+      "text": "transformer",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12780436",
+      "text": "troubleshoot",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10117771",
+      "text": "troubleshooting",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10107001",
+      "text": "valve",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "12315970",
+      "text": "vs",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "94526078",
+      "text": "why is",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "10231491",
+      "text": "wiring",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "276689626",
+      "text": "won't start",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "407042693",
+      "text": "worth it",
+      "match_type": "BROAD"
+    },
+    {
+      "criterion_id": "417393029",
+      "text": "youtube",
+      "match_type": "BROAD"
+    }
+  ]
+}

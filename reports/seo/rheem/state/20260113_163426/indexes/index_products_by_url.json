@@ -1,0 +1,52 @@
+{
+  "/products/rheem-5kw-electric-heat-kit.html": {
+    "id": 2140,
+    "name": "RHEEM WRX05021 - 5 kW Electric Heat Kit",
+    "url": "/products/rheem-5kw-electric-heat-kit.html"
+  },
+  "/products/rheem-7-5kw-electric-heat-kit.html": {
+    "id": 2141,
+    "name": "RHEEM WRX07521 - 7.5 kW Electric Heat Kit",
+    "url": "/products/rheem-7-5kw-electric-heat-kit.html"
+  },
+  "/products/rheem-10kw-electric-heat-kit.html": {
+    "id": 2142,
+    "name": "RHEEM WRX10021 - 10 kW Electric Heat Kit",
+    "url": "/products/rheem-10kw-electric-heat-kit.html"
+  },
+  "/products/rheem-15kw-electric-heat-kit.html": {
+    "id": 2143,
+    "name": "RHEEM WRX1502B1 - 15 kW Electric Heat Kit",
+    "url": "/products/rheem-15kw-electric-heat-kit.html"
+  },
+  "/products/rheem-50k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0503a14uhsnas.html": {
+    "id": 2182,
+    "name": "RHEEM R801T0503A14UHSNAS - 50,000 BTU 80% AFUE Single Stage Furnace",
+    "url": "/products/rheem-50k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0503a14uhsnas.html"
+  },
+  "/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0754a17uhsnas.html": {
+    "id": 2183,
+    "name": "RHEEM R801T0754A17UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",
+    "url": "/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0754a17uhsnas.html"
+  },
+  "/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t0754a21uhsnas.html": {
+    "id": 2184,
+    "name": "RHEEM R801T0754A21UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",
+    "url": "/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t0754a21uhsnas.html"
+  },
+  "/products/rheem-100k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t1005a21uhsnas.html": {
+    "id": 2185,
+    "name": "RHEEM R801T1005A21UHSNAS - 100,000 BTU 80% AFUE Single Stage Furnace",
+    "url": "/products/rheem-100k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t1005a21uhsnas.html"
+  },
+  "/products/rheem-125k-btu-80-uh-gas-furnace-single-stage-constant-torque-24-r801t1255a24uhsnas.html": {
+    "id": 2186,
+    "name": "RHEEM R801T1255A24UHSNAS - 125,000 BTU 80% AFUE Single Stage Furnace",
+    "url": "/products/rheem-125k-btu-80-uh-gas-furnace-single-stage-constant-torque-24-r801t1255a24uhsnas.html"
+  },
+  "/products/rheem-92-40k-btu-gas-furnace-17-wide-r921t0403a17m4snas.html": {
+    "id": 2187,
+    "name": "RHEEM R921T0403A17M4SNAS - 40,000 BTU 92% AFUE Single Stage Furnace",
+    "url": "/products/rheem-92-40k-btu-gas-furnace-17-wide-r921t0403a17m4snas.html"
+  }
+}

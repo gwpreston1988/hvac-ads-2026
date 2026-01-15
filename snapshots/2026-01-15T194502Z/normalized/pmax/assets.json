@@ -1,0 +1,1350 @@
+{
+  "extracted_at": "2026-01-15T19:45:16.081095Z",
+  "count": 224,
+  "records": [
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112668524550",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112724609140",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112733776493",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112733780198",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112737313295",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112737313316",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112737318410",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112738296697",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112741974802",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112741980715",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112765284966",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112765406889",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112769260494",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112769260512",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112769266878",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162907",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162910",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162913",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162916",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162919",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162922",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162925",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162928",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162931",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112772162940",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "112773145863",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113040100452",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113040100455",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113040100458",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113040100461",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113040100464",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113172782774",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113172832412",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113175632074",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "113204816016",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "114959880425",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "114960304187",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "114960304190",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "114960304193",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "114960304199",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "115785008429",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "115785008465",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "115785008468",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "115785008471",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "115785008474",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117220206350",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117220206356",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117220206362",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117221424485",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117231351262",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117591797402",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117591797405",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6482508720",
+      "asset_id": "117591797408",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115769684942",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115769684948",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115769684957",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115769684960",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115769684963",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115784788924",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115784788927",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "115785008474",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "117231351262",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "122670670408",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "122695171728",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "123061499959",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "129892024619",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "129892024622",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "130953871520",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "138715129040",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "138715170284",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "138723440884",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "138765472989",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139059820018",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139417693493",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139418013599",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139423520548",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139423598107",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139423969900",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139464898494",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "139464961317",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "140521257282",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "143938424330",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "143986458597",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "151614170591",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "152147815019",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "152878256831",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "168256641405",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "189340561457",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "189808588074",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "198677767114",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "215100645133",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "250940246393",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "250940246396",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255344919353",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255345310382",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255345310385",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255422252503",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255422281429",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "255454362054",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "313212403174",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "313212403177",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321139329971",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321139329974",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321139417898",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321140387204",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321140453132",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321217335685",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321226750333",
+      "field_type": "CALL_TO_ACTION_SELECTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "321263066196",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6483780791",
+      "asset_id": "322662096525",
+      "field_type": "AD_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "112641865177",
+      "field_type": "LOGO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "112668524550",
+      "field_type": "BUSINESS_NAME",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "112719031700",
+      "field_type": "LOGO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "115785008429",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "115785008462",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "115785008465",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "115785008468",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "115785008474",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116290328167",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116290905001",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640108",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640111",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640114",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640117",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640120",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640123",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640126",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6484626908",
+      "asset_id": "116318640129",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115769684942",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115769684948",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115769684957",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115769684960",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115769684963",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115784788924",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115784788927",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "115785008474",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "117231351262",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "117255142371",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "122670670408",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "122695171728",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "123061499959",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "129892024619",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "129892024622",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "130953871520",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "138715129040",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "138715170284",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "138723440884",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "138765472989",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139053879761",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139055981720",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139059198016",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139059820018",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139063061266",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139064323648",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139064329135",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139064705560",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139065600757",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139066161265",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139097049462",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139103550831",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139417693493",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139418013599",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139418080322",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139423520548",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139423598107",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139423708306",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139423969900",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139464898494",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139464961317",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139465454859",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139465592751",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "139465973700",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "140521257282",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "143938424330",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "143945480311",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "143953937210",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "143986458597",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6516129878",
+      "asset_id": "152878256831",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115769684942",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115769684948",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115769684957",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115769684960",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115769684963",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115784788924",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115784788927",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "115785008474",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "117231351262",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "117255142371",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "122670670408",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "122695171728",
+      "field_type": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "129892024619",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "129892024622",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "130953871520",
+      "field_type": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139059820018",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139063061266",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139103550831",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139417693493",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139418013599",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139423520548",
+      "field_type": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139423598107",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139423969900",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139464898494",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "139464961317",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "140521257282",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "143938424330",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "143953937210",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "143986458597",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "152147815019",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "152878256831",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "189340561457",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "215100645133",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "250940246393",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "250940246396",
+      "field_type": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255344919353",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255345310382",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255345310385",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255422252503",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255422281429",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255454316592",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "255454362054",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "289250115984",
+      "field_type": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "289250180127",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "289250213433",
+      "field_type": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "asset_group_id": "6610813176",
+      "asset_id": "289255103185",
+      "field_type": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    }
+  ]
+}

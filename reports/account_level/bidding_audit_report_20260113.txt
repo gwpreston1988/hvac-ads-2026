@@ -1,0 +1,310 @@
+================================================================================
+GOOGLE ADS BIDDING & COST CONTROL FORENSIC AUDIT
+================================================================================
+Generated: 2026-01-13
+Account: Buy Comfort Direct (9256598060)
+Auditor: Claude (READ-ONLY - No mutations performed)
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Both non-branded campaigns use MAXIMIZE_CONVERSION_VALUE smart bidding.
+NO MANUAL CPC CONTROLS ARE AVAILABLE in either campaign.
+
+The Google rep configured smart bidding on all campaigns, which means:
+- You cannot set max CPC caps
+- Keyword-level bids are ignored
+- Ad group bids are ignored
+- The only cost levers are: target ROAS and daily budget
+
+================================================================================
+CAMPAIGN A: PMAX - Products merchant campaign
+================================================================================
+
+IDENTIFIERS
+-----------
+Campaign ID: 20815709270
+Campaign Name: Products merchant campaign
+Channel Type: PERFORMANCE_MAX
+Status: ENABLED
+
+BIDDING CONFIGURATION
+---------------------
+Strategy Type: MAXIMIZE_CONVERSION_VALUE
+Target ROAS: 2.0 (200%)
+Portfolio Strategy: NOT USED (campaign-level bidding)
+Manual CPC Controls: NOT AVAILABLE (PMax is fully automated)
+Bid Ceilings: NOT CONFIGURABLE
+
+BUDGET
+------
+Daily Budget: $750.00
+Delivery Method: STANDARD
+
+PERFORMANCE (LAST 30 DAYS)
+--------------------------
+Impressions: 874,270
+Clicks: 9,024
+Cost: $19,113.01
+Conversions: 83.10
+Conversion Value: $64,747.94
+Average CPC: $2.12
+Cost per Conversion: $230.00
+ROAS: 3.39
+
+PERFORMANCE (LAST 7 DAYS)
+-------------------------
+Impressions: 110,285
+Clicks: 1,400
+Cost: $4,285.10
+Conversions: 20.83
+Conversion Value: $12,800.80
+Average CPC: $3.06 ← INCREASING
+Cost per Conversion: $205.73
+ROAS: 2.99 ← DECLINING
+
+DEVICE BREAKDOWN (30 DAYS)
+--------------------------
+DESKTOP:      2,206 clicks  $6,120.92 cost  $2.77 avg CPC
+MOBILE:       6,592 clicks  $12,685.15 cost $1.92 avg CPC
+TABLET:       226 clicks    $306.70 cost    $1.36 avg CPC
+
+ASSET GROUPS
+------------
+Total: 1
+- Products merchant campaign (ENABLED, ELIGIBLE)
+
+LISTING GROUP FILTERS
+---------------------
+Total: 22 product type filters including:
+- hvac parts supplies (SUBDIVISION)
+- april aire filter cabinets
+- aprilaire zoning
+- collars
+- condensation pumps safety switches accessories
+- copper fittings solder refrigerant accessories
+- drain pans and mounting accessories
+- exterior ventilation caps
+- filters
+- flat return boots
+- gas pipe fittings trac pipe
+- indoor air quality
+- motors motor accessories
+- registers and grilles
+- saw blades and drill bits
+- singlewall pipe fittings and elbows
+- tape sealants screws fasteners accessories
+- winter service parts
+- wire electrical accessories
+
+NEGATIVE KEYWORD LISTS ATTACHED
+-------------------------------
+1. "Negatives" (ENABLED) - 7 keywords:
+   [PHRASE] job opportunities, employment, divorce, job opportunity, job, hiring, divorces
+
+2. "Brand Terms - Auto Generated 20260109_1616" (ENABLED) - 16 keywords:
+   [BROAD] bcd, buy comfort, comfort direct, bcd ac, buy comfort direct,
+   buycomfortdirect.com, buy comfort direct reviews, buycomfortdirect,
+   comfort direct hvac, bcd furnace, bcd heat pump, bcd hvac,
+   buy comfort direct coupon, buy comfort direct promo, comfort direct reviews, buycomfort
+
+3. "BCD Brand Exclusions" (ENABLED) - 9 keywords:
+   [PHRASE] bcd, buy comfort, comfort direct, bcd furnace, buy comfort direct,
+   buycomfortdirect, buycomfortdirect.com, bcd heat pump, bcd hvac
+
+4. "Brand Terms - Auto Generated 20260109_1525" (REMOVED) - 6 keywords
+5. "Manufacturer Brand Exclusions" (REMOVED) - 15 keywords
+
+================================================================================
+CAMPAIGN B: SEARCH - BCD - Hardware Offensive - 2026
+================================================================================
+
+IDENTIFIERS
+-----------
+Campaign ID: 23445812072
+Campaign Name: BCD - Hardware Offensive - 2026
+Channel Type: SEARCH
+Status: ENABLED
+Start Date: 2026-01-09
+
+BIDDING CONFIGURATION
+---------------------
+Strategy Type: MAXIMIZE_CONVERSION_VALUE
+Target ROAS: 3.5 (350%)
+Portfolio Strategy: NOT USED (campaign-level bidding)
+Manual CPC Controls: NOT AVAILABLE
+Bid Ceilings: NOT CONFIGURABLE
+Enhanced CPC: N/A (not using manual bidding)
+
+IMPORTANT: Ad group and keyword bids ARE SET but ARE IGNORED by smart bidding.
+
+BUDGET
+------
+Daily Budget: $50.00
+Delivery Method: STANDARD
+
+NETWORK SETTINGS
+----------------
+Google Search: YES
+Search Network: YES
+Content Network: YES
+
+PERFORMANCE (LAST 30 DAYS)
+--------------------------
+Impressions: 3,040
+Clicks: 323
+Cost: $14.86
+Conversions: 0
+Conversion Value: $0.00
+Average CPC: $0.05 ← Very low due to 0 conversions
+Search Impression Share: 9.99%
+
+PERFORMANCE (LAST 7 DAYS)
+-------------------------
+Impressions: 3,040
+Clicks: 323
+Cost: $14.86
+Conversions: 0
+Conversion Value: $0.00
+Average CPC: $0.05
+Search Impression Share: 9.99%
+
+DEVICE BREAKDOWN (30 DAYS)
+--------------------------
+DESKTOP:  7 clicks    $3.10 cost   $0.44 avg CPC
+MOBILE:   309 clicks  $11.65 cost  $0.04 avg CPC
+TABLET:   7 clicks    $0.11 cost   $0.02 avg CPC
+
+AD GROUPS
+---------
+Total: 3
+
+ID              Name                        Status   CPC Bid (IGNORED)
+---------------------------------------------------------------------------
+190099169894    High-Efficiency Furnaces    ENABLED  $3.50
+190099169934    SEER2 Heat Pumps            ENABLED  $4.00
+190099169974    Private Label - Solace      ENABLED  $3.00
+
+KEYWORDS (FULL LIST)
+--------------------
+Total: 41 (37 ENABLED, 4 PAUSED)
+
+HIGH-EFFICIENCY FURNACES AD GROUP:
+  [PHRASE]  96 AFUE furnace              ENABLED  QS: N/A
+  [PHRASE]  96 AFUE gas furnace          ENABLED  QS: N/A
+  [BROAD]   best gas furnace             ENABLED  QS: N/A
+  [PHRASE]  best gas furnace             PAUSED   QS: N/A
+  [BROAD]   energy efficient furnace     ENABLED  QS: N/A
+  [PHRASE]  energy efficient furnace     ENABLED  QS: N/A
+  [BROAD]   furnace wholesale            ENABLED  QS: N/A
+  [PHRASE]  furnace wholesale            ENABLED  QS: N/A
+  [BROAD]   high efficiency furnace      ENABLED  QS: N/A
+  [PHRASE]  high efficiency furnace      ENABLED  QS: N/A
+  [BROAD]   high efficiency gas furnace  ENABLED  QS: N/A
+  [PHRASE]  high efficiency gas furnace  ENABLED  QS: N/A
+  [BROAD]   modulating furnace           ENABLED  QS: N/A
+  [PHRASE]  modulating furnace           ENABLED  QS: N/A
+  [BROAD]   two stage gas furnace        ENABLED  QS: N/A
+  [PHRASE]  two stage gas furnace        ENABLED  QS: N/A
+  [BROAD]   variable speed furnace       ENABLED  QS: N/A
+  [PHRASE]  variable speed furnace       ENABLED  QS: N/A
+
+PRIVATE LABEL - SOLACE AD GROUP:
+  [PHRASE]  Solace 4 ton AC              ENABLED  QS: N/A
+  [PHRASE]  Solace AC unit               ENABLED  QS: N/A
+  [BROAD]   Solace HVAC                  ENABLED  QS: N/A
+  [PHRASE]  Solace HVAC                  ENABLED  QS: N/A
+  [PHRASE]  Solace HVAC reviews          PAUSED   QS: N/A
+  [PHRASE]  Solace air conditioning      ENABLED  QS: N/A
+  [PHRASE]  Solace furnace               ENABLED  QS: N/A
+  [PHRASE]  Solace heat pump             ENABLED  QS: N/A
+  [PHRASE]  Solace mini split            ENABLED  QS: N/A
+  [PHRASE]  Solace reviews               PAUSED   QS: N/A
+
+SEER2 HEAT PUMPS AD GROUP:
+  [PHRASE]  18 SEER heat pump            ENABLED  QS: 6
+  [PHRASE]  20 SEER heat pump            ENABLED  QS: N/A
+  [PHRASE]  SEER2 heat pump              ENABLED  QS: N/A
+  [BROAD]   best heat pump               ENABLED  QS: N/A
+  [PHRASE]  best heat pump               PAUSED   QS: N/A
+  [PHRASE]  energy efficient heat pump   ENABLED  QS: N/A
+  [PHRASE]  heat pump prices             ENABLED  QS: 7
+  [BROAD]   heat pump prices             ENABLED  QS: 7
+  [PHRASE]  heat pump wholesale          ENABLED  QS: N/A
+  [PHRASE]  high efficiency heat pump    ENABLED  QS: N/A
+  [PHRASE]  inverter heat pump           ENABLED  QS: N/A
+  [BROAD]   inverter heat pump           ENABLED  QS: N/A
+  [PHRASE]  variable speed heat pump     ENABLED  QS: N/A
+
+NEGATIVE KEYWORD LISTS ATTACHED
+-------------------------------
+1. "Brand Terms - Auto Generated 20260109_1616" (ENABLED) - 16 keywords:
+   [BROAD] bcd, buy comfort, comfort direct, bcd ac, buy comfort direct,
+   buycomfortdirect.com, buy comfort direct reviews, buycomfortdirect,
+   comfort direct hvac, bcd furnace, bcd heat pump, bcd hvac,
+   buy comfort direct coupon, buy comfort direct promo, comfort direct reviews, buycomfort
+
+CAMPAIGN-LEVEL NEGATIVE KEYWORDS (DIRECT)
+-----------------------------------------
+Total: 102 keywords (all BROAD match)
+
+apprentice, average cost, bearing, belt, blower motor, blowing cold,
+blowing hot, buzzing, capacitor, career, certification, cheapest,
+circuit board, class, clicking, coil, comparison, complaints, compressor,
+condenser fan, consumer reports, contactor, control board, cost to fix,
+course, diagram, diy, dripping, epa, error code, evaporator coil, exam,
+fan motor, filter, filters, fix, flame sensor, flashing light, forum,
+freon, frozen, fuse, hiring, how to, hvac certification, hvac jobs,
+hvac license, hvac school, hvac technician, hvac training, igniter,
+installer, issues, job, jobs, lawsuit, leaking, license, loud, manual,
+noise, not cooling, not heating, not working, opinion, parts, pdf,
+pressure switch, problems, pros and cons, r22, r410a, ratings, recall,
+recommend, reddit, refrigerant, relay, repair, replacement part, reset,
+reviews, salary, schematic, school, short cycling, should i, technician,
+test, thermostat, top, training, transformer, troubleshoot, troubleshooting,
+valve, vs, why is, wiring, won't start, worth it, youtube
+
+================================================================================
+COST CONTROL OPTIONS AVAILABLE
+================================================================================
+
+FOR PMAX:
+1. Increase target ROAS (currently 2.0) → bids lower, fewer clicks, lower CPCs
+2. Decrease target ROAS → bids higher, more aggressive
+3. Adjust daily budget ($750)
+4. NO manual CPC controls exist
+
+FOR HARDWARE OFFENSIVE:
+1. Increase target ROAS (currently 3.5) → bids lower
+2. Decrease target ROAS → bids higher
+3. Adjust daily budget ($50)
+4. Switch to Manual CPC to enable bid control
+5. NO CPC caps available in current smart bidding setup
+
+================================================================================
+KEY OBSERVATIONS
+================================================================================
+
+1. SMART BIDDING ON ALL CAMPAIGNS
+   The Google rep configured Maximize Conversion Value on both non-branded
+   campaigns. This removes manual CPC control entirely.
+
+2. PMAX CPCS INCREASING
+   7-day avg CPC ($3.06) is 44% higher than 30-day avg ($2.12).
+   ROAS declining from 3.39 to 2.99.
+
+3. HARDWARE OFFENSIVE THROTTLED
+   Campaign has 0 conversions, so smart bidding is bidding $0.05 avg.
+   Only 9.99% impression share. Campaign needs conversions to scale.
+
+4. AD GROUP/KEYWORD BIDS ARE COSMETIC
+   The $3-4 ad group bids are set but completely ignored by smart bidding.
+   All keyword bids show $0.00 because smart bidding controls everything.
+
+5. BRAND TERMS PROPERLY EXCLUDED
+   Both campaigns have brand term negatives attached via shared lists.
+
+================================================================================
+END OF AUDIT REPORT
+================================================================================

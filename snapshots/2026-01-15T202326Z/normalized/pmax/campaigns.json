@@ -1,0 +1,46 @@
+{
+  "extracted_at": "2026-01-15T20:23:39.632224Z",
+  "count": 4,
+  "records": [
+    {
+      "id": "20772170367",
+      "name": "BCD Default Campaign",
+      "status": "PAUSED",
+      "bidding_strategy": "MAXIMIZE_CONVERSIONS",
+      "target_roas": null,
+      "budget_amount_micros": "25000000",
+      "merchant_id": null,
+      "url_expansion_enabled": true
+    },
+    {
+      "id": "20815709270",
+      "name": "Products merchant campaign",
+      "status": "ENABLED",
+      "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+      "target_roas": 1.36,
+      "budget_amount_micros": "750000000",
+      "merchant_id": "5308355318",
+      "url_expansion_enabled": true
+    },
+    {
+      "id": "21688703980",
+      "name": "Products merchant campaign 12AM-4PM",
+      "status": "PAUSED",
+      "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+      "target_roas": 1.75,
+      "budget_amount_micros": "1000000000",
+      "merchant_id": "5308355318",
+      "url_expansion_enabled": true
+    },
+    {
+      "id": "23028588419",
+      "name": "Products merchant campaign #2",
+      "status": "PAUSED",
+      "bidding_strategy": "MAXIMIZE_CONVERSION_VALUE",
+      "target_roas": 1.75,
+      "budget_amount_micros": "4000000000",
+      "merchant_id": "5308355318",
+      "url_expansion_enabled": true
+    }
+  ]
+}

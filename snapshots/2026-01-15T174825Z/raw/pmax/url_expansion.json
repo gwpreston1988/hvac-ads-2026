@@ -1,0 +1,26 @@
+{
+  "extracted_at": "2026-01-15T17:48:34.954301Z",
+  "count": 4,
+  "records": [
+    {
+      "campaign_id": "20772170367",
+      "campaign_name": "BCD Default Campaign",
+      "url_expansion_opt_out": false
+    },
+    {
+      "campaign_id": "20815709270",
+      "campaign_name": "Products merchant campaign",
+      "url_expansion_opt_out": false
+    },
+    {
+      "campaign_id": "21688703980",
+      "campaign_name": "Products merchant campaign 12AM-4PM",
+      "url_expansion_opt_out": false
+    },
+    {
+      "campaign_id": "23028588419",
+      "campaign_name": "Products merchant campaign #2",
+      "url_expansion_opt_out": false
+    }
+  ]
+}

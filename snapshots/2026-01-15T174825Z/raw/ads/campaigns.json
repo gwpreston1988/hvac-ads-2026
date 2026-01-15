@@ -1,0 +1,255 @@
+{
+  "extracted_at": "2026-01-15T17:48:25.650653Z",
+  "account_id": "9256598060",
+  "count": 8,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/campaigns/20772170367",
+      "status": "PAUSED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "maximizeConversions": {
+        "targetCpaMicros": "133650000"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "BCD Default Campaign",
+      "id": "20772170367",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13140080781",
+      "startDate": "2023-11-15",
+      "endDate": "2037-12-30",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13140080781",
+        "deliveryMethod": "STANDARD",
+        "id": "13140080781",
+        "amountMicros": "25000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/20815709270",
+      "status": "ENABLED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.36
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "Products merchant campaign",
+      "id": "20815709270",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13185095712",
+      "startDate": "2023-11-28",
+      "endDate": "2037-12-30",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13185095712",
+        "deliveryMethod": "STANDARD",
+        "id": "13185095712",
+        "amountMicros": "500000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/20837839885",
+      "status": "PAUSED",
+      "advertisingChannelType": "SEARCH",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSIONS",
+      "maximizeConversions": {
+        "targetCpaMicros": "86020000"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "BCD Heating",
+      "id": "20837839885",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13202344968",
+      "startDate": "2023-12-04",
+      "endDate": "2037-12-30",
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13202344968",
+        "deliveryMethod": "STANDARD",
+        "id": "13202344968",
+        "amountMicros": "25000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/20958985895",
+      "status": "ENABLED",
+      "advertisingChannelType": "SEARCH",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MANUAL_CPC",
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "BCD Branded",
+      "id": "20958985895",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13310537424",
+      "startDate": "2024-01-19",
+      "endDate": "2037-12-30",
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13310537424",
+        "deliveryMethod": "STANDARD",
+        "id": "13310537424",
+        "amountMicros": "200000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/21688703980",
+      "status": "PAUSED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.75
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "Products merchant campaign 12AM-4PM",
+      "id": "21688703980",
+      "campaignBudget": "customers/9256598060/campaignBudgets/13898648594",
+      "startDate": "2024-09-09",
+      "endDate": "2037-12-30",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/13898648594",
+        "deliveryMethod": "STANDARD",
+        "id": "13898648594",
+        "amountMicros": "1000000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/23028588419",
+      "status": "PAUSED",
+      "advertisingChannelType": "PERFORMANCE_MAX",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 1.75
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318",
+        "feedLabel": "US"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "Products merchant campaign #2",
+      "id": "23028588419",
+      "campaignBudget": "customers/9256598060/campaignBudgets/14939828526",
+      "startDate": "2025-09-17",
+      "endDate": "2037-12-30",
+      "urlExpansionOptOut": false,
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/14939828526",
+        "deliveryMethod": "STANDARD",
+        "id": "14939828526",
+        "amountMicros": "4000000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/23445812072",
+      "status": "ENABLED",
+      "advertisingChannelType": "SEARCH",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": true
+      },
+      "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+      "maximizeConversionValue": {
+        "targetRoas": 3.5
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "BCD - Hardware Offensive - 2026",
+      "id": "23445812072",
+      "campaignBudget": "customers/9256598060/campaignBudgets/15280573656",
+      "startDate": "2026-01-09",
+      "endDate": "2037-12-30",
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/15280573656",
+        "deliveryMethod": "STANDARD",
+        "id": "15280573656",
+        "amountMicros": "50000000"
+      }
+    },
+    {
+      "resourceName": "customers/9256598060/campaigns/23447458056",
+      "status": "PAUSED",
+      "advertisingChannelType": "SHOPPING",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": true,
+        "targetContentNetwork": false
+      },
+      "biddingStrategyType": "TARGET_ROAS",
+      "targetRoas": {
+        "targetRoas": 1.6
+      },
+      "shoppingSetting": {
+        "merchantId": "5308355318"
+      },
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE_OR_INTEREST",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "Standard Shopping Campaign",
+      "id": "23447458056",
+      "campaignBudget": "customers/9256598060/campaignBudgets/15290628391",
+      "startDate": "2026-01-12",
+      "endDate": "2037-12-30",
+      "budget": {
+        "resourceName": "customers/9256598060/campaignBudgets/15290628391",
+        "deliveryMethod": "STANDARD",
+        "id": "15290628391",
+        "amountMicros": "300000000"
+      }
+    }
+  ]
+}

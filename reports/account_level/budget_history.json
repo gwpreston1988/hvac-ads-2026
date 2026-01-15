@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "date": "2026-01-08T15:36:47.967936",
+      "branded": {
+        "cost": 308.742293,
+        "conv_value": 273.4552064,
+        "conversions": 2.971577,
+        "budget": 50.0,
+        "roas": 0.8857069879959724
+      },
+      "nonbranded": {
+        "cost": 0,
+        "conv_value": 0,
+        "conversions": 0,
+        "budget": 0,
+        "roas": 0
+      },
+      "pmax": {
+        "cost": 5658.089662,
+        "conv_value": 8600.3298292,
+        "conversions": 27.028423,
+        "budget": 750.0,
+        "roas": 1.520005928318921
+      },
+      "action": "review_nonbranded",
+      "shift_amount": 0,
+      "reason": "Non-branded ROAS (0.00) below threshold"
+    },
+    {
+      "date": "2026-01-09T13:30:39.613844",
+      "branded": {
+        "cost": 1272.852838,
+        "conv_value": 24076.0718398,
+        "conversions": 25.731121,
+        "budget": 50.0,
+        "roas": 18.91504745955557
+      },
+      "nonbranded": {
+        "cost": 0,
+        "conv_value": 0,
+        "conversions": 0,
+        "budget": 0,
+        "roas": 0
+      },
+      "pmax": {
+        "cost": 21656.002782,
+        "conv_value": 80970.10353488,
+        "conversions": 89.801502,
+        "budget": 750.0,
+        "roas": 3.738921921555191
+      },
+      "action": "review_nonbranded",
+      "shift_amount": 0,
+      "reason": "Non-branded ROAS (0.00) below threshold"
+    }
+  ],
+  "original_budgets": {
+    "branded": 50.0,
+    "nonbranded": 0,
+    "pmax": 750.0
+  }
+}

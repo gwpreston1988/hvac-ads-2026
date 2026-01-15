@@ -1,0 +1,334 @@
+{
+  "listing_groups": [
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~11335504124",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "11335504124",
+        "type": "SUBDIVISION"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505561",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505561",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~11335504124"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505564",
+        "type": "SUBDIVISION",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~11335504124"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505852",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505852",
+        "type": "UNIT_EXCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505855",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505855",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505858",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505858",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505861",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505861",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505864",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505864",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505867",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505867",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505870",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505870",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505873",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505873",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505876",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505876",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505879",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505879",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505882",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505882",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505885",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505885",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505888",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505888",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505891",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505891",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505894",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505894",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505897",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13090505897",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968040",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13096968040",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968043",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13096968043",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupListingGroupFilter": {
+        "resourceName": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13096968046",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "id": "13096968046",
+        "type": "UNIT_INCLUDED",
+        "parentListingGroupFilter": "customers/9256598060/assetGroupListingGroupFilters/6483780791~13090505564"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~11335504124",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505561",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505564",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505852",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505855",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505858",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505861",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505864",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505867",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505870",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505873",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505876",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505879",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505882",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505885",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505888",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505891",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505894",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13090505897",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13096968040",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13096968043",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    },
+    {
+      "assetGroupProductGroupView": {
+        "resourceName": "customers/9256598060/assetGroupProductGroupViews/6483780791~13096968046",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791"
+      }
+    }
+  ],
+  "errors": []
+}

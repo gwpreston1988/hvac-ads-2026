@@ -1,0 +1,33 @@
+================================================================================
+PMAX: Products merchant campaign (ID: 20815709270)
+================================================================================
+
+BIDDING
+-------
+Strategy: MAXIMIZE_CONVERSION_VALUE
+Target ROAS: 2.0
+Budget: $750/day
+Manual CPC Controls: NOT AVAILABLE
+
+PERFORMANCE (30D)
+-----------------
+Spend: $19,113.01
+ROAS: 3.39
+Avg CPC: $2.12
+
+PERFORMANCE (7D)
+----------------
+Spend: $4,285.10
+ROAS: 2.99 (declining)
+Avg CPC: $3.06 (increasing)
+
+STRUCTURE
+---------
+Asset Groups: 1
+Listing Filters: 22 (product types)
+Negative Sets: 3 active
+
+FILES IN THIS FOLDER
+--------------------
+- pmax_bidding_state_dump.json (full API data)
+- bidding_audit_report_20260113.txt (full audit)

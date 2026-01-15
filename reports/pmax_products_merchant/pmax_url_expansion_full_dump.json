@@ -1,0 +1,17 @@
+{
+  "campaign_settings": [
+    {
+      "campaign": {
+        "resourceName": "customers/9256598060/campaigns/20815709270",
+        "status": "ENABLED",
+        "advertisingChannelType": "PERFORMANCE_MAX",
+        "biddingStrategyType": "MAXIMIZE_CONVERSION_VALUE",
+        "name": "Products merchant campaign",
+        "id": "20815709270",
+        "urlExpansionOptOut": false
+      }
+    }
+  ],
+  "url_exclusions": [],
+  "errors": []
+}

@@ -1,0 +1,3000 @@
+{
+  "assets": [
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112641853657",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/9641899609627451341"
+          },
+          "fileSize": "108196"
+        },
+        "id": "112641853657",
+        "name": "Website image - 2023-11-13 15:02:24.465 (1).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112641865177",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "3465",
+            "widthPixels": "3465",
+            "url": "https://tpc.googlesyndication.com/simgad/1495811637484843994"
+          },
+          "fileSize": "2656958"
+        },
+        "id": "112641865177",
+        "name": "bcd logo no background.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112668524550",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct"
+        },
+        "id": "112668524550"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112668524553",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct Products"
+        },
+        "id": "112668524553"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112719031700",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "231",
+            "widthPixels": "231",
+            "url": "https://tpc.googlesyndication.com/simgad/5236258931275500411"
+          },
+          "fileSize": "30330"
+        },
+        "id": "112719031700",
+        "name": "logo-web-dark_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112733602853",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/8304308547344594073"
+          },
+          "fileSize": "29422"
+        },
+        "id": "112733602853",
+        "name": "bcdad4.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112733776493",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/18270386336431361824"
+          },
+          "fileSize": "25781"
+        },
+        "id": "112733776493",
+        "name": "revbbcd1.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112733780198",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/14207208142109423798"
+          },
+          "fileSize": "24227"
+        },
+        "id": "112733780198",
+        "name": "revbbcd4.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112733801078",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/9584428128344836409"
+          },
+          "fileSize": "102048"
+        },
+        "id": "112733801078",
+        "name": "unknown - 2023-11-14 13:07:59.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112737313295",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/14157156775728394770"
+          },
+          "fileSize": "25933"
+        },
+        "id": "112737313295",
+        "name": "bcdad5.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112737313316",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/17401520702373335762"
+          },
+          "fileSize": "25858"
+        },
+        "id": "112737313316",
+        "name": "document.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112737352295",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1080",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/2028141972023232926"
+          },
+          "fileSize": "536016"
+        },
+        "id": "112737352295",
+        "name": "Designer (1).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112738296697",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/5692256170088277590"
+          },
+          "fileSize": "22373"
+        },
+        "id": "112738296697",
+        "name": "revbbcd2.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/112765284591",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "540",
+            "widthPixels": "540",
+            "url": "https://tpc.googlesyndication.com/simgad/18063181187000277304"
+          },
+          "fileSize": "24365"
+        },
+        "id": "112765284591",
+        "name": "bcsad3.jpeg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115766619215",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1080",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/11903848912160947086"
+          },
+          "fileSize": "232111"
+        },
+        "id": "115766619215",
+        "name": "Designer (12).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115767871493",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1200",
+            "widthPixels": "1200",
+            "url": "https://tpc.googlesyndication.com/simgad/7535288605852209345"
+          },
+          "fileSize": "254117"
+        },
+        "id": "115767871493",
+        "name": "A google AD for my company Buy Comfort Direct. Include the slogan Where Comfort Meets Convenience.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684942",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115769684942"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684945",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Warm Up with Our HVAC Offers"
+        },
+        "id": "115769684945"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684948",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Exclusive HVAC Deals–Shop Now"
+        },
+        "id": "115769684948"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684951",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Best HVAC Prices Online"
+        },
+        "id": "115769684951"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684954",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Sizzling HVAC Savings – Shop!"
+        },
+        "id": "115769684954"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684957",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Quality HVAC Solutions at Unbeatable Prices. Shop Now"
+        },
+        "id": "115769684957"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684960",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Shop Top HVAC Brands for Less. Great Deals & Fast Shipping at Buy Comfort Direct!"
+        },
+        "id": "115769684960"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684963",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Experience Comfort & Savings with Our HVAC Selection at Buy Comfort Direct!"
+        },
+        "id": "115769684963"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684966",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Upgrade Your Home with Affordable, Top-Quality HVACs from Buy Comfort Direct!"
+        },
+        "id": "115769684966"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684969",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get the Best HVAC Deals – Quality & Affordability at Buy Comfort Direct!"
+        },
+        "id": "115769684969"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769684972",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Exceptional HVAC Offers - Save Big on Comfort at Buy Comfort Direct!"
+        },
+        "id": "115769684972"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769997461",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "fseAGSYPwYg",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115769997461"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115769997674",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "gbJaUlGXgJQ",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115769997674"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115770131564",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "dJhFP7x52gE",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115770131564"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115777942738",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "7_zOEpNv_0M",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115777942738"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784788918",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Sizzling HVAC Savings – Shop"
+        },
+        "id": "115784788918"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784788921",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Upgrade Your Home with Affordable, Top-Quality HVACs from Buy Comfort Direct"
+        },
+        "id": "115784788921"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784788924",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get the Best HVAC Deals – Quality & Affordability at Buy Comfort Direct"
+        },
+        "id": "115784788924"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784788927",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Exceptional HVAC Offers - Save Big on Comfort at Buy Comfort Direct"
+        },
+        "id": "115784788927"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784882896",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "zkakhdNxg-A",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115784882896"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784900599",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "axOHoox2HeE",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115784900599"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115784909278",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "eZLMJZay3do",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115784909278"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008426",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Westinghouse HVAC Equipment"
+        },
+        "id": "115785008426"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008429",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Home Comfort Solutions"
+        },
+        "id": "115785008429"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008432",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Best Furnaces on Sale"
+        },
+        "id": "115785008432"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008438",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Smart HVAC Savings"
+        },
+        "id": "115785008438"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008441",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Heat Up, Spend Less"
+        },
+        "id": "115785008441"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008447",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Save Big on Furnaces"
+        },
+        "id": "115785008447"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008450",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Sizzling AC Discounts"
+        },
+        "id": "115785008450"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008462",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Home Heating Specials"
+        },
+        "id": "115785008462"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008465",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Stay warm all winter with our reliable and affordable heating systems."
+        },
+        "id": "115785008465"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008468",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Transform your home with our high-efficiency heating solutions."
+        },
+        "id": "115785008468"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008471",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Keep your home toasty and bills low with our heating systems."
+        },
+        "id": "115785008471"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115785008474",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Reliable warmth all winter: Discover our efficient furnace range."
+        },
+        "id": "115785008474"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798196442",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "605",
+            "widthPixels": "608",
+            "url": "https://tpc.googlesyndication.com/simgad/15119986268871504931"
+          },
+          "fileSize": "139937"
+        },
+        "id": "115798196442",
+        "name": "Where Comfort Meets Convenience 1_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798204977",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "756",
+            "widthPixels": "608",
+            "url": "https://tpc.googlesyndication.com/simgad/7115338923464382933"
+          },
+          "fileSize": "152944"
+        },
+        "id": "115798204977",
+        "name": "Where Comfort Meets Convenience 1_0.8.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798205367",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "628",
+            "widthPixels": "1198",
+            "url": "https://tpc.googlesyndication.com/simgad/8055562181968907934"
+          },
+          "fileSize": "196408"
+        },
+        "id": "115798205367",
+        "name": "Buy Comfort Direct - Your One-Stop Shop for Comfort.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798210116",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "318",
+            "widthPixels": "608",
+            "url": "https://tpc.googlesyndication.com/simgad/11980613124027200432"
+          },
+          "fileSize": "121230"
+        },
+        "id": "115798210116",
+        "name": "Where Comfort Meets Convenience 1_1.91.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798210230",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "608",
+            "widthPixels": "608",
+            "url": "https://tpc.googlesyndication.com/simgad/13583569674490033532"
+          },
+          "fileSize": "99241"
+        },
+        "id": "115798210230",
+        "name": "Where Comfort Meets Convenience 1 (1)_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115798210242",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "756",
+            "widthPixels": "608",
+            "url": "https://tpc.googlesyndication.com/simgad/6825000328195911811"
+          },
+          "fileSize": "103086"
+        },
+        "id": "115798210242",
+        "name": "Where Comfort Meets Convenience 1 (1)_0.8.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115801460547",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "NifncVDjqJ4",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115801460547"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115808311725",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "PDtf8tI2Um8",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115808311725"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/115808335749",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "j3UM-0GHExs",
+          "youtubeVideoTitle": "Buy Comfort Direct - Cool Deals on HVACs – Shop Now"
+        },
+        "id": "115808335749"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/117231351262",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "XrTZM6yQGiY",
+          "youtubeVideoTitle": "Sliding stripes video"
+        },
+        "id": "117231351262"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/117254156475",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "628",
+            "widthPixels": "1200",
+            "url": "https://tpc.googlesyndication.com/simgad/18334578117641135635"
+          },
+          "fileSize": "188196"
+        },
+        "id": "117254156475",
+        "name": "Experience Comfort Like Never Before.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/117255142371",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "628",
+            "widthPixels": "1200",
+            "url": "https://tpc.googlesyndication.com/simgad/13019056081337739212"
+          },
+          "fileSize": "110261"
+        },
+        "id": "117255142371",
+        "name": "Meet Josh Williams (2).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/117292452267",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Air Conditioners"
+        },
+        "id": "117292452267"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/118399449759",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Air Conditioning Split Systems"
+        },
+        "id": "118399449759"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119527708619",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "825",
+            "widthPixels": "1577",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "111324"
+        },
+        "id": "119527708619",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.91.451 (13)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119528019056",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1062",
+            "widthPixels": "2048",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "250070"
+        },
+        "id": "119528019056",
+        "name": "Free stock image - 2024-01-04 15:27:27_1.91.784 (3)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119528019065",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1362",
+            "widthPixels": "1372",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "215999"
+        },
+        "id": "119528019065",
+        "name": "Free stock image - 2024-01-04 15:27:27_1.784 (3)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119528207765",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "825",
+            "widthPixels": "819",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "69615"
+        },
+        "id": "119528207765",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.451 (13)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119528224283",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1067",
+            "widthPixels": "2048",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "212654"
+        },
+        "id": "119528224283",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.91.452 (11)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119536359673",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1281",
+            "widthPixels": "1290",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "135716"
+        },
+        "id": "119536359673",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.452 (9)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119536693318",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get Free Shipping on All Order Above $1,500"
+        },
+        "id": "119536693318"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119536693321",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Speak to One Of Our Customer Service Team"
+        },
+        "id": "119536693321"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119558677407",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1362",
+            "widthPixels": "1090",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "168935"
+        },
+        "id": "119558677407",
+        "name": "Free stock image - 2024-01-04 15:29:13_0.8.451 (11)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119558686017",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1367",
+            "widthPixels": "1372",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "196966"
+        },
+        "id": "119558686017",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.451 (27)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119558686074",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1066",
+            "widthPixels": "2048",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "226597"
+        },
+        "id": "119558686074",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.91.451 (27)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/119558693229",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1367",
+            "widthPixels": "1372",
+            "url": "https://tpc.googlesyndication.com/simgad/15838574335205574330"
+          },
+          "fileSize": "178367"
+        },
+        "id": "119558693229",
+        "name": "Free stock image - 2024-01-04 15:29:13_1.452 (11)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/121494138298",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Best Prices For HVAC Supplies"
+        },
+        "id": "121494138298"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/121494138304",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Furnace Parts Online"
+        },
+        "id": "121494138304"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/121494138307",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Energy-Efficient Heating"
+        },
+        "id": "121494138307"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122666353432",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "420",
+            "widthPixels": "1680",
+            "url": "https://tpc.googlesyndication.com/simgad/4156631194147657999"
+          },
+          "fileSize": "116362"
+        },
+        "id": "122666353432",
+        "name": "Untitled (17)_4:1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122670670408",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "SdxFaZKZAZ0",
+          "youtubeVideoTitle": "Flipping sale tags video"
+        },
+        "id": "122670670408"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122689141851",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1080",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/3546833830495085991"
+          },
+          "fileSize": "119018"
+        },
+        "id": "122689141851",
+        "name": "Untitled (17)_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122693154543",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "628",
+            "widthPixels": "628",
+            "url": "https://tpc.googlesyndication.com/simgad/17541139231971783346"
+          },
+          "fileSize": "64791"
+        },
+        "id": "122693154543",
+        "name": "Experience Comfort Like Never Before (1)_1:1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122693627793",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "505",
+            "widthPixels": "505",
+            "url": "https://tpc.googlesyndication.com/simgad/2121627893977657372"
+          },
+          "fileSize": "68878"
+        },
+        "id": "122693627793",
+        "name": "slide-package__56692_1:1.jpg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/122695171728",
+        "type": "YOUTUBE_VIDEO",
+        "youtubeVideoAsset": {
+          "youtubeVideoId": "oihj6hO53_A",
+          "youtubeVideoTitle": "Expanding ripples video"
+        },
+        "id": "122695171728"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/123061499956",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Authorized MrCool Dealer"
+        },
+        "id": "123061499956"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/123061499959",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Comfort Direct: Shop Now"
+        },
+        "id": "123061499959"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125726211503",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1080",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/12749560982508131237"
+          },
+          "fileSize": "198880"
+        },
+        "id": "125726211503",
+        "name": "Untitled (25).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125762316693",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "2000",
+            "widthPixels": "2000",
+            "url": "https://tpc.googlesyndication.com/simgad/472492235813156018"
+          },
+          "fileSize": "78203"
+        },
+        "id": "125762316693"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125762469075",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "266",
+            "widthPixels": "1064",
+            "url": "https://tpc.googlesyndication.com/simgad/16472623417632692928"
+          },
+          "fileSize": "106507"
+        },
+        "id": "125762469075",
+        "name": "Untitled (26)_4.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125762469081",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "566",
+            "widthPixels": "566",
+            "url": "https://tpc.googlesyndication.com/simgad/15869466704497785307"
+          },
+          "fileSize": "114672"
+        },
+        "id": "125762469081",
+        "name": "Untitled (26)_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125866085972",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/3348230628004911357"
+          },
+          "fileSize": "39215"
+        },
+        "id": "125866085972",
+        "name": "Website image - 2024-02-13 10:09:15.053.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125866085975",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/15454231619458663494"
+          },
+          "fileSize": "126203"
+        },
+        "id": "125866085975",
+        "name": "Website image - 2024-02-13 10:09:15.053 (2).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/125866085978",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/4023073689686583486"
+          },
+          "fileSize": "174566"
+        },
+        "id": "125866085978",
+        "name": "Website image - 2024-02-13 10:09:15.053 (3).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127702575548",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Lowest HVAC Prices-Top Brands"
+        },
+        "id": "127702575548"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127702575551",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Beat the Heat-AC Deals Direct"
+        },
+        "id": "127702575551"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127702575554",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct - Save Big!"
+        },
+        "id": "127702575554"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127702575557",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Upgrade to Westinghouse HVAC"
+        },
+        "id": "127702575557"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127702575560",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Sizzling HVAC Discounts"
+        },
+        "id": "127702575560"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127711211740",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct - Save Big"
+        },
+        "id": "127711211740"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/127899130938",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Your HVAC Store"
+        },
+        "id": "127899130938"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/128068014454",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/3004474470308082988"
+          },
+          "fileSize": "34110"
+        },
+        "id": "128068014454",
+        "name": "Untitled-1 (2).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129094491467",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/8755907622574704945"
+          },
+          "fileSize": "10798"
+        },
+        "id": "129094491467"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129094588502",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/6575473184561517264"
+          },
+          "fileSize": "140260"
+        },
+        "id": "129094588502",
+        "name": "Untitled (82).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129139322280",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/8687240687416999113"
+          },
+          "fileSize": "140479"
+        },
+        "id": "129139322280",
+        "name": "Untitled (84).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129139322310",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/14508702934398124465"
+          },
+          "fileSize": "134379"
+        },
+        "id": "129139322310",
+        "name": "Untitled (81).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129139322313",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/7999349618658408006"
+          },
+          "fileSize": "142858"
+        },
+        "id": "129139322313",
+        "name": "Untitled (83).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129892024616",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Upgrade Your Home with Affordable, Top-Quality HVAC Systems from Buy Comfort Direct"
+        },
+        "id": "129892024616"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129892024619",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get Free Shipping on All Orders Above $1,500"
+        },
+        "id": "129892024619"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/129892024622",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Shop Buy Comfort Direct - Your One Stop Shop For All HVAC Products"
+        },
+        "id": "129892024622"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871502",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Invest In Comfort"
+        },
+        "id": "130953871502"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871505",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Stop Sweating, Shop Now"
+        },
+        "id": "130953871505"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871508",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Save Big on Top HVAC Brands"
+        },
+        "id": "130953871508"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871511",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Upgrade your comfort"
+        },
+        "id": "130953871511"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871514",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Cool home, happy family"
+        },
+        "id": "130953871514"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871517",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Personalized HVAC Solutions"
+        },
+        "id": "130953871517"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/130953871520",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Maximize Home Comfort, Minimize Energy Bills. High-Efficiency HVAC upgrades"
+        },
+        "id": "130953871520"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/138715129040",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct. My Account. Shopping Cart. brands we offer"
+        },
+        "id": "138715129040"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/138715170284",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "My Account. Shopping Cart. brands we offer"
+        },
+        "id": "138715170284"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/138723440884",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Shop Comfort Direct today"
+        },
+        "id": "138723440884"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/138765472989",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "My Account Shopping Cart"
+        },
+        "id": "138765472989"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139048313207",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/10990646353487482443"
+          },
+          "fileSize": "546430"
+        },
+        "id": "139048313207",
+        "name": "Untitled - 2024-05-08T095317.729.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139048862360",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/4993557269604234919"
+          },
+          "fileSize": "235017"
+        },
+        "id": "139048862360",
+        "name": "Untitled - 2024-05-08T095609.357.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139053879761",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/8226905111501602561"
+          },
+          "fileSize": "182788"
+        },
+        "id": "139053879761",
+        "name": "Untitled - 2024-05-08T103553.690.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139055981720",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/15311590391723027724"
+          },
+          "fileSize": "300781"
+        },
+        "id": "139055981720",
+        "name": "Untitled - 2024-05-08T105711.400.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139056936907",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/6355550615341509025"
+          },
+          "fileSize": "197808"
+        },
+        "id": "139056936907",
+        "name": "Untitled - 2024-05-08T095733.833.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139057200538",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Transform your home with our high-efficiency heating and cooling solutions."
+        },
+        "id": "139057200538"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139059198016",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/10012842901512206852"
+          },
+          "fileSize": "602428"
+        },
+        "id": "139059198016",
+        "name": "Untitled - 2024-05-08T101228.292.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139059820018",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/6228701823307221531"
+          },
+          "fileSize": "224934"
+        },
+        "id": "139059820018",
+        "name": "Untitled - 2024-05-08T101702.024.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139063061266",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/4905092645128805965"
+          },
+          "fileSize": "359160"
+        },
+        "id": "139063061266",
+        "name": "Untitled - 2024-05-08T104816.018.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139064323648",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/7724703686279655997"
+          },
+          "fileSize": "381343"
+        },
+        "id": "139064323648",
+        "name": "Untitled - 2024-05-08T105930.590.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139064329135",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/9174788318351594271"
+          },
+          "fileSize": "822287"
+        },
+        "id": "139064329135",
+        "name": "Untitled - 2024-05-08T110035.307.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139064705560",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/17839771500307298686"
+          },
+          "fileSize": "593296"
+        },
+        "id": "139064705560",
+        "name": "Untitled - 2024-05-08T110358.251.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139065600757",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1350",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/14857858481391422968"
+          },
+          "fileSize": "805730"
+        },
+        "id": "139065600757",
+        "name": "Untitled - 2024-05-08T111053.132.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139066161265",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1350",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/18277955450884717217"
+          },
+          "fileSize": "1705899"
+        },
+        "id": "139066161265",
+        "name": "Untitled - 2024-05-08T111639.389.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139077543644",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Buy Comfort Direct. My Account. Shopping Cart"
+        },
+        "id": "139077543644"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139084699726",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "396",
+            "widthPixels": "1584",
+            "url": "https://tpc.googlesyndication.com/simgad/8553017108904644204"
+          },
+          "fileSize": "172171"
+        },
+        "id": "139084699726",
+        "name": "Untitled - 2024-05-08T151534.994.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139095260472",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "180",
+            "widthPixels": "180",
+            "url": "https://tpc.googlesyndication.com/simgad/17134778993474933216"
+          },
+          "fileSize": "13943"
+        },
+        "id": "139095260472",
+        "name": "Website image - 2024-05-08 09:42:30.817_0.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139097049462",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/6534670454874462241"
+          },
+          "fileSize": "471580"
+        },
+        "id": "139097049462",
+        "name": "Untitled - 2024-05-08T095403.247.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139103550831",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/9783697439929581008"
+          },
+          "fileSize": "219657"
+        },
+        "id": "139103550831",
+        "name": "Untitled - 2024-05-08T104424.381.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139125081492",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "2000",
+            "widthPixels": "2000",
+            "url": "https://tpc.googlesyndication.com/simgad/2405427374830688358"
+          },
+          "fileSize": "762248"
+        },
+        "id": "139125081492",
+        "name": "Untitled - 2024-05-08T150858.529.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139253734273",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "2000",
+            "widthPixels": "2000",
+            "url": "https://tpc.googlesyndication.com/simgad/6578530902060627283"
+          },
+          "fileSize": "469549"
+        },
+        "id": "139253734273",
+        "name": "Untitled - 2024-05-09T104434.604.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139254153892",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "396",
+            "widthPixels": "1584",
+            "url": "https://tpc.googlesyndication.com/simgad/14320037831681787066"
+          },
+          "fileSize": "128103"
+        },
+        "id": "139254153892",
+        "name": "Untitled - 2024-05-09T104957.316.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139417693493",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Sizzling Summer HVAC Sale"
+        },
+        "id": "139417693493"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139418013599",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get the Comfort You Deserve"
+        },
+        "id": "139418013599"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139418080322",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Cool Home = Happy Home"
+        },
+        "id": "139418080322"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139418672092",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "2000",
+            "widthPixels": "2000",
+            "url": "https://tpc.googlesyndication.com/simgad/1187825600027677415"
+          },
+          "fileSize": "474512"
+        },
+        "id": "139418672092",
+        "name": "Untitled - 2024-05-10T120501.391.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139421899369",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "955",
+            "url": "https://tpc.googlesyndication.com/simgad/12160534384723969559"
+          },
+          "fileSize": "102372"
+        },
+        "id": "139421899369",
+        "name": "Untitled - 2024-05-10T120853.614_1.91:1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139422231241",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "250",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/4670683456081591970"
+          },
+          "fileSize": "55059"
+        },
+        "id": "139422231241",
+        "name": "Untitled - 2024-05-10T124247.872.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139423520548",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Smart Heating & Cooling: Lower Your Bills"
+        },
+        "id": "139423520548"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139423598107",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "HVAC Deals: Save Big Now"
+        },
+        "id": "139423598107"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139423708306",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Stay Cozy with Westinghouse"
+        },
+        "id": "139423708306"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139423969900",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Beat the Heat: Cool Down Now"
+        },
+        "id": "139423969900"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139464898494",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Cut Heating Costs Now"
+        },
+        "id": "139464898494"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139464961317",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Warm Home, Lower Bills"
+        },
+        "id": "139464961317"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139465454859",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Slash High Heating Costs"
+        },
+        "id": "139465454859"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139465592751",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Get Your Comfort Upgrade Now"
+        },
+        "id": "139465592751"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139465740498",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "op HVAC Brands. Big Savings"
+        },
+        "id": "139465740498"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/139465973700",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Comfort Tailored to You"
+        },
+        "id": "139465973700"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/140521257282",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "HVAC Brands. Big Savings"
+        },
+        "id": "140521257282"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143534775782",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Find Your Comfort Direct"
+        },
+        "id": "143534775782"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143937776645",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "150",
+            "widthPixels": "150",
+            "url": "https://tpc.googlesyndication.com/simgad/9107882023029912749"
+          },
+          "fileSize": "14621"
+        },
+        "id": "143937776645",
+        "name": "Untitled - 2024-06-03T122854.276.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143938424330",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/1323510836418655952"
+          },
+          "fileSize": "161184"
+        },
+        "id": "143938424330",
+        "name": "Untitled - 2024-06-03T123840.386.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143944168054",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "868",
+            "widthPixels": "3465",
+            "url": "https://tpc.googlesyndication.com/simgad/12608724638670142480"
+          },
+          "fileSize": "761775"
+        },
+        "id": "143944168054",
+        "name": "Untitled - 2024-06-03T122957.788.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143945480311",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/11399092536382606570"
+          },
+          "fileSize": "519229"
+        },
+        "id": "143945480311",
+        "name": "Untitled - 2024-06-03T125030.264.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143953937210",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "565",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/5702814236971919345"
+          },
+          "fileSize": "675724"
+        },
+        "id": "143953937210",
+        "name": "Untitled - 2024-06-03T160430.864.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/143986458597",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "955",
+            "url": "https://tpc.googlesyndication.com/simgad/10342346581437982051"
+          },
+          "fileSize": "252632"
+        },
+        "id": "143986458597",
+        "name": "Untitled - 2024-06-03T123112.860.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/144180202484",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Cool off with Our HVAC Offers"
+        },
+        "id": "144180202484"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/151614170591",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/933849385767638893"
+          },
+          "fileSize": "67735"
+        },
+        "id": "151614170591"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/152147815019",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman Heat Pumps"
+        },
+        "id": "152147815019"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/152878256831",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Call for Best Pricing"
+        },
+        "id": "152878256831"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/156017616275",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Shop Comfort Direct"
+        },
+        "id": "156017616275"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/168256641384",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/12072221718378126386"
+          },
+          "fileSize": "286945"
+        },
+        "id": "168256641384"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/168256641393",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/13833195170678815657"
+          },
+          "fileSize": "57639"
+        },
+        "id": "168256641393"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/168256641402",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/4321593292752927048"
+          },
+          "fileSize": "38381"
+        },
+        "id": "168256641402"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/168256641405",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/4417986689842851330"
+          },
+          "fileSize": "57631"
+        },
+        "id": "168256641405"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/176565796813",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Rheem Water Heaters"
+        },
+        "id": "176565796813"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/178217201110",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Rinnai Water Heaters"
+        },
+        "id": "178217201110"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/178488019563",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Gree Air Handlers"
+        },
+        "id": "178488019563"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/189340561457",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman Package Units"
+        },
+        "id": "189340561457"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/189808588074",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/11730204150074488052"
+          },
+          "fileSize": "188477"
+        },
+        "id": "189808588074"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/198677767114",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/18161751454311055129"
+          },
+          "fileSize": "291195"
+        },
+        "id": "198677767114"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/202040763944",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/3439563948557751185"
+          },
+          "fileSize": "178491"
+        },
+        "id": "202040763944"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/215100645133",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman Air Conditioners"
+        },
+        "id": "215100645133"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/250940246393",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman Dual Fuel Systems"
+        },
+        "id": "250940246393"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/250940246396",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Rheem Air Conditioners"
+        },
+        "id": "250940246396"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255344919353",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "386",
+            "widthPixels": "386",
+            "url": "https://tpc.googlesyndication.com/simgad/8908166299654414226"
+          },
+          "fileSize": "9789"
+        },
+        "id": "255344919353",
+        "name": "Goodman 5 Ton Upflow 80% Gas System 14.3 SEER2 21\" Wide R-32"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255345310382",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/17656699164226486379"
+          },
+          "fileSize": "60138"
+        },
+        "id": "255345310382",
+        "name": "Website image - 2025-07-02 16:53:57.261 (9).jpg"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255345310385",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/13121530127922682037"
+          },
+          "fileSize": "114645"
+        },
+        "id": "255345310385",
+        "name": "Website image - 2025-07-02 16:53:57.261 (8).png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255422252503",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "523",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/647217440065785308"
+          },
+          "fileSize": "67619"
+        },
+        "id": "255422252503",
+        "name": "Enhanced website image - 2025-07-02 16:48:32_1.9108.318 (2)"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255422281429",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "800",
+            "url": "https://tpc.googlesyndication.com/simgad/5443658700480079796"
+          },
+          "fileSize": "129870"
+        },
+        "id": "255422281429",
+        "name": "Enhanced website image - 2025-07-02 16:48:32_4:5.317"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255454316592",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "386",
+            "widthPixels": "386",
+            "url": "https://tpc.googlesyndication.com/simgad/16104046999460686671"
+          },
+          "fileSize": "15804"
+        },
+        "id": "255454316592",
+        "name": "Rheem 2 Ton Heat Pump 15.2 SEER2 2 Stage R-454B"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/255454362054",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "1000",
+            "widthPixels": "1000",
+            "url": "https://tpc.googlesyndication.com/simgad/9718501711856600779"
+          },
+          "fileSize": "76021"
+        },
+        "id": "255454362054",
+        "name": "Enhanced website image - 2025-07-02 16:48:32.317"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/266451194308",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman 2.5 Ton AC & Air Handler"
+        },
+        "id": "266451194308"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011880",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/632878649128409912"
+          },
+          "fileSize": "196228"
+        },
+        "id": "273598011880"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011883",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/7469241460609604751"
+          },
+          "fileSize": "190982"
+        },
+        "id": "273598011883"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011886",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/5109021242401178940"
+          },
+          "fileSize": "194036"
+        },
+        "id": "273598011886"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011889",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/187304614935841421"
+          },
+          "fileSize": "183197"
+        },
+        "id": "273598011889"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011892",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_JPEG",
+          "fullSize": {
+            "heightPixels": "659",
+            "widthPixels": "659",
+            "url": "https://tpc.googlesyndication.com/simgad/8066346793846661357"
+          },
+          "fileSize": "113008"
+        },
+        "id": "273598011892"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/273598011895",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/1971357422777195077"
+          },
+          "fileSize": "189204"
+        },
+        "id": "273598011895"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/275495839310",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Official Rheem Dealer"
+        },
+        "id": "275495839310"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/275495839319",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Goodman Heating & Air"
+        },
+        "id": "275495839319"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/275495839337",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Browse our massive inventory of residential HVAC products, parts, and accessories today"
+        },
+        "id": "275495839337"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/275495839340",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Need help choosing? Our HVAC experts are ready to assist you. Find your perfect solution!"
+        },
+        "id": "275495839340"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/282512819414",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/6907386371661677109"
+          },
+          "fileSize": "182362"
+        },
+        "id": "282512819414"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/289250115984",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1076",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/4839676441859937306"
+          },
+          "fileSize": "398585"
+        },
+        "id": "289250115984",
+        "name": "Untitled - 2025-09-16T114253.065_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/289250180127",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "557",
+            "widthPixels": "1064",
+            "url": "https://tpc.googlesyndication.com/simgad/1214702530094997780"
+          },
+          "fileSize": "116287"
+        },
+        "id": "289250180127",
+        "name": "Untitled - 2025-09-16T114253.065_1.9108.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/289250213433",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1344",
+            "widthPixels": "1080",
+            "url": "https://tpc.googlesyndication.com/simgad/14938316267754768534"
+          },
+          "fileSize": "670664"
+        },
+        "id": "289250213433",
+        "name": "Untitled - 2025-09-16T114253.065_0.8.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/289255103185",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "1004",
+            "widthPixels": "1920",
+            "url": "https://tpc.googlesyndication.com/simgad/13491038035837193888"
+          },
+          "fileSize": "1351176"
+        },
+        "id": "289255103185",
+        "name": "Untitled - 2025-09-16T132424.559_1.9108.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/302992690506",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Solace Heat Pumps"
+        },
+        "id": "302992690506"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/311771540648",
+        "type": "TEXT",
+        "textAsset": {
+          "text": "Solace Air Handlers"
+        },
+        "id": "311771540648"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/313212403174",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/7130927154273038732"
+          },
+          "fileSize": "225153"
+        },
+        "id": "313212403174"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/313212403177",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "500",
+            "widthPixels": "500",
+            "url": "https://tpc.googlesyndication.com/simgad/477560310138057902"
+          },
+          "fileSize": "185586"
+        },
+        "id": "313212403177"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321139329971",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "864",
+            "widthPixels": "691",
+            "url": "https://tpc.googlesyndication.com/simgad/16519276025162398780"
+          },
+          "fileSize": "560642"
+        },
+        "id": "321139329971",
+        "name": "Firefly_Gemini Flash_I need a picture that is the front layer of the free shipping image, but i need the b 34675_0.8.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321139329974",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "864",
+            "widthPixels": "864",
+            "url": "https://tpc.googlesyndication.com/simgad/9947619194254818044"
+          },
+          "fileSize": "697767"
+        },
+        "id": "321139329974",
+        "name": "Firefly_Gemini Flash_I need a picture that is the front layer of the free shipping image, but i need the b 34675_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321139417898",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "864",
+            "widthPixels": "864",
+            "url": "https://tpc.googlesyndication.com/simgad/5821568800631277364"
+          },
+          "fileSize": "752991"
+        },
+        "id": "321139417898",
+        "name": "Firefly_Gemini Flash_Give me a image for my website BuyComfortDirect.com about price match guarantee on al 34675_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321140387204",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "864",
+            "widthPixels": "865",
+            "url": "https://tpc.googlesyndication.com/simgad/9718319397662119740"
+          },
+          "fileSize": "818240"
+        },
+        "id": "321140387204",
+        "name": "Firefly_Gemini Flash_I need a picture to use on google ads with the background of the first image with the 34675_1.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321140453132",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "864",
+            "widthPixels": "691",
+            "url": "https://tpc.googlesyndication.com/simgad/3768288329173160280"
+          },
+          "fileSize": "673865"
+        },
+        "id": "321140453132",
+        "name": "Firefly_Gemini Flash_I need a picture to use on google ads with the background of the first image with the 34675_0.8.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321217335685",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "622",
+            "widthPixels": "1184",
+            "url": "https://tpc.googlesyndication.com/simgad/17411540584165459914"
+          },
+          "fileSize": "781579"
+        },
+        "id": "321217335685",
+        "name": "Firefly_Gemini Flash_I need a picture to use on google ads with the background of the first image with the 34675_1.9108.png"
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321226750333",
+        "type": "CALL_TO_ACTION",
+        "id": "321226750333",
+        "callToActionAsset": {
+          "callToAction": "SHOP_NOW"
+        }
+      }
+    },
+    {
+      "asset": {
+        "resourceName": "customers/9256598060/assets/321263066196",
+        "type": "IMAGE",
+        "imageAsset": {
+          "mimeType": "IMAGE_PNG",
+          "fullSize": {
+            "heightPixels": "622",
+            "widthPixels": "1184",
+            "url": "https://tpc.googlesyndication.com/simgad/1910601936653093404"
+          },
+          "fileSize": "688187"
+        },
+        "id": "321263066196",
+        "name": "Firefly_Gemini Flash_I need a picture that is the front layer of the free shipping image, but i need the b 34675_1.9108.png"
+      }
+    }
+  ],
+  "errors": []
+}

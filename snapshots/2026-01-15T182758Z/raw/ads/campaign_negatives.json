@@ -1,0 +1,1026 @@
+{
+  "extracted_at": "2026-01-15T18:28:00.765195Z",
+  "count": 102,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10000010",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "test"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10000010",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10001281",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "repair"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10001281",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10003830",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "filters"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10003830",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10004450",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "comparison"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10004450",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10005011",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "job"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10005011",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10005021",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "jobs"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10005021",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10007041",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "fix"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10007041",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10009721",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "problems"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10009721",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10009741",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "forum"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10009741",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10009901",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "schematic"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10009901",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10009911",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "manual"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10009911",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10009921",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "diagram"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10009921",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10010361",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "exam"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10010361",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10013241",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "school"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10013241",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10023311",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "how to"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10023311",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10029591",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "parts"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10029591",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10031431",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "training"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10031431",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10041140",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "circuit board"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10041140",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10060951",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "belt"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10060951",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10077081",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "filter"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10077081",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10082360",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "class"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10082360",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10083101",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hiring"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10083101",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10107001",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "valve"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10107001",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10117771",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "troubleshooting"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10117771",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10117821",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "reviews"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10117821",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10169890",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "course"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10169890",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10186991",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "certification"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10186991",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10205881",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "career"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10205881",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10218121",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "recall"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10218121",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10231491",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "wiring"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10231491",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10241911",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "license"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10241911",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10241931",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "transformer"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10241931",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10258751",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "top"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10258751",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10270091",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "pressure switch"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10270091",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10280821",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "cheapest"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10280821",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10295331",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "compressor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10295331",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10296801",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "coil"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10296801",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10317231",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "diy"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10317231",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10319341",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "salary"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10319341",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10364891",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "complaints"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10364891",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10373601",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "issues"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10373601",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10399671",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "noise"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10399671",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10409366",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "opinion"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10409366",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10429451",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ratings"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10429451",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10444811",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "pdf"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10444811",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10624201",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "thermostat"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10624201",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10661111",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "consumer reports"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10661111",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10695296",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "capacitor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10695296",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~10746126",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "epa"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "10746126",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11375221",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "frozen"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11375221",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11453601",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "lawsuit"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11453601",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11468031",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "technician"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11468031",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11689681",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "igniter"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11689681",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11825696",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "relay"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11825696",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~11898851",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "apprentice"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "11898851",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12203881",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "flashing light"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12203881",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12315970",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "vs"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12315970",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12448811",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "installer"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12448811",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12533456",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "fuse"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12533456",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12704346",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "loud"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12704346",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12716086",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "refrigerant"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12716086",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12720976",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "freon"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12720976",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12727716",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "bearing"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12727716",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12752906",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "recommend"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12752906",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~12780436",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "troubleshoot"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "12780436",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~14560683",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "fan motor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "14560683",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~15126302",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "buzzing"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "15126302",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~15803451",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "clicking"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "15803451",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~15810731",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "reset"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "15810731",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~16316066",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "control board"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "16316066",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~16779536",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "contactor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "16779536",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~17771770",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "r22"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "17771770",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~17771780",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "r410a"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "17771780",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~17945531",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "dripping"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "17945531",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~19122696",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "pros and cons"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "19122696",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~19371000",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "error code"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "19371000",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~19976521",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "evaporator coil"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "19976521",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~23354136",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac jobs"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "23354136",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~23492306",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "not working"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "23492306",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~23898841",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "blower motor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "23898841",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~24930790",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "condenser fan"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "24930790",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~26276841",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac training"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "26276841",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~26276891",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac school"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "26276891",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~27844483",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac technician"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "27844483",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~28047740",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac certification"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "28047740",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~33898951",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "replacement part"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "33898951",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~39229730",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "leaking"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "39229730",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~94526078",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "why is"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "94526078",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~100079033",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac license"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "100079033",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~164552756",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "short cycling"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "164552756",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~253558127",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "should i"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "253558127",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~276689626",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "won't start"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "276689626",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~297626959",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "average cost"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "297626959",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~329532753",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "reddit"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "329532753",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~407042693",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "worth it"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "407042693",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~417393029",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "youtube"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "417393029",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~721223838",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "not cooling"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "721223838",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~295444349973",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "cost to fix"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "295444349973",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~302019835899",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "not heating"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "302019835899",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~321211779514",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "flame sensor"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "321211779514",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~396989753427",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "blowing cold"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "396989753427",
+      "negative": true
+    },
+    {
+      "resourceName": "customers/9256598060/campaignCriteria/23445812072~405340342740",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "blowing hot"
+      },
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "criterionId": "405340342740",
+      "negative": true
+    }
+  ]
+}

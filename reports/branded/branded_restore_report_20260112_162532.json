@@ -1,0 +1,43 @@
+{
+  "campaign_id": "20958985895",
+  "campaign_name": "BCD Branded",
+  "timestamp": "2026-01-12T16:25:32.095262",
+  "dry_run": true,
+  "keywords_added": [
+    "buycomfortdirect (EXACT)",
+    "buy comfort direct (PHRASE)",
+    "buycomfortdirect (PHRASE)"
+  ],
+  "keywords_paused": [
+    "Smart Matching (BROAD)"
+  ],
+  "results": {
+    "keywords_added": {
+      "success": true,
+      "keywords": [
+        {
+          "text": "buycomfortdirect",
+          "match_type": "EXACT"
+        },
+        {
+          "text": "buy comfort direct",
+          "match_type": "PHRASE"
+        },
+        {
+          "text": "buycomfortdirect",
+          "match_type": "PHRASE"
+        }
+      ]
+    },
+    "keywords_paused": {
+      "success": true,
+      "keywords": [
+        {
+          "text": "Smart Matching",
+          "criterion_id": "3000009",
+          "match_type": "BROAD"
+        }
+      ]
+    }
+  }
+}

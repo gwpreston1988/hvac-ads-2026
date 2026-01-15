@@ -1,0 +1,96 @@
+{
+  "snapshot_id": "2026-01-15T174605Z",
+  "created_at": "2026-01-15T17:46:09.445205Z",
+  "duration_seconds": 4.06,
+  "accounts": {
+    "google_ads": {
+      "customer_id": "9256598060",
+      "login_customer_id": "5194867886"
+    }
+  },
+  "api_versions": {
+    "google_ads": "v19"
+  },
+  "file_counts": {
+    "raw": 16,
+    "normalized": 12
+  },
+  "record_counts": {
+    "campaigns": 0,
+    "pmax_campaigns": 0,
+    "ad_groups": 0,
+    "keywords": 0,
+    "negatives": 0,
+    "ads": 0,
+    "assets": 0,
+    "asset_groups": 0,
+    "listing_groups": 0,
+    "change_events": 0
+  },
+  "errors": [
+    {
+      "file": "campaigns",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"Iz-A8Hn1xmj-x8jgBDco5g\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "ad_groups",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"A4heC4hhI5FMi5XecRYh6Q\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "keywords",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"Dkb2ZPSnhBxd5nzZOzF3Yw\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "campaign_negatives",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"8-Zuzz52jgy-qEA-3v4EwA\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "adgroup_negatives",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"msXkQZQ7BDKSFADKoDCLdA\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "ads",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"NJEhO4wf3inM7hlpWM542Q\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "assets",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"OsXCOwdB8kVQrnQKmw9_Ew\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "asset_links",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"pAPPyY75nYiGHzFWB4lVkQ\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "change_history",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"JCacoKqvf8y0qISoOWrzKw\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "performance",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"ghtoBhn5m8FlCRhgeR6iDw\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "pmax_campaigns",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"cUGniIVgxCYvvW_0U7A_7g\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "asset_groups",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"5Stj6ZjSd4cIGnKN1Hlg0w\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "asset_group_assets",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"MgLUqQu26U_sxQa-1U7aHw\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "listing_groups",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"drp9I7bPTHvP9-2tNTHPSQ\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "pmax_campaign_assets",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"XcCl1lfJjJHI58FoVCinnw\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "file": "url_expansion",
+      "error": "API error 400: {\n  \"error\": {\n    \"code\": 400,\n    \"message\": \"Request contains an invalid argument.\",\n    \"status\": \"INVALID_ARGUMENT\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.ads.googleads.v19.errors.GoogleAdsFailure\",\n        \"errors\": [\n          {\n            \"errorCode\": {\n              \"requestError\": \"PAGE_SIZE_NOT_SUPPORTED\"\n            },\n            \"message\": \"Setting the page size is not supported. Search Responses will have fixed page size of '10000' rows.\"\n          }\n        ],\n        \"requestId\": \"iiDIz8bNof6u4N9uFk6p3g\"\n      }\n    ]\n  }\n}\n"
+    }
+  ]
+}

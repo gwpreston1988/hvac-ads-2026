@@ -1,0 +1,56 @@
+{
+  "generated": "2026-01-13T13:04:11.226844",
+  "pmax": {
+    "campaign_id": "20815709270",
+    "perf_30d": null,
+    "perf_7d": null,
+    "device_breakdown": null
+  },
+  "hardware_offensive": {
+    "campaign_id": "23445812072",
+    "perf_30d": {
+      "impressions": "3040",
+      "clicks": 323,
+      "cost_micros": "14856971",
+      "cost_dollars": 14.856971,
+      "conversions": 0.0,
+      "conversion_value": 0.0,
+      "average_cpc": 0.045996,
+      "cpa": 0,
+      "roas": 0.0,
+      "search_impression_share": 0.0999
+    },
+    "perf_7d": {
+      "impressions": "3040",
+      "clicks": 323,
+      "cost_micros": "14856971",
+      "cost_dollars": 14.856971,
+      "conversions": 0.0,
+      "conversion_value": 0.0,
+      "average_cpc": 0.045996,
+      "cpa": 0,
+      "roas": 0.0,
+      "search_impression_share": 0.0999
+    },
+    "device_breakdown": [
+      {
+        "device": "DESKTOP",
+        "clicks": "7",
+        "cost": 3.097736,
+        "avg_cpc": 0.442533
+      },
+      {
+        "device": "MOBILE",
+        "clicks": "309",
+        "cost": 11.64826,
+        "avg_cpc": 0.037696
+      },
+      {
+        "device": "TABLET",
+        "clicks": "7",
+        "cost": 0.110975,
+        "avg_cpc": 0.015853
+      }
+    ]
+  }
+}

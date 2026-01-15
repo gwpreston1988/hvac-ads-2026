@@ -1,0 +1,3141 @@
+{
+  "asset_group_assets": [
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112641853657~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112641853657",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112641865177~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112641865177",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112668524550~BUSINESS_NAME",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112668524550",
+        "fieldType": "BUSINESS_NAME",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112668524553~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112668524553",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112719031700~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112719031700",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112733602853~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112733602853",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112733776493~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112733776493",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112733780198~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112733780198",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112733801078~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112733801078",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112737313295~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112737313295",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112737313295~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112737313295",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112737313316~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112737313316",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112737352295~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112737352295",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112738296697~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112738296697",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~112765284591~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/112765284591",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115766619215~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115766619215",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115767871493~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115767871493",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684942~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684942",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684945~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684945",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684948~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684948",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684951~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684951",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684954~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684954",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED_LIMITED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684957~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684957",
+        "fieldType": "DESCRIPTION",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684960~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684960",
+        "fieldType": "DESCRIPTION",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684963~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684963",
+        "fieldType": "DESCRIPTION",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684966~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684966",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "DISAPPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684969~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684969",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "DISAPPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684972~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769684972",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "DISAPPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769997461~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769997461",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEW_IN_PROGRESS",
+          "approvalStatus": "UNKNOWN"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769997674~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115769997674",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115770131564~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115770131564",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115777942738~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115777942738",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788918~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784788918",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788921~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784788921",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788924~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784788924",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788927~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784788927",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784882896~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784882896",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784900599~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784900599",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784909278~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115784909278",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008426~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008426",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008429~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008429",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008432~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008432",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008438~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008438",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008441~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008441",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008447~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008447",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008450~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008450",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008462~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008462",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008465~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008465",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008468~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008468",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008471~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008471",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008474~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115785008474",
+        "fieldType": "DESCRIPTION",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798196442~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798196442",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798204977~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798204977",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED_LIMITED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798205367~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798205367",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798210116~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798210116",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED_LIMITED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798210230~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798210230",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED_LIMITED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115798210242~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115798210242",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115801460547~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115801460547",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115808311725~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115808311725",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115808335749~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/115808335749",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~117231351262~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/117231351262",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~117254156475~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/117254156475",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~117255142371~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/117255142371",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~117292452267~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/117292452267",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~118399449759~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/118399449759",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119527708619~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119527708619",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119528019056~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119528019056",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119528019065~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119528019065",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119528207765~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119528207765",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119528224283~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119528224283",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119536359673~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119536359673",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119536693318~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119536693318",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119536693321~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119536693321",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119558677407~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119558677407",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119558686017~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119558686017",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119558686074~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119558686074",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~119558693229~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/119558693229",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~121494138298~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/121494138298",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~121494138304~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/121494138304",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~121494138307~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/121494138307",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122666353432~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122666353432",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122670670408~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122670670408",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122689141851~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122689141851",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122693154543~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122693154543",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122693154543~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122693154543",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122693627793~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122693627793",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122695171728~YOUTUBE_VIDEO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/122695171728",
+        "fieldType": "YOUTUBE_VIDEO",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~123061499956~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/123061499956",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~123061499959~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/123061499959",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125726211503~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125726211503",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125762316693~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125762316693",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125762469075~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125762469075",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125762469081~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125762469081",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125866085972~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125866085972",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125866085975~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125866085975",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~125866085978~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/125866085978",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127702575548~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127702575548",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127702575551~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127702575551",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127702575554~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127702575554",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127702575557~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127702575557",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127702575560~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127702575560",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127711211740~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127711211740",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~127899130938~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/127899130938",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~128068014454~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/128068014454",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129094491467~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129094491467",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129094588502~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129094588502",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129139322280~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129139322280",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129139322310~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129139322310",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129139322313~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129139322313",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129892024616~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129892024616",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129892024619~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129892024619",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129892024622~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/129892024622",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871502~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871502",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871505~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871505",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871508~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871508",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871511~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871511",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871514~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871514",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871517~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871517",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871520~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/130953871520",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138715129040~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/138715129040",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138715170284~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/138715170284",
+        "fieldType": "LONG_HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138723440884~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/138723440884",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138765472989~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/138765472989",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139048313207~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139048313207",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139048862360~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139048862360",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139053879761~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139053879761",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139055981720~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139055981720",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139056936907~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139056936907",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139057200538~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139057200538",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139059198016~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139059198016",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139059820018~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139059820018",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139063061266~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139063061266",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139064323648~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139064323648",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139064329135~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139064329135",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139064705560~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139064705560",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139065600757~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139065600757",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139066161265~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139066161265",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139077543644~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139077543644",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139084699726~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139084699726",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139095260472~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139095260472",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "PENDING",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139097049462~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139097049462",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139103550831~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139103550831",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139125081492~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139125081492",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139253734273~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139253734273",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139254153892~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139254153892",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139417693493~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139417693493",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139418013599~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139418013599",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139418080322~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139418080322",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139418672092~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139418672092",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139418672092~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139418672092",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139421899369~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139421899369",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139422231241~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139422231241",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423520548~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139423520548",
+        "fieldType": "DESCRIPTION",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423598107~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139423598107",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423708306~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139423708306",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423969900~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139423969900",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139464898494~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139464898494",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139464961317~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139464961317",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139465454859~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139465454859",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139465592751~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139465592751",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139465740498~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139465740498",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139465973700~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/139465973700",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~140521257282~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/140521257282",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143534775782~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143534775782",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143937776645~LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143937776645",
+        "fieldType": "LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143938424330~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143938424330",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143944168054~LANDSCAPE_LOGO",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143944168054",
+        "fieldType": "LANDSCAPE_LOGO",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143945480311~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143945480311",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143953937210~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143953937210",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143986458597~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/143986458597",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~144180202484~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/144180202484",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~151614170591~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/151614170591",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~152147815019~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/152147815019",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~152878256831~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/152878256831",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~156017616275~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/156017616275",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~168256641384~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/168256641384",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~168256641393~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/168256641393",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~168256641402~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/168256641402",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~168256641405~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/168256641405",
+        "fieldType": "AD_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~176565796813~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/176565796813",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~178217201110~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/178217201110",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~178488019563~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/178488019563",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~189340561457~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/189340561457",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~189808588074~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/189808588074",
+        "fieldType": "AD_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~198677767114~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/198677767114",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~202040763944~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/202040763944",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~215100645133~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/215100645133",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~250940246393~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/250940246393",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~250940246396~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/250940246396",
+        "fieldType": "HEADLINE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255344919353~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255344919353",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255345310382~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255345310382",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255345310385~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255345310385",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255422252503~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255422252503",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255422281429~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255422281429",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255454316592~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255454316592",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255454362054~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/255454362054",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~266451194308~LONG_HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/266451194308",
+        "fieldType": "LONG_HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011880~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011880",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011883~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011883",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011886~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011886",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011889~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011889",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011892~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011892",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~273598011895~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/273598011895",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~275495839310~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/275495839310",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~275495839319~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/275495839319",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~275495839337~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/275495839337",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~275495839340~DESCRIPTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/275495839340",
+        "fieldType": "DESCRIPTION",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~282512819414~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/282512819414",
+        "fieldType": "AD_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~289250115984~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/289250115984",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~289250180127~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/289250180127",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~289250213433~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/289250213433",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~289255103185~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/289255103185",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "REMOVED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~302992690506~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/302992690506",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~311771540648~HEADLINE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/311771540648",
+        "fieldType": "HEADLINE",
+        "status": "REMOVED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~313212403174~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/313212403174",
+        "fieldType": "AD_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~313212403177~AD_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/313212403177",
+        "fieldType": "AD_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139329971~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321139329971",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139329974~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321139329974",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "BEST",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139417898~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321139417898",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321140387204~SQUARE_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321140387204",
+        "fieldType": "SQUARE_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321140453132~PORTRAIT_MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321140453132",
+        "fieldType": "PORTRAIT_MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321217335685~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321217335685",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "LOW",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321226750333~CALL_TO_ACTION_SELECTION",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321226750333",
+        "fieldType": "CALL_TO_ACTION_SELECTION",
+        "status": "ENABLED",
+        "performanceLabel": "UNKNOWN",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "assetGroupAsset": {
+        "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321263066196~MARKETING_IMAGE",
+        "assetGroup": "customers/9256598060/assetGroups/6483780791",
+        "asset": "customers/9256598060/assets/321263066196",
+        "fieldType": "MARKETING_IMAGE",
+        "status": "ENABLED",
+        "performanceLabel": "GOOD",
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,32 @@
+================================================================================
+SEARCH: BCD Branded (ID: 20958985895)
+================================================================================
+
+BIDDING (UPDATED TODAY)
+-----------------------
+Strategy: MANUAL_CPC (changed from MAXIMIZE_CONVERSION_VALUE)
+Enhanced CPC: DISABLED
+Keyword Bids: $0.75 (all 5 keywords)
+
+PREVIOUS ISSUE
+--------------
+Smart bidding was paying $3-10 CPC on branded terms.
+Non-branded leakage ($129 wasted on generic HVAC terms).
+
+FIX APPLIED
+-----------
+1. Changed bidding to Manual CPC
+2. Set all keyword bids to $0.75
+3. Disabled Enhanced CPC
+
+EXPECTED RESULT
+---------------
+Branded CPCs should drop from $3-10 to under $1.
+
+KEYWORDS
+--------
+[EXACT]  buy comfort direct     $0.75
+[PHRASE] buy comfort direct     $0.75
+[EXACT]  buycomfortdirect       $0.75
+[PHRASE] buycomfortdirect       $0.75
+[EXACT]  buycomfortdirect.com   $0.75

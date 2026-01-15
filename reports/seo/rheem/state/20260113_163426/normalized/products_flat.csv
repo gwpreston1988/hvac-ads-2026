@@ -1,0 +1,1525 @@
+id,name,sku,type,availability,condition,is_visible,price,sale_price,cost_price,retail_price,map_price,calculated_price,inventory_tracking,inventory_level,inventory_warning_level,brand_id,upc,mpn,gtin,weight,width,height,depth,page_title,meta_description,meta_keywords,search_keywords,custom_url,date_created,date_modified,description,warranty,bin_picking_number,layout_file,categories,related_products
+2140,RHEEM WRX05021 - 5 kW Electric Heat Kit,WRX05021,physical,available,New,True,302,241.6,0,302,0,241.6,none,0,0,61,,WRX05021,,10,10,10,8,Rheem 5kW Electric Heat Kit,Rheem 5kW Electric Heat Kit,[],Rheem 5kW Electric Heat Kit,/products/rheem-5kw-electric-heat-kit.html,2023-12-27T20:21:26+00:00,2026-01-08T14:35:56+00:00,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>RHEEM WRX05021 - 5 kW Electric Heat Kit</title>
+</head>
+<body>
+    <div id=""WRX05021-container"">
+        <h1>RHEEM WRX05021 - 5 kW Electric Heat Kit</h1>
+        
+        <div class=""WRX05021-intro"">
+            <p>High-efficiency electric heat kit providing 5kW heating capacity with 17,060 BTU output for supplemental heating in heat pump systems. Designed for residential applications with single-stage operation and professional installation.</p>
+        </div>
+
+        <div class=""WRX05021-feature-grid"">
+            <div class=""WRX05021-feature-card"">
+                <h3>5kW Heating Capacity</h3>
+                <p>Delivers 17,060 BTU of reliable supplemental heating for enhanced comfort during extreme weather conditions.</p>
+            </div>
+            <div class=""WRX05021-feature-card"">
+                <h3>Single-Stage Operation</h3>
+                <p>Reliable single-stage electric heating elements provide consistent and dependable supplemental heat when needed.</p>
+            </div>
+            <div class=""WRX05021-feature-card"">
+                <h3>Professional Grade</h3>
+                <p>Engineered for integration with Rheem heat pump systems and professional installation by certified technicians.</p>
+            </div>
+            <div class=""WRX05021-feature-card"">
+                <h3>Efficient Design</h3>
+                <p>Optimized electrical design with 24.4 amp draw for effective supplemental heating in residential applications.</p>
+            </div>
+        </div>
+
+        <div class=""WRX05021-component"">
+            <h2>Technical Specifications</h2>
+            <p>Complete specifications for the RHEEM WRX05021 electric heat kit, including electrical requirements and performance characteristics.</p>
+            
+            <table id=""WRX05021-specs-table"">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>kW Output</td><td>5 kW</td></tr>
+                    <tr><td>BTU Heating</td><td>17,060 BTU</td></tr>
+                    <tr><td>Voltage</td><td>208/230V</td></tr>
+                    <tr><td>Phase</td><td>1-Phase</td></tr>
+                    <tr><td>Electrical Draw</td><td>24.4 Amps</td></tr>
+                    <tr><td>Heating Stages</td><td>Single-Stage</td></tr>
+                    <tr><td>Brand</td><td>RHEEM</td></tr>
+                    <tr><td>Type</td><td>Electric Heat Kit</td></tr>
+                    <tr><td>Application</td><td>Heat Pump Supplemental Heating</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=""WRX05021-description"">
+            <h2>Performance & Reliability</h2>
+            <p>The RHEEM WRX05021 provides reliable supplemental heating performance for heat pump systems during extreme weather conditions.</p>
+            
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>Supplemental Heating:</strong> 5kW capacity provides essential backup heating for heat pump systems.</li>
+                <li><strong>Reliable Operation:</strong> Single-stage electric heating elements deliver consistent performance.</li>
+                <li><strong>Professional Integration:</strong> Designed for seamless integration with Rheem heat pump systems.</li>
+                <li><strong>Efficient Design:</strong> Optimized electrical characteristics for effective residential heating applications.</li>
+                <li><strong>Weather Protection:</strong> Ensures comfort during extreme cold weather when heat pump efficiency decreases.</li>
+                <li><strong>Professional Grade:</strong> Built for professional installation and long-lasting performance.</li>
+            </ul>
+        </div>
+
+        <div class=""WRX05021-cta-section"">
+            <h2>Professional Installation Required</h2>
+            <p>This electric heat kit requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+        </div>
+    </div>
+
+    <style>
+        #WRX05021-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #WRX05021-container p, #WRX05021-container li, #WRX05021-container td { color: #000000 !important; }
+        #WRX05021-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #WRX05021-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #WRX05021-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .WRX05021-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .WRX05021-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .WRX05021-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .WRX05021-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .WRX05021-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .WRX05021-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX05021-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .WRX05021-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #WRX05021-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #WRX05021-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #WRX05021-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #WRX05021-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #WRX05021-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #WRX05021-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #WRX05021-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #WRX05021-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #WRX05021-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .WRX05021-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .WRX05021-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .WRX05021-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .WRX05021-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .WRX05021-description ul { padding-left: 20px; }
+        .WRX05021-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX05021-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>
+</body>
+</html>",,,product.html,"[1271, 1248]",[-1]
+2141,RHEEM WRX07521 - 7.5 kW Electric Heat Kit,WRX07521,physical,available,New,True,390,312,0,390,0,312,none,0,0,61,,WRX07521,,10,39,47,39,Rheem 7.5kW Electric Heat Kit,Rheem 7.5kW Electric Heat Kit,[],Rheem 8KW Heat Kit WRX07521,/products/rheem-7-5kw-electric-heat-kit.html,2023-12-27T20:22:27+00:00,2026-01-08T14:35:56+00:00,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>RHEEM WRX07521 - 7.5 kW Electric Heat Kit</title>
+</head>
+<body>
+    <div id=""WRX07521-container"">
+        <h1>RHEEM WRX07521 - 7.5 kW Electric Heat Kit</h1>
+        
+        <div class=""WRX07521-intro"">
+            <p>High-efficiency electric heat kit providing 7.5kW heating capacity with 25,590 BTU output for supplemental heating in heat pump systems. Designed for residential applications with single-stage operation and professional installation.</p>
+        </div>
+
+        <div class=""WRX07521-feature-grid"">
+            <div class=""WRX07521-feature-card"">
+                <h3>7.5kW Heating Capacity</h3>
+                <p>Delivers 25,590 BTU of reliable supplemental heating for enhanced comfort during extreme weather conditions.</p>
+            </div>
+            <div class=""WRX07521-feature-card"">
+                <h3>Single-Stage Operation</h3>
+                <p>Reliable single-stage electric heating elements provide consistent and dependable supplemental heat when needed.</p>
+            </div>
+            <div class=""WRX07521-feature-card"">
+                <h3>Professional Grade</h3>
+                <p>Engineered for integration with Rheem heat pump systems and professional installation by certified technicians.</p>
+            </div>
+            <div class=""WRX07521-feature-card"">
+                <h3>Efficient Design</h3>
+                <p>Optimized electrical design with 36.6 amp draw for effective supplemental heating in residential applications.</p>
+            </div>
+        </div>
+
+        <div class=""WRX07521-component"">
+            <h2>Technical Specifications</h2>
+            <p>Complete specifications for the RHEEM WRX07521 electric heat kit, including electrical requirements and performance characteristics.</p>
+            
+            <table id=""WRX07521-specs-table"">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>kW Output</td><td>7.5 kW</td></tr>
+                    <tr><td>BTU Heating</td><td>25,590 BTU</td></tr>
+                    <tr><td>Voltage</td><td>208/230V</td></tr>
+                    <tr><td>Phase</td><td>1-Phase</td></tr>
+                    <tr><td>Electrical Draw</td><td>36.6 Amps</td></tr>
+                    <tr><td>Heating Stages</td><td>Single-Stage</td></tr>
+                    <tr><td>Brand</td><td>RHEEM</td></tr>
+                    <tr><td>Type</td><td>Electric Heat Kit</td></tr>
+                    <tr><td>Application</td><td>Heat Pump Supplemental Heating</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=""WRX07521-description"">
+            <h2>Performance & Reliability</h2>
+            <p>The RHEEM WRX07521 provides reliable supplemental heating performance for heat pump systems during extreme weather conditions.</p>
+            
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>Supplemental Heating:</strong> 7.5kW capacity provides essential backup heating for heat pump systems.</li>
+                <li><strong>Reliable Operation:</strong> Single-stage electric heating elements deliver consistent performance.</li>
+                <li><strong>Professional Integration:</strong> Designed for seamless integration with Rheem heat pump systems.</li>
+                <li><strong>Efficient Design:</strong> Optimized electrical characteristics for effective residential heating applications.</li>
+                <li><strong>Weather Protection:</strong> Ensures comfort during extreme cold weather when heat pump efficiency decreases.</li>
+                <li><strong>Professional Grade:</strong> Built for professional installation and long-lasting performance.</li>
+            </ul>
+        </div>
+
+        <div class=""WRX07521-cta-section"">
+            <h2>Professional Installation Required</h2>
+            <p>This electric heat kit requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+        </div>
+    </div>
+
+    <style>
+        #WRX07521-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #WRX07521-container p, #WRX07521-container li, #WRX07521-container td { color: #000000 !important; }
+        #WRX07521-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #WRX07521-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #WRX07521-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .WRX07521-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .WRX07521-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .WRX07521-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .WRX07521-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .WRX07521-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .WRX07521-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX07521-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .WRX07521-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #WRX07521-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #WRX07521-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #WRX07521-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #WRX07521-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #WRX07521-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #WRX07521-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #WRX07521-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #WRX07521-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #WRX07521-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .WRX07521-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .WRX07521-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .WRX07521-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .WRX07521-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .WRX07521-description ul { padding-left: 20px; }
+        .WRX07521-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX07521-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>
+</body>
+</html>",,,product.html,"[1271, 1248]",[-1]
+2142,RHEEM WRX10021 - 10 kW Electric Heat Kit,WRX10021,physical,available,New,True,395,316,0,395,0,316,none,0,0,61,,WRX10021,,10,39,47,39,Rheem 10kW Electric Heat Kit,Rheem 10kW Electric Heat Kit,[],Rheem 10kW Electric Heat Kit,/products/rheem-10kw-electric-heat-kit.html,2023-12-27T20:23:39+00:00,2026-01-08T14:35:56+00:00,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>RHEEM WRX10021 - 10 kW Electric Heat Kit</title>
+</head>
+<body>
+    <div id=""WRX10021-container"">
+        <h1>RHEEM WRX10021 - 10 kW Electric Heat Kit</h1>
+        
+        <div class=""WRX10021-intro"">
+            <p>High-efficiency electric heat kit providing 10kW heating capacity with 34,120 BTU output for supplemental heating in heat pump systems. Designed for residential applications with single-stage operation and professional installation.</p>
+        </div>
+
+        <div class=""WRX10021-feature-grid"">
+            <div class=""WRX10021-feature-card"">
+                <h3>10kW Heating Capacity</h3>
+                <p>Delivers 34,120 BTU of reliable supplemental heating for enhanced comfort during extreme weather conditions.</p>
+            </div>
+            <div class=""WRX10021-feature-card"">
+                <h3>Single-Stage Operation</h3>
+                <p>Reliable single-stage electric heating elements provide consistent and dependable supplemental heat when needed.</p>
+            </div>
+            <div class=""WRX10021-feature-card"">
+                <h3>Professional Grade</h3>
+                <p>Engineered for integration with Rheem heat pump systems and professional installation by certified technicians.</p>
+            </div>
+            <div class=""WRX10021-feature-card"">
+                <h3>Efficient Design</h3>
+                <p>Optimized electrical design with 48.9 amp draw for effective supplemental heating in residential applications.</p>
+            </div>
+        </div>
+
+        <div class=""WRX10021-component"">
+            <h2>Technical Specifications</h2>
+            <p>Complete specifications for the RHEEM WRX10021 electric heat kit, including electrical requirements and performance characteristics.</p>
+            
+            <table id=""WRX10021-specs-table"">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>kW Output</td><td>10 kW</td></tr>
+                    <tr><td>BTU Heating</td><td>34,120 BTU</td></tr>
+                    <tr><td>Voltage</td><td>208/230V</td></tr>
+                    <tr><td>Phase</td><td>1-Phase</td></tr>
+                    <tr><td>Electrical Draw</td><td>48.9 Amps</td></tr>
+                    <tr><td>Heating Stages</td><td>Single-Stage</td></tr>
+                    <tr><td>Brand</td><td>RHEEM</td></tr>
+                    <tr><td>Type</td><td>Electric Heat Kit</td></tr>
+                    <tr><td>Application</td><td>Heat Pump Supplemental Heating</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=""WRX10021-description"">
+            <h2>Performance & Reliability</h2>
+            <p>The RHEEM WRX10021 provides reliable supplemental heating performance for heat pump systems during extreme weather conditions.</p>
+            
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>Supplemental Heating:</strong> 10kW capacity provides essential backup heating for heat pump systems.</li>
+                <li><strong>Reliable Operation:</strong> Single-stage electric heating elements deliver consistent performance.</li>
+                <li><strong>Professional Integration:</strong> Designed for seamless integration with Rheem heat pump systems.</li>
+                <li><strong>Efficient Design:</strong> Optimized electrical characteristics for effective residential heating applications.</li>
+                <li><strong>Weather Protection:</strong> Ensures comfort during extreme cold weather when heat pump efficiency decreases.</li>
+                <li><strong>Professional Grade:</strong> Built for professional installation and long-lasting performance.</li>
+            </ul>
+        </div>
+
+        <div class=""WRX10021-cta-section"">
+            <h2>Professional Installation Required</h2>
+            <p>This electric heat kit requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+        </div>
+    </div>
+
+    <style>
+        #WRX10021-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #WRX10021-container p, #WRX10021-container li, #WRX10021-container td { color: #000000 !important; }
+        #WRX10021-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #WRX10021-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #WRX10021-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .WRX10021-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .WRX10021-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .WRX10021-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .WRX10021-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .WRX10021-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .WRX10021-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX10021-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .WRX10021-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #WRX10021-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #WRX10021-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #WRX10021-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #WRX10021-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #WRX10021-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #WRX10021-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #WRX10021-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #WRX10021-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #WRX10021-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .WRX10021-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .WRX10021-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .WRX10021-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .WRX10021-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .WRX10021-description ul { padding-left: 20px; }
+        .WRX10021-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX10021-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>
+</body>
+</html>",,,product.html,"[1271, 1248]",[-1]
+2143,RHEEM WRX1502B1 - 15 kW Electric Heat Kit,WRX1502B1,physical,available,New,True,580,464,0,580,0,464,none,0,0,61,,WRX1502B1,,10,39,47,39,Rheem 15kW Electric Heat Kit,Rheem 15kW Electric Heat Kit,[],Rheem 15kW Electric Heat Kit,/products/rheem-15kw-electric-heat-kit.html,2023-12-27T20:24:48+00:00,2026-01-08T14:35:56+00:00,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>RHEEM WRX1502B1 - 15 kW Electric Heat Kit</title>
+</head>
+<body>
+    <div id=""WRX1502B1-container"">
+        <h1>RHEEM WRX1502B1 - 15 kW Electric Heat Kit</h1>
+        
+        <div class=""WRX1502B1-intro"">
+            <p>High-efficiency electric heat kit providing 15kW heating capacity with 51,180 BTU output for supplemental heating in heat pump systems. Designed for residential applications with single-stage operation and professional installation.</p>
+        </div>
+
+        <div class=""WRX1502B1-feature-grid"">
+            <div class=""WRX1502B1-feature-card"">
+                <h3>15kW Heating Capacity</h3>
+                <p>Delivers 51,180 BTU of reliable supplemental heating for enhanced comfort during extreme weather conditions.</p>
+            </div>
+            <div class=""WRX1502B1-feature-card"">
+                <h3>Single-Stage Operation</h3>
+                <p>Reliable single-stage electric heating elements provide consistent and dependable supplemental heat when needed.</p>
+            </div>
+            <div class=""WRX1502B1-feature-card"">
+                <h3>Professional Grade</h3>
+                <p>Engineered for integration with Rheem heat pump systems and professional installation by certified technicians.</p>
+            </div>
+            <div class=""WRX1502B1-feature-card"">
+                <h3>Efficient Design</h3>
+                <p>Optimized electrical design with 73.3 amp draw for effective supplemental heating in residential applications.</p>
+            </div>
+        </div>
+
+        <div class=""WRX1502B1-component"">
+            <h2>Technical Specifications</h2>
+            <p>Complete specifications for the RHEEM WRX1502B1 electric heat kit, including electrical requirements and performance characteristics.</p>
+            
+            <table id=""WRX1502B1-specs-table"">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>kW Output</td><td>15 kW</td></tr>
+                    <tr><td>BTU Heating</td><td>51,180 BTU</td></tr>
+                    <tr><td>Voltage</td><td>208/230V</td></tr>
+                    <tr><td>Phase</td><td>1-Phase</td></tr>
+                    <tr><td>Electrical Draw</td><td>73.3 Amps</td></tr>
+                    <tr><td>Heating Stages</td><td>Single-Stage</td></tr>
+                    <tr><td>Brand</td><td>RHEEM</td></tr>
+                    <tr><td>Type</td><td>Electric Heat Kit</td></tr>
+                    <tr><td>Application</td><td>Heat Pump Supplemental Heating</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=""WRX1502B1-description"">
+            <h2>Performance & Reliability</h2>
+            <p>The RHEEM WRX1502B1 provides reliable supplemental heating performance for heat pump systems during extreme weather conditions.</p>
+            
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>Supplemental Heating:</strong> 15kW capacity provides essential backup heating for heat pump systems.</li>
+                <li><strong>Reliable Operation:</strong> Single-stage electric heating elements deliver consistent performance.</li>
+                <li><strong>Professional Integration:</strong> Designed for seamless integration with Rheem heat pump systems.</li>
+                <li><strong>Efficient Design:</strong> Optimized electrical characteristics for effective residential heating applications.</li>
+                <li><strong>Weather Protection:</strong> Ensures comfort during extreme cold weather when heat pump efficiency decreases.</li>
+                <li><strong>Professional Grade:</strong> Built for professional installation and long-lasting performance.</li>
+            </ul>
+        </div>
+
+        <div class=""WRX1502B1-cta-section"">
+            <h2>Professional Installation Required</h2>
+            <p>This electric heat kit requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+        </div>
+    </div>
+
+    <style>
+        #WRX1502B1-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #WRX1502B1-container p, #WRX1502B1-container li, #WRX1502B1-container td { color: #000000 !important; }
+        #WRX1502B1-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #WRX1502B1-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #WRX1502B1-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .WRX1502B1-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .WRX1502B1-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .WRX1502B1-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .WRX1502B1-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .WRX1502B1-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .WRX1502B1-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX1502B1-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .WRX1502B1-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #WRX1502B1-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #WRX1502B1-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #WRX1502B1-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #WRX1502B1-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #WRX1502B1-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #WRX1502B1-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #WRX1502B1-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #WRX1502B1-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #WRX1502B1-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .WRX1502B1-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .WRX1502B1-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .WRX1502B1-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .WRX1502B1-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .WRX1502B1-description ul { padding-left: 20px; }
+        .WRX1502B1-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .WRX1502B1-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>
+</body>
+</html>",,,product.html,"[1271, 1248]",[-1]
+2182,"RHEEM R801T0503A14UHSNAS - 50,000 BTU 80% AFUE Single Stage Furnace",R801T0503A14UHSNAS,physical,available,New,True,1800,1550,0,1800,0,1550,none,0,0,61,,R801T0503A14UHSNAS,,144,21,34,30,"Rheem 50K BTU 80% UH Gas Furnace Single Stage Constant Torque 14"" R801T0503A14UHSNAS","Rheem 50K BTU 80% UH Gas Furnace Single Stage Constant Torque 14"" R801T0503A14UHSNAS",[],"Rheem 50K BTU 80% UH Gas Furnace Single Stage Constant Torque 14"" R801T0503A14UHSNAS",/products/rheem-50k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0503a14uhsnas.html,2024-01-02T18:21:49+00:00,2026-01-13T19:25:57+00:00,"<p>&nbsp;</p>
+<p></p>
+<div id=""R801T0503A14UHSNAS-container"">
+<h1>RHEEM R801T0503A14UHSNAS - 50,000 BTU 80% AFUE Single Stage Furnace</h1>
+<div class=""R801T0503A14UHSNAS-intro"">
+<p>High-efficiency gas furnace featuring Single Stage heating with 80% AFUE rating and 5-Speed Constant Torque motor technology for superior comfort control and energy savings. Designed for residential applications with EcoNet connectivity and advanced diagnostics.</p>
+</div>
+<div class=""R801T0503A14UHSNAS-feature-grid"">
+<div class=""R801T0503A14UHSNAS-feature-card"">
+<h3>80% AFUE Efficiency</h3>
+<p>Reliable heating performance with 80% AFUE rating delivers exceptional energy savings and reduced operating costs.</p>
+</div>
+<div class=""R801T0503A14UHSNAS-feature-card"">
+<h3>Single Stage</h3>
+<p>Reliable Single Stage heating with 50,000 BTU input provides consistent comfort for residential applications.</p>
+</div>
+<div class=""R801T0503A14UHSNAS-feature-card"">
+<h3>EcoNet Technology</h3>
+<p>Advanced connectivity with Bluetooth technology and PlusOne Diagnostics for smart home integration and remote monitoring.</p>
+</div>
+<div class=""R801T0503A14UHSNAS-feature-card"">
+<h3>Constant Torque Motor</h3>
+<p>5-Speed Constant Torque motor with 1/2 HP delivers precise airflow control between 807-1,298 CFM for optimal comfort.</p>
+</div>
+</div>
+<div class=""R801T0503A14UHSNAS-component"">
+<h2>Technical Specifications</h2>
+<p>Complete specifications for the RHEEM R801T0503A14UHSNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+<table id=""R801T0503A14UHSNAS-specs-table"">
+<thead>
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU Input</td>
+<td>50,000 BTU</td>
+</tr>
+<tr>
+<td>Heating Capacity</td>
+<td>40,000 BTU BTU</td>
+</tr>
+<tr>
+<td>High Altitude Output</td>
+<td>36,000 BTU BTU</td>
+</tr>
+<tr>
+<td>AFUE Rating</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>Series</td>
+<td>R801T</td>
+</tr>
+<tr>
+<td>Heating Stages</td>
+<td>Single Stage</td>
+</tr>
+<tr>
+<td>Motor Type</td>
+<td>Constant Torque</td>
+</tr>
+<tr>
+<td>Motor HP</td>
+<td>1/2 HP</td>
+</tr>
+<tr>
+<td>Motor FLA</td>
+<td>6.1 Amps</td>
+</tr>
+<tr>
+<td>Max CFM</td>
+<td>1,298 CFM</td>
+</tr>
+<tr>
+<td>Min CFM</td>
+<td>807 CFM</td>
+</tr>
+<tr>
+<td>Heating CFM</td>
+<td>965 CFM</td>
+</tr>
+<tr>
+<td>Fan CFM</td>
+<td>807 CFM</td>
+</tr>
+<tr>
+<td>Cabinet Width</td>
+<td>14.5""</td>
+</tr>
+<tr>
+<td>Dimensions (W x D x H)</td>
+<td>14.5"" x 29.59"" x 34""</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>105 lbs</td>
+</tr>
+<tr>
+<td>Voltage</td>
+<td>115V/1Ph/60Hz</td>
+</tr>
+<tr>
+<td>Min Circuit Ampacity</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Min Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Max Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Blower Size</td>
+<td>10 x 6""</td>
+</tr>
+<tr>
+<td>Gas Connection</td>
+<td>1/2 inch NPT NPT</td>
+</tr>
+<tr>
+<td>Gas Type</td>
+<td>Natural Gas</td>
+</tr>
+<tr>
+<td>Temp Rise</td>
+<td>25-55&deg;F</td>
+</tr>
+<tr>
+<td>Max External Static Pressure</td>
+<td>0.9"" WC</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=""R801T0503A14UHSNAS-description"">
+<h2>Advanced Features &amp; Performance</h2>
+<p>The RHEEM R801T0503A14UHSNAS delivers exceptional performance with advanced Single Stage heating technology and smart connectivity features.</p>
+<h3>Key Benefits:</h3>
+<ul>
+<li><strong>80% AFUE:</strong> Reliable heating performance for maximum energy savings and environmental responsibility.</li>
+<li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system for predictive maintenance and troubleshooting.</li>
+<li><strong>Single Stage:</strong> Reliable and consistent heating performance for optimal comfort.</li>
+<li><strong>Constant Torque Motor:</strong> 5-Speed Constant Torque motor adjusts airflow based on system demands for optimal comfort.</li>
+<li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+<li><strong>PlusOne Water Management System:</strong> Advanced condensate management system prevents water damage.</li>
+</ul>
+</div>
+<div class=""R801T0503A14UHSNAS-cta-section"">
+<h2>Professional Installation Required</h2>
+<p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+</div>
+</div>
+<style>
+        #R801T0503A14UHSNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R801T0503A14UHSNAS-container p, #R801T0503A14UHSNAS-container li, #R801T0503A14UHSNAS-container td { color: #000000 !important; }
+        #R801T0503A14UHSNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R801T0503A14UHSNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R801T0503A14UHSNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R801T0503A14UHSNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R801T0503A14UHSNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R801T0503A14UHSNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R801T0503A14UHSNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R801T0503A14UHSNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R801T0503A14UHSNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0503A14UHSNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R801T0503A14UHSNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R801T0503A14UHSNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R801T0503A14UHSNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R801T0503A14UHSNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R801T0503A14UHSNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R801T0503A14UHSNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R801T0503A14UHSNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R801T0503A14UHSNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R801T0503A14UHSNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R801T0503A14UHSNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R801T0503A14UHSNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R801T0503A14UHSNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R801T0503A14UHSNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R801T0503A14UHSNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R801T0503A14UHSNAS-description ul { padding-left: 20px; }
+        .R801T0503A14UHSNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0503A14UHSNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>",,,product.html,"[1248, 1272, 1273]",[-1]
+2183,"RHEEM R801T0754A17UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",R801T0754A17UHSNAS,physical,available,New,True,1875,1650,0,1875,0,1650,none,0,0,61,,R801T0754A17UHSNAS,,144,21,34,30,"Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 17"" R801T0754A17UHSNAS","Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 17"" R801T0754A17UHSNAS",[],"Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 17"" R801T0754A17UHSNAS",/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-17-r801t0754a17uhsnas.html,2024-01-02T18:31:19+00:00,2026-01-13T19:25:46+00:00,"<p>&nbsp;</p>
+<p></p>
+<div id=""R801T0754A17UHSNAS-container"">
+<h1>RHEEM R801T0754A17UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace</h1>
+<div class=""R801T0754A17UHSNAS-intro"">
+<p>High-efficiency gas furnace featuring Single Stage heating with 80% AFUE rating and 5-Speed Constant Torque motor technology for superior comfort control and energy savings. Designed for residential applications with EcoNet connectivity and advanced diagnostics.</p>
+</div>
+<div class=""R801T0754A17UHSNAS-feature-grid"">
+<div class=""R801T0754A17UHSNAS-feature-card"">
+<h3>80% AFUE Efficiency</h3>
+<p>Reliable heating performance with 80% AFUE rating delivers exceptional energy savings and reduced operating costs.</p>
+</div>
+<div class=""R801T0754A17UHSNAS-feature-card"">
+<h3>Single Stage</h3>
+<p>Reliable Single Stage heating with 75,000 BTU input provides consistent comfort for residential applications.</p>
+</div>
+<div class=""R801T0754A17UHSNAS-feature-card"">
+<h3>EcoNet Technology</h3>
+<p>Advanced connectivity with Bluetooth technology and PlusOne Diagnostics for smart home integration and remote monitoring.</p>
+</div>
+<div class=""R801T0754A17UHSNAS-feature-card"">
+<h3>Constant Torque Motor</h3>
+<p>5-Speed Constant Torque motor with 1/2 HP delivers precise airflow control between 635-1,458 CFM for optimal comfort.</p>
+</div>
+</div>
+<div class=""R801T0754A17UHSNAS-component"">
+<h2>Technical Specifications</h2>
+<p>Complete specifications for the RHEEM R801T0754A17UHSNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+<table id=""R801T0754A17UHSNAS-specs-table"">
+<thead>
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU Input</td>
+<td>75,000 BTU</td>
+</tr>
+<tr>
+<td>Heating Capacity</td>
+<td>60,000 BTU BTU</td>
+</tr>
+<tr>
+<td>High Altitude Output</td>
+<td>54,000 BTU BTU</td>
+</tr>
+<tr>
+<td>AFUE Rating</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>Series</td>
+<td>R801T</td>
+</tr>
+<tr>
+<td>Heating Stages</td>
+<td>Single Stage</td>
+</tr>
+<tr>
+<td>Motor Type</td>
+<td>Constant Torque</td>
+</tr>
+<tr>
+<td>Motor HP</td>
+<td>1/2 HP</td>
+</tr>
+<tr>
+<td>Motor FLA</td>
+<td>6.1 Amps</td>
+</tr>
+<tr>
+<td>Max CFM</td>
+<td>1,458 CFM</td>
+</tr>
+<tr>
+<td>Min CFM</td>
+<td>635 CFM</td>
+</tr>
+<tr>
+<td>Heating CFM</td>
+<td>1,222 CFM</td>
+</tr>
+<tr>
+<td>Fan CFM</td>
+<td>635 CFM</td>
+</tr>
+<tr>
+<td>Cabinet Width</td>
+<td>17.5""</td>
+</tr>
+<tr>
+<td>Dimensions (W x D x H)</td>
+<td>17.5"" x 29.59"" x 34""</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>130 lbs</td>
+</tr>
+<tr>
+<td>Voltage</td>
+<td>115V/1Ph/60Hz</td>
+</tr>
+<tr>
+<td>Min Circuit Ampacity</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Min Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Max Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Blower Size</td>
+<td>11 x 8""</td>
+</tr>
+<tr>
+<td>Gas Connection</td>
+<td>1/2 inch NPT NPT</td>
+</tr>
+<tr>
+<td>Gas Type</td>
+<td>Natural Gas</td>
+</tr>
+<tr>
+<td>Temp Rise</td>
+<td>40-70&deg;F</td>
+</tr>
+<tr>
+<td>Max External Static Pressure</td>
+<td>0.9"" WC</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=""R801T0754A17UHSNAS-description"">
+<h2>Advanced Features &amp; Performance</h2>
+<p>The RHEEM R801T0754A17UHSNAS delivers exceptional performance with advanced Single Stage heating technology and smart connectivity features.</p>
+<h3>Key Benefits:</h3>
+<ul>
+<li><strong>80% AFUE:</strong> Reliable heating performance for maximum energy savings and environmental responsibility.</li>
+<li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system for predictive maintenance and troubleshooting.</li>
+<li><strong>Single Stage:</strong> Reliable and consistent heating performance for optimal comfort.</li>
+<li><strong>Constant Torque Motor:</strong> 5-Speed Constant Torque motor adjusts airflow based on system demands for optimal comfort.</li>
+<li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+<li><strong>PlusOne Water Management System:</strong> Advanced condensate management system prevents water damage.</li>
+</ul>
+</div>
+<div class=""R801T0754A17UHSNAS-cta-section"">
+<h2>Professional Installation Required</h2>
+<p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+</div>
+</div>
+<style>
+        #R801T0754A17UHSNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R801T0754A17UHSNAS-container p, #R801T0754A17UHSNAS-container li, #R801T0754A17UHSNAS-container td { color: #000000 !important; }
+        #R801T0754A17UHSNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R801T0754A17UHSNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R801T0754A17UHSNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R801T0754A17UHSNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R801T0754A17UHSNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R801T0754A17UHSNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R801T0754A17UHSNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R801T0754A17UHSNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R801T0754A17UHSNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0754A17UHSNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R801T0754A17UHSNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R801T0754A17UHSNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R801T0754A17UHSNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R801T0754A17UHSNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R801T0754A17UHSNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R801T0754A17UHSNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R801T0754A17UHSNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R801T0754A17UHSNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R801T0754A17UHSNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R801T0754A17UHSNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R801T0754A17UHSNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R801T0754A17UHSNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R801T0754A17UHSNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R801T0754A17UHSNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R801T0754A17UHSNAS-description ul { padding-left: 20px; }
+        .R801T0754A17UHSNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0754A17UHSNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>",,,product.html,"[1248, 1272, 1274]",[-1]
+2184,"RHEEM R801T0754A21UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",R801T0754A21UHSNAS,physical,available,New,True,1935,1750,0,1935,0,1750,none,0,0,61,,R801T0754A21UHSNAS,,135,21,34,30,"Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T0754A21UHSNAS","Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T0754A21UHSNAS",[],"Rheem 75K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T0754A21UHSNAS",/products/rheem-75k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t0754a21uhsnas.html,2024-01-02T18:35:08+00:00,2026-01-13T19:25:38+00:00,"<p>&nbsp;</p>
+<p></p>
+<div id=""R801T0754A21UHSNAS-container"">
+<h1>RHEEM R801T0754A21UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace</h1>
+<div class=""R801T0754A21UHSNAS-intro"">
+<p>High-efficiency gas furnace featuring Single Stage heating with 80% AFUE rating and 5-Speed Constant Torque motor technology for superior comfort control and energy savings. Designed for residential applications with EcoNet connectivity and advanced diagnostics.</p>
+</div>
+<div class=""R801T0754A21UHSNAS-feature-grid"">
+<div class=""R801T0754A21UHSNAS-feature-card"">
+<h3>80% AFUE Efficiency</h3>
+<p>Reliable heating performance with 80% AFUE rating delivers exceptional energy savings and reduced operating costs.</p>
+</div>
+<div class=""R801T0754A21UHSNAS-feature-card"">
+<h3>Single Stage</h3>
+<p>Reliable Single Stage heating with 75,000 BTU input provides consistent comfort for residential applications.</p>
+</div>
+<div class=""R801T0754A21UHSNAS-feature-card"">
+<h3>EcoNet Technology</h3>
+<p>Advanced connectivity with Bluetooth technology and PlusOne Diagnostics for smart home integration and remote monitoring.</p>
+</div>
+<div class=""R801T0754A21UHSNAS-feature-card"">
+<h3>Constant Torque Motor</h3>
+<p>5-Speed Constant Torque motor with 1 HP delivers precise airflow control between 1,154-1,981 CFM for optimal comfort.</p>
+</div>
+</div>
+<div class=""R801T0754A21UHSNAS-component"">
+<h2>Technical Specifications</h2>
+<p>Complete specifications for the RHEEM R801T0754A21UHSNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+<table id=""R801T0754A21UHSNAS-specs-table"">
+<thead>
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU Input</td>
+<td>75,000 BTU</td>
+</tr>
+<tr>
+<td>Heating Capacity</td>
+<td>60,000 BTU BTU</td>
+</tr>
+<tr>
+<td>High Altitude Output</td>
+<td>54,000 BTU BTU</td>
+</tr>
+<tr>
+<td>AFUE Rating</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>Series</td>
+<td>R801T</td>
+</tr>
+<tr>
+<td>Heating Stages</td>
+<td>Single Stage</td>
+</tr>
+<tr>
+<td>Motor Type</td>
+<td>Constant Torque</td>
+</tr>
+<tr>
+<td>Motor HP</td>
+<td>1 HP</td>
+</tr>
+<tr>
+<td>Motor FLA</td>
+<td>12.4 Amps</td>
+</tr>
+<tr>
+<td>Max CFM</td>
+<td>1,981 CFM</td>
+</tr>
+<tr>
+<td>Min CFM</td>
+<td>1,154 CFM</td>
+</tr>
+<tr>
+<td>Heating CFM</td>
+<td>1,450 CFM</td>
+</tr>
+<tr>
+<td>Fan CFM</td>
+<td>1,154 CFM</td>
+</tr>
+<tr>
+<td>Cabinet Width</td>
+<td>21.0""</td>
+</tr>
+<tr>
+<td>Dimensions (W x D x H)</td>
+<td>21.0"" x 29.59"" x 34""</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>145 lbs</td>
+</tr>
+<tr>
+<td>Voltage</td>
+<td>115V/1Ph/60Hz</td>
+</tr>
+<tr>
+<td>Min Circuit Ampacity</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Min Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Max Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Blower Size</td>
+<td>11 x 10""</td>
+</tr>
+<tr>
+<td>Gas Connection</td>
+<td>1/2 inch NPT NPT</td>
+</tr>
+<tr>
+<td>Gas Type</td>
+<td>Natural Gas</td>
+</tr>
+<tr>
+<td>Temp Rise</td>
+<td>30-60&deg;F</td>
+</tr>
+<tr>
+<td>Max External Static Pressure</td>
+<td>0.9"" WC</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=""R801T0754A21UHSNAS-description"">
+<h2>Advanced Features &amp; Performance</h2>
+<p>The RHEEM R801T0754A21UHSNAS delivers exceptional performance with advanced Single Stage heating technology and smart connectivity features.</p>
+<h3>Key Benefits:</h3>
+<ul>
+<li><strong>80% AFUE:</strong> Reliable heating performance for maximum energy savings and environmental responsibility.</li>
+<li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system for predictive maintenance and troubleshooting.</li>
+<li><strong>Single Stage:</strong> Reliable and consistent heating performance for optimal comfort.</li>
+<li><strong>Constant Torque Motor:</strong> 5-Speed Constant Torque motor adjusts airflow based on system demands for optimal comfort.</li>
+<li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+<li><strong>PlusOne Water Management System:</strong> Advanced condensate management system prevents water damage.</li>
+</ul>
+</div>
+<div class=""R801T0754A21UHSNAS-cta-section"">
+<h2>Professional Installation Required</h2>
+<p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+</div>
+</div>
+<style>
+        #R801T0754A21UHSNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R801T0754A21UHSNAS-container p, #R801T0754A21UHSNAS-container li, #R801T0754A21UHSNAS-container td { color: #000000 !important; }
+        #R801T0754A21UHSNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R801T0754A21UHSNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R801T0754A21UHSNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R801T0754A21UHSNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R801T0754A21UHSNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R801T0754A21UHSNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R801T0754A21UHSNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R801T0754A21UHSNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R801T0754A21UHSNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0754A21UHSNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R801T0754A21UHSNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R801T0754A21UHSNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R801T0754A21UHSNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R801T0754A21UHSNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R801T0754A21UHSNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R801T0754A21UHSNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R801T0754A21UHSNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R801T0754A21UHSNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R801T0754A21UHSNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R801T0754A21UHSNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R801T0754A21UHSNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R801T0754A21UHSNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R801T0754A21UHSNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R801T0754A21UHSNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R801T0754A21UHSNAS-description ul { padding-left: 20px; }
+        .R801T0754A21UHSNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T0754A21UHSNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>",,,product.html,"[1248, 1272, 1274]",[-1]
+2185,"RHEEM R801T1005A21UHSNAS - 100,000 BTU 80% AFUE Single Stage Furnace",R801T1005A21UHSNAS,physical,available,New,True,2050,1850,0,2050,0,1850,none,0,0,61,,R801T1005A21UHSNAS,,144,21,34,30,"Rheem 100K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T1005A21UHSNAS","Rheem 100K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T1005A21UHSNAS",[],"Rheem 100K BTU 80% UH Gas Furnace Single Stage Constant Torque 21"" R801T1005A21UHSNAS",/products/rheem-100k-btu-80-uh-gas-furnace-single-stage-constant-torque-21-r801t1005a21uhsnas.html,2024-01-02T18:38:31+00:00,2026-01-13T19:25:22+00:00,"<p>&nbsp;</p>
+<p></p>
+<div id=""R801T1005A21UHSNAS-container"">
+<h1>RHEEM R801T1005A21UHSNAS - 100,000 BTU 80% AFUE Single Stage Furnace</h1>
+<div class=""R801T1005A21UHSNAS-intro"">
+<p>High-efficiency gas furnace featuring Single Stage heating with 80% AFUE rating and 5-Speed Constant Torque motor technology for superior comfort control and energy savings. Designed for residential applications with EcoNet connectivity and advanced diagnostics.</p>
+</div>
+<div class=""R801T1005A21UHSNAS-feature-grid"">
+<div class=""R801T1005A21UHSNAS-feature-card"">
+<h3>80% AFUE Efficiency</h3>
+<p>Reliable heating performance with 80% AFUE rating delivers exceptional energy savings and reduced operating costs.</p>
+</div>
+<div class=""R801T1005A21UHSNAS-feature-card"">
+<h3>Single Stage</h3>
+<p>Reliable Single Stage heating with 100,000 BTU input provides consistent comfort for residential applications.</p>
+</div>
+<div class=""R801T1005A21UHSNAS-feature-card"">
+<h3>EcoNet Technology</h3>
+<p>Advanced connectivity with Bluetooth technology and PlusOne Diagnostics for smart home integration and remote monitoring.</p>
+</div>
+<div class=""R801T1005A21UHSNAS-feature-card"">
+<h3>Constant Torque Motor</h3>
+<p>5-Speed Constant Torque motor with 1 HP delivers precise airflow control between 1,336-2,063 CFM for optimal comfort.</p>
+</div>
+</div>
+<div class=""R801T1005A21UHSNAS-component"">
+<h2>Technical Specifications</h2>
+<p>Complete specifications for the RHEEM R801T1005A21UHSNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+<table id=""R801T1005A21UHSNAS-specs-table"">
+<thead>
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU Input</td>
+<td>100,000 BTU</td>
+</tr>
+<tr>
+<td>Heating Capacity</td>
+<td>80,000 BTU BTU</td>
+</tr>
+<tr>
+<td>High Altitude Output</td>
+<td>72,000 BTU BTU</td>
+</tr>
+<tr>
+<td>AFUE Rating</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>Series</td>
+<td>R801T</td>
+</tr>
+<tr>
+<td>Heating Stages</td>
+<td>Single Stage</td>
+</tr>
+<tr>
+<td>Motor Type</td>
+<td>Constant Torque</td>
+</tr>
+<tr>
+<td>Motor HP</td>
+<td>1 HP</td>
+</tr>
+<tr>
+<td>Motor FLA</td>
+<td>12.4 Amps</td>
+</tr>
+<tr>
+<td>Max CFM</td>
+<td>2,063 CFM</td>
+</tr>
+<tr>
+<td>Min CFM</td>
+<td>1,336 CFM</td>
+</tr>
+<tr>
+<td>Heating CFM</td>
+<td>1,574 CFM</td>
+</tr>
+<tr>
+<td>Fan CFM</td>
+<td>1,336 CFM</td>
+</tr>
+<tr>
+<td>Cabinet Width</td>
+<td>21.0""</td>
+</tr>
+<tr>
+<td>Dimensions (W x D x H)</td>
+<td>21.0"" x 29.59"" x 34""</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>150 lbs</td>
+</tr>
+<tr>
+<td>Voltage</td>
+<td>115V/1Ph/60Hz</td>
+</tr>
+<tr>
+<td>Min Circuit Ampacity</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Min Overload Protection</td>
+<td>20 Amps</td>
+</tr>
+<tr>
+<td>Max Overload Protection</td>
+<td>20 Amps</td>
+</tr>
+<tr>
+<td>Blower Size</td>
+<td>11 x 10""</td>
+</tr>
+<tr>
+<td>Gas Connection</td>
+<td>1/2 inch NPT NPT</td>
+</tr>
+<tr>
+<td>Gas Type</td>
+<td>Natural Gas</td>
+</tr>
+<tr>
+<td>Temp Rise</td>
+<td>40-70&deg;F</td>
+</tr>
+<tr>
+<td>Max External Static Pressure</td>
+<td>0.9"" WC</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=""R801T1005A21UHSNAS-description"">
+<h2>Advanced Features &amp; Performance</h2>
+<p>The RHEEM R801T1005A21UHSNAS delivers exceptional performance with advanced Single Stage heating technology and smart connectivity features.</p>
+<h3>Key Benefits:</h3>
+<ul>
+<li><strong>80% AFUE:</strong> Reliable heating performance for maximum energy savings and environmental responsibility.</li>
+<li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system for predictive maintenance and troubleshooting.</li>
+<li><strong>Single Stage:</strong> Reliable and consistent heating performance for optimal comfort.</li>
+<li><strong>Constant Torque Motor:</strong> 5-Speed Constant Torque motor adjusts airflow based on system demands for optimal comfort.</li>
+<li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+<li><strong>PlusOne Water Management System:</strong> Advanced condensate management system prevents water damage.</li>
+</ul>
+</div>
+<div class=""R801T1005A21UHSNAS-cta-section"">
+<h2>Professional Installation Required</h2>
+<p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+</div>
+</div>
+<style>
+        #R801T1005A21UHSNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R801T1005A21UHSNAS-container p, #R801T1005A21UHSNAS-container li, #R801T1005A21UHSNAS-container td { color: #000000 !important; }
+        #R801T1005A21UHSNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R801T1005A21UHSNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R801T1005A21UHSNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R801T1005A21UHSNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R801T1005A21UHSNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R801T1005A21UHSNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R801T1005A21UHSNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R801T1005A21UHSNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R801T1005A21UHSNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T1005A21UHSNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R801T1005A21UHSNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R801T1005A21UHSNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R801T1005A21UHSNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R801T1005A21UHSNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R801T1005A21UHSNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R801T1005A21UHSNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R801T1005A21UHSNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R801T1005A21UHSNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R801T1005A21UHSNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R801T1005A21UHSNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R801T1005A21UHSNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R801T1005A21UHSNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R801T1005A21UHSNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R801T1005A21UHSNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R801T1005A21UHSNAS-description ul { padding-left: 20px; }
+        .R801T1005A21UHSNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T1005A21UHSNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>",,,product.html,"[1248, 1272, 1276]",[-1]
+2186,"RHEEM R801T1255A24UHSNAS - 125,000 BTU 80% AFUE Single Stage Furnace",R801T1255A24UHSNAS,physical,available,New,True,2100,1950,0,2100,0,1950,none,0,0,61,,R801T1255A24UHSNAS,,144,21,34,30,"Rheem 125K BTU 80% UH Gas Furnace Single Stage Constant Torque 24"" R801T1255A24UHSNAS","Rheem 125K BTU 80% UH Gas Furnace Single Stage Constant Torque 24"" R801T1255A24UHSNAS",[],"Rheem 125K BTU 80% UH Gas Furnace Single Stage Constant Torque 24"" R801T1255A24UHSNAS",/products/rheem-125k-btu-80-uh-gas-furnace-single-stage-constant-torque-24-r801t1255a24uhsnas.html,2024-01-02T18:40:45+00:00,2026-01-13T19:25:04+00:00,"<p>&nbsp;</p>
+<p></p>
+<div id=""R801T1255A24UHSNAS-container"">
+<h1>RHEEM R801T1255A24UHSNAS - 125,000 BTU 80% AFUE Single Stage Furnace</h1>
+<div class=""R801T1255A24UHSNAS-intro"">
+<p>High-efficiency gas furnace featuring Single Stage heating with 80% AFUE rating and 5-Speed Constant Torque motor technology for superior comfort control and energy savings. Designed for residential applications with EcoNet connectivity and advanced diagnostics.</p>
+</div>
+<div class=""R801T1255A24UHSNAS-feature-grid"">
+<div class=""R801T1255A24UHSNAS-feature-card"">
+<h3>80% AFUE Efficiency</h3>
+<p>Reliable heating performance with 80% AFUE rating delivers exceptional energy savings and reduced operating costs.</p>
+</div>
+<div class=""R801T1255A24UHSNAS-feature-card"">
+<h3>Single Stage</h3>
+<p>Reliable Single Stage heating with 125,000 BTU input provides consistent comfort for residential applications.</p>
+</div>
+<div class=""R801T1255A24UHSNAS-feature-card"">
+<h3>EcoNet Technology</h3>
+<p>Advanced connectivity with Bluetooth technology and PlusOne Diagnostics for smart home integration and remote monitoring.</p>
+</div>
+<div class=""R801T1255A24UHSNAS-feature-card"">
+<h3>Constant Torque Motor</h3>
+<p>5-Speed Constant Torque motor with 1 HP delivers precise airflow control between 1,406-1,996 CFM for optimal comfort.</p>
+</div>
+</div>
+<div class=""R801T1255A24UHSNAS-component"">
+<h2>Technical Specifications</h2>
+<p>Complete specifications for the RHEEM R801T1255A24UHSNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+<table id=""R801T1255A24UHSNAS-specs-table"">
+<thead>
+<tr>
+<th>Specification</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU Input</td>
+<td>125,000 BTU</td>
+</tr>
+<tr>
+<td>Heating Capacity</td>
+<td>100,000 BTU BTU</td>
+</tr>
+<tr>
+<td>High Altitude Output</td>
+<td>90,000 BTU BTU</td>
+</tr>
+<tr>
+<td>AFUE Rating</td>
+<td>80%</td>
+</tr>
+<tr>
+<td>Series</td>
+<td>R801T</td>
+</tr>
+<tr>
+<td>Heating Stages</td>
+<td>Single Stage</td>
+</tr>
+<tr>
+<td>Motor Type</td>
+<td>Constant Torque</td>
+</tr>
+<tr>
+<td>Motor HP</td>
+<td>1 HP</td>
+</tr>
+<tr>
+<td>Motor FLA</td>
+<td>12.4 Amps</td>
+</tr>
+<tr>
+<td>Max CFM</td>
+<td>1,996 CFM</td>
+</tr>
+<tr>
+<td>Min CFM</td>
+<td>1,406 CFM</td>
+</tr>
+<tr>
+<td>Heating CFM</td>
+<td>1,696 CFM</td>
+</tr>
+<tr>
+<td>Fan CFM</td>
+<td>1,406 CFM</td>
+</tr>
+<tr>
+<td>Cabinet Width</td>
+<td>24.5""</td>
+</tr>
+<tr>
+<td>Dimensions (W x D x H)</td>
+<td>24.5"" x 29.59"" x 34""</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>175 lbs</td>
+</tr>
+<tr>
+<td>Voltage</td>
+<td>115V/1Ph/60Hz</td>
+</tr>
+<tr>
+<td>Min Circuit Ampacity</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Min Overload Protection</td>
+<td>15 Amps</td>
+</tr>
+<tr>
+<td>Max Overload Protection</td>
+<td>20 Amps</td>
+</tr>
+<tr>
+<td>Blower Size</td>
+<td>11 x 11""</td>
+</tr>
+<tr>
+<td>Gas Connection</td>
+<td>1/2 inch NPT NPT</td>
+</tr>
+<tr>
+<td>Gas Type</td>
+<td>Natural Gas</td>
+</tr>
+<tr>
+<td>Temp Rise</td>
+<td>45-75&deg;F</td>
+</tr>
+<tr>
+<td>Max External Static Pressure</td>
+<td>0.9"" WC</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=""R801T1255A24UHSNAS-description"">
+<h2>Advanced Features &amp; Performance</h2>
+<p>The RHEEM R801T1255A24UHSNAS delivers exceptional performance with advanced Single Stage heating technology and smart connectivity features.</p>
+<h3>Key Benefits:</h3>
+<ul>
+<li><strong>80% AFUE:</strong> Reliable heating performance for maximum energy savings and environmental responsibility.</li>
+<li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system for predictive maintenance and troubleshooting.</li>
+<li><strong>Single Stage:</strong> Reliable and consistent heating performance for optimal comfort.</li>
+<li><strong>Constant Torque Motor:</strong> 5-Speed Constant Torque motor adjusts airflow based on system demands for optimal comfort.</li>
+<li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+<li><strong>PlusOne Water Management System:</strong> Advanced condensate management system prevents water damage.</li>
+<li>&nbsp;</li>
+</ul>
+</div>
+<div class=""R801T1255A24UHSNAS-cta-section"">
+<h2>Professional Installation Required</h2>
+<p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+</div>
+</div>
+<style>
+        #R801T1255A24UHSNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R801T1255A24UHSNAS-container p, #R801T1255A24UHSNAS-container li, #R801T1255A24UHSNAS-container td { color: #000000 !important; }
+        #R801T1255A24UHSNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R801T1255A24UHSNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R801T1255A24UHSNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R801T1255A24UHSNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R801T1255A24UHSNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R801T1255A24UHSNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R801T1255A24UHSNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R801T1255A24UHSNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R801T1255A24UHSNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T1255A24UHSNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R801T1255A24UHSNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R801T1255A24UHSNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R801T1255A24UHSNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R801T1255A24UHSNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R801T1255A24UHSNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R801T1255A24UHSNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R801T1255A24UHSNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R801T1255A24UHSNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R801T1255A24UHSNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R801T1255A24UHSNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R801T1255A24UHSNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R801T1255A24UHSNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R801T1255A24UHSNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R801T1255A24UHSNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R801T1255A24UHSNAS-description ul { padding-left: 20px; }
+        .R801T1255A24UHSNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R801T1255A24UHSNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>",,,product.html,"[1248, 1272, 1277]",[-1]
+2187,"RHEEM R921T0403A17M4SNAS - 40,000 BTU 92% AFUE Single Stage Furnace",R921T0403A17M4SNAS,physical,available,New,True,2175,1740,0,2175,0,1740,none,0,0,61,,R921T0403A17M4SNAS,,190,21,34,30,"Rheem 92% 40K BTU Gas Furnace 17"" Wide R921T0403A17M4SNAS","Rheem 92% 40K BTU Gas Furnace 17"" Wide R921T0403A17M4SNAS",[],"Rheem 92% 40K BTU Gas Furnace 17"" Wide R921T0403A17M4SNAS",/products/rheem-92-40k-btu-gas-furnace-17-wide-r921t0403a17m4snas.html,2024-01-02T19:11:01+00:00,2026-01-08T14:35:56+00:00,"<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>RHEEM R921T0403A17M4SNAS - 40,000 BTU 92% AFUE Single Stage Furnace</title>
+</head>
+<body>
+    <div id=""R921T0403A17M4SNAS-container"">
+        <h1>RHEEM R921T0403A17M4SNAS - 40,000 BTU 92% AFUE Single Stage Furnace</h1>
+        
+        <div class=""R921T0403A17M4SNAS-intro"">
+            <p>High-efficiency gas furnace featuring Single Stage heating with 92% AFUE rating and Constant Torque motor technology for reliable comfort control and energy savings. Designed for residential applications with PlusOne diagnostics.</p>
+        </div>
+
+        <div class=""R921T0403A17M4SNAS-feature-grid"">
+            <div class=""R921T0403A17M4SNAS-feature-card"">
+                <h3>92% AFUE Efficiency</h3>
+                <p>ENERGY STAR Certified (South) with 92% AFUE rating delivers excellent energy savings and reduced operating costs.</p>
+            </div>
+            <div class=""R921T0403A17M4SNAS-feature-card"">
+                <h3>Single Stage Heating</h3>
+                <p>Reliable 40,000 BTU input capacity provides consistent heating performance for optimal comfort.</p>
+            </div>
+            <div class=""R921T0403A17M4SNAS-feature-card"">
+                <h3>Constant Torque Motor</h3>
+                <p>Constant Torque motor with 1/2 HP delivers precise airflow control between 807-1,298 CFM.</p>
+            </div>
+            <div class=""R921T0403A17M4SNAS-feature-card"">
+                <h3>PlusOne Diagnostics</h3>
+                <p>Advanced diagnostic system with 7-Segment LED display for predictive maintenance and troubleshooting.</p>
+            </div>
+        </div>
+
+        <div class=""R921T0403A17M4SNAS-component"">
+            <h2>Technical Specifications</h2>
+            <p>Complete specifications for the RHEEM R921T0403A17M4SNAS furnace, including performance ratings, electrical requirements, and physical dimensions.</p>
+            
+            <table id=""R921T0403A17M4SNAS-specs-table"">
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>BTU Input</td><td>42,000 BTU</td></tr>
+                    <tr><td>Heating Capacity</td><td>39,900 BTU</td></tr>
+                    <tr><td>High Altitude Output</td><td>35,910 BTU</td></tr>
+                    <tr><td>AFUE Rating</td><td>92%</td></tr>
+                    <tr><td>Series</td><td>R921T</td></tr>
+                    <tr><td>Heating Stages</td><td>Single Stage</td></tr>
+                    <tr><td>Motor Type</td><td>Constant Torque</td></tr>
+                    <tr><td>Motor HP</td><td>1/2 HP</td></tr>
+                    <tr><td>Motor FLA</td><td>6.1 Amps</td></tr>
+                    <tr><td>Max CFM</td><td>1,298 CFM</td></tr>
+                    <tr><td>Min CFM</td><td>807 CFM</td></tr>
+                    <tr><td>Heating CFM</td><td>965 CFM</td></tr>
+                    <tr><td>Fan CFM</td><td>807 CFM</td></tr>
+                    <tr><td>Cabinet Width</td><td>17.5""</td></tr>
+                    <tr><td>Dimensions (W x D x H)</td><td>17.5"" x 29.63"" x 34""</td></tr>
+                    <tr><td>Weight</td><td>123 lbs</td></tr>
+                    <tr><td>Voltage</td><td>115V/1Ph/60Hz</td></tr>
+                    <tr><td>Min Circuit Ampacity</td><td>9</td></tr>
+                    <tr><td>Min Overload Protection</td><td>15 Amps</td></tr>
+                    <tr><td>Max Overload Protection</td><td>15 Amps</td></tr>
+                    <tr><td>Blower Size</td><td>11 x 7""</td></tr>
+                    <tr><td>Gas Connection</td><td>1/2"" NPT</td></tr>
+                    <tr><td>Gas Type</td><td>Natural Gas</td></tr>
+                    <tr><td>Temperature Rise</td><td>25-55°F</td></tr>
+                    <tr><td>Max External Static Pressure</td><td>0.9"" WC</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class=""R921T0403A17M4SNAS-description"">
+            <h2>Advanced Features & Performance</h2>
+            <p>The RHEEM R921T0403A17M4SNAS delivers exceptional performance with advanced Single Stage heating technology and reliable motor control features.</p>
+            
+            <h3>Key Benefits:</h3>
+            <ul>
+                <li><strong>92% AFUE Efficiency:</strong> ENERGY STAR Certified (South) for excellent energy savings and environmental responsibility.</li>
+                <li><strong>PlusOne Diagnostics:</strong> Advanced diagnostic system with 7-Segment LED for predictive maintenance and troubleshooting.</li>
+                <li><strong>Constant Torque Motor:</strong> Constant Torque motor adjusts airflow for optimal comfort and efficiency.</li>
+                <li><strong>Single Stage Heating:</strong> Reliable heating performance with consistent temperature control.</li>
+                <li><strong>Direct Spark Ignition:</strong> Reliable ignition system with enhanced safety and efficiency.</li>
+                <li><strong>PlusOne Water Management:</strong> Advanced condensate management system prevents water damage.</li>
+                <li><strong>4-Way Multi-Position:</strong> Flexible installation options for upflow, downflow, left, or right horizontal configurations.</li>
+                <li><strong>Blocked Drain Sensor:</strong> Enhanced safety monitoring with automatic system protection.</li>
+            </ul>
+        </div>
+
+        <div class=""R921T0403A17M4SNAS-cta-section"">
+            <h2>Professional Installation Required</h2>
+            <p>This high-efficiency furnace requires professional installation by certified HVAC technicians for optimal performance and warranty compliance.</p>
+        </div>
+    </div>
+
+    <style>
+        #R921T0403A17M4SNAS-container { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: min(20px, 5vw); line-height: 1.6; color: #000000; }
+        #R921T0403A17M4SNAS-container p, #R921T0403A17M4SNAS-container li, #R921T0403A17M4SNAS-container td { color: #000000 !important; }
+        #R921T0403A17M4SNAS-container h1 { color: #D53938; border-bottom: 3px solid #D53938; padding-bottom: 10px; margin-bottom: 20px; font-size: clamp(1.5rem, 4vw, 2.5rem); }
+        #R921T0403A17M4SNAS-container h2 { color: #D53938; margin-top: 30px; margin-bottom: 15px; font-size: clamp(1.2rem, 3vw, 1.8rem); }
+        #R921T0403A17M4SNAS-container h3 { color: #57A9F9; margin-top: 20px; margin-bottom: 10px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        .R921T0403A17M4SNAS-intro p { font-size: clamp(0.9rem, 2vw, 1.1rem); margin-bottom: 20px; }
+        .R921T0403A17M4SNAS-feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: clamp(15px, 3vw, 20px); margin: 30px 0; }
+        .R921T0403A17M4SNAS-feature-card { padding: clamp(15px, 4vw, 20px); background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: all 0.3s ease; border-top: 3px solid #D53938; }
+        .R921T0403A17M4SNAS-feature-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.15); }
+        .R921T0403A17M4SNAS-feature-card h3 { color: #D53938; margin-top: 0; font-size: clamp(1rem, 2.5vw, 1.2rem); }
+        .R921T0403A17M4SNAS-feature-card p { font-size: clamp(0.85rem, 2vw, 1rem); line-height: 1.4; }
+        .R921T0403A17M4SNAS-component { margin: clamp(20px, 5vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: #fafafa; border-radius: 10px; border-left: 4px solid #D53938; }
+        .R921T0403A17M4SNAS-component p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+        #R921T0403A17M4SNAS-container table { width: 100%; border-collapse: separate; border-spacing: 0; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin-top: 20px; }
+        #R921T0403A17M4SNAS-container table thead { background: linear-gradient(135deg, #D53938 0%, #b32d2c 100%); color: white; }
+        #R921T0403A17M4SNAS-container table th { padding: clamp(12px, 3vw, 18px); text-align: left; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; font-size: clamp(1rem, 2.5vw, 1.3rem); }
+        #R921T0403A17M4SNAS-container table td { padding: clamp(12px, 3vw, 16px) clamp(12px, 3vw, 18px); transition: all 0.3s ease; font-size: clamp(0.95rem, 2.2vw, 1.1rem); border-bottom: 1px solid #e8e8e8; }
+        #R921T0403A17M4SNAS-container table tbody tr { transition: all 0.3s ease; cursor: pointer; position: relative; }
+        #R921T0403A17M4SNAS-container table tbody tr:nth-child(odd) { background-color: #f8f9fa; }
+        #R921T0403A17M4SNAS-container table tbody tr:nth-child(even) { background-color: #e8f4fd; }
+        #R921T0403A17M4SNAS-container table tbody tr:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); background: linear-gradient(90deg, #57A9F9 0%, #4a93db 100%) !important; color: white !important; z-index: 10; }
+        #R921T0403A17M4SNAS-container table tbody tr:hover td { color: white !important; font-weight: 600 !important; border-bottom-color: rgba(255,255,255,0.2) !important; }
+        .R921T0403A17M4SNAS-cta-section { background: linear-gradient(135deg, #57A9F9 0%, #4a93db 100%); color: white !important; padding: clamp(20px, 5vw, 30px); border-radius: 8px; text-align: center; margin-top: clamp(30px, 6vw, 40px); }
+        .R921T0403A17M4SNAS-cta-section h2 { color: white !important; font-size: clamp(1.2rem, 3vw, 1.8rem); margin-top: 0; margin-bottom: 15px; }
+        .R921T0403A17M4SNAS-cta-section p { color: white !important; font-size: clamp(0.9rem, 2vw, 1.1rem); line-height: 1.5; margin-bottom: 0; }
+        .R921T0403A17M4SNAS-description { margin: clamp(30px, 6vw, 40px) 0; padding: clamp(15px, 4vw, 20px); background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .R921T0403A17M4SNAS-description ul { padding-left: 20px; }
+        .R921T0403A17M4SNAS-description li { margin-bottom: 10px; font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.4; }
+        .R921T0403A17M4SNAS-description p { font-size: clamp(0.9rem, 2vw, 1rem); line-height: 1.5; }
+    </style>
+</body>
+</html>",,,product.html,"[1248, 1278, 1279]",[-1]

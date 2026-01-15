@@ -1,0 +1,909 @@
+{
+  "extracted_at": "2026-01-15T20:23:32.271328Z",
+  "count": 8,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/adGroupAds/161992105091~683428992187",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "Best Prices For HVAC Supplies",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Buy Comfort Direct",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Westinghouse HVAC Equipment",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Comfort Solutions",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Space-Saving Heaters",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heat Specials",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Smart HVAC Savings",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Heat Up, Spend Less",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Furnace Parts Online",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Save Big on Furnaces",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Sizzling AC Discounts",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Energy-Efficient Heating",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Indoor Heating Comfort",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heating Sale",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Heating Specials",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Stay warm all winter with our reliable and affordable heating systems.",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Transform your home with our high-efficiency heating solutions.",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Keep your home toasty and bills low with our heating systems.",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Reliable warmth all winter: Discover our efficient furnace range.",
+              "assetPerformanceLabel": "BEST",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/683428992187",
+        "id": "683428992187",
+        "finalUrls": [
+          "https://buycomfortdirect.com/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/154784588541~688320130500",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "Hvac Systems and Parts",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Buy Comfort Direct",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Heat & Cool Your Home",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "HVAC Units For Less",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Official Rheem Dealer",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Call For Best Price",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Smart HVAC Savings",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Buy HVAC Online Today",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "All Major Brands In Stock",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Goodman Heating & Air",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Sizzling AC Discounts",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Shop Our Wide Selection",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Free Shipping On Orders",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Fast, Reliable Shipping",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Need HVAC Parts?",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Get the best HVAC systems & parts from top brands like Goodman and Rheem.",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Browse our massive inventory of residential HVAC products, parts, and accessories today",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Need help choosing? Our HVAC experts are ready to assist you. Find your perfect solution!",
+              "assetPerformanceLabel": "GOOD",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Your one-stop shop for heating and cooling products!",
+              "assetPerformanceLabel": "LEARNING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/688320130500",
+        "id": "688320130500",
+        "finalUrls": [
+          "https://buycomfortdirect.com/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/154784588541"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/162465487154~692274507275",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "Best Prices For HVAC Supplies",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Buy Comfort Direct",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Westinghouse HVAC Equipment",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Comfort Solutions",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Space-Saving Heaters",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heat Specials",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Smart HVAC Savings",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Heat Up, Spend Less",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Furnace Parts Online",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Save Big on Furnaces",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Sizzling AC Discounts",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Energy-Efficient Heating",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Indoor Heating Comfort",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heating Sale",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Heating Specials",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Stay warm all winter with our reliable and affordable heating systems.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Transform your home with our high-efficiency heating solutions.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Keep your home toasty and bills low with our heating systems.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Reliable warmth all winter: Discover our efficient furnace range.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/692274507275",
+        "id": "692274507275",
+        "finalUrls": [
+          "https://buycomfortdirect.com/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/163319302746~703401091621",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "Best Prices For HVAC Supplies",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Buy Comfort Direct",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Westinghouse HVAC Equipment",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Comfort Solutions",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Space-Saving Heaters",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heat Specials",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Smart HVAC Savings",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Heat Up, Spend Less",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Furnace Parts Online",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Save Big on Furnaces",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Sizzling AC Discounts",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Energy-Efficient Heating",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Indoor Heating Comfort",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Winter Heating Sale",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Home Heating Specials",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Stay warm all winter with our reliable and affordable heating systems.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Transform your home with our high-efficiency heating solutions.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Keep your home toasty and bills low with our heating systems.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Reliable warmth all winter: Discover our efficient furnace range.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/703401091621",
+        "id": "703401091621",
+        "finalUrls": [
+          "https://buycomfortdirect.com/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/163319302746"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/190099169894~791911610058",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "High Efficency Gas Furnaces",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "High-Efficiency Furnaces",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Save on Energy Bills",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Shop high efficiency furnaces at wholesale prices. Free shipping on orders over $99.00",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "High-efficiency gas furnaces with variable speed options. Top brands at great prices.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/791911610058",
+        "id": "791911610058",
+        "finalUrls": [
+          "https://buycomfortdirect.com/solace/furnaces/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/190099169934~792032223053",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "SEER2 Rated Heat Pumps",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "High-Efficiency Heat Pumps",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "14.3-17.5 SEER Models",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Shop high SEER2 heat pumps at wholesale prices. Energy-efficient heating and cooling.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "HHigh-efficiency heat pumps. Free shipping for all orders over $99.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/792032223053",
+        "id": "792032223053",
+        "finalUrls": [
+          "https://buycomfortdirect.com/solace/heat-pumps/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/190099169974~792032224466",
+      "status": "ENABLED",
+      "ad": {
+        "type": "RESPONSIVE_SEARCH_AD",
+        "responsiveSearchAd": {
+          "headlines": [
+            {
+              "text": "Solace HVAC Systems",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Quality Without Brand Tax",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Same Quality Lower Price",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ],
+          "descriptions": [
+            {
+              "text": "Solace HVAC - premium quality at affordable prices. Skip the brand markup and save.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            },
+            {
+              "text": "Shop Solace air conditioners and heat pumps. Pro-grade equipment, better prices.",
+              "assetPerformanceLabel": "PENDING",
+              "policySummaryInfo": {
+                "reviewStatus": "REVIEWED",
+                "approvalStatus": "APPROVED"
+              }
+            }
+          ]
+        },
+        "resourceName": "customers/9256598060/ads/792032224466",
+        "id": "792032224466",
+        "finalUrls": [
+          "https://www.buycomfortdirect.com/brands/solace/"
+        ]
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAds/189856018285~792411803704",
+      "status": "ENABLED",
+      "ad": {
+        "type": "SHOPPING_PRODUCT_AD",
+        "resourceName": "customers/9256598060/ads/792411803704",
+        "id": "792411803704"
+      },
+      "policySummary": {
+        "reviewStatus": "REVIEWED",
+        "approvalStatus": "APPROVED"
+      },
+      "adGroup": "customers/9256598060/adGroups/189856018285"
+    }
+  ]
+}

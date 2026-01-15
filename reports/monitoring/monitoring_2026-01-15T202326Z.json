@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "snapshot_id": "2026-01-15T202326Z",
+    "snapshot_timestamp": "2026-01-15T20:23:51.480532Z",
+    "report_generated": "2026-01-15T21:37:20.346616Z",
+    "report_version": "B2.1"
+  },
+  "executive_summary": {
+    "ads_running": "\u2713 Yes \u2014 4 active campaigns, $4,399.21 spent last 7 days",
+    "brand_protection": "WARN",
+    "shopping_eligibility": "\u2713 1,089/1,101 equipment approved (99%)",
+    "biggest_risk": "12 equipment products currently disapproved in Merchant Center. Check image links and landing pages."
+  },
+  "brand_protection": {
+    "status": "WARN",
+    "fail_triggers": [],
+    "warn_triggers": [
+      "Avg CPC $6.19 > $2.00 threshold",
+      "8 keyword change(s) in last 14 days"
+    ],
+    "triggers": [
+      "Avg CPC $6.19 > $2.00 threshold",
+      "8 keyword change(s) in last 14 days"
+    ],
+    "deep_audit": false
+  },
+  "campaigns": {
+    "branded": {
+      "id": "20958985895",
+      "status": "ENABLED"
+    },
+    "pmax": {
+      "id": "20815709270",
+      "status": "ENABLED"
+    },
+    "offensive": {
+      "id": "23445812072",
+      "status": "ENABLED"
+    }
+  },
+  "merchant_center": {
+    "total_products": 1763,
+    "approved": 1751,
+    "disapproved": 12
+  },
+  "validation": {
+    "keywords_null_campaign_ids": 0,
+    "merchant_missing_status": 0,
+    "total_validation_errors": 0
+  },
+  "data_gaps": []
+}

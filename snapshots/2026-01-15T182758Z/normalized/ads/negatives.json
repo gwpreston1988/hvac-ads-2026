@@ -1,0 +1,822 @@
+{
+  "extracted_at": "2026-01-15T18:28:00.765195Z",
+  "count": 102,
+  "records": [
+    {
+      "id": "10000010",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "test",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10001281",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "repair",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10003830",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "filters",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10004450",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "comparison",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10005011",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "job",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10005021",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "jobs",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10007041",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "fix",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10009721",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "problems",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10009741",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "forum",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10009901",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "schematic",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10009911",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "manual",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10009921",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "diagram",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10010361",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "exam",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10013241",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "school",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10023311",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "how to",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10029591",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "parts",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10031431",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "training",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10041140",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "circuit board",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10060951",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "belt",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10077081",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "filter",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10082360",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "class",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10083101",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hiring",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10107001",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "valve",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10117771",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "troubleshooting",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10117821",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "reviews",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10169890",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "course",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10186991",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "certification",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10205881",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "career",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10218121",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "recall",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10231491",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "wiring",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10241911",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "license",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10241931",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "transformer",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10258751",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "top",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10270091",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "pressure switch",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10280821",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "cheapest",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10295331",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "compressor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10296801",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "coil",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10317231",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "diy",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10319341",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "salary",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10364891",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "complaints",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10373601",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "issues",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10399671",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "noise",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10409366",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "opinion",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10429451",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "ratings",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10444811",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "pdf",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10624201",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "thermostat",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10661111",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "consumer reports",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10695296",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "capacitor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "10746126",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "epa",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11375221",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "frozen",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11453601",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "lawsuit",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11468031",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "technician",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11689681",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "igniter",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11825696",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "relay",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "11898851",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "apprentice",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12203881",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "flashing light",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12315970",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "vs",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12448811",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "installer",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12533456",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "fuse",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12704346",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "loud",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12716086",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "refrigerant",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12720976",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "freon",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12727716",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "bearing",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12752906",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "recommend",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "12780436",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "troubleshoot",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "14560683",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "fan motor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "15126302",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "buzzing",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "15803451",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "clicking",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "15810731",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "reset",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "16316066",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "control board",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "16779536",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "contactor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "17771770",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "r22",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "17771780",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "r410a",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "17945531",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "dripping",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "19122696",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "pros and cons",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "19371000",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "error code",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "19976521",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "evaporator coil",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "23354136",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac jobs",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "23492306",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "not working",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "23898841",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "blower motor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "24930790",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "condenser fan",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "26276841",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac training",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "26276891",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac school",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "27844483",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac technician",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "28047740",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac certification",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "33898951",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "replacement part",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "39229730",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "leaking",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "94526078",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "why is",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "100079033",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "hvac license",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "164552756",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "short cycling",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "253558127",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "should i",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "276689626",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "won't start",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "297626959",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "average cost",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "329532753",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "reddit",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "407042693",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "worth it",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "417393029",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "youtube",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "721223838",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "not cooling",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "295444349973",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "cost to fix",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "302019835899",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "not heating",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "321211779514",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "flame sensor",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "396989753427",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "blowing cold",
+      "match_type": "BROAD"
+    },
+    {
+      "id": "405340342740",
+      "level": "CAMPAIGN",
+      "campaign_id": "23445812072",
+      "ad_group_id": null,
+      "text": "blowing hot",
+      "match_type": "BROAD"
+    }
+  ]
+}

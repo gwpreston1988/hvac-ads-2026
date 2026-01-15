@@ -1,0 +1,4266 @@
+{
+  "generated_at": "2026-01-12T15:57:28.652455",
+  "campaign_id": "23445812072",
+  "campaign_name": "BCD - Hardware Offensive - 2026",
+  "A_campaign_core": {
+    "id": "23445812072",
+    "name": "BCD - Hardware Offensive - 2026",
+    "status": "ENABLED",
+    "bidding_strategy_type": "MAXIMIZE_CONVERSION_VALUE",
+    "target_roas": 3.5,
+    "budget_amount_micros": "240000000",
+    "start_date": "2026-01-09",
+    "end_date": "2037-12-30",
+    "network_settings": {
+      "target_google_search": true,
+      "target_search_network": true,
+      "target_content_network": true
+    },
+    "url_expansion_opt_out": null,
+    "tracking_url_template": null
+  },
+  "B_campaign_targeting": {
+    "locations": [],
+    "languages": [],
+    "devices": [
+      {
+        "criterion_id": "30000",
+        "device_type": "DESKTOP",
+        "bid_modifier": null,
+        "status": "ENABLED"
+      },
+      {
+        "criterion_id": "30001",
+        "device_type": "MOBILE",
+        "bid_modifier": null,
+        "status": "ENABLED"
+      },
+      {
+        "criterion_id": "30002",
+        "device_type": "TABLET",
+        "bid_modifier": null,
+        "status": "ENABLED"
+      }
+    ],
+    "ad_schedules": [],
+    "audiences": [],
+    "campaign_negative_keywords": []
+  },
+  "C_shared_negative_lists": [
+    {
+      "shared_set_id": "11927866500",
+      "name": "Brand Terms - Auto Generated 20260109_1616",
+      "shared_set_status": "ENABLED",
+      "attachment_status": "ENABLED",
+      "keywords": [
+        {
+          "criterion_id": "12535276",
+          "text": "bcd",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "302614501591",
+          "text": "buy comfort",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "308701812641",
+          "text": "comfort direct",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "316345561125",
+          "text": "bcd ac",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2271849939319",
+          "text": "buy comfort direct",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2271849939559",
+          "text": "buycomfortdirect.com",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2302636110678",
+          "text": "buy comfort direct reviews",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2327802041251",
+          "text": "buycomfortdirect",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2435246817482",
+          "text": "comfort direct hvac",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160138",
+          "text": "bcd furnace",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160178",
+          "text": "bcd heat pump",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160218",
+          "text": "bcd hvac",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160658",
+          "text": "buy comfort direct coupon",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160698",
+          "text": "buy comfort direct promo",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2461682160938",
+          "text": "comfort direct reviews",
+          "match_type": "BROAD"
+        },
+        {
+          "criterion_id": "2617267807392",
+          "text": "buycomfort",
+          "match_type": "BROAD"
+        }
+      ]
+    }
+  ],
+  "D_ad_groups": [
+    {
+      "id": "190099169894",
+      "name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "3500000",
+      "target_cpa_micros": "0",
+      "target_roas": 3
+    },
+    {
+      "id": "190099169934",
+      "name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "4000000",
+      "target_cpa_micros": "0",
+      "target_roas": 3
+    },
+    {
+      "id": "190099169974",
+      "name": "Private Label - Solace",
+      "status": "ENABLED",
+      "type": "SEARCH_STANDARD",
+      "cpc_bid_micros": "3000000",
+      "target_cpa_micros": "0",
+      "target_roas": 3
+    }
+  ],
+  "E_keywords": [
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "301756686",
+      "text": "best gas furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 18,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "301770006",
+      "text": "high efficiency furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 44,
+      "clicks_30d": 1,
+      "cost_30d": 0.13,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "334757019",
+      "text": "high efficiency gas furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "789632100",
+      "text": "energy efficient furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 36,
+      "clicks_30d": 1,
+      "cost_30d": 0.02,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "1301048209",
+      "text": "two stage gas furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 1,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "307409501249",
+      "text": "modulating furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "320050245598",
+      "text": "furnace wholesale",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "383490183118",
+      "text": "96 AFUE gas furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "397809035477",
+      "text": "variable speed furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "criterion_id": "2419041529840",
+      "text": "96 AFUE furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "12816723",
+      "text": "heat pump prices",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 71,
+      "clicks_30d": 4,
+      "cost_30d": 0.410059,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "314713835",
+      "text": "high efficiency heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 24,
+      "clicks_30d": 3,
+      "cost_30d": 0.131697,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "1016406364",
+      "text": "best heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 26,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "1810822231",
+      "text": "inverter heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 286,
+      "clicks_30d": 5,
+      "cost_30d": 1.131176,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "301309671588",
+      "text": "energy efficient heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 470,
+      "clicks_30d": 27,
+      "cost_30d": 2.683689,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "319537347264",
+      "text": "heat pump wholesale",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "337639388836",
+      "text": "variable speed heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 6,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "1634903188036",
+      "text": "18 SEER heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 22,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "2483837441954",
+      "text": "20 SEER heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "criterion_id": "2483837443394",
+      "text": "SEER2 heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 1,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2462593775758",
+      "text": "Solace air conditioner",
+      "match_type": "PHRASE",
+      "status": "REMOVED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 1,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2462593776958",
+      "text": "Solace HVAC",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2462593778318",
+      "text": "Solace heat pump",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066164",
+      "text": "Solace AC unit",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066204",
+      "text": "Solace mini split",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066364",
+      "text": "Solace air conditioning",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066404",
+      "text": "Solace furnace",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066444",
+      "text": "Solace 4 ton AC",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066604",
+      "text": "Solace reviews",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "criterion_id": "2489205066644",
+      "text": "Solace HVAC reviews",
+      "match_type": "PHRASE",
+      "status": "ENABLED",
+      "negative": false,
+      "quality_score": null,
+      "impressions_30d": 0,
+      "clicks_30d": 0,
+      "cost_30d": 0.0,
+      "conversions_30d": 0.0
+    }
+  ],
+  "F_ad_group_negatives": [],
+  "G_ads": [
+    {
+      "ad_group_id": "190099169894",
+      "ad_group_name": "High-Efficiency Furnaces",
+      "ad_id": "791911610058",
+      "status": "ENABLED",
+      "type": "RESPONSIVE_SEARCH_AD",
+      "final_urls": [
+        "https://buycomfortdirect.com/solace/furnaces/"
+      ],
+      "tracking_url_template": null,
+      "headlines": [
+        {
+          "text": "High Efficency Gas Furnaces",
+          "pinned_field": null
+        },
+        {
+          "text": "High-Efficiency Furnaces",
+          "pinned_field": null
+        },
+        {
+          "text": "Save on Energy Bills",
+          "pinned_field": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Shop high efficiency furnaces at wholesale prices. Free shipping on orders over $99.00",
+          "pinned_field": null
+        },
+        {
+          "text": "High-efficiency gas furnaces with variable speed options. Top brands at great prices.",
+          "pinned_field": null
+        }
+      ],
+      "path1": null,
+      "path2": null
+    },
+    {
+      "ad_group_id": "190099169934",
+      "ad_group_name": "SEER2 Heat Pumps",
+      "ad_id": "792032223053",
+      "status": "ENABLED",
+      "type": "RESPONSIVE_SEARCH_AD",
+      "final_urls": [
+        "https://buycomfortdirect.com/solace/heat-pumps/"
+      ],
+      "tracking_url_template": null,
+      "headlines": [
+        {
+          "text": "SEER2 Rated Heat Pumps",
+          "pinned_field": null
+        },
+        {
+          "text": "High-Efficiency Heat Pumps",
+          "pinned_field": null
+        },
+        {
+          "text": "14.3-17.5 SEER Models",
+          "pinned_field": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Shop high SEER2 heat pumps at wholesale prices. Energy-efficient heating and cooling.",
+          "pinned_field": null
+        },
+        {
+          "text": "HHigh-efficiency heat pumps. Free shipping for all orders over $99.",
+          "pinned_field": null
+        }
+      ],
+      "path1": null,
+      "path2": null
+    },
+    {
+      "ad_group_id": "190099169974",
+      "ad_group_name": "Private Label - Solace",
+      "ad_id": "792032224466",
+      "status": "ENABLED",
+      "type": "RESPONSIVE_SEARCH_AD",
+      "final_urls": [
+        "https://www.buycomfortdirect.com/brands/solace/"
+      ],
+      "tracking_url_template": null,
+      "headlines": [
+        {
+          "text": "Solace HVAC Systems",
+          "pinned_field": null
+        },
+        {
+          "text": "Quality Without Brand Tax",
+          "pinned_field": null
+        },
+        {
+          "text": "Same Quality Lower Price",
+          "pinned_field": null
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Solace HVAC - premium quality at affordable prices. Skip the brand markup and save.",
+          "pinned_field": null
+        },
+        {
+          "text": "Shop Solace air conditioners and heat pumps. Pro-grade equipment, better prices.",
+          "pinned_field": null
+        }
+      ],
+      "path1": null,
+      "path2": null
+    }
+  ],
+  "H_search_terms_last_30d": [
+    {
+      "search_term": "mango energy heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 648263,
+      "cost": 0.65,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump water heater",
+      "date": "2026-01-12",
+      "impressions": 4,
+      "clicks": 1,
+      "cost_micros": 550000,
+      "cost": 0.55,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 8,
+      "clicks": 2,
+      "cost_micros": 250503,
+      "cost": 0.25,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "bosch geothermal heat pump price",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 243085,
+      "cost": 0.24,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air to air heat pump prices",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 2,
+      "cost_micros": 149555,
+      "cost": 0.15,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial heat pump",
+      "date": "2026-01-12",
+      "impressions": 5,
+      "clicks": 1,
+      "cost_micros": 140000,
+      "cost": 0.14,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "high temperature industrial heat pumps",
+      "date": "2026-01-12",
+      "impressions": 16,
+      "clicks": 2,
+      "cost_micros": 121697,
+      "cost": 0.12,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cta heat pumps",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 1,
+      "cost_micros": 113903,
+      "cost": 0.11,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump package unit",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 100000,
+      "cost": 0.1,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "biomass boiler or heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 80000,
+      "cost": 0.08,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump boiler",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 68778,
+      "cost": 0.07,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "commercial air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 66666,
+      "cost": 0.07,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps lower hutt",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 50000,
+      "cost": 0.05,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heating and cooling with a heat pump",
+      "date": "2026-01-12",
+      "impressions": 7,
+      "clicks": 2,
+      "cost_micros": 50000,
+      "cost": 0.05,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gas furnace efficiency",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 20000,
+      "cost": 0.02,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump prices",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 1,
+      "cost_micros": 17419,
+      "cost": 0.02,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "infinity 98",
+      "date": "2026-01-10",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea xtreme plus inverter",
+      "date": "2026-01-10",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best gas heaters for homes",
+      "date": "2026-01-11",
+      "impressions": 4,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gas furnace",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gas furnaces",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "home improvement furnace",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox furnace",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "qs9bsk eg6e",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rinnai energysaver 556wt",
+      "date": "2026-01-11",
+      "impressions": 5,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "500 heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "500 litre heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ac inverter heater",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ae120cxydgk eu",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air to water heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ao smith water heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "arotherm plus vaillant",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "average cost of heat pump installed",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best heat pump in india",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best way heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "changhong ruba dc inverter ac heater",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ducted heat pump",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ecodan zubadan",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fdc140vsx w",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ferroli omnia m 3.2",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fineco heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "flexx36hp230v1ao",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geothermal heat pump installation",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geothermal heat pumps",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gmv 224wl c x",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gpch34841",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "haier ac inverter heater",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "haier dc inverter ac 1 ton heater",
+      "date": "2026-01-11",
+      "impressions": 4,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "haier dc inverter heater",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "havells heat pump",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump",
+      "date": "2026-01-11",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump best brands",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump consumer reviews",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump installation",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump london",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump marketplace home & living",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump price",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump r290",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump rate",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump water heater price",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps jacksonville fl",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps online",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "high temperature industrial heat pumps",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hspf",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hsu 20hftex dg t3",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial heat pump manufacturers",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "is heat pump worth it",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "jaguar heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "jaquar integra x heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "je2000",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "kensa",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg monobloc heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg therma v monobloc r290",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg therma v r32 monobloc",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "macon heat pump",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "marketplace home & living heating & cooling heaters heat pumps",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea 170l heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea heat pump 16kw",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea m thermal arctic",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea m thermal arctic r290",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi air conditioning 2.5 kw wall heat pump r32 domestic air con system",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi ecodan",
+      "date": "2026-01-11",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi ecodan ultra quiet",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heat pump",
+      "date": "2026-01-11",
+      "impressions": 4,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heavy industries zsx w",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "nibe s1256 18",
+      "date": "2026-01-11",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "nulite heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic aquarea dhw",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic wh adc0309k3e5",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic wh wxg12me8",
+      "date": "2026-01-11",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "puz swm80vaa",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rxm35a9",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung ht quiet heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "solid state heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "spark 3x heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sprsun cgk030v3l",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sprsun heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sprsun monoblock",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sun stellar heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sun stellar heat pump price",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sunrain heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "suz swm40",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "suz swm80va2",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "toshiba ras 18 pkvsg e",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "v guard heat pump water heater",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "vaillant therm",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "water boiler heat pump",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "water heating pump",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "wulfe heat pump",
+      "date": "2026-01-11",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "xqg120mj103",
+      "date": "2026-01-11",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "american standard propane furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "arcoaire furnace prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best gas pack units",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "bryant gas furnace prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "carrier high efficiency furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "carrier natural gas furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "climate master furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "coleman evcon",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "comfort aire gas furnace",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ducane furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "el297uhv",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "energy efficient furnace prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "freedom 80",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "frigidaire gas furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gas furnace companies",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "high efficiency gas furnace exhaust",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "high efficiency gas furnace rebates",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "highest rated furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "highest rated gas furnaces",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "keeprite furnaces ontario",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox 2 stage furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox 5 ton furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox ducane furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox electric forced air furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox furnace btu",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox high efficiency furnace price",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox pulse 21 gas furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lowes trane furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "most efficient home furnace",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "navien npf hydro furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "payne 96 furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "qs9bsk eg6e",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rheem prestige furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "tempstar nugk075dg07",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "top rated furnaces",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "top rated residential gas furnaces",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "top ten gas furnaces",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "trane furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "trane xv80 furnace",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "weather king furnace",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "york natural gas furnace",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "12000 btu heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "24000 btu heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "300 litre heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "5 ton geothermal heat pump cost",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "50zh",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "a o smith heat pump water heater",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "aaon rna iom",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ac071rxadkg eu",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air conditioner heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air pumps heating",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air source heat pump hot water heater",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air source heat pump price",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air source heat pump water heater",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air source heat pumps",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air to water heat pump",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air to water heat pump efficiency",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air to water heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "air water heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "am015tnvdkh eu",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "amana window heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ao smith heat pump 150 ltr price",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ao smith heat pump water heater",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "aou12rl2",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "aquarea ecoflex",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "arnu12gm1a4",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "arostor plus",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "average cost of heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "benchmark heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best heat pump for arizona",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "best heat pump water heater",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "bosch geothermal",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "built right heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "carrier heat pump model",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "changhong ruba dc inverter ac heater",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cold climate heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "commercial heat pump systems",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "concealed duct heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cooper hunter arctic 12",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cop heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cosy heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "cs z35ufeaw",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "daikin heat pump installers",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "daikin inverter price list",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "daikin mcquay water source heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "day and night heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "domestic geothermal heating",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "dual fuel heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "dual fuel heat pump reviews",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ductless heating and cooling cost",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ductless heating and cooling systems cost",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "dvs heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ebvx16s23dj9w",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "emerson heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "enertech geothermal",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "epra18dw17",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "eu18bky3xfm",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "evi dc inverter heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fdcw100vnx a",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fi900",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fitting air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "frigidaire heat pump window unit",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "fujitsu 12rls2",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gas heat pump air conditioner",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geoexchange heating and cooling system",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geothermal heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geothermal heat pump 4 ton",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "geothermal heat pump financing",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "goodman heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gree ac inverter heater",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gree gwh18qd",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gree versati 16kw",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "gree versati 4",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ground source heat pumps explained",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "havells heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "havells heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hayward easytemp heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat inverter",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump",
+      "date": "2026-01-12",
+      "impressions": 16,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump application",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump companies",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump for home",
+      "date": "2026-01-12",
+      "impressions": 6,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump for radiant floor",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump germany",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump hot water rebate",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump incentives",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 5,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump london",
+      "date": "2026-01-12",
+      "impressions": 5,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump manufacturers uk",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump monobloc vs split",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump near me",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump package unit prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump pakistan",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump price",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump racold",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump suppliers",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump systems",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump vs air conditioner",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump water heater price",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump water heaters",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pump work",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps ipswich",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps new brunswick",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heat pumps prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heater pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heatwave heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "heiko thermal plus 6",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "high temperature heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hisense heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "home depot mini split heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "house heat pump cost",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hsu 20 hftex t3",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "hsu 20hftex dg t3",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ice stick heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial heat pump manufacturers",
+      "date": "2026-01-12",
+      "impressions": 6,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "industrial heat pumps",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "iph25",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "kensa",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "large scale heat pumps",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox heat pump and air conditioner",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lennox xp14 heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg air to water heat pump therma v",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg heat pumps",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "lg therma v ch14",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "luminous evo s 1550 inverter",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "marketplace home & living heating & cooling heaters heat pumps",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mcquay enfinity heat pumps",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mdu18048060",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "metal hydride heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mg air conditioner and heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea arctic",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea heat pump",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea m thermal r32",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "midea vc pro series vrf",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mini split heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi 18000 btu heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi ecodan heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi electric heating",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heat pump",
+      "date": "2026-01-12",
+      "impressions": 6,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heat pump installation",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heat pump mini split",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi heat pump review",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi pxz",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mitsubishi split system heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mmo25pxa empcgr",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "monoblock heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mufz",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "mxz sm48nam u1",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "new heat pump technology",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "nilan ct300",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "nobus heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "ntxwp",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "nulite heat pump",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "octopus air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic aquarea k series",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic aquarea t cap 16kw",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic ecoflex",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "panasonic wh adc0309k3e5",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "pca rp125kaq",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "pentair 140 heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "quilt heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "residential geothermal heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "residential geothermal heating",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rfax730a12t",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rheem 2 ton heat pump prices",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rheem rp14ay24aj2na",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rotex hpsu 516",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rxf18",
+      "date": "2026-01-12",
+      "impressions": 2,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rxq20tatl",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "rxyq20u5",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung air source heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung ehs mono",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung ehs mono ht quiet",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung monobloc",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung monobloc heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "samsung tdm",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "sizing heat pump for house",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "split heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "split system hot water heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "suntec heat pump",
+      "date": "2026-01-12",
+      "impressions": 5,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "therma v 16kw",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "thermal pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "tmw120",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "tosot heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "trane 17 multi speed heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "trane heat pump systems",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "trane xl14i heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "truth about heat pumps",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "vcd48",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "wall mounted heat pump air conditioner",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "water heat pump price",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "water heat pump system",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "wbr3000uax",
+      "date": "2026-01-12",
+      "impressions": 3,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "wh cme8",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "wh mxc09j3e8",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "whole house heat pump system",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    },
+    {
+      "search_term": "york heat pump",
+      "date": "2026-01-12",
+      "impressions": 1,
+      "clicks": 0,
+      "cost_micros": 0,
+      "cost": 0.0,
+      "conversions": 0.0,
+      "conversions_value": 0.0
+    }
+  ]
+}

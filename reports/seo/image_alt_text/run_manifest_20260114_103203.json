@@ -1,0 +1,29 @@
+{
+  "timestamp": "20260114_103203",
+  "products_scanned": 1187,
+  "images_scanned": 2390,
+  "images_updated": 1810,
+  "images_skipped": 580,
+  "products_updated": 983,
+  "errors_count": 0,
+  "by_brand": {
+    "Rheem": {
+      "products": 204,
+      "images_scanned": 580,
+      "images_updated": 0,
+      "errors": 0
+    },
+    "Goodman": {
+      "products": 528,
+      "images_scanned": 1320,
+      "images_updated": 1320,
+      "errors": 0
+    },
+    "Solace": {
+      "products": 455,
+      "images_scanned": 490,
+      "images_updated": 490,
+      "errors": 0
+    }
+  }
+}

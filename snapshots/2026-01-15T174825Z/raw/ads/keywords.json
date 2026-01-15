@@ -1,0 +1,4467 @@
+{
+  "extracted_at": "2026-01-15T17:48:26.824909Z",
+  "count": 438,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~10573253",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "american standard hvac"
+      },
+      "criterionId": "10573253",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~10573323",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home comfort"
+      },
+      "criterionId": "10573323",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~10665381",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac parts"
+      },
+      "criterionId": "10665381",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~10750606",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "gas furnace"
+      },
+      "criterionId": "10750606",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~11365013",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace wholesale"
+      },
+      "criterionId": "11365013",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~11922562",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac unit"
+      },
+      "criterionId": "11922562",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~11922772",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "AVERAGE",
+        "searchPredictedCtr": "AVERAGE",
+        "qualityScore": 7
+      },
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "high efficiency furnace"
+      },
+      "criterionId": "11922772",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~12191056",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "an air conditioner"
+      },
+      "criterionId": "12191056",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~12459821",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC"
+      },
+      "criterionId": "12459821",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~12561431",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "comfort air"
+      },
+      "criterionId": "12561431",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~12816723",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "BELOW_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 7
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "heat pump prices"
+      },
+      "criterionId": "12816723",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~17109681",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC systems"
+      },
+      "criterionId": "17109681",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~17357796",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "household heating"
+      },
+      "criterionId": "17357796",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~18591211",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "energy efficient furnace"
+      },
+      "criterionId": "18591211",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~19818456",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "american standard furnace"
+      },
+      "criterionId": "19818456",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~19927291",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioner part"
+      },
+      "criterionId": "19927291",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~19975371",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "carrier furnace"
+      },
+      "criterionId": "19975371",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~19975531",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home furnace"
+      },
+      "criterionId": "19975531",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~19977981",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "high efficiency gas furnace"
+      },
+      "criterionId": "19977981",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~19978751",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac supplies"
+      },
+      "criterionId": "19978751",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~21763446",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home cooling"
+      },
+      "criterionId": "21763446",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~24303781",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air con"
+      },
+      "criterionId": "24303781",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~24928460",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air handler"
+      },
+      "criterionId": "24928460",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~38214021",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "carrier gas furnace"
+      },
+      "criterionId": "38214021",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~45915907",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioner repair parts"
+      },
+      "criterionId": "45915907",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~48522521",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "carrier hvac"
+      },
+      "criterionId": "48522521",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~53908247",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioner system"
+      },
+      "criterionId": "53908247",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~75502211",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "buy furnace"
+      },
+      "criterionId": "75502211",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~89256539",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "BELOW_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 7
+      },
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heat pump prices"
+      },
+      "criterionId": "89256539",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~92141949",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "conditioning systems"
+      },
+      "criterionId": "92141949",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~94820413",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "best gas furnace"
+      },
+      "criterionId": "94820413",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~106622725",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air comfort"
+      },
+      "criterionId": "106622725",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~113540795",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home air conditioning systems"
+      },
+      "criterionId": "113540795",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~116914209",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "best heat pump"
+      },
+      "criterionId": "116914209",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~121057657",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "variable speed furnace"
+      },
+      "criterionId": "121057657",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~121274917",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "house furnace"
+      },
+      "criterionId": "121274917",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~121428717",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "the air conditioner"
+      },
+      "criterionId": "121428717",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~131864597",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "two stage gas furnace"
+      },
+      "criterionId": "131864597",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~131864657",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home hvac"
+      },
+      "criterionId": "131864657",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~138168196",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air cooling units"
+      },
+      "criterionId": "138168196",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~158223971",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC maintenance"
+      },
+      "criterionId": "158223971",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~248453382",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC financing"
+      },
+      "criterionId": "248453382",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~301756686",
+      "status": "PAUSED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "best gas furnace"
+      },
+      "criterionId": "301756686",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~301770006",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "AVERAGE",
+        "searchPredictedCtr": "AVERAGE",
+        "qualityScore": 7
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "high efficiency furnace"
+      },
+      "criterionId": "301770006",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~314713835",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "high efficiency heat pump"
+      },
+      "criterionId": "314713835",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~334757019",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "high efficiency gas furnace"
+      },
+      "criterionId": "334757019",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~348797059",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "carrier ac units"
+      },
+      "criterionId": "348797059",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~354222269",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace heater"
+      },
+      "criterionId": "354222269",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~354245849",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "high efficiency heat pump"
+      },
+      "criterionId": "354245849",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~470301798",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac furnace"
+      },
+      "criterionId": "470301798",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~574387527",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heating & cooling services"
+      },
+      "criterionId": "574387527",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~727641942",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "a ac"
+      },
+      "criterionId": "727641942",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~768495473",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home heating and air"
+      },
+      "criterionId": "768495473",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~871669969",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "carrier air handler"
+      },
+      "criterionId": "871669969",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~874457441",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace installation"
+      },
+      "criterionId": "874457441",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~974888111",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioner in"
+      },
+      "criterionId": "974888111",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~1016406364",
+      "status": "PAUSED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "best heat pump"
+      },
+      "criterionId": "1016406364",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1267239852",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "a air conditioner"
+      },
+      "criterionId": "1267239852",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1774035108",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac direct"
+      },
+      "criterionId": "1774035108",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1921226551",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace natural gas"
+      },
+      "criterionId": "1921226551",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2093573852",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heating and ac contractors"
+      },
+      "criterionId": "2093573852",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2142222220",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home hvac services"
+      },
+      "criterionId": "2142222220",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2983308928",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac and heating company"
+      },
+      "criterionId": "2983308928",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~5943555501",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "4 ton furnace"
+      },
+      "criterionId": "5943555501",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~6519820417",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "aire air conditioner"
+      },
+      "criterionId": "6519820417",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~30473274991",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac and heating repair services"
+      },
+      "criterionId": "30473274991",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~89248781306",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac heating and air conditioning services"
+      },
+      "criterionId": "89248781306",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~294377558862",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioning cooling system"
+      },
+      "criterionId": "294377558862",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~295146841190",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "energy efficient heat pump"
+      },
+      "criterionId": "295146841190",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~295416624649",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home and comfort"
+      },
+      "criterionId": "295416624649",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~295729591350",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "AVERAGE",
+        "postClickQualityScore": "BELOW_AVERAGE",
+        "searchPredictedCtr": "BELOW_AVERAGE",
+        "qualityScore": 2
+      },
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "inverter heat pump"
+      },
+      "criterionId": "295729591350",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~295982425810",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air ac"
+      },
+      "criterionId": "295982425810",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296069709110",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air condi"
+      },
+      "criterionId": "296069709110",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296249225899",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "conditioner ac"
+      },
+      "criterionId": "296249225899",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296496634203",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "the air conditioning"
+      },
+      "criterionId": "296496634203",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296634862226",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "a c parts"
+      },
+      "criterionId": "296634862226",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296816004664",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heating and cooling store"
+      },
+      "criterionId": "296816004664",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296819874187",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home heating & cooling"
+      },
+      "criterionId": "296819874187",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~296938585818",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "comfort home"
+      },
+      "criterionId": "296938585818",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~297642071160",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air handling"
+      },
+      "criterionId": "297642071160",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298007303988",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Commercial air conditioning"
+      },
+      "criterionId": "298007303988",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298055628678",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac new"
+      },
+      "criterionId": "298055628678",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298104062537",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace direct"
+      },
+      "criterionId": "298104062537",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298153900062",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac and heating services"
+      },
+      "criterionId": "298153900062",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298162037984",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac store"
+      },
+      "criterionId": "298162037984",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298212438868",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "gas heater home"
+      },
+      "criterionId": "298212438868",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298250599568",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air conditioning units"
+      },
+      "criterionId": "298250599568",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~298810539108",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "gas house heaters"
+      },
+      "criterionId": "298810539108",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~299042315506",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "mr cool air handler"
+      },
+      "criterionId": "299042315506",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~299153769765",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "4 ton air handler"
+      },
+      "criterionId": "299153769765",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~299483435730",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC repair services"
+      },
+      "criterionId": "299483435730",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~299990650722",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC controls"
+      },
+      "criterionId": "299990650722",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~300488406198",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "4 ton hvac unit"
+      },
+      "criterionId": "300488406198",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~301255055725",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "modulating furnace"
+      },
+      "criterionId": "301255055725",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~301277676909",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating and cooling"
+      },
+      "criterionId": "301277676909",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~301410770836",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "a c replacement parts"
+      },
+      "criterionId": "301410770836",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~302879460656",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "aprilaire 213 replacement filter"
+      },
+      "criterionId": "302879460656",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~303336429263",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioner conditioner"
+      },
+      "criterionId": "303336429263",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~303359090835",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home air conditioning"
+      },
+      "criterionId": "303359090835",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~304610843227",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home hvac contractors"
+      },
+      "criterionId": "304610843227",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~306446160649",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "direct hvac"
+      },
+      "criterionId": "306446160649",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~307221453566",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential air conditioning"
+      },
+      "criterionId": "307221453566",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~307321311315",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Central air conditioning"
+      },
+      "criterionId": "307321311315",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~307409501249",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "modulating furnace"
+      },
+      "criterionId": "307409501249",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~310874111428",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heating supply companies"
+      },
+      "criterionId": "310874111428",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~311442272821",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioning & heating services"
+      },
+      "criterionId": "311442272821",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~315548675980",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air conditioning supply companies"
+      },
+      "criterionId": "315548675980",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~316345868294",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "heating and cooling home"
+      },
+      "criterionId": "316345868294",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~318371494973",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential cooling"
+      },
+      "criterionId": "318371494973",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~319537347264",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "heat pump wholesale"
+      },
+      "criterionId": "319537347264",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~319664281194",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "hvac heating and cooling system"
+      },
+      "criterionId": "319664281194",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~320050245598",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "furnace wholesale"
+      },
+      "criterionId": "320050245598",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~320162434473",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air conditioning specials"
+      },
+      "criterionId": "320162434473",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~321189566838",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Radiant heating systems"
+      },
+      "criterionId": "321189566838",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~321517469515",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating equipment"
+      },
+      "criterionId": "321517469515",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~321621014129",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC accessories"
+      },
+      "criterionId": "321621014129",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~328992054366",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system maintenance"
+      },
+      "criterionId": "328992054366",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~335738949014",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace repair services"
+      },
+      "criterionId": "335738949014",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~337320286234",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC wholesale"
+      },
+      "criterionId": "337320286234",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~337639388836",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "BELOW_AVERAGE",
+        "postClickQualityScore": "BELOW_AVERAGE",
+        "searchPredictedCtr": "BELOW_AVERAGE",
+        "qualityScore": 1
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "variable speed heat pump"
+      },
+      "criterionId": "337639388836",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~338964089004",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Indoor air quality"
+      },
+      "criterionId": "338964089004",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~341453910166",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac and cooling"
+      },
+      "criterionId": "341453910166",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~342937878691",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Ventilation systems"
+      },
+      "criterionId": "342937878691",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~343450966961",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace savings"
+      },
+      "criterionId": "343450966961",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~343917421625",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace for home heating"
+      },
+      "criterionId": "343917421625",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~344128495344",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient cooling systems"
+      },
+      "criterionId": "344128495344",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~344401281068",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace sales"
+      },
+      "criterionId": "344401281068",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~345550014636",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Climate control systems"
+      },
+      "criterionId": "345550014636",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~346306747822",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas heating systems"
+      },
+      "criterionId": "346306747822",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~348410486834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC service contracts"
+      },
+      "criterionId": "348410486834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~348961986655",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Electric furnaces"
+      },
+      "criterionId": "348961986655",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~349165425781",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating systems"
+      },
+      "criterionId": "349165425781",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~351797101887",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air handler unit"
+      },
+      "criterionId": "351797101887",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~351851395807",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "a c air conditioning"
+      },
+      "criterionId": "351851395807",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~353843234794",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air quality systems"
+      },
+      "criterionId": "353843234794",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~356664074783",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac air cooling"
+      },
+      "criterionId": "356664074783",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~365175217187",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "in house heater"
+      },
+      "criterionId": "365175217187",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~365862342940",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Ductless HVAC systems"
+      },
+      "criterionId": "365862342940",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~366884397817",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system installation"
+      },
+      "criterionId": "366884397817",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~372451449837",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace replacement"
+      },
+      "criterionId": "372451449837",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~372762198841",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating unit installation"
+      },
+      "criterionId": "372762198841",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~373192839085",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace installation services"
+      },
+      "criterionId": "373192839085",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~373192839325",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace maintenance services"
+      },
+      "criterionId": "373192839325",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~382154139315",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Portable air conditioners"
+      },
+      "criterionId": "382154139315",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~383490183118",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "96 AFUE gas furnace"
+      },
+      "criterionId": "383490183118",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~391869354923",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home heating & air"
+      },
+      "criterionId": "391869354923",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~391957624499",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Commercial HVAC products"
+      },
+      "criterionId": "391957624499",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~395749653291",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Cooling equipment"
+      },
+      "criterionId": "395749653291",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~405001309911",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC installation services"
+      },
+      "criterionId": "405001309911",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~411135569461",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace filters"
+      },
+      "criterionId": "411135569461",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~415129697266",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC maintenance tips"
+      },
+      "criterionId": "415129697266",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~423300248854",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Eco-friendly heating"
+      },
+      "criterionId": "423300248854",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~427010628891",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC savings"
+      },
+      "criterionId": "427010628891",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~430961080051",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air conditioner deals"
+      },
+      "criterionId": "430961080051",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~438150369484",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air conditioning filters"
+      },
+      "criterionId": "438150369484",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~438695097309",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air cooling conditioner"
+      },
+      "criterionId": "438695097309",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~448084180680",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Central heating systems"
+      },
+      "criterionId": "448084180680",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~452957832454",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "air and conditioning"
+      },
+      "criterionId": "452957832454",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~462839983366",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC supply store"
+      },
+      "criterionId": "462839983366",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~470260422713",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Programmable thermostats"
+      },
+      "criterionId": "470260422713",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~472972474242",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart heating solutions"
+      },
+      "criterionId": "472972474242",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~491259981992",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "condenser hvac"
+      },
+      "criterionId": "491259981992",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~494074118872",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "ac handler"
+      },
+      "criterionId": "494074118872",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~502155787672",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air purifiers"
+      },
+      "criterionId": "502155787672",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~536840957934",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace warranty"
+      },
+      "criterionId": "536840957934",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~544225288454",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system sales"
+      },
+      "criterionId": "544225288454",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~544225288534",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating unit sales"
+      },
+      "criterionId": "544225288534",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~549775385192",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC retrofitting"
+      },
+      "criterionId": "549775385192",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~564674000632",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart thermostats"
+      },
+      "criterionId": "564674000632",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~641256760545",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "furnace and ac companies"
+      },
+      "criterionId": "641256760545",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~647500117580",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating & cooling systems"
+      },
+      "criterionId": "647500117580",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~662552056790",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC promotions"
+      },
+      "criterionId": "662552056790",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~665817456206",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Commercial heating solutions"
+      },
+      "criterionId": "665817456206",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~723503402394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "unit air conditioning system"
+      },
+      "criterionId": "723503402394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~825504891059",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Affordable furnaces"
+      },
+      "criterionId": "825504891059",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~826698070986",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system rebates"
+      },
+      "criterionId": "826698070986",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~872172738424",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "home air conditioning & heating"
+      },
+      "criterionId": "872172738424",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~883775159898",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Central heating solutions"
+      },
+      "criterionId": "883775159898",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~913728789522",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "cooling heating and air"
+      },
+      "criterionId": "913728789522",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~939444544014",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential HVAC services"
+      },
+      "criterionId": "939444544014",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~990669963277",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Central heating units"
+      },
+      "criterionId": "990669963277",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1007832480671",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas furnace prices"
+      },
+      "criterionId": "1007832480671",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1019969127533",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Split system air conditioners"
+      },
+      "criterionId": "1019969127533",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1211126816850",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating systems"
+      },
+      "criterionId": "1211126816850",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1212511828713",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential AC systems"
+      },
+      "criterionId": "1212511828713",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1233247868110",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Affordable warmth"
+      },
+      "criterionId": "1233247868110",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1248568923753",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Commercial HVAC solutions"
+      },
+      "criterionId": "1248568923753",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1251020640181",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC filters online"
+      },
+      "criterionId": "1251020640181",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1396569818344",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home comfort systems"
+      },
+      "criterionId": "1396569818344",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1412175429304",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC replacement parts"
+      },
+      "criterionId": "1412175429304",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1415265637853",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace efficiency"
+      },
+      "criterionId": "1415265637853",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1452892388867",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential heaters"
+      },
+      "criterionId": "1452892388867",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1456099853204",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Air conditioner accessories"
+      },
+      "criterionId": "1456099853204",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~1634903188036",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "AVERAGE",
+        "postClickQualityScore": "AVERAGE",
+        "searchPredictedCtr": "AVERAGE",
+        "qualityScore": 6
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "18 SEER heat pump"
+      },
+      "criterionId": "1634903188036",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1643379221642",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Cozy home solutions"
+      },
+      "criterionId": "1643379221642",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1672155579574",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Best HVAC deals"
+      },
+      "criterionId": "1672155579574",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1867706731654",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-saving heaters"
+      },
+      "criterionId": "1867706731654",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1945023496280",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-efficient cooling"
+      },
+      "criterionId": "1945023496280",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1956425811834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating maintenance"
+      },
+      "criterionId": "1956425811834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1958447594323",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Multi-zone HVAC systems"
+      },
+      "criterionId": "1958447594323",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1959218848045",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system upgrades"
+      },
+      "criterionId": "1959218848045",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1964953990521",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC warranties"
+      },
+      "criterionId": "1964953990521",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1994971252306",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace safety features"
+      },
+      "criterionId": "1994971252306",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~1994971252466",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace technology"
+      },
+      "criterionId": "1994971252466",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2001800031739",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating solutions"
+      },
+      "criterionId": "2001800031739",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2010029745518",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas heating efficiency"
+      },
+      "criterionId": "2010029745518",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2020407603052",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating advice"
+      },
+      "criterionId": "2020407603052",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2022271944470",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Professional HVAC installation"
+      },
+      "criterionId": "2022271944470",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2063542933580",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC unit sales"
+      },
+      "criterionId": "2063542933580",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2066643409196",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-efficient heating"
+      },
+      "criterionId": "2066643409196",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2087313990134",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Reliable heating solutions"
+      },
+      "criterionId": "2087313990134",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2088634019898",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Affordable heating solutions"
+      },
+      "criterionId": "2088634019898",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2088750052930",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system maintenance tips"
+      },
+      "criterionId": "2088750052930",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2105118314139",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace energy savings"
+      },
+      "criterionId": "2105118314139",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2105118314299",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace maintenance tips"
+      },
+      "criterionId": "2105118314299",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2110049041594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart heating control"
+      },
+      "criterionId": "2110049041594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2121417408854",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Online HVAC store"
+      },
+      "criterionId": "2121417408854",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2155558673009",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system controls"
+      },
+      "criterionId": "2155558673009",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2155558673169",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system optimization"
+      },
+      "criterionId": "2155558673169",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2170709413346",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart HVAC solutions"
+      },
+      "criterionId": "2170709413346",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2171125339362",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Reliable HVAC systems"
+      },
+      "criterionId": "2171125339362",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2174926682158",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Green heating solutions"
+      },
+      "criterionId": "2174926682158",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2174971628110",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system specialists"
+      },
+      "criterionId": "2174971628110",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/154784588541~2174994044637",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "ABOVE_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 10
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "buy comfort direct"
+      },
+      "criterionId": "2174994044637",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "cpcBidMicros": "750000"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2175413096857",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Reliable home heating"
+      },
+      "criterionId": "2175413096857",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2194736248459",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Multi-zone heating"
+      },
+      "criterionId": "2194736248459",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2201654939747",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Custom heating solutions"
+      },
+      "criterionId": "2201654939747",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2215508035363",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system financing"
+      },
+      "criterionId": "2215508035363",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2217260854780",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating upgrades"
+      },
+      "criterionId": "2217260854780",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2222321677609",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating improvements"
+      },
+      "criterionId": "2222321677609",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2237833399591",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Advanced cooling technology"
+      },
+      "criterionId": "2237833399591",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2251648320628",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Modern heating systems"
+      },
+      "criterionId": "2251648320628",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2251648321628",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential heating solutions"
+      },
+      "criterionId": "2251648321628",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2252407195403",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating optimization"
+      },
+      "criterionId": "2252407195403",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2253218638942",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Space-saving heaters"
+      },
+      "criterionId": "2253218638942",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2255519252097",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Affordable heating options"
+      },
+      "criterionId": "2255519252097",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2255596363869",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter home comfort"
+      },
+      "criterionId": "2255596363869",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2262076126255",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter heating solutions"
+      },
+      "criterionId": "2262076126255",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029454556",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Advanced HVAC technology"
+      },
+      "criterionId": "2264029454556",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029454596",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Advanced furnace tech"
+      },
+      "criterionId": "2264029454596",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029454636",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Advanced heating systems"
+      },
+      "criterionId": "2264029454636",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029454796",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Advanced home heating"
+      },
+      "criterionId": "2264029454796",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029454876",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Affordable air conditioners"
+      },
+      "criterionId": "2264029454876",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455036",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "All-season air conditioners"
+      },
+      "criterionId": "2264029455036",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455076",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Best furnace deals"
+      },
+      "criterionId": "2264029455076",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455116",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Budget heating units"
+      },
+      "criterionId": "2264029455116",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455276",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Budget-friendly AC units"
+      },
+      "criterionId": "2264029455276",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455316",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Budget-friendly furnaces"
+      },
+      "criterionId": "2264029455316",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455356",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Buy HVAC online"
+      },
+      "criterionId": "2264029455356",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455556",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Central heating advice"
+      },
+      "criterionId": "2264029455556",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455596",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Compact air conditioners"
+      },
+      "criterionId": "2264029455596",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455756",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Compact home heating"
+      },
+      "criterionId": "2264029455756",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455796",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Cooling systems sale"
+      },
+      "criterionId": "2264029455796",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455836",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Cost-effective furnaces"
+      },
+      "criterionId": "2264029455836",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029455996",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Cost-saving furnaces"
+      },
+      "criterionId": "2264029455996",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456036",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Custom HVAC systems"
+      },
+      "criterionId": "2264029456036",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456076",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Customizable HVAC options"
+      },
+      "criterionId": "2264029456076",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456236",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Discounted HVAC equipment"
+      },
+      "criterionId": "2264029456236",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456276",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Dual-fuel furnaces"
+      },
+      "criterionId": "2264029456276",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456316",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Durable heating systems"
+      },
+      "criterionId": "2264029456316",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456476",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Eco HVAC systems"
+      },
+      "criterionId": "2264029456476",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456516",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Eco heating products"
+      },
+      "criterionId": "2264029456516",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456556",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Eco-friendly home warmth"
+      },
+      "criterionId": "2264029456556",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456716",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient furnace options"
+      },
+      "criterionId": "2264029456716",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456756",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating models"
+      },
+      "criterionId": "2264029456756",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456796",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating options"
+      },
+      "criterionId": "2264029456796",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456956",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating practices"
+      },
+      "criterionId": "2264029456956",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029456996",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient heating tech"
+      },
+      "criterionId": "2264029456996",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457196",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient home warmth"
+      },
+      "criterionId": "2264029457196",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457236",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient winter heating"
+      },
+      "criterionId": "2264029457236",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457276",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Efficient winter warmth"
+      },
+      "criterionId": "2264029457276",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457436",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Electric furnace models"
+      },
+      "criterionId": "2264029457436",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457476",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Electric home warmth"
+      },
+      "criterionId": "2264029457476",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457516",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy star HVAC"
+      },
+      "criterionId": "2264029457516",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457676",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy star furnaces"
+      },
+      "criterionId": "2264029457676",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457716",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-conscious heating"
+      },
+      "criterionId": "2264029457716",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457756",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-efficient heating tech"
+      },
+      "criterionId": "2264029457756",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457916",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-efficient home heat"
+      },
+      "criterionId": "2264029457916",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457956",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-saving air conditioners"
+      },
+      "criterionId": "2264029457956",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029457996",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-saving furnace models"
+      },
+      "criterionId": "2264029457996",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458156",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-saving warmth"
+      },
+      "criterionId": "2264029458156",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458196",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Energy-smart heating"
+      },
+      "criterionId": "2264029458196",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458236",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Forced air heaters"
+      },
+      "criterionId": "2264029458236",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458396",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace buying tips"
+      },
+      "criterionId": "2264029458396",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458436",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace cost savings"
+      },
+      "criterionId": "2264029458436",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458476",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace efficiency tips"
+      },
+      "criterionId": "2264029458476",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2264029458636",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace energy efficiency"
+      },
+      "criterionId": "2264029458636",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/154784588541~2271849939319",
+      "status": "PAUSED",
+      "qualityInfo": {
+        "creativeQualityScore": "ABOVE_AVERAGE",
+        "postClickQualityScore": "ABOVE_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 10
+      },
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "buy comfort direct"
+      },
+      "criterionId": "2271849939319",
+      "adGroup": "customers/9256598060/adGroups/154784588541"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/154784588541~2271849939559",
+      "status": "PAUSED",
+      "qualityInfo": {
+        "creativeQualityScore": "AVERAGE",
+        "postClickQualityScore": "ABOVE_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 9
+      },
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "buycomfortdirect.com"
+      },
+      "criterionId": "2271849939559",
+      "adGroup": "customers/9256598060/adGroups/154784588541"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2283591352687",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system savings"
+      },
+      "criterionId": "2283591352687",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233214714",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace energy ratings"
+      },
+      "criterionId": "2286233214714",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233214874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace heating efficiency"
+      },
+      "criterionId": "2286233214874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233214914",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace heating levels"
+      },
+      "criterionId": "2286233214914",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233214954",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace installation tips"
+      },
+      "criterionId": "2286233214954",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace operation tips"
+      },
+      "criterionId": "2286233215114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215154",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace operational efficiency"
+      },
+      "criterionId": "2286233215154",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215194",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace operational tips"
+      },
+      "criterionId": "2286233215194",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace parts online"
+      },
+      "criterionId": "2286233215354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace purchase deals"
+      },
+      "criterionId": "2286233215394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215434",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace repair solutions"
+      },
+      "criterionId": "2286233215434",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace replacement tips"
+      },
+      "criterionId": "2286233215594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215634",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace sales online"
+      },
+      "criterionId": "2286233215634",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215674",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace service options"
+      },
+      "criterionId": "2286233215674",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace shopping"
+      },
+      "criterionId": "2286233215834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace shopping guide"
+      },
+      "criterionId": "2286233215874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233215914",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace system sales"
+      },
+      "criterionId": "2286233215914",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216074",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Furnace upgrade options"
+      },
+      "criterionId": "2286233216074",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas furnace efficiency"
+      },
+      "criterionId": "2286233216114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216154",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas furnace technology"
+      },
+      "criterionId": "2286233216154",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216314",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Gas heating alternatives"
+      },
+      "criterionId": "2286233216314",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC contractor supplies"
+      },
+      "criterionId": "2286233216354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC e-commerce"
+      },
+      "criterionId": "2286233216394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216554",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC heating options"
+      },
+      "criterionId": "2286233216554",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC online specials"
+      },
+      "criterionId": "2286233216594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216634",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "HVAC product deals"
+      },
+      "criterionId": "2286233216634",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216794",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heater installation service"
+      },
+      "criterionId": "2286233216794",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating comfort"
+      },
+      "criterionId": "2286233216834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233216874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating equipment sale"
+      },
+      "criterionId": "2286233216874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217034",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating for cold climates"
+      },
+      "criterionId": "2286233217034",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217074",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating product range"
+      },
+      "criterionId": "2286233217074",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating solutions online"
+      },
+      "criterionId": "2286233217114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217274",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system accessories"
+      },
+      "criterionId": "2286233217274",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217314",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system advice"
+      },
+      "criterionId": "2286233217314",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system budgeting"
+      },
+      "criterionId": "2286233217354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217554",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system comparisons"
+      },
+      "criterionId": "2286233217554",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system deals"
+      },
+      "criterionId": "2286233217594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217754",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system design"
+      },
+      "criterionId": "2286233217754",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217794",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system discounts"
+      },
+      "criterionId": "2286233217794",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system essentials"
+      },
+      "criterionId": "2286233217834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233217994",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system guides"
+      },
+      "criterionId": "2286233217994",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218034",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system investment"
+      },
+      "criterionId": "2286233218034",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218074",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system offers"
+      },
+      "criterionId": "2286233218074",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218234",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system planning"
+      },
+      "criterionId": "2286233218234",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218274",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system reviews"
+      },
+      "criterionId": "2286233218274",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218314",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system selection"
+      },
+      "criterionId": "2286233218314",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218474",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system selection guide"
+      },
+      "criterionId": "2286233218474",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218514",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating system tips"
+      },
+      "criterionId": "2286233218514",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218554",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating technology advances"
+      },
+      "criterionId": "2286233218554",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218714",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating unit efficiency"
+      },
+      "criterionId": "2286233218714",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218754",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating unit selection"
+      },
+      "criterionId": "2286233218754",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218794",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Heating unit upgrades"
+      },
+      "criterionId": "2286233218794",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218954",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "High-efficiency furnaces"
+      },
+      "criterionId": "2286233218954",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233218994",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "High-efficiency heaters"
+      },
+      "criterionId": "2286233218994",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219034",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home HVAC upgrades"
+      },
+      "criterionId": "2286233219034",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219194",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home furnace options"
+      },
+      "criterionId": "2286233219194",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219234",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating comparisons"
+      },
+      "criterionId": "2286233219234",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219274",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating discounts"
+      },
+      "criterionId": "2286233219274",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219434",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating efficiency"
+      },
+      "criterionId": "2286233219434",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219474",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating efficiency tips"
+      },
+      "criterionId": "2286233219474",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219514",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating essentials"
+      },
+      "criterionId": "2286233219514",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219674",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating guide"
+      },
+      "criterionId": "2286233219674",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219714",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating innovations"
+      },
+      "criterionId": "2286233219714",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219754",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating rebates"
+      },
+      "criterionId": "2286233219754",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219914",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating solutions sale"
+      },
+      "criterionId": "2286233219914",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219954",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating specials"
+      },
+      "criterionId": "2286233219954",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233219994",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating system design"
+      },
+      "criterionId": "2286233219994",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220154",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating systems sale"
+      },
+      "criterionId": "2286233220154",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220194",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating tips"
+      },
+      "criterionId": "2286233220194",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220234",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home heating units"
+      },
+      "criterionId": "2286233220234",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home warmth systems"
+      },
+      "criterionId": "2286233220394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220434",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home warmth upgrades"
+      },
+      "criterionId": "2286233220434",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220474",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Indoor comfort heating"
+      },
+      "criterionId": "2286233220474",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220634",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Indoor heating comfort"
+      },
+      "criterionId": "2286233220634",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220674",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Indoor heating solutions"
+      },
+      "criterionId": "2286233220674",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220714",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Innovative heating products"
+      },
+      "criterionId": "2286233220714",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Low-cost furnaces"
+      },
+      "criterionId": "2286233220874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220914",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Modern furnace designs"
+      },
+      "criterionId": "2286233220914",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233220954",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Modern heating options"
+      },
+      "criterionId": "2286233220954",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Portable heating units"
+      },
+      "criterionId": "2286233221114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221154",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Premium furnace models"
+      },
+      "criterionId": "2286233221154",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221194",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Programmable heaters"
+      },
+      "criterionId": "2286233221194",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quality HVAC parts"
+      },
+      "criterionId": "2286233221354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quality heating brands"
+      },
+      "criterionId": "2286233221394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221434",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quality heating systems"
+      },
+      "criterionId": "2286233221434",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quality heating units"
+      },
+      "criterionId": "2286233221594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221634",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quick heating solutions"
+      },
+      "criterionId": "2286233221634",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221674",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quiet air conditioners"
+      },
+      "criterionId": "2286233221674",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Quiet furnace models"
+      },
+      "criterionId": "2286233221834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Reliable furnaces"
+      },
+      "criterionId": "2286233221874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233221914",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Reliable heating units"
+      },
+      "criterionId": "2286233221914",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222074",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential furnace options"
+      },
+      "criterionId": "2286233222074",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Residential heating units"
+      },
+      "criterionId": "2286233222114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222154",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Seasonal HVAC offers"
+      },
+      "criterionId": "2286233222154",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222314",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Seasonal heating needs"
+      },
+      "criterionId": "2286233222314",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart furnace technology"
+      },
+      "criterionId": "2286233222354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart heating systems"
+      },
+      "criterionId": "2286233222394",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222554",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Smart home furnaces"
+      },
+      "criterionId": "2286233222554",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222594",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Summer cooling products"
+      },
+      "criterionId": "2286233222594",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222634",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Sustainable home heat"
+      },
+      "criterionId": "2286233222634",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222794",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Top HVAC brands"
+      },
+      "criterionId": "2286233222794",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222834",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Top-rated air conditioners"
+      },
+      "criterionId": "2286233222834",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233222874",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Top-rated furnaces"
+      },
+      "criterionId": "2286233222874",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223034",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Warm home environments"
+      },
+      "criterionId": "2286233223034",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223074",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Warmth for home"
+      },
+      "criterionId": "2286233223074",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223114",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Warmth technology"
+      },
+      "criterionId": "2286233223114",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223274",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter furnace sale"
+      },
+      "criterionId": "2286233223274",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223314",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter heating systems"
+      },
+      "criterionId": "2286233223314",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223354",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter warmth solutions"
+      },
+      "criterionId": "2286233223354",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223514",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Winter warmth technology"
+      },
+      "criterionId": "2286233223514",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2286233223554",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Year-round comfort solutions"
+      },
+      "criterionId": "2286233223554",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2290967361517",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Home HVAC solutions"
+      },
+      "criterionId": "2290967361517",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855821884",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "10 in 90 degree galvanized adjustable elbow"
+      },
+      "criterionId": "2307855821884",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855821924",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "10 inch saddle collar"
+      },
+      "criterionId": "2307855821924",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855821964",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "10 inch sidewall cap with screen and damper"
+      },
+      "criterionId": "2307855821964",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822124",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "10 x 25 ft insulated flexible duct R8 silver"
+      },
+      "criterionId": "2307855822124",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822164",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "12 x 30 in round metal duct pipe 30 gauge"
+      },
+      "criterionId": "2307855822164",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822204",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "12-10 singlewall reducer"
+      },
+      "criterionId": "2307855822204",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822364",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "12x24x 48 inch rectangular duct"
+      },
+      "criterionId": "2307855822364",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822404",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "16 x 25 x 1 filter rack"
+      },
+      "criterionId": "2307855822404",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822444",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "30 inch x 60 inch horizontal drain pan"
+      },
+      "criterionId": "2307855822444",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822604",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "4 inch saddle collar"
+      },
+      "criterionId": "2307855822604",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822644",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "4x10x96 90 degree boot"
+      },
+      "criterionId": "2307855822644",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822684",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "6 in 90 degree galvanized adjustable elbow - 30 gauge"
+      },
+      "criterionId": "2307855822684",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822844",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "6 inch saddle collar"
+      },
+      "criterionId": "2307855822844",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822884",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "6 inch starting collar take off - snap together"
+      },
+      "criterionId": "2307855822884",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855822924",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "6 inch x 4 inch x 4 inch wye"
+      },
+      "criterionId": "2307855822924",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823084",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "8 inch saddle collar"
+      },
+      "criterionId": "2307855823084",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823124",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "8 inch starting collar take off - snap together"
+      },
+      "criterionId": "2307855823124",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823164",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "8x14x10 straight boot"
+      },
+      "criterionId": "2307855823164",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823324",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "NAVAC NEF6LM cordless power flaring tool"
+      },
+      "criterionId": "2307855823324",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823364",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "NAVAC NVR1 Valve core removal tool"
+      },
+      "criterionId": "2307855823364",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823404",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "system replacement package"
+      },
+      "criterionId": "2307855823404",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/162465487154~2307855823564",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "weathermaker carrier 3 ton cased multi evaporator coil CAPMP3617ALA"
+      },
+      "criterionId": "2307855823564",
+      "adGroup": "customers/9256598060/adGroups/162465487154"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/161992105091~2312732393207",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Eco-friendly HVAC"
+      },
+      "criterionId": "2312732393207",
+      "adGroup": "customers/9256598060/adGroups/161992105091"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/154784588541~2328397972249",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "AVERAGE",
+        "postClickQualityScore": "ABOVE_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 9
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "buycomfortdirect"
+      },
+      "criterionId": "2328397972249",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "cpcBidMicros": "750000"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169894~2419041529840",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "96 AFUE furnace"
+      },
+      "criterionId": "2419041529840",
+      "adGroup": "customers/9256598060/adGroups/190099169894"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/154784588541~2459101473496",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "AVERAGE",
+        "postClickQualityScore": "ABOVE_AVERAGE",
+        "searchPredictedCtr": "ABOVE_AVERAGE",
+        "qualityScore": 9
+      },
+      "keyword": {
+        "matchType": "EXACT",
+        "text": "buycomfortdirect.com"
+      },
+      "criterionId": "2459101473496",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "cpcBidMicros": "750000"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2460528896119",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "BROAD",
+        "text": "Solace HVAC"
+      },
+      "criterionId": "2460528896119",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2462593778318",
+      "status": "ENABLED",
+      "qualityInfo": {
+        "creativeQualityScore": "BELOW_AVERAGE",
+        "postClickQualityScore": "AVERAGE",
+        "searchPredictedCtr": "BELOW_AVERAGE",
+        "qualityScore": 3
+      },
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace heat pump"
+      },
+      "criterionId": "2462593778318",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~2483837441954",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "20 SEER heat pump"
+      },
+      "criterionId": "2483837441954",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169934~2483837443394",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "SEER2 heat pump"
+      },
+      "criterionId": "2483837443394",
+      "adGroup": "customers/9256598060/adGroups/190099169934"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066164",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace AC unit"
+      },
+      "criterionId": "2489205066164",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066204",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace mini split"
+      },
+      "criterionId": "2489205066204",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066364",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace air conditioning"
+      },
+      "criterionId": "2489205066364",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066404",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace furnace"
+      },
+      "criterionId": "2489205066404",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066444",
+      "status": "ENABLED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace 4 ton AC"
+      },
+      "criterionId": "2489205066444",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066604",
+      "status": "PAUSED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace reviews"
+      },
+      "criterionId": "2489205066604",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupCriteria/190099169974~2489205066644",
+      "status": "PAUSED",
+      "keyword": {
+        "matchType": "PHRASE",
+        "text": "Solace HVAC reviews"
+      },
+      "criterionId": "2489205066644",
+      "adGroup": "customers/9256598060/adGroups/190099169974"
+    }
+  ]
+}

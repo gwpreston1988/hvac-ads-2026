@@ -1,0 +1,52 @@
+{
+  "WRX05021": {
+    "id": 2140,
+    "name": "RHEEM WRX05021 - 5 kW Electric Heat Kit",
+    "sku": "WRX05021"
+  },
+  "WRX07521": {
+    "id": 2141,
+    "name": "RHEEM WRX07521 - 7.5 kW Electric Heat Kit",
+    "sku": "WRX07521"
+  },
+  "WRX10021": {
+    "id": 2142,
+    "name": "RHEEM WRX10021 - 10 kW Electric Heat Kit",
+    "sku": "WRX10021"
+  },
+  "WRX1502B1": {
+    "id": 2143,
+    "name": "RHEEM WRX1502B1 - 15 kW Electric Heat Kit",
+    "sku": "WRX1502B1"
+  },
+  "R801T0503A14UHSNAS": {
+    "id": 2182,
+    "name": "RHEEM R801T0503A14UHSNAS - 50,000 BTU 80% AFUE Single Stage Furnace",
+    "sku": "R801T0503A14UHSNAS"
+  },
+  "R801T0754A17UHSNAS": {
+    "id": 2183,
+    "name": "RHEEM R801T0754A17UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",
+    "sku": "R801T0754A17UHSNAS"
+  },
+  "R801T0754A21UHSNAS": {
+    "id": 2184,
+    "name": "RHEEM R801T0754A21UHSNAS - 75,000 BTU 80% AFUE Single Stage Furnace",
+    "sku": "R801T0754A21UHSNAS"
+  },
+  "R801T1005A21UHSNAS": {
+    "id": 2185,
+    "name": "RHEEM R801T1005A21UHSNAS - 100,000 BTU 80% AFUE Single Stage Furnace",
+    "sku": "R801T1005A21UHSNAS"
+  },
+  "R801T1255A24UHSNAS": {
+    "id": 2186,
+    "name": "RHEEM R801T1255A24UHSNAS - 125,000 BTU 80% AFUE Single Stage Furnace",
+    "sku": "R801T1255A24UHSNAS"
+  },
+  "R921T0403A17M4SNAS": {
+    "id": 2187,
+    "name": "RHEEM R921T0403A17M4SNAS - 40,000 BTU 92% AFUE Single Stage Furnace",
+    "sku": "R921T0403A17M4SNAS"
+  }
+}

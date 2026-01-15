@@ -1,0 +1,64 @@
+{
+  "snapshot_id": "2026-01-15T202326Z",
+  "snapshot_version": "A3.0",
+  "extraction_started_utc": "2026-01-15T20:23:26.554143Z",
+  "extraction_finished_utc": "2026-01-15T20:23:51.480532Z",
+  "duration_seconds": 24.93,
+  "accounts": {
+    "google_ads": {
+      "customer_id": "9256598060",
+      "login_customer_id": "5194867886"
+    },
+    "merchant_center": {
+      "merchant_id": "5308355318"
+    }
+  },
+  "api_versions": {
+    "google_ads": "v19",
+    "merchant_center": "v2.1"
+  },
+  "file_counts": {
+    "raw": 19,
+    "normalized": 14
+  },
+  "record_counts": {
+    "raw": {
+      "campaigns": 8,
+      "ad_groups": 8,
+      "keywords": 438,
+      "campaign_negatives": 102,
+      "adgroup_negatives": 0,
+      "ads": 8,
+      "assets": 11961,
+      "asset_links": 175,
+      "change_history": 307,
+      "pmax_campaigns": 4,
+      "asset_groups": 5,
+      "asset_group_assets": 224,
+      "listing_groups": 529,
+      "merchant_products": 1763,
+      "merchant_product_statuses": 1763,
+      "merchant_account_issues": 0
+    },
+    "normalized": {
+      "campaigns": 8,
+      "pmax_campaigns": 4,
+      "ad_groups": 8,
+      "keywords": 438,
+      "negatives": 102,
+      "ads": 8,
+      "assets": 11961,
+      "asset_groups": 5,
+      "listing_groups": 529,
+      "change_events": 307,
+      "merchant_products": 1763,
+      "merchant_disapproved": 12
+    }
+  },
+  "validation": {
+    "keywords_null_campaign_ids": 0,
+    "merchant_missing_status": 0,
+    "total_validation_errors": 0
+  },
+  "errors": []
+}

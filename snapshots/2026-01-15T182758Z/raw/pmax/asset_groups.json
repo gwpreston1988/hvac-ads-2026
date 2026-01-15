@@ -1,0 +1,64 @@
+{
+  "extracted_at": "2026-01-15T18:28:09.012276Z",
+  "count": 5,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/assetGroups/6482508720",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "name": "Asset Group 1",
+      "finalUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "status": "ENABLED",
+      "id": "6482508720",
+      "adStrength": "AVERAGE"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroups/6483780791",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "name": "Products merchant campaign",
+      "finalUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "status": "ENABLED",
+      "id": "6483780791",
+      "adStrength": "EXCELLENT"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroups/6484626908",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "name": "Performance Max asset group 32a9cc94-3edf-4df3-a163-42f0e920a837",
+      "finalUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "finalMobileUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "status": "ENABLED",
+      "id": "6484626908",
+      "adStrength": "POOR"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroups/6516129878",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "name": "Products merchant campaign",
+      "finalUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "status": "ENABLED",
+      "id": "6516129878",
+      "adStrength": "EXCELLENT"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroups/6610813176",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "name": "Products merchant campaign",
+      "finalUrls": [
+        "https://buycomfortdirect.com"
+      ],
+      "status": "ENABLED",
+      "id": "6610813176",
+      "adStrength": "EXCELLENT"
+    }
+  ]
+}

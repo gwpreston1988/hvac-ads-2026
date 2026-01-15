@@ -1,0 +1,2330 @@
+{
+  "campaigns": {
+    "by_id": {
+      "20772170367": "BCD Default Campaign",
+      "20815709270": "Products merchant campaign",
+      "20837839885": "BCD Heating",
+      "20958985895": "BCD Branded",
+      "21688703980": "Products merchant campaign 12AM-4PM",
+      "23028588419": "Products merchant campaign #2",
+      "23445812072": "BCD - Hardware Offensive - 2026",
+      "23447458056": "Standard Shopping Campaign"
+    },
+    "by_type": {
+      "PERFORMANCE_MAX": [
+        "20772170367",
+        "20815709270",
+        "21688703980",
+        "23028588419"
+      ],
+      "SEARCH": [
+        "20837839885",
+        "20958985895",
+        "23445812072"
+      ],
+      "SHOPPING": [
+        "23447458056"
+      ],
+      "PMAX": [
+        "20772170367",
+        "20815709270",
+        "21688703980",
+        "23028588419"
+      ]
+    },
+    "by_status": {
+      "PAUSED": [
+        "20772170367",
+        "20837839885",
+        "21688703980",
+        "23028588419",
+        "23447458056",
+        "20772170367",
+        "21688703980",
+        "23028588419"
+      ],
+      "ENABLED": [
+        "20815709270",
+        "20958985895",
+        "23445812072",
+        "20815709270"
+      ]
+    }
+  },
+  "ads": {
+    "campaigns_by_id": {
+      "20772170367": {
+        "name": "BCD Default Campaign",
+        "type": "PERFORMANCE_MAX",
+        "status": "PAUSED"
+      },
+      "20815709270": {
+        "name": "Products merchant campaign",
+        "type": "PERFORMANCE_MAX",
+        "status": "ENABLED"
+      },
+      "20837839885": {
+        "name": "BCD Heating",
+        "type": "SEARCH",
+        "status": "PAUSED"
+      },
+      "20958985895": {
+        "name": "BCD Branded",
+        "type": "SEARCH",
+        "status": "ENABLED"
+      },
+      "21688703980": {
+        "name": "Products merchant campaign 12AM-4PM",
+        "type": "PERFORMANCE_MAX",
+        "status": "PAUSED"
+      },
+      "23028588419": {
+        "name": "Products merchant campaign #2",
+        "type": "PERFORMANCE_MAX",
+        "status": "PAUSED"
+      },
+      "23445812072": {
+        "name": "BCD - Hardware Offensive - 2026",
+        "type": "SEARCH",
+        "status": "ENABLED"
+      },
+      "23447458056": {
+        "name": "Standard Shopping Campaign",
+        "type": "SHOPPING",
+        "status": "PAUSED"
+      }
+    },
+    "ad_groups_by_id": {
+      "154784588541": {
+        "name": "Branded Terms",
+        "campaign_id": "20958985895"
+      },
+      "161992105091": {
+        "name": "HVAC Services",
+        "campaign_id": "20837839885"
+      },
+      "162465487154": {
+        "name": "Top Selling Prodiucts",
+        "campaign_id": "20837839885"
+      },
+      "163319302746": {
+        "name": "Ad group 2",
+        "campaign_id": "20958985895"
+      },
+      "189856018285": {
+        "name": "Ad group 1",
+        "campaign_id": "23447458056"
+      },
+      "190099169894": {
+        "name": "High-Efficiency Furnaces",
+        "campaign_id": "23445812072"
+      },
+      "190099169934": {
+        "name": "SEER2 Heat Pumps",
+        "campaign_id": "23445812072"
+      },
+      "190099169974": {
+        "name": "Private Label - Solace",
+        "campaign_id": "23445812072"
+      }
+    },
+    "keywords_by_id": {
+      "10573253": {
+        "text": "american standard hvac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "10573323": {
+        "text": "home comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "10665381": {
+        "text": "hvac parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "10750606": {
+        "text": "gas furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "11365013": {
+        "text": "furnace wholesale",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "11922562": {
+        "text": "hvac unit",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "11922772": {
+        "text": "high efficiency furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "12191056": {
+        "text": "an air conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "12459821": {
+        "text": "HVAC",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "12561431": {
+        "text": "comfort air",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "12816723": {
+        "text": "heat pump prices",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "17109681": {
+        "text": "HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "17357796": {
+        "text": "household heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "18591211": {
+        "text": "energy efficient furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "19818456": {
+        "text": "american standard furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "19927291": {
+        "text": "air conditioner part",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "19975371": {
+        "text": "carrier furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "19975531": {
+        "text": "home furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "19977981": {
+        "text": "high efficiency gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "19978751": {
+        "text": "hvac supplies",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "21763446": {
+        "text": "home cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "24303781": {
+        "text": "air con",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "24928460": {
+        "text": "air handler",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "38214021": {
+        "text": "carrier gas furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "45915907": {
+        "text": "air conditioner repair parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "48522521": {
+        "text": "carrier hvac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "53908247": {
+        "text": "air conditioner system",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "75502211": {
+        "text": "buy furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "89256539": {
+        "text": "heat pump prices",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "92141949": {
+        "text": "conditioning systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "94820413": {
+        "text": "best gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "106622725": {
+        "text": "air comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "113540795": {
+        "text": "home air conditioning systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "116914209": {
+        "text": "best heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "121057657": {
+        "text": "variable speed furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "121274917": {
+        "text": "house furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "121428717": {
+        "text": "the air conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "131864597": {
+        "text": "two stage gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "131864657": {
+        "text": "home hvac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "138168196": {
+        "text": "air cooling units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "158223971": {
+        "text": "HVAC maintenance",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "248453382": {
+        "text": "HVAC financing",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "301756686": {
+        "text": "best gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "301770006": {
+        "text": "high efficiency furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "314713835": {
+        "text": "high efficiency heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "334757019": {
+        "text": "high efficiency gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "348797059": {
+        "text": "carrier ac units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "354222269": {
+        "text": "furnace heater",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "354245849": {
+        "text": "high efficiency heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "470301798": {
+        "text": "hvac furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "574387527": {
+        "text": "heating & cooling services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "727641942": {
+        "text": "a ac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "768495473": {
+        "text": "home heating and air",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "871669969": {
+        "text": "carrier air handler",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "874457441": {
+        "text": "Furnace installation",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "974888111": {
+        "text": "air conditioner in",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1016406364": {
+        "text": "best heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "1267239852": {
+        "text": "a air conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1774035108": {
+        "text": "hvac direct",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1921226551": {
+        "text": "furnace natural gas",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2093573852": {
+        "text": "heating and ac contractors",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2142222220": {
+        "text": "home hvac services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2983308928": {
+        "text": "ac and heating company",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "5943555501": {
+        "text": "4 ton furnace",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "6519820417": {
+        "text": "aire air conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "30473274991": {
+        "text": "ac and heating repair services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "89248781306": {
+        "text": "ac heating and air conditioning services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "294377558862": {
+        "text": "air conditioning cooling system",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "295146841190": {
+        "text": "energy efficient heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "295416624649": {
+        "text": "home and comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "295729591350": {
+        "text": "inverter heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "295982425810": {
+        "text": "air ac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296069709110": {
+        "text": "air condi",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296249225899": {
+        "text": "conditioner ac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296496634203": {
+        "text": "the air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296634862226": {
+        "text": "a c parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296816004664": {
+        "text": "heating and cooling store",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296819874187": {
+        "text": "home heating & cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "296938585818": {
+        "text": "comfort home",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "297642071160": {
+        "text": "air handling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298007303988": {
+        "text": "Commercial air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298055628678": {
+        "text": "hvac new",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298104062537": {
+        "text": "furnace direct",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298153900062": {
+        "text": "ac and heating services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298162037984": {
+        "text": "hvac store",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298212438868": {
+        "text": "gas heater home",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298250599568": {
+        "text": "Air conditioning units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "298810539108": {
+        "text": "gas house heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "299042315506": {
+        "text": "mr cool air handler",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "299153769765": {
+        "text": "4 ton air handler",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "299483435730": {
+        "text": "HVAC repair services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "299990650722": {
+        "text": "HVAC controls",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "300488406198": {
+        "text": "4 ton hvac unit",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "301255055725": {
+        "text": "modulating furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "301277676909": {
+        "text": "Heating and cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "301410770836": {
+        "text": "a c replacement parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "302879460656": {
+        "text": "aprilaire 213 replacement filter",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "303336429263": {
+        "text": "air conditioner conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "303359090835": {
+        "text": "Home air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "304610843227": {
+        "text": "home hvac contractors",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "306446160649": {
+        "text": "direct hvac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "307221453566": {
+        "text": "Residential air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "307321311315": {
+        "text": "Central air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "307409501249": {
+        "text": "modulating furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "310874111428": {
+        "text": "heating supply companies",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "311442272821": {
+        "text": "air conditioning & heating services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "315548675980": {
+        "text": "air conditioning supply companies",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "316345868294": {
+        "text": "heating and cooling home",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "318371494973": {
+        "text": "Residential cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "319537347264": {
+        "text": "heat pump wholesale",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "319664281194": {
+        "text": "hvac heating and cooling system",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "320050245598": {
+        "text": "furnace wholesale",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "320162434473": {
+        "text": "Air conditioning specials",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "321189566838": {
+        "text": "Radiant heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "321517469515": {
+        "text": "Heating equipment",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "321621014129": {
+        "text": "HVAC accessories",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "328992054366": {
+        "text": "Heating system maintenance",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "335738949014": {
+        "text": "Furnace repair services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "337320286234": {
+        "text": "HVAC wholesale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "337639388836": {
+        "text": "variable speed heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "338964089004": {
+        "text": "Indoor air quality",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "341453910166": {
+        "text": "ac and cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "342937878691": {
+        "text": "Ventilation systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "343450966961": {
+        "text": "Furnace savings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "343917421625": {
+        "text": "furnace for home heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "344128495344": {
+        "text": "Efficient cooling systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "344401281068": {
+        "text": "Furnace sales",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "345550014636": {
+        "text": "Climate control systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "346306747822": {
+        "text": "Gas heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "348410486834": {
+        "text": "HVAC service contracts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "348961986655": {
+        "text": "Electric furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "349165425781": {
+        "text": "Home heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "351797101887": {
+        "text": "air handler unit",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "351851395807": {
+        "text": "a c air conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "353843234794": {
+        "text": "Air quality systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "356664074783": {
+        "text": "ac air cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "365175217187": {
+        "text": "in house heater",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "365862342940": {
+        "text": "Ductless HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "366884397817": {
+        "text": "Heating system installation",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "372451449837": {
+        "text": "Furnace replacement",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "372762198841": {
+        "text": "Heating unit installation",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "373192839085": {
+        "text": "Furnace installation services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "373192839325": {
+        "text": "Furnace maintenance services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "382154139315": {
+        "text": "Portable air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "383490183118": {
+        "text": "96 AFUE gas furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "391869354923": {
+        "text": "home heating & air",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "391957624499": {
+        "text": "Commercial HVAC products",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "395749653291": {
+        "text": "Cooling equipment",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "405001309911": {
+        "text": "HVAC installation services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "411135569461": {
+        "text": "Furnace filters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "415129697266": {
+        "text": "HVAC maintenance tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "423300248854": {
+        "text": "Eco-friendly heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "427010628891": {
+        "text": "HVAC savings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "430961080051": {
+        "text": "Air conditioner deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "438150369484": {
+        "text": "Air conditioning filters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "438695097309": {
+        "text": "air cooling conditioner",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "448084180680": {
+        "text": "Central heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "452957832454": {
+        "text": "air and conditioning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "462839983366": {
+        "text": "HVAC supply store",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "470260422713": {
+        "text": "Programmable thermostats",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "472972474242": {
+        "text": "Smart heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "491259981992": {
+        "text": "condenser hvac",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "494074118872": {
+        "text": "ac handler",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "502155787672": {
+        "text": "Air purifiers",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "536840957934": {
+        "text": "Furnace warranty",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "544225288454": {
+        "text": "Heating system sales",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "544225288534": {
+        "text": "Heating unit sales",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "549775385192": {
+        "text": "HVAC retrofitting",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "564674000632": {
+        "text": "Smart thermostats",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "641256760545": {
+        "text": "furnace and ac companies",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "647500117580": {
+        "text": "Heating & cooling systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "662552056790": {
+        "text": "HVAC promotions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "665817456206": {
+        "text": "Commercial heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "723503402394": {
+        "text": "unit air conditioning system",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "825504891059": {
+        "text": "Affordable furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "826698070986": {
+        "text": "Heating system rebates",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "872172738424": {
+        "text": "home air conditioning & heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "883775159898": {
+        "text": "Central heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "913728789522": {
+        "text": "cooling heating and air",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "939444544014": {
+        "text": "Residential HVAC services",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "990669963277": {
+        "text": "Central heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1007832480671": {
+        "text": "Gas furnace prices",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1019969127533": {
+        "text": "Split system air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1211126816850": {
+        "text": "Efficient heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1212511828713": {
+        "text": "Residential AC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1233247868110": {
+        "text": "Affordable warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1248568923753": {
+        "text": "Commercial HVAC solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1251020640181": {
+        "text": "HVAC filters online",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1396569818344": {
+        "text": "Home comfort systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1412175429304": {
+        "text": "HVAC replacement parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1415265637853": {
+        "text": "Furnace efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1452892388867": {
+        "text": "Residential heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1456099853204": {
+        "text": "Air conditioner accessories",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1634903188036": {
+        "text": "18 SEER heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "1643379221642": {
+        "text": "Cozy home solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1672155579574": {
+        "text": "Best HVAC deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1867706731654": {
+        "text": "Energy-saving heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1945023496280": {
+        "text": "Energy-efficient cooling",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1956425811834": {
+        "text": "Home heating maintenance",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1958447594323": {
+        "text": "Multi-zone HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1959218848045": {
+        "text": "Heating system upgrades",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1964953990521": {
+        "text": "HVAC warranties",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1994971252306": {
+        "text": "Furnace safety features",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "1994971252466": {
+        "text": "Furnace technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2001800031739": {
+        "text": "Efficient heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2010029745518": {
+        "text": "Gas heating efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2020407603052": {
+        "text": "Home heating advice",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2022271944470": {
+        "text": "Professional HVAC installation",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2063542933580": {
+        "text": "HVAC unit sales",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2066643409196": {
+        "text": "Energy-efficient heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2087313990134": {
+        "text": "Reliable heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2088634019898": {
+        "text": "Affordable heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2088750052930": {
+        "text": "Heating system maintenance tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2105118314139": {
+        "text": "Furnace energy savings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2105118314299": {
+        "text": "Furnace maintenance tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2110049041594": {
+        "text": "Smart heating control",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2121417408854": {
+        "text": "Online HVAC store",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2155558673009": {
+        "text": "Heating system controls",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2155558673169": {
+        "text": "Heating system optimization",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2170709413346": {
+        "text": "Smart HVAC solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2171125339362": {
+        "text": "Reliable HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2174926682158": {
+        "text": "Green heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2174971628110": {
+        "text": "Heating system specialists",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2174994044637": {
+        "text": "buy comfort direct",
+        "ad_group_id": "154784588541",
+        "campaign_id": "20958985895"
+      },
+      "2175413096857": {
+        "text": "Reliable home heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2194736248459": {
+        "text": "Multi-zone heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2201654939747": {
+        "text": "Custom heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2215508035363": {
+        "text": "Heating system financing",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2217260854780": {
+        "text": "Home heating upgrades",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2222321677609": {
+        "text": "Home heating improvements",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2237833399591": {
+        "text": "Advanced cooling technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2251648320628": {
+        "text": "Modern heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2251648321628": {
+        "text": "Residential heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2252407195403": {
+        "text": "Home heating optimization",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2253218638942": {
+        "text": "Space-saving heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2255519252097": {
+        "text": "Affordable heating options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2255596363869": {
+        "text": "Winter home comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2262076126255": {
+        "text": "Winter heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029454556": {
+        "text": "Advanced HVAC technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029454596": {
+        "text": "Advanced furnace tech",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029454636": {
+        "text": "Advanced heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029454796": {
+        "text": "Advanced home heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029454876": {
+        "text": "Affordable air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455036": {
+        "text": "All-season air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455076": {
+        "text": "Best furnace deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455116": {
+        "text": "Budget heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455276": {
+        "text": "Budget-friendly AC units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455316": {
+        "text": "Budget-friendly furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455356": {
+        "text": "Buy HVAC online",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455556": {
+        "text": "Central heating advice",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455596": {
+        "text": "Compact air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455756": {
+        "text": "Compact home heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455796": {
+        "text": "Cooling systems sale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455836": {
+        "text": "Cost-effective furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029455996": {
+        "text": "Cost-saving furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456036": {
+        "text": "Custom HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456076": {
+        "text": "Customizable HVAC options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456236": {
+        "text": "Discounted HVAC equipment",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456276": {
+        "text": "Dual-fuel furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456316": {
+        "text": "Durable heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456476": {
+        "text": "Eco HVAC systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456516": {
+        "text": "Eco heating products",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456556": {
+        "text": "Eco-friendly home warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456716": {
+        "text": "Efficient furnace options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456756": {
+        "text": "Efficient heating models",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456796": {
+        "text": "Efficient heating options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456956": {
+        "text": "Efficient heating practices",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029456996": {
+        "text": "Efficient heating tech",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457196": {
+        "text": "Efficient home warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457236": {
+        "text": "Efficient winter heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457276": {
+        "text": "Efficient winter warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457436": {
+        "text": "Electric furnace models",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457476": {
+        "text": "Electric home warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457516": {
+        "text": "Energy star HVAC",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457676": {
+        "text": "Energy star furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457716": {
+        "text": "Energy-conscious heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457756": {
+        "text": "Energy-efficient heating tech",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457916": {
+        "text": "Energy-efficient home heat",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457956": {
+        "text": "Energy-saving air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029457996": {
+        "text": "Energy-saving furnace models",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458156": {
+        "text": "Energy-saving warmth",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458196": {
+        "text": "Energy-smart heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458236": {
+        "text": "Forced air heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458396": {
+        "text": "Furnace buying tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458436": {
+        "text": "Furnace cost savings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458476": {
+        "text": "Furnace efficiency tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2264029458636": {
+        "text": "Furnace energy efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2271849939319": {
+        "text": "buy comfort direct",
+        "ad_group_id": "154784588541",
+        "campaign_id": "20958985895"
+      },
+      "2271849939559": {
+        "text": "buycomfortdirect.com",
+        "ad_group_id": "154784588541",
+        "campaign_id": "20958985895"
+      },
+      "2283591352687": {
+        "text": "Heating system savings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233214714": {
+        "text": "Furnace energy ratings",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233214874": {
+        "text": "Furnace heating efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233214914": {
+        "text": "Furnace heating levels",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233214954": {
+        "text": "Furnace installation tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215114": {
+        "text": "Furnace operation tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215154": {
+        "text": "Furnace operational efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215194": {
+        "text": "Furnace operational tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215354": {
+        "text": "Furnace parts online",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215394": {
+        "text": "Furnace purchase deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215434": {
+        "text": "Furnace repair solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215594": {
+        "text": "Furnace replacement tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215634": {
+        "text": "Furnace sales online",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215674": {
+        "text": "Furnace service options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215834": {
+        "text": "Furnace shopping",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215874": {
+        "text": "Furnace shopping guide",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233215914": {
+        "text": "Furnace system sales",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216074": {
+        "text": "Furnace upgrade options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216114": {
+        "text": "Gas furnace efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216154": {
+        "text": "Gas furnace technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216314": {
+        "text": "Gas heating alternatives",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216354": {
+        "text": "HVAC contractor supplies",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216394": {
+        "text": "HVAC e-commerce",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216554": {
+        "text": "HVAC heating options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216594": {
+        "text": "HVAC online specials",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216634": {
+        "text": "HVAC product deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216794": {
+        "text": "Heater installation service",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216834": {
+        "text": "Heating comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233216874": {
+        "text": "Heating equipment sale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217034": {
+        "text": "Heating for cold climates",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217074": {
+        "text": "Heating product range",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217114": {
+        "text": "Heating solutions online",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217274": {
+        "text": "Heating system accessories",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217314": {
+        "text": "Heating system advice",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217354": {
+        "text": "Heating system budgeting",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217554": {
+        "text": "Heating system comparisons",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217594": {
+        "text": "Heating system deals",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217754": {
+        "text": "Heating system design",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217794": {
+        "text": "Heating system discounts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217834": {
+        "text": "Heating system essentials",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233217994": {
+        "text": "Heating system guides",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218034": {
+        "text": "Heating system investment",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218074": {
+        "text": "Heating system offers",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218234": {
+        "text": "Heating system planning",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218274": {
+        "text": "Heating system reviews",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218314": {
+        "text": "Heating system selection",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218474": {
+        "text": "Heating system selection guide",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218514": {
+        "text": "Heating system tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218554": {
+        "text": "Heating technology advances",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218714": {
+        "text": "Heating unit efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218754": {
+        "text": "Heating unit selection",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218794": {
+        "text": "Heating unit upgrades",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218954": {
+        "text": "High-efficiency furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233218994": {
+        "text": "High-efficiency heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219034": {
+        "text": "Home HVAC upgrades",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219194": {
+        "text": "Home furnace options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219234": {
+        "text": "Home heating comparisons",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219274": {
+        "text": "Home heating discounts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219434": {
+        "text": "Home heating efficiency",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219474": {
+        "text": "Home heating efficiency tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219514": {
+        "text": "Home heating essentials",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219674": {
+        "text": "Home heating guide",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219714": {
+        "text": "Home heating innovations",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219754": {
+        "text": "Home heating rebates",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219914": {
+        "text": "Home heating solutions sale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219954": {
+        "text": "Home heating specials",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233219994": {
+        "text": "Home heating system design",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220154": {
+        "text": "Home heating systems sale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220194": {
+        "text": "Home heating tips",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220234": {
+        "text": "Home heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220394": {
+        "text": "Home warmth systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220434": {
+        "text": "Home warmth upgrades",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220474": {
+        "text": "Indoor comfort heating",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220634": {
+        "text": "Indoor heating comfort",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220674": {
+        "text": "Indoor heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220714": {
+        "text": "Innovative heating products",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220874": {
+        "text": "Low-cost furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220914": {
+        "text": "Modern furnace designs",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233220954": {
+        "text": "Modern heating options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221114": {
+        "text": "Portable heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221154": {
+        "text": "Premium furnace models",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221194": {
+        "text": "Programmable heaters",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221354": {
+        "text": "Quality HVAC parts",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221394": {
+        "text": "Quality heating brands",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221434": {
+        "text": "Quality heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221594": {
+        "text": "Quality heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221634": {
+        "text": "Quick heating solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221674": {
+        "text": "Quiet air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221834": {
+        "text": "Quiet furnace models",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221874": {
+        "text": "Reliable furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233221914": {
+        "text": "Reliable heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222074": {
+        "text": "Residential furnace options",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222114": {
+        "text": "Residential heating units",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222154": {
+        "text": "Seasonal HVAC offers",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222314": {
+        "text": "Seasonal heating needs",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222354": {
+        "text": "Smart furnace technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222394": {
+        "text": "Smart heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222554": {
+        "text": "Smart home furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222594": {
+        "text": "Summer cooling products",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222634": {
+        "text": "Sustainable home heat",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222794": {
+        "text": "Top HVAC brands",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222834": {
+        "text": "Top-rated air conditioners",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233222874": {
+        "text": "Top-rated furnaces",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223034": {
+        "text": "Warm home environments",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223074": {
+        "text": "Warmth for home",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223114": {
+        "text": "Warmth technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223274": {
+        "text": "Winter furnace sale",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223314": {
+        "text": "Winter heating systems",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223354": {
+        "text": "Winter warmth solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223514": {
+        "text": "Winter warmth technology",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2286233223554": {
+        "text": "Year-round comfort solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2290967361517": {
+        "text": "Home HVAC solutions",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2307855821884": {
+        "text": "10 in 90 degree galvanized adjustable elbow",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855821924": {
+        "text": "10 inch saddle collar",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855821964": {
+        "text": "10 inch sidewall cap with screen and damper",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822124": {
+        "text": "10 x 25 ft insulated flexible duct R8 silver",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822164": {
+        "text": "12 x 30 in round metal duct pipe 30 gauge",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822204": {
+        "text": "12-10 singlewall reducer",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822364": {
+        "text": "12x24x 48 inch rectangular duct",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822404": {
+        "text": "16 x 25 x 1 filter rack",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822444": {
+        "text": "30 inch x 60 inch horizontal drain pan",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822604": {
+        "text": "4 inch saddle collar",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822644": {
+        "text": "4x10x96 90 degree boot",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822684": {
+        "text": "6 in 90 degree galvanized adjustable elbow - 30 gauge",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822844": {
+        "text": "6 inch saddle collar",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822884": {
+        "text": "6 inch starting collar take off - snap together",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855822924": {
+        "text": "6 inch x 4 inch x 4 inch wye",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823084": {
+        "text": "8 inch saddle collar",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823124": {
+        "text": "8 inch starting collar take off - snap together",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823164": {
+        "text": "8x14x10 straight boot",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823324": {
+        "text": "NAVAC NEF6LM cordless power flaring tool",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823364": {
+        "text": "NAVAC NVR1 Valve core removal tool",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823404": {
+        "text": "system replacement package",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2307855823564": {
+        "text": "weathermaker carrier 3 ton cased multi evaporator coil CAPMP3617ALA",
+        "ad_group_id": "162465487154",
+        "campaign_id": "20837839885"
+      },
+      "2312732393207": {
+        "text": "Eco-friendly HVAC",
+        "ad_group_id": "161992105091",
+        "campaign_id": "20837839885"
+      },
+      "2328397972249": {
+        "text": "buycomfortdirect",
+        "ad_group_id": "154784588541",
+        "campaign_id": "20958985895"
+      },
+      "2419041529840": {
+        "text": "96 AFUE furnace",
+        "ad_group_id": "190099169894",
+        "campaign_id": "23445812072"
+      },
+      "2459101473496": {
+        "text": "buycomfortdirect.com",
+        "ad_group_id": "154784588541",
+        "campaign_id": "20958985895"
+      },
+      "2460528896119": {
+        "text": "Solace HVAC",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2462593778318": {
+        "text": "Solace heat pump",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2483837441954": {
+        "text": "20 SEER heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "2483837443394": {
+        "text": "SEER2 heat pump",
+        "ad_group_id": "190099169934",
+        "campaign_id": "23445812072"
+      },
+      "2489205066164": {
+        "text": "Solace AC unit",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066204": {
+        "text": "Solace mini split",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066364": {
+        "text": "Solace air conditioning",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066404": {
+        "text": "Solace furnace",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066444": {
+        "text": "Solace 4 ton AC",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066604": {
+        "text": "Solace reviews",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      },
+      "2489205066644": {
+        "text": "Solace HVAC reviews",
+        "ad_group_id": "190099169974",
+        "campaign_id": "23445812072"
+      }
+    }
+  },
+  "totals": {
+    "campaigns": 12,
+    "ad_groups": 8,
+    "keywords": 438,
+    "negatives": 102
+  }
+}

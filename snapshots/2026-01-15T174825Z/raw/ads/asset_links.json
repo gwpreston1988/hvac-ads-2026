@@ -1,0 +1,1358 @@
+{
+  "extracted_at": "2026-01-15T17:48:29.806038Z",
+  "count": 169,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112733776493~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112733776493",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112733780198~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112733780198",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112737313316~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112737313316",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112738296697~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112738296697",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112765284966~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112765284966",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~135489980060~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/135489980060",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~143937776645~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/143937776645",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~143937776645~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/143937776645",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~143937776645~LOGO",
+      "fieldType": "LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/143937776645",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~143944168054~LANDSCAPE_LOGO",
+      "fieldType": "LANDSCAPE_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/143944168054",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~143944168054~LANDSCAPE_LOGO",
+      "fieldType": "LANDSCAPE_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/143944168054",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~143944168054~LANDSCAPE_LOGO",
+      "fieldType": "LANDSCAPE_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/143944168054",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~125873604250~STRUCTURED_SNIPPET",
+      "fieldType": "STRUCTURED_SNIPPET",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/125873604250",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~125873604250~STRUCTURED_SNIPPET",
+      "fieldType": "STRUCTURED_SNIPPET",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/125873604250",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~125873604250~STRUCTURED_SNIPPET",
+      "fieldType": "STRUCTURED_SNIPPET",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/125873604250",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~112739870009~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/112739870009",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112740088088~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "PAUSED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112740088088",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112740088088~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112740088088",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112740088088~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112740088088",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112740088088~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "PAUSED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112740088088",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744268821~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744268821",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744268821~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744268821",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744268821~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744268821",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744268821~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744268821",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~115769615513~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/115769615513",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115769615513~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115769615513",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20838650769~115769615513~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "asset": "customers/9256598060/assets/115769615513",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~115769615513~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/115769615513",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~115769615513~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/115769615513",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~115777529848~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/115777529848",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115777529848~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115777529848",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20838650769~115777529848~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "asset": "customers/9256598060/assets/115777529848",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~115777529848~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/115777529848",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~115777529848~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/115777529848",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20838650769~116285820821~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "asset": "customers/9256598060/assets/116285820821",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20838650769~116318081826~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "asset": "customers/9256598060/assets/116318081826",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~140482192627~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/140482192627",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~140482192627~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/140482192627",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~142065733593~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/142065733593",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~142065733593~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/142065733593",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~142065733593~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/142065733593",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~143937454922~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/143937454922",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~143937454922~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/143937454922",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~143937454922~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/143937454922",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~143937454928~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/143937454928",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~143937454928~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/143937454928",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~143937454928~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/143937454928",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~143937454928~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/143937454928",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321145380815~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321145380815",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~321145380815~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/321145380815",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321220679674~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321220679674",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321222511186~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321222511186",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321270072180~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321270072180",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321270471651~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321270471651",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~321270471651~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/321270471651",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~321270471654~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/321270471654",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~321270471654~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/321270471654",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~322288792119~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/322288792119",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~322321167945~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/322321167945",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~322922815882~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/322922815882",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~322974206748~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/322974206748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~322974770244~SITELINK",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/322974770244",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842748~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842748",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842751~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842751",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842754~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842754",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842757~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842757",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842760~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842760",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744842763~CALLOUT",
+      "fieldType": "CALLOUT",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744842763",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~289219583069~PROMOTION",
+      "fieldType": "PROMOTION",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/289219583069",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~289219583069~PROMOTION",
+      "fieldType": "PROMOTION",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/289219583069",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112668524550~BUSINESS_NAME",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112668524550",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20772170367~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20772170367",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20815709270~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20815709270",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20838650769~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20838650769",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/21688703980~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/21688703980",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23028588419~112744688488~CALL",
+      "fieldType": "CALL",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23028588419",
+      "asset": "customers/9256598060/assets/112744688488",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112641865177~BUSINESS_LOGO",
+      "fieldType": "BUSINESS_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112641865177",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/23445812072~135489980060~BUSINESS_LOGO",
+      "fieldType": "BUSINESS_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/23445812072",
+      "asset": "customers/9256598060/assets/135489980060",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~139463482965~BUSINESS_LOGO",
+      "fieldType": "BUSINESS_LOGO",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/139463482965",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112641865177~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112641865177",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112733776493~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112733776493",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112733780198~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112733780198",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112737313295~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112737313295",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112737313316~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112737313316",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112737352268~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112737352268",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112738296697~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112738296697",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112741974802~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112741974802",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112741980715~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112741980715",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112765284591~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112765284591",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112765406889~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112765406889",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112769260494~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112769260494",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112769260512~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112769260512",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~112769266878~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/112769266878",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~113172832412~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/113172832412",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115766619215~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115766619215",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115767871493~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115767871493",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115781988104~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115781988104",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115790420035~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115790420035",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20837839885~115798210230~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20837839885",
+      "asset": "customers/9256598060/assets/115798210230",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~139048313207~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/139048313207",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~143938424330~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/143938424330",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~143945480311~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/143945480311",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~143953937210~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/143953937210",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~275495209847~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/275495209847",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~275495606900~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/275495606900",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/campaignAssets/20958985895~275578377429~AD_IMAGE",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "campaign": "customers/9256598060/campaigns/20958985895",
+      "asset": "customers/9256598060/assets/275578377429",
+      "level": "CAMPAIGN"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~135325082524~SITELINK",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/135325082524",
+      "fieldType": "SITELINK",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~112641853651~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/112641853651",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~112641853657~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/112641853657",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~114959880425~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/114959880425",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115765142102~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115765142102",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115765144631~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115765144631",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115765146758~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115765146758",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115772873332~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115772873332",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115772918461~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115772918461",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115796691561~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115796691561",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~115796693535~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/115796693535",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~125866085972~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/125866085972",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~125866085975~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/125866085975",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~125866085978~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/125866085978",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139390811720~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139390811720",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139390949606~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139390949606",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139397202472~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139397202472",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139398027775~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139398027775",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139439143632~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139439143632",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139439143635~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139439143635",
+      "fieldType": "AD_IMAGE",
+      "status": "ENABLED",
+      "level": "ADGROUP"
+    },
+    {
+      "resourceName": "customers/9256598060/adGroupAssets/154784588541~139439197578~AD_IMAGE",
+      "adGroup": "customers/9256598060/adGroups/154784588541",
+      "asset": "customers/9256598060/assets/139439197578",
+      "fieldType": "AD_IMAGE",
+      "status": "PAUSED",
+      "level": "ADGROUP"
+    }
+  ]
+}

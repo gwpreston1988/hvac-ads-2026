@@ -1,0 +1,13 @@
+{
+  "campaigns": {
+    "by_id": {},
+    "by_type": {},
+    "by_status": {}
+  },
+  "totals": {
+    "campaigns": 0,
+    "ad_groups": 0,
+    "keywords": 0,
+    "negatives": 0
+  }
+}

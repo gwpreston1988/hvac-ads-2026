@@ -1,0 +1,25 @@
+{
+  "start_time": "2026-01-13T16:52:00.424681",
+  "end_time": "2026-01-13T16:52:01.668859",
+  "total_rheem_products": 204,
+  "pagination_details": {
+    "/catalog/categories": {
+      "endpoint": "/catalog/categories",
+      "pages_fetched": 2,
+      "total_items": 350
+    },
+    "/catalog/products": {
+      "endpoint": "/catalog/products",
+      "pages_fetched": 1,
+      "total_items": 204
+    }
+  },
+  "endpoints_accessed": [
+    "/catalog/brands",
+    "/catalog/categories",
+    "/catalog/categories",
+    "/catalog/products"
+  ],
+  "mutations_executed": "NONE - READ ONLY",
+  "confirmation": "NO MUTATIONS WERE EXECUTED"
+}

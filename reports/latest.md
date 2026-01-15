@@ -24,7 +24,7 @@
 
 ## Confidence & Freshness
 
-**Snapshot Age:** 1.6 hours
+**Snapshot Age:** 1.7 hours
 
 **Verdict:** 🟢 **GREEN**
 
@@ -54,7 +54,7 @@
 |-------|-------|
 | Snapshot ID | `2026-01-15T202326Z` |
 | Snapshot Timestamp (UTC) | `2026-01-15T20:23:51.480532Z` |
-| Report Generated (UTC) | `2026-01-15T22:02:23Z` |
+| Report Generated (UTC) | `2026-01-15T22:06:05Z` |
 | Data Sources | Google Ads (Search + PMax), Merchant Center |
 
 ---

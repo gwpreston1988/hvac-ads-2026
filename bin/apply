@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+################################################################################
+# bin/apply - Phase C2: Apply Change Plan (LIVE WRITES - DANGEROUS)
+################################################################################
+#
+# This is the ONLY script that makes live API calls to WRITE data.
+# By default, runs in --dry-run mode (no actual changes).
+#
+# Usage:
+#   bin/apply plans/runs/<plan>.json           # DRY_RUN (default, safe)
+#   bin/apply plans/runs/<plan>.json --dry-run # Explicit dry-run
+#   bin/apply plans/runs/<plan>.json --execute # ACTUALLY APPLY (dangerous)
+#
+# WARNINGS:
+#   - NEVER run --execute without reviewing the plan JSON first
+#   - The plan must be approved (plan_approved: true) to execute
+#   - All preconditions are verified before execution
+#
+################################################################################
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+APPLY_SCRIPT="$PROJECT_ROOT/core/apply/apply_changes.py"
+
+# Check if apply_changes.py exists
+if [[ ! -f "$APPLY_SCRIPT" ]]; then
+    echo "=============================================================="
+    echo "ERROR: apply_changes.py not yet implemented"
+    echo "=============================================================="
+    echo ""
+    echo "The apply phase (Phase C2) has not been implemented yet."
+    echo "Currently, only the planning phase (Phase C1) is available."
+    echo ""
+    echo "For now, you can:"
+    echo "  1. Review generated plans in plans/runs/"
+    echo "  2. Apply changes manually through Google Ads UI"
+    echo "  3. Wait for Phase C2 implementation"
+    echo ""
+    echo "Plans are always DRY_RUN until apply_changes.py is ready."
+    exit 1
+fi
+
+# Default to dry-run if --execute not specified
+if [[ "$*" != *"--execute"* ]] && [[ "$*" != *"--dry-run"* ]]; then
+    echo "Running in DRY_RUN mode (add --execute to actually apply changes)"
+    exec python3 "$APPLY_SCRIPT" "$@" --dry-run
+else
+    exec python3 "$APPLY_SCRIPT" "$@"
+fi

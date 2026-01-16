@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+################################################################################
+# bin/report - Phase B: Generate Report (SNAPSHOT-ONLY)
+################################################################################
+#
+# This script reads ONLY from local snapshot files. NO LIVE API CALLS.
+#
+# Usage:
+#   bin/report --latest                    # Use most recent snapshot
+#   bin/report --snapshot snapshots/...    # Explicit snapshot path
+#   bin/report --latest --deep-audit       # Show full details
+#
+# REQUIRES: --latest or --snapshot flag (will not silently default)
+#
+################################################################################
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Enforce snapshot flag requirement
+if [[ $# -eq 0 ]] || { [[ "$*" != *"--latest"* ]] && [[ "$*" != *"--snapshot"* ]]; }; then
+    echo "ERROR: Must specify --latest or --snapshot <path>"
+    echo ""
+    echo "Usage:"
+    echo "  bin/report --latest                 # Use most recent snapshot"
+    echo "  bin/report --snapshot snapshots/... # Explicit snapshot path"
+    exit 1
+fi
+
+exec python3 "$PROJECT_ROOT/core/report/generate_report.py" "$@"

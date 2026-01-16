@@ -1,0 +1,132 @@
+{
+  "plan_id": "plan-2026-01-15T202326Z-2026-01-16T155505Z",
+  "plan_version": "C1.1",
+  "created_utc": "2026-01-16T15:55:05.610783+00:00",
+  "snapshot_id": "2026-01-15T202326Z",
+  "snapshot_version": "A3.0",
+  "sources": {
+    "google_ads_customer_id": "9256598060",
+    "google_ads_login_customer_id": "5194867886",
+    "merchant_center_id": "5308355318"
+  },
+  "mode": "DRY_RUN",
+  "plan_context": {
+    "brand_terms_version": "2026-01-16",
+    "brand_terms": [
+      "buycomfortdirect",
+      "comfort direct",
+      "solace air",
+      "solace",
+      "rheem",
+      "ruud",
+      "goodman",
+      "buy comfort direct",
+      "amana",
+      "daikin",
+      "bcd",
+      "buy comfort"
+    ],
+    "manufacturer_brands": [
+      "rheem",
+      "goodman",
+      "solace",
+      "daikin",
+      "ruud",
+      "amana"
+    ],
+    "thresholds": {
+      "brand_cpc_max": 2.0,
+      "roas_target": 4.0
+    },
+    "lookback_days": 30,
+    "planner_rules_applied": [
+      "rule:S1:broad_match_in_branded",
+      "rule:S2:non_brand_in_branded",
+      "rule:S3:branded_bidding_strategy",
+      "rule:S4:manufacturer_brand_in_assets",
+      "rule:S5:merchant_disapproved"
+    ],
+    "notes": "Generated with ruleset=safety, max_ops=50"
+  },
+  "guardrails": {
+    "max_total_ops": 50,
+    "max_ops_by_type": {
+      "ADS_SET_KEYWORD_STATUS": 20,
+      "ADS_ADD_NEGATIVE_KEYWORD": 20,
+      "ADS_SET_KEYWORD_MATCH_TYPE": 10,
+      "ADS_UPDATE_ASSET_TEXT": 5,
+      "ADS_REMOVE_ASSET": 5,
+      "MERCHANT_EXCLUDE_PRODUCT": 10,
+      "ADS_UPDATE_BID_STRATEGY": 0,
+      "ADS_UPDATE_BUDGET": 0
+    },
+    "forbid_budget_changes": true,
+    "forbid_campaign_pause": true,
+    "forbid_campaign_enable": false,
+    "max_budget_pct_change": 0,
+    "forbid_broad_match": true,
+    "forbid_manufacturer_brand_negatives": true,
+    "forbid_bid_strategy_changes": true,
+    "forbid_conversion_goal_changes": true,
+    "forbid_location_targeting_changes": true,
+    "forbid_url_expansion_changes": true,
+    "forbid_auto_apply_settings": true,
+    "max_text_edit_chars": 100,
+    "allowlist_campaign_ids": null,
+    "blocklist_campaign_ids": [],
+    "require_manual_approval_for_types": [
+      "ADS_REMOVE_ASSET",
+      "MERCHANT_EXCLUDE_PRODUCT"
+    ],
+    "require_precondition_match": true,
+    "abort_on_missing_entity": true,
+    "abort_on_first_error": false,
+    "max_risk_level": "MEDIUM"
+  },
+  "summary": {
+    "total_operations": 0,
+    "total_findings": 2,
+    "operations_by_type": {},
+    "operations_by_risk": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 0
+    },
+    "estimated_api_calls": 0,
+    "platforms_affected": [],
+    "campaigns_affected": [],
+    "risk_score": "LOW",
+    "risk_summary": "No operations | Findings: 2 INFO",
+    "requires_approval": false,
+    "approval_required_ops": [],
+    "findings": [
+      {
+        "rule_id": "rule:S2:non_brand_in_branded",
+        "level": "INFO",
+        "message": "Protected 3 brand keyword(s) in Branded campaign (not proposed for pause): buy comfort direct, buycomfortdirect, buycomfortdirect.com",
+        "entity_ref": null
+      },
+      {
+        "rule_id": "rule:S5:merchant_disapproved",
+        "level": "INFO",
+        "message": "12 disapproved products found; 0 in discontinued list (proposed for exclusion)",
+        "entity_ref": null
+      }
+    ]
+  },
+  "operations": [],
+  "approvals": {
+    "plan_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approval_notes": null,
+    "operations_requiring_approval": [],
+    "operation_approvals": {}
+  },
+  "integrity": {
+    "snapshot_manifest_hash": null,
+    "plan_operations_hash": null,
+    "generated_by": "plan_changes.py",
+    "generator_version": "C2.0"
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "plan_id": "plan-2026-01-15T202326Z-full",
+  "plan_version": "C1.1",
+  "created_utc": "2026-01-16T16:00:00Z",
+  "snapshot_id": "2026-01-15T202326Z",
+  "snapshot_version": "A3.0",
+  "sources": {
+    "google_ads_customer_id": "9256598060",
+    "google_ads_login_customer_id": "9256598060",
+    "merchant_center_id": "5308355318"
+  },
+  "mode": "DRY_RUN",
+  "plan_context": {
+    "brand_terms_version": "2026-01-15",
+    "brand_terms": ["buy comfort direct", "buycomfortdirect", "buycomfortdirect.com", "bcd", "comfort direct", "bcd hvac"],
+    "manufacturer_brands": ["rheem", "goodman", "solace", "daikin", "ruud", "amana"],
+    "thresholds": {
+      "brand_cpc_max": 2.00,
+      "roas_target": 4.0,
+      "min_conversions_for_migration": 3,
+      "min_clicks_for_analysis": 10
+    },
+    "lookback_days": 30,
+    "planner_rules_applied": [
+      "rule:brand_protection:add_brand_negative_to_pmax",
+      "rule:brand_protection:remove_brand_from_pmax_assets",
+      "rule:brand_protection:replace_brand_in_pmax_assets",
+      "rule:brand_protection:enable_paused_brand_keywords",
+      "rule:exact_match_migration:high_volume_brand_term",
+      "rule:merchant:exclude_discontinued_products"
+    ],
+    "notes": "Full example: brand protection, keyword migration, and merchant cleanup"
+  },
+  "guardrails": {
+    "max_total_ops": 50,
+    "max_ops_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 20,
+      "ADS_SET_KEYWORD_STATUS": 10,
+      "ADS_SET_KEYWORD_MATCH_TYPE": 10,
+      "ADS_UPDATE_ASSET_TEXT": 5,
+      "ADS_REMOVE_ASSET": 5,
+      "MERCHANT_EXCLUDE_PRODUCT": 10,
+      "ADS_UPDATE_BID_STRATEGY": 0,
+      "ADS_UPDATE_BUDGET": 0
+    },
+    "forbid_budget_changes": true,
+    "forbid_campaign_pause": true,
+    "forbid_campaign_enable": false,
+    "max_budget_pct_change": 0,
+    "forbid_broad_match": true,
+    "forbid_manufacturer_brand_negatives": true,
+    "forbid_bid_strategy_changes": true,
+    "forbid_conversion_goal_changes": true,
+    "forbid_location_targeting_changes": true,
+    "forbid_url_expansion_changes": true,
+    "forbid_auto_apply_settings": true,
+    "max_text_edit_chars": 100,
+    "allowlist_campaign_ids": null,
+    "blocklist_campaign_ids": [],
+    "require_manual_approval_for_types": [
+      "ADS_REMOVE_ASSET",
+      "MERCHANT_EXCLUDE_PRODUCT"
+    ],
+    "require_precondition_match": true,
+    "abort_on_missing_entity": true,
+    "abort_on_first_error": false,
+    "max_risk_level": "MEDIUM"
+  },
+  "summary": {
+    "total_operations": 6,
+    "operations_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 1,
+      "ADS_SET_KEYWORD_MATCH_TYPE": 1,
+      "ADS_SET_KEYWORD_STATUS": 1,
+      "ADS_UPDATE_ASSET_TEXT": 1,
+      "ADS_REMOVE_ASSET": 1,
+      "MERCHANT_EXCLUDE_PRODUCT": 1
+    },
+    "operations_by_risk": {
+      "LOW": 2,
+      "MEDIUM": 4,
+      "HIGH": 0
+    },
+    "estimated_api_calls": 6,
+    "platforms_affected": ["GOOGLE_ADS", "MERCHANT_CENTER"],
+    "campaigns_affected": ["20958985895", "20815709270"],
+    "risk_score": "MEDIUM",
+    "risk_summary": "4 medium-risk operations including PMax asset changes and product exclusion; 2 low-risk BCD-brand negative and status changes",
+    "requires_approval": true,
+    "approval_required_ops": ["op-004", "op-006"]
+  },
+  "operations": [
+    {
+      "op_id": "op-001",
+      "op_type": "ADS_ADD_NEGATIVE_KEYWORD",
+      "entity_ref": "ads.negative_keyword:new:20815709270:buy_comfort_direct",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "NEGATIVE_KEYWORD",
+        "entity_id": "new",
+        "entity_name": "buy comfort direct",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20815709270"
+        ]
+      },
+      "intent": "Add 'buy comfort direct' as campaign-level negative in PMax to prevent brand term leakage",
+      "before": {
+        "exists": false
+      },
+      "after": {
+        "exists": true,
+        "text": "buy comfort direct",
+        "match_type": "EXACT",
+        "level": "CAMPAIGN"
+      },
+      "preconditions": [
+        {
+          "path": "campaign.status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Campaign must be active"
+        },
+        {
+          "path": "negative_keyword.text",
+          "op": "NOT_EXISTS",
+          "value": null,
+          "description": "Negative keyword must not already exist"
+        }
+      ],
+      "rollback": {
+        "type": "DELETE_CREATED",
+        "data": {
+          "entity_ref": "ads.negative_keyword:new:20815709270:buy_comfort_direct"
+        },
+        "notes": "Remove the negative keyword if rollback needed"
+      },
+      "risk": {
+        "level": "LOW",
+        "level_numeric": 1,
+        "reasons": [
+          "Adding negatives is non-destructive",
+          "Prevents unwanted brand impressions in PMax"
+        ],
+        "mitigations": [
+          "Can be removed if needed via rollback"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/pmax/campaigns.json",
+          "key": "id",
+          "value": "20815709270",
+          "field_path": "records[1]",
+          "note": "PMax campaign identified as lacking brand term negatives"
+        }
+      ],
+      "evidence_query": "pmax_campaigns WHERE id='20815709270' AND status='ENABLED'",
+      "created_from_rule": "rule:brand_protection:add_brand_negative_to_pmax",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-002",
+      "op_type": "ADS_SET_KEYWORD_MATCH_TYPE",
+      "entity_ref": "ads.keyword:701234567890",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "KEYWORD",
+        "entity_id": "701234567890",
+        "entity_name": "buy comfort direct",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20958985895",
+          "ads.ad_group:154321098765"
+        ]
+      },
+      "intent": "Migrate high-performing brand keyword from PHRASE to EXACT match for tighter control",
+      "before": {
+        "text": "buy comfort direct",
+        "match_type": "PHRASE",
+        "status": "ENABLED"
+      },
+      "after": {
+        "text": "buy comfort direct",
+        "match_type": "EXACT",
+        "status": "ENABLED"
+      },
+      "preconditions": [
+        {
+          "path": "match_type",
+          "op": "EQUALS",
+          "value": "PHRASE",
+          "description": "Keyword must still be PHRASE match"
+        },
+        {
+          "path": "status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Keyword must be enabled"
+        },
+        {
+          "path": "campaign.bidding_strategy",
+          "op": "EQUALS",
+          "value": "MANUAL_CPC",
+          "description": "Campaign must use Manual CPC bidding"
+        }
+      ],
+      "rollback": {
+        "type": "RESTORE_BEFORE",
+        "data": {
+          "match_type": "PHRASE"
+        },
+        "notes": "Revert match type from EXACT back to PHRASE"
+      },
+      "risk": {
+        "level": "MEDIUM",
+        "level_numeric": 2,
+        "reasons": [
+          "Match type change affects which queries trigger the keyword",
+          "EXACT is more restrictive than PHRASE"
+        ],
+        "mitigations": [
+          "Precondition verifies current match type",
+          "Rollback restores PHRASE if needed"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/ads/keywords.json",
+          "key": "id",
+          "value": "701234567890",
+          "field_path": "records[0]",
+          "note": "Branded keyword identified for exact match migration"
+        }
+      ],
+      "evidence_query": "keywords WHERE campaign_id='20958985895' AND match_type='PHRASE' AND text CONTAINS 'buy comfort'",
+      "created_from_rule": "rule:exact_match_migration:high_volume_brand_term",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-003",
+      "op_type": "ADS_SET_KEYWORD_STATUS",
+      "entity_ref": "ads.keyword:709876543210",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "KEYWORD",
+        "entity_id": "709876543210",
+        "entity_name": "bcd hvac",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20958985895",
+          "ads.ad_group:154321098765"
+        ]
+      },
+      "intent": "Re-enable paused brand keyword to restore brand coverage",
+      "before": {
+        "text": "bcd hvac",
+        "match_type": "EXACT",
+        "status": "PAUSED"
+      },
+      "after": {
+        "text": "bcd hvac",
+        "match_type": "EXACT",
+        "status": "ENABLED"
+      },
+      "preconditions": [
+        {
+          "path": "status",
+          "op": "EQUALS",
+          "value": "PAUSED",
+          "description": "Keyword must currently be paused"
+        },
+        {
+          "path": "campaign.status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Parent campaign must be enabled"
+        }
+      ],
+      "rollback": {
+        "type": "RESTORE_BEFORE",
+        "data": {
+          "status": "PAUSED"
+        },
+        "notes": "Pause the keyword again if rollback needed"
+      },
+      "risk": {
+        "level": "LOW",
+        "level_numeric": 1,
+        "reasons": [
+          "Enabling a brand keyword in branded campaign is expected behavior",
+          "Manual CPC means controlled spend"
+        ],
+        "mitigations": [
+          "Can pause again via rollback"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/ads/keywords.json",
+          "key": "id",
+          "value": "709876543210",
+          "field_path": "records[5]",
+          "note": "Brand keyword found paused; should be active for coverage"
+        }
+      ],
+      "evidence_query": "keywords WHERE campaign_id='20958985895' AND status='PAUSED' AND text IN brand_terms",
+      "created_from_rule": "rule:brand_protection:enable_paused_brand_keywords",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-004",
+      "op_type": "ADS_REMOVE_ASSET",
+      "entity_ref": "ads.asset:asset-12345678",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "ASSET",
+        "entity_id": "asset-12345678",
+        "entity_name": "Buy Comfort Direct - Best HVAC Deals",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20815709270",
+          "ads.asset_group:ag-98765432"
+        ]
+      },
+      "intent": "Remove PMax headline asset containing 'Buy Comfort Direct' to prevent brand cannibalization",
+      "before": {
+        "exists": true,
+        "asset_type": "HEADLINE",
+        "text": "Buy Comfort Direct - Best HVAC Deals",
+        "performance_label": "LOW"
+      },
+      "after": {
+        "exists": false
+      },
+      "preconditions": [
+        {
+          "path": "text",
+          "op": "CONTAINS",
+          "value": "Buy Comfort Direct",
+          "description": "Asset must still contain brand text"
+        },
+        {
+          "path": "asset_group.status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Asset group must be active"
+        }
+      ],
+      "rollback": {
+        "type": "MANUAL_REQUIRED",
+        "data": {
+          "original_text": "Buy Comfort Direct - Best HVAC Deals",
+          "asset_type": "HEADLINE"
+        },
+        "notes": "Asset removal cannot be automatically undone; would need to recreate asset manually"
+      },
+      "risk": {
+        "level": "MEDIUM",
+        "level_numeric": 2,
+        "reasons": [
+          "Removing PMax assets affects ad serving",
+          "Asset has LOW performance label so impact should be minimal",
+          "Brand text in PMax causes cannibalization with Branded campaign"
+        ],
+        "mitigations": [
+          "Precondition verifies brand text still present",
+          "LOW performance label reduces impact"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/pmax/asset_groups.json",
+          "key": "id",
+          "value": "ag-98765432",
+          "field_path": "records[0]",
+          "note": "Asset group containing brand-text headlines"
+        },
+        {
+          "snapshot_path": "normalized/ads/assets.json",
+          "key": "id",
+          "value": "asset-12345678",
+          "field_path": null,
+          "note": "PMax headline contains brand name; flagged for removal"
+        }
+      ],
+      "evidence_query": "assets WHERE asset_group_id IN pmax_asset_groups AND text CONTAINS 'Buy Comfort Direct'",
+      "created_from_rule": "rule:brand_protection:remove_brand_from_pmax_assets",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-005",
+      "op_type": "ADS_UPDATE_ASSET_TEXT",
+      "entity_ref": "ads.asset:asset-87654321",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "ASSET",
+        "entity_id": "asset-87654321",
+        "entity_name": "BCD HVAC Equipment Sale",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20815709270",
+          "ads.asset_group:ag-98765432"
+        ]
+      },
+      "intent": "Replace 'BCD' abbreviation in PMax headline with generic text to prevent brand cannibalization",
+      "before": {
+        "asset_type": "HEADLINE",
+        "text": "BCD HVAC Equipment Sale",
+        "performance_label": "GOOD"
+      },
+      "after": {
+        "asset_type": "HEADLINE",
+        "text": "Premium HVAC Equipment Sale",
+        "performance_label": null
+      },
+      "preconditions": [
+        {
+          "path": "text",
+          "op": "CONTAINS",
+          "value": "BCD",
+          "description": "Asset must still contain BCD abbreviation"
+        },
+        {
+          "path": "asset_type",
+          "op": "EQUALS",
+          "value": "HEADLINE",
+          "description": "Must be a headline asset"
+        }
+      ],
+      "rollback": {
+        "type": "RESTORE_BEFORE",
+        "data": {
+          "text": "BCD HVAC Equipment Sale"
+        },
+        "notes": "Update text back to original value"
+      },
+      "risk": {
+        "level": "MEDIUM",
+        "level_numeric": 2,
+        "reasons": [
+          "Modifying asset text affects ad copy",
+          "Original has GOOD performance; change may impact CTR",
+          "Removing brand abbreviation is necessary for proper campaign separation"
+        ],
+        "mitigations": [
+          "Precondition verifies BCD still present",
+          "Rollback restores original text"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/ads/assets.json",
+          "key": "id",
+          "value": "asset-87654321",
+          "field_path": "records[12]",
+          "note": "PMax headline uses BCD abbreviation; should use generic copy"
+        }
+      ],
+      "evidence_query": "assets WHERE asset_type='HEADLINE' AND text CONTAINS 'BCD'",
+      "created_from_rule": "rule:brand_protection:replace_brand_in_pmax_assets",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-006",
+      "op_type": "MERCHANT_EXCLUDE_PRODUCT",
+      "entity_ref": "merchant.product:online:en:US:PRD-DISCONTINUED-001",
+      "entity": {
+        "platform": "MERCHANT_CENTER",
+        "entity_type": "PRODUCT",
+        "entity_id": "online:en:US:PRD-DISCONTINUED-001",
+        "entity_name": "Rheem Classic Plus 3-Ton AC Unit (DISCONTINUED)",
+        "parent_refs": [
+          "merchant.account:5308355318"
+        ]
+      },
+      "intent": "Exclude discontinued product from Shopping/PMax feeds to prevent advertising unavailable inventory",
+      "before": {
+        "offer_id": "PRD-DISCONTINUED-001",
+        "title": "Rheem Classic Plus 3-Ton AC Unit (DISCONTINUED)",
+        "availability": "out_of_stock",
+        "excluded": false
+      },
+      "after": {
+        "offer_id": "PRD-DISCONTINUED-001",
+        "excluded": true,
+        "exclusion_reason": "DISCONTINUED_PRODUCT"
+      },
+      "preconditions": [
+        {
+          "path": "offer_id",
+          "op": "EXISTS",
+          "value": null,
+          "description": "Product must exist in Merchant Center"
+        },
+        {
+          "path": "availability",
+          "op": "EQUALS",
+          "value": "out_of_stock",
+          "description": "Product must still be out of stock"
+        },
+        {
+          "path": "title",
+          "op": "CONTAINS",
+          "value": "DISCONTINUED",
+          "description": "Product title must indicate discontinued status"
+        }
+      ],
+      "rollback": {
+        "type": "RESTORE_BEFORE",
+        "data": {
+          "excluded": false
+        },
+        "notes": "Remove exclusion from supplemental feed; product will reappear in Shopping"
+      },
+      "risk": {
+        "level": "MEDIUM",
+        "level_numeric": 2,
+        "reasons": [
+          "Excluding products reduces Shopping/PMax inventory",
+          "Product is genuinely discontinued so exclusion is appropriate",
+          "May affect any campaigns targeting this product"
+        ],
+        "mitigations": [
+          "Precondition verifies DISCONTINUED in title",
+          "Precondition verifies out_of_stock",
+          "Rollback removes exclusion"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/merchant/products.json",
+          "key": "offer_id",
+          "value": "PRD-DISCONTINUED-001",
+          "field_path": "records[245]",
+          "note": "Product identified as discontinued based on title and out_of_stock status"
+        },
+        {
+          "snapshot_path": "normalized/merchant/product_status.json",
+          "key": "offer_id",
+          "value": "PRD-DISCONTINUED-001",
+          "field_path": null,
+          "note": "Product status showing out_of_stock"
+        }
+      ],
+      "evidence_query": "products WHERE title CONTAINS 'DISCONTINUED' AND availability='out_of_stock'",
+      "created_from_rule": "rule:merchant:exclude_discontinued_products",
+      "approved": false,
+      "approval_notes": null
+    }
+  ],
+  "approvals": {
+    "plan_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approval_notes": null,
+    "operations_requiring_approval": ["op-004", "op-006"],
+    "operation_approvals": {
+      "op-004": {
+        "approved": false,
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "op-006": {
+        "approved": false,
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      }
+    }
+  },
+  "integrity": {
+    "snapshot_manifest_hash": "sha256:placeholder_hash_value",
+    "plan_operations_hash": "sha256:placeholder_hash_value",
+    "generated_by": "manual_example",
+    "generator_version": "C1.1"
+  }
+}

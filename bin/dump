@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+################################################################################
+# bin/dump - Phase A: State Dump (LIVE READS)
+################################################################################
+#
+# This is the ONLY script that makes live API calls to read data.
+# All other pipeline scripts work from snapshots only.
+#
+# Usage:
+#   bin/dump                      # Full dump (Ads + Merchant)
+#   bin/dump --ads-only           # Google Ads only
+#   bin/dump --merchant-only      # Merchant Center only
+#   bin/dump --out snapshots/foo  # Custom output path
+#   bin/dump --days 30            # Change history lookback
+#
+################################################################################
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+exec python3 "$PROJECT_ROOT/core/dump/dump_state.py" "$@"

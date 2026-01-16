@@ -24,11 +24,11 @@
 
 ## Confidence & Freshness
 
-**Snapshot Age:** 1.7 hours
+**Snapshot Age:** 20.0 hours
 
-**Verdict:** 🟢 **GREEN**
+**Verdict:** 🟡 **YELLOW**
 
-- Snapshot fresh and validated
+- Snapshot age 20.0h > 6h threshold
 
 ### Account Fingerprint
 
@@ -54,7 +54,7 @@
 |-------|-------|
 | Snapshot ID | `2026-01-15T202326Z` |
 | Snapshot Timestamp (UTC) | `2026-01-15T20:23:51.480532Z` |
-| Report Generated (UTC) | `2026-01-15T22:06:05Z` |
+| Report Generated (UTC) | `2026-01-16T16:24:26Z` |
 | Data Sources | Google Ads (Search + PMax), Merchant Center |
 
 ---

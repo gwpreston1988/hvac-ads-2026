@@ -1,0 +1,3 @@
+# Discontinued SKUs - one per line
+# Used by plan_changes.py Rule S5 to auto-exclude disapproved merchant products
+# Example: SKU12345

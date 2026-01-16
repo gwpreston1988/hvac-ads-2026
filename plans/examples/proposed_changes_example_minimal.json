@@ -1,0 +1,229 @@
+{
+  "plan_id": "plan-2026-01-15T202326Z-minimal",
+  "plan_version": "C1.1",
+  "created_utc": "2026-01-16T15:30:00Z",
+  "snapshot_id": "2026-01-15T202326Z",
+  "snapshot_version": "A3.0",
+  "sources": {
+    "google_ads_customer_id": "9256598060",
+    "google_ads_login_customer_id": "9256598060",
+    "merchant_center_id": "5308355318"
+  },
+  "mode": "DRY_RUN",
+  "plan_context": {
+    "brand_terms_version": "2026-01-15",
+    "brand_terms": ["buy comfort direct", "buycomfortdirect", "buycomfortdirect.com", "bcd", "comfort direct"],
+    "manufacturer_brands": ["rheem", "goodman", "solace", "daikin", "ruud", "amana"],
+    "thresholds": {
+      "brand_cpc_max": 2.00,
+      "roas_target": 4.0
+    },
+    "lookback_days": 30,
+    "planner_rules_applied": [
+      "rule:brand_protection:add_brand_negative_to_pmax"
+    ],
+    "notes": "Minimal example: add BCD brand terms as negatives to PMax"
+  },
+  "guardrails": {
+    "max_total_ops": 10,
+    "max_ops_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 10,
+      "ADS_SET_KEYWORD_STATUS": 5,
+      "ADS_UPDATE_BID_STRATEGY": 0,
+      "ADS_UPDATE_BUDGET": 0
+    },
+    "forbid_budget_changes": true,
+    "forbid_campaign_pause": true,
+    "forbid_campaign_enable": false,
+    "max_budget_pct_change": 0,
+    "forbid_broad_match": true,
+    "forbid_manufacturer_brand_negatives": true,
+    "forbid_bid_strategy_changes": true,
+    "forbid_conversion_goal_changes": true,
+    "forbid_location_targeting_changes": true,
+    "forbid_url_expansion_changes": true,
+    "forbid_auto_apply_settings": true,
+    "max_text_edit_chars": 100,
+    "allowlist_campaign_ids": null,
+    "blocklist_campaign_ids": [],
+    "require_manual_approval_for_types": [],
+    "require_precondition_match": true,
+    "abort_on_missing_entity": true,
+    "abort_on_first_error": true,
+    "max_risk_level": "MEDIUM"
+  },
+  "summary": {
+    "total_operations": 2,
+    "operations_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 2
+    },
+    "operations_by_risk": {
+      "LOW": 2,
+      "MEDIUM": 0,
+      "HIGH": 0
+    },
+    "estimated_api_calls": 2,
+    "platforms_affected": ["GOOGLE_ADS"],
+    "campaigns_affected": ["20815709270"],
+    "risk_score": "LOW",
+    "risk_summary": "2 negative keyword additions to PMax campaign for brand protection",
+    "requires_approval": false,
+    "approval_required_ops": []
+  },
+  "operations": [
+    {
+      "op_id": "op-001",
+      "op_type": "ADS_ADD_NEGATIVE_KEYWORD",
+      "entity_ref": "ads.negative_keyword:new:20815709270:buy_comfort_direct",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "NEGATIVE_KEYWORD",
+        "entity_id": "new",
+        "entity_name": "buy comfort direct",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20815709270"
+        ]
+      },
+      "intent": "Add 'buy comfort direct' as campaign-level negative in PMax to prevent brand term leakage",
+      "before": {
+        "exists": false
+      },
+      "after": {
+        "exists": true,
+        "text": "buy comfort direct",
+        "match_type": "EXACT",
+        "level": "CAMPAIGN"
+      },
+      "preconditions": [
+        {
+          "path": "campaign.status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Campaign must be active"
+        },
+        {
+          "path": "negative_keyword.text",
+          "op": "NOT_EXISTS",
+          "value": null,
+          "description": "Negative keyword must not already exist at campaign level"
+        }
+      ],
+      "rollback": {
+        "type": "DELETE_CREATED",
+        "data": {
+          "entity_ref": "ads.negative_keyword:new:20815709270:buy_comfort_direct"
+        },
+        "notes": "Remove the negative keyword if rollback needed"
+      },
+      "risk": {
+        "level": "LOW",
+        "level_numeric": 1,
+        "reasons": [
+          "Adding negatives is non-destructive",
+          "Prevents unwanted brand impressions in PMax"
+        ],
+        "mitigations": [
+          "Can be removed if needed via rollback"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/pmax/campaigns.json",
+          "key": "id",
+          "value": "20815709270",
+          "field_path": "records[1]",
+          "note": "PMax campaign 'Products merchant campaign' identified as lacking brand term negatives"
+        }
+      ],
+      "evidence_query": "pmax_campaigns WHERE id='20815709270' AND status='ENABLED'",
+      "created_from_rule": "rule:brand_protection:add_brand_negative_to_pmax",
+      "approved": false,
+      "approval_notes": null
+    },
+    {
+      "op_id": "op-002",
+      "op_type": "ADS_ADD_NEGATIVE_KEYWORD",
+      "entity_ref": "ads.negative_keyword:new:20815709270:buycomfortdirect",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "NEGATIVE_KEYWORD",
+        "entity_id": "new",
+        "entity_name": "buycomfortdirect",
+        "parent_refs": [
+          "ads.customer:9256598060",
+          "ads.campaign:20815709270"
+        ]
+      },
+      "intent": "Add 'buycomfortdirect' as campaign-level negative in PMax to prevent brand term leakage",
+      "before": {
+        "exists": false
+      },
+      "after": {
+        "exists": true,
+        "text": "buycomfortdirect",
+        "match_type": "EXACT",
+        "level": "CAMPAIGN"
+      },
+      "preconditions": [
+        {
+          "path": "campaign.status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Campaign must be active"
+        },
+        {
+          "path": "negative_keyword.text",
+          "op": "NOT_EXISTS",
+          "value": null,
+          "description": "Negative keyword must not already exist at campaign level"
+        }
+      ],
+      "rollback": {
+        "type": "DELETE_CREATED",
+        "data": {
+          "entity_ref": "ads.negative_keyword:new:20815709270:buycomfortdirect"
+        },
+        "notes": "Remove the negative keyword if rollback needed"
+      },
+      "risk": {
+        "level": "LOW",
+        "level_numeric": 1,
+        "reasons": [
+          "Adding negatives is non-destructive",
+          "Prevents unwanted brand impressions in PMax"
+        ],
+        "mitigations": [
+          "Can be removed if needed via rollback"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/pmax/campaigns.json",
+          "key": "id",
+          "value": "20815709270",
+          "field_path": "records[1]",
+          "note": "PMax campaign 'Products merchant campaign' identified as lacking brand term negatives"
+        }
+      ],
+      "evidence_query": "pmax_campaigns WHERE id='20815709270' AND status='ENABLED'",
+      "created_from_rule": "rule:brand_protection:add_brand_negative_to_pmax",
+      "approved": false,
+      "approval_notes": null
+    }
+  ],
+  "approvals": {
+    "plan_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approval_notes": null,
+    "operations_requiring_approval": [],
+    "operation_approvals": {}
+  },
+  "integrity": {
+    "snapshot_manifest_hash": null,
+    "plan_operations_hash": null,
+    "generated_by": "manual_example",
+    "generator_version": "C1.1"
+  }
+}

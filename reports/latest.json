@@ -2,10 +2,10 @@
   "snapshot_id": "2026-01-15T202326Z",
   "snapshot_version": "A3.0",
   "extraction_finished_utc": "2026-01-15T20:23:51.480532Z",
-  "snapshot_age_minutes": 102,
-  "confidence_verdict": "GREEN",
+  "snapshot_age_minutes": 1200,
+  "confidence_verdict": "YELLOW",
   "confidence_reasons": [
-    "Snapshot fresh and validated"
+    "Snapshot age 20.0h > 6h threshold"
   ],
   "fingerprint": {
     "total_campaigns": 8,
@@ -26,7 +26,7 @@
     "branded_negative_count": 0,
     "branded_most_recent_change": "2026-01-13 13:31:19.825871"
   },
-  "report_generated_utc": "2026-01-15T22:06:05.747591+00:00",
+  "report_generated_utc": "2026-01-16T16:24:26.458116+00:00",
   "brand_protection": {
     "status": "WARN",
     "fail_triggers": [],

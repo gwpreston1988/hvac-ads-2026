@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+################################################################################
+# bin/plan - Phase C1: Generate Change Plan (SNAPSHOT-ONLY)
+################################################################################
+#
+# This script reads ONLY from local snapshot files. NO LIVE API CALLS.
+# Output: DRY_RUN plan JSON in plans/runs/
+#
+# Usage:
+#   bin/plan --latest                      # Use most recent snapshot
+#   bin/plan --snapshot snapshots/...      # Explicit snapshot path
+#   bin/plan --latest --ruleset safety     # Specify ruleset (default: safety)
+#   bin/plan --latest --max-ops 20         # Limit operations
+#
+# REQUIRES: --latest or --snapshot flag (will not silently default)
+#
+################################################################################
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+# Enforce snapshot flag requirement
+if [[ $# -eq 0 ]] || { [[ "$*" != *"--latest"* ]] && [[ "$*" != *"--snapshot"* ]]; }; then
+    echo "ERROR: Must specify --latest or --snapshot <path>"
+    echo ""
+    echo "Usage:"
+    echo "  bin/plan --latest                  # Use most recent snapshot"
+    echo "  bin/plan --snapshot snapshots/...  # Explicit snapshot path"
+    exit 1
+fi
+
+exec python3 "$PROJECT_ROOT/core/plan/plan_changes.py" "$@"

@@ -1,0 +1,131 @@
+{
+  "plan_id": "test-mutation-2026-01-16T170632Z",
+  "plan_version": "C1.1",
+  "created_utc": "2026-01-16T17:20:00.000000+00:00",
+  "snapshot_id": "2026-01-16T170632Z",
+  "snapshot_version": "A3.0",
+  "sources": {
+    "google_ads_customer_id": "9256598060",
+    "google_ads_login_customer_id": "5194867886",
+    "merchant_center_id": "5308355318"
+  },
+  "mode": "APPLY",
+  "plan_context": {
+    "brand_terms_version": "2026-01-16",
+    "brand_terms": ["bcd"],
+    "manufacturer_brands": [],
+    "thresholds": {},
+    "lookback_days": 30,
+    "planner_rules_applied": ["manual:c3_validation_test"],
+    "notes": "C3 validation test - add BCD brand negative to Hardware Offensive Search campaign"
+  },
+  "guardrails": {
+    "max_total_ops": 1,
+    "max_ops_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 1
+    },
+    "forbid_budget_changes": true,
+    "forbid_campaign_pause": true,
+    "forbid_campaign_enable": true,
+    "max_budget_pct_change": 0,
+    "forbid_broad_match": false,
+    "forbid_manufacturer_brand_negatives": true,
+    "forbid_bid_strategy_changes": true,
+    "require_manual_approval_for_types": [],
+    "require_precondition_match": true,
+    "abort_on_missing_entity": true,
+    "abort_on_first_error": true,
+    "max_risk_level": "LOW",
+    "max_snapshot_age_hours": 24
+  },
+  "summary": {
+    "total_operations": 1,
+    "total_findings": 0,
+    "operations_by_type": {
+      "ADS_ADD_NEGATIVE_KEYWORD": 1
+    },
+    "operations_by_risk": {
+      "LOW": 1,
+      "MEDIUM": 0,
+      "HIGH": 0
+    },
+    "estimated_api_calls": 1,
+    "platforms_affected": ["google_ads"],
+    "campaigns_affected": ["23445812072"],
+    "risk_score": "LOW",
+    "risk_summary": "1 low-risk operation: add brand negative to Hardware Offensive Search campaign",
+    "requires_approval": false,
+    "approval_required_ops": [],
+    "findings": []
+  },
+  "operations": [
+    {
+      "op_id": "op-001",
+      "op_type": "ADS_ADD_NEGATIVE_KEYWORD",
+      "platform": "google_ads",
+      "entity_ref": "google_ads.campaign:23445812072",
+      "entity": {
+        "entity_type": "CAMPAIGN",
+        "entity_id": "23445812072",
+        "entity_name": "BCD - Hardware Offensive - 2026",
+        "parent_refs": [
+          "ads.campaign:23445812072"
+        ]
+      },
+      "description": "Add 'bcd' as phrase match negative keyword to Hardware Offensive Search campaign to protect branded traffic",
+      "risk_level": "LOW",
+      "requires_approval": false,
+      "params": {
+        "campaign_id": "23445812072",
+        "keyword_text": "bcd",
+        "match_type": "PHRASE"
+      },
+      "before": null,
+      "after": {
+        "text": "bcd",
+        "match_type": "PHRASE"
+      },
+      "preconditions": [
+        {
+          "path": "status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Campaign must be enabled"
+        }
+      ],
+      "evidence": [
+        {
+          "type": "config_reference",
+          "source": "core/configs/brand_terms.json",
+          "note": "bcd is a configured brand term that should not trigger in non-branded campaigns"
+        }
+      ],
+      "rollback": {
+        "type": "DELETE_CREATED",
+        "operation": {
+          "op_type": "ADS_REMOVE_NEGATIVE_KEYWORD",
+          "params": {
+            "campaign_id": "23445812072",
+            "keyword_text": "bcd",
+            "match_type": "PHRASE"
+          }
+        },
+        "notes": "Remove the added negative keyword"
+      }
+    }
+  ],
+  "approvals": {
+    "plan_approved": true,
+    "approved_by": "georgepreston",
+    "approved_at": "2026-01-16T17:45:00.000000+00:00",
+    "approval_notes": "C3 validation test - safe brand negative addition to Search campaign",
+    "operations_requiring_approval": [],
+    "operation_approvals": {}
+  },
+  "integrity": {
+    "snapshot_manifest_hash": null,
+    "plan_operations_hash": null,
+    "generated_by": "manual_test",
+    "generator_version": "C1.1"
+  }
+}

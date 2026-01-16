@@ -1,0 +1,78 @@
+{
+  "plan_id": "test-mutation-2026-01-16T170632Z",
+  "snapshot_id": "2026-01-16T170632Z",
+  "execution_mode": "APPLY",
+  "start_utc": "2026-01-16T18:28:49.032106+00:00",
+  "end_utc": "2026-01-16T18:28:50.454744+00:00",
+  "duration_seconds": 1.422469,
+  "aborted": false,
+  "abort_reason": null,
+  "guardrail_confirmations": {
+    "structure_valid": true,
+    "mode_valid": true,
+    "snapshot_exists": true,
+    "guardrails_satisfied": true,
+    "preconditions_verified": true
+  },
+  "precondition_results": {
+    "op-001": {
+      "passed": true,
+      "mismatches": []
+    }
+  },
+  "operation_results": [
+    {
+      "op_id": "op-001",
+      "op_type": "ADS_ADD_NEGATIVE_KEYWORD",
+      "status": "SUCCESS",
+      "dry_run": false,
+      "api_request": {
+        "campaignCriterionOperation": {
+          "create": {
+            "campaign": "customers/9256598060/campaigns/23445812072",
+            "negative": true,
+            "keyword": {
+              "text": "bcd",
+              "matchType": "PHRASE"
+            }
+          }
+        }
+      },
+      "api_response": {
+        "mutateOperationResponses": [
+          {
+            "campaignCriterionResult": {
+              "resourceName": "customers/9256598060/campaignCriteria/23445812072~170759662"
+            }
+          }
+        ]
+      },
+      "mutation_id": "customers/9256598060/campaignCriteria/23445812072~170759662",
+      "error": null,
+      "executed_at": "2026-01-16T18:28:50.454698+00:00"
+    }
+  ],
+  "rollback_data": [
+    {
+      "op_id": "op-001",
+      "rollback": {
+        "type": "DELETE_CREATED",
+        "operation": {
+          "op_type": "ADS_REMOVE_NEGATIVE_KEYWORD",
+          "params": {
+            "campaign_id": "23445812072",
+            "keyword_text": "bcd",
+            "match_type": "PHRASE"
+          }
+        },
+        "notes": "Remove the added negative keyword"
+      }
+    }
+  ],
+  "summary": {
+    "total_operations": 1,
+    "by_status": {
+      "SUCCESS": 1
+    }
+  }
+}

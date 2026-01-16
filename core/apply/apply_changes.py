@@ -728,6 +728,16 @@ class OperationExecutor:
             result["error"] = "Cannot determine campaign_id from parent_refs"
             return result
 
+        # GUARDRAIL: Block negative keywords on Performance Max campaigns
+        campaign_type = self._get_campaign_type(campaign_id)
+        if campaign_type == "PERFORMANCE_MAX":
+            result["status"] = "FAILED"
+            result["error"] = (
+                "PMax campaigns do not support campaign-level negative keywords. "
+                "Use Brand Exclusions (brand_list) instead."
+            )
+            return result
+
         text = after.get("text", entity.get("entity_name", ""))
         match_type = after.get("match_type", "EXACT")
 
@@ -850,6 +860,27 @@ class OperationExecutor:
             result["error"] = "Merchant product exclusion requires supplemental feed implementation"
 
         return result
+
+    def _get_campaign_type(self, campaign_id: str) -> Optional[str]:
+        """Get campaign type from Google Ads API.
+
+        Returns campaign advertising_channel_type (e.g., SEARCH, PERFORMANCE_MAX).
+        """
+        try:
+            query = f"""
+                SELECT
+                    campaign.id,
+                    campaign.advertising_channel_type
+                FROM campaign
+                WHERE campaign.id = {campaign_id}
+            """
+            results = self.ads_client.search(query)
+            if results:
+                campaign = results[0].get("campaign", {})
+                return campaign.get("advertisingChannelType")
+            return None
+        except Exception:
+            return None
 
 
 # =============================================================================

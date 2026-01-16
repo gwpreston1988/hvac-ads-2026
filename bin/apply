@@ -1,20 +1,25 @@
 #!/usr/bin/env bash
 ################################################################################
-# bin/apply - Phase C2: Apply Change Plan (LIVE WRITES - DANGEROUS)
+# bin/apply - Phase C3: Apply Change Plan (LIVE WRITES - DANGEROUS)
 ################################################################################
 #
 # This is the ONLY script that makes live API calls to WRITE data.
-# By default, runs in --dry-run mode (no actual changes).
+# By default, runs in DRY_RUN mode (no actual changes).
 #
 # Usage:
 #   bin/apply plans/runs/<plan>.json           # DRY_RUN (default, safe)
-#   bin/apply plans/runs/<plan>.json --dry-run # Explicit dry-run
 #   bin/apply plans/runs/<plan>.json --execute # ACTUALLY APPLY (dangerous)
 #
 # WARNINGS:
 #   - NEVER run --execute without reviewing the plan JSON first
-#   - The plan must be approved (plan_approved: true) to execute
-#   - All preconditions are verified before execution
+#   - The plan must have mode: "APPLY" to execute
+#   - The plan must have plan_approved: true to execute
+#   - All preconditions are verified against live state before execution
+#   - All guardrails are enforced (max ops, forbidden types, etc.)
+#
+# OUTPUT:
+#   - plans/runs/<plan_id>.results.json
+#   - plans/runs/<plan_id>.results.md
 #
 ################################################################################
 
@@ -24,28 +29,62 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 APPLY_SCRIPT="$PROJECT_ROOT/core/apply/apply_changes.py"
 
+# Check if plan path is provided
+if [[ $# -eq 0 ]] || [[ "$1" == "--help" ]] || [[ "$1" == "-h" ]]; then
+    echo "Usage: bin/apply <plan_path> [--execute]"
+    echo ""
+    echo "Arguments:"
+    echo "  plan_path      Path to plan JSON file (required)"
+    echo ""
+    echo "Options:"
+    echo "  --execute      Execute operations for real (DANGEROUS)"
+    echo "                 Without this flag, runs in DRY_RUN mode"
+    echo ""
+    echo "Examples:"
+    echo "  bin/apply plans/runs/plan-2026-01-15.json           # DRY_RUN"
+    echo "  bin/apply plans/runs/plan-2026-01-15.json --execute # LIVE WRITES"
+    echo ""
+    echo "DRY_RUN mode (default):"
+    echo "  - Validates plan structure and guardrails"
+    echo "  - Checks preconditions against live state"
+    echo "  - Simulates execution"
+    echo "  - Writes results files"
+    echo "  - NO actual API mutations"
+    echo ""
+    echo "EXECUTE mode (--execute):"
+    echo "  - Requires plan.mode == 'APPLY'"
+    echo "  - Requires plan_approved == true"
+    echo "  - Makes REAL API mutations"
+    echo "  - Writes results files with mutation IDs"
+    exit 0
+fi
+
 # Check if apply_changes.py exists
 if [[ ! -f "$APPLY_SCRIPT" ]]; then
     echo "=============================================================="
-    echo "ERROR: apply_changes.py not yet implemented"
+    echo "ERROR: apply_changes.py not found"
     echo "=============================================================="
     echo ""
-    echo "The apply phase (Phase C2) has not been implemented yet."
-    echo "Currently, only the planning phase (Phase C1) is available."
-    echo ""
-    echo "For now, you can:"
-    echo "  1. Review generated plans in plans/runs/"
-    echo "  2. Apply changes manually through Google Ads UI"
-    echo "  3. Wait for Phase C2 implementation"
-    echo ""
-    echo "Plans are always DRY_RUN until apply_changes.py is ready."
+    echo "Expected at: $APPLY_SCRIPT"
     exit 1
 fi
 
-# Default to dry-run if --execute not specified
-if [[ "$*" != *"--execute"* ]] && [[ "$*" != *"--dry-run"* ]]; then
-    echo "Running in DRY_RUN mode (add --execute to actually apply changes)"
-    exec python3 "$APPLY_SCRIPT" "$@" --dry-run
-else
-    exec python3 "$APPLY_SCRIPT" "$@"
+# Check if --execute flag is present
+if [[ "$*" == *"--execute"* ]]; then
+    echo "=============================================================="
+    echo "WARNING: EXECUTE MODE - LIVE API WRITES ENABLED"
+    echo "=============================================================="
+    echo ""
+    echo "This will make REAL changes to Google Ads / Merchant Center."
+    echo ""
+    echo "Requirements:"
+    echo "  - Plan must have mode: 'APPLY'"
+    echo "  - Plan must have plan_approved: true"
+    echo "  - All required operation approvals must be granted"
+    echo ""
+    echo "Press Ctrl+C within 3 seconds to cancel..."
+    sleep 3
+    echo ""
 fi
+
+exec python3 "$APPLY_SCRIPT" "$@"

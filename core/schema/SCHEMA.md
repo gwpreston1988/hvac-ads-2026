@@ -296,6 +296,63 @@ Normalized files flatten nested API responses into consistent, queryable formats
 
 ---
 
+---
+
+## Diagnostic Provenance Files
+
+These files exist outside the snapshot structure and provide operational provenance for changes made outside the baseline pipeline.
+
+### diag/out_of_band_ledger.jsonl
+
+**Purpose:** Append-only ledger of changes made to Google Ads via manual API calls or other tools outside the baseline apply engine. Used by the report generator to show reconciliation status.
+
+**Location:** `diag/out_of_band_ledger.jsonl` (project root, not inside snapshots)
+
+**Format:** JSON Lines (one JSON object per line)
+
+**Entry Structure:**
+
+```json
+{
+  "timestamp": "2026-01-19T19:39:19Z",
+  "action": "restructure_listing_groups",
+  "campaign_id": "20815709270",
+  "campaign_name": "Products merchant campaign",
+  "asset_group_id": "6483780791",
+  "before": "22 filters (hvac parts supplies L1 subdivision with L2 subcategories)",
+  "after": "5 filters (INCLUDE: goodman 1, rheem, solace; EXCLUDE: everything else)",
+  "reason": "Goodman products were not showing in Shopping due to incorrect product type filters",
+  "executed_by": "manual_api_call",
+  "reconciled_snapshot_id": "2026-01-19T194619Z"
+}
+```
+
+**Field Definitions:**
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `timestamp` | Yes | ISO 8601 UTC timestamp when change was executed |
+| `action` | Yes | Short identifier for the change type |
+| `campaign_id` | No | Campaign ID affected (if applicable) |
+| `campaign_name` | No | Human-readable campaign name |
+| `asset_group_id` | No | Asset group ID affected (if applicable) |
+| `before` | No | Description of state before change |
+| `after` | No | Description of state after change |
+| `reason` | No | Why the change was made |
+| `executed_by` | No | How the change was executed (e.g., "manual_api_call", "diag_script") |
+| `reconciled_snapshot_id` | No | Snapshot ID that captured state after this change |
+
+**Usage Notes:**
+
+- This file is **not part of snapshots** — it tracks operational provenance separately
+- Entries should be **appended**, never deleted or overwritten
+- The report generator reads the last 10 entries and shows reconciliation status
+- A change is considered "reconciled" if:
+  - `reconciled_snapshot_id` is explicitly set, OR
+  - The current snapshot's `extraction_finished_utc` is after the change `timestamp`
+
+---
+
 ## Field Definitions
 
 See [FIELDS.md](./FIELDS.md) for complete field-level specifications.

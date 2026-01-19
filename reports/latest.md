@@ -22,32 +22,27 @@
 
 ---
 
-## Recent Out-of-Band Change (Recorded)
+## Recent Out-of-Band Changes (Recorded)
 
-> **Note:** The following change was executed outside the baseline apply engine and is recorded here for provenance.
+> **Note:** The following changes were executed outside the baseline apply engine and are recorded here for provenance.
 
 | Field | Value |
 |-------|-------|
 | Timestamp (UTC) | `2026-01-19T19:39:19Z` |
+| Action | restructure_listing_groups |
 | Campaign | Products merchant campaign (ID: 20815709270) |
 | Asset Group | 6483780791 |
-| Action | Restructure listing group filters |
 | Before | 22 filters (hvac parts supplies L1 subdivision with L2 subcategories) |
 | After | 5 filters (INCLUDE: goodman 1, rheem, solace; EXCLUDE: everything else) |
 | Reason | Goodman products were not showing in Shopping due to incorrect product type filters |
-| Status | ✓ System reconciled to current state via fresh snapshot |
-
-**API Notes (for future pipeline integration):**
-- `listingSource: "SHOPPING"` required on CREATE operations
-- CREATEs must precede REMOVEs in atomic mutate calls
-- Delete leaves before subdivision parents
-- Always maintain "everything else" child under root for tree validity
+| Reconciliation | ✓ Reconciled in snapshot `2026-01-19T194619Z` |
 
 ---
 
+
 ## Confidence & Freshness
 
-**Snapshot Age:** 1 minutes
+**Snapshot Age:** 1.2 hours
 
 **Verdict:** 🟢 **GREEN**
 
@@ -77,7 +72,7 @@
 |-------|-------|
 | Snapshot ID | `2026-01-19T194619Z` |
 | Snapshot Timestamp (UTC) | `2026-01-19T19:46:42.699853Z` |
-| Report Generated (UTC) | `2026-01-19T19:48:25Z` |
+| Report Generated (UTC) | `2026-01-19T21:01:39Z` |
 | Data Sources | Google Ads (Search + PMax), Merchant Center |
 
 ---

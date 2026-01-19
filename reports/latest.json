@@ -2,7 +2,7 @@
   "snapshot_id": "2026-01-19T194619Z",
   "snapshot_version": "A3.0",
   "extraction_finished_utc": "2026-01-19T19:46:42.699853Z",
-  "snapshot_age_minutes": 1,
+  "snapshot_age_minutes": 74,
   "confidence_verdict": "GREEN",
   "confidence_reasons": [
     "Snapshot fresh and validated"
@@ -26,7 +26,7 @@
     "branded_negative_count": 0,
     "branded_most_recent_change": "2026-01-16 19:51:21.482369"
   },
-  "report_generated_utc": "2026-01-19T19:48:25.429772+00:00",
+  "report_generated_utc": "2026-01-19T21:01:39.333993+00:00",
   "brand_protection": {
     "status": "FAIL",
     "fail_triggers": [
@@ -39,5 +39,18 @@
     "brand_protection": "FAIL",
     "shopping_eligibility": "\u2713 1,101/1,101 equipment approved (100%)",
     "biggest_risk": "No urgent issues detected. Continue monitoring per checkpoints below."
-  }
+  },
+  "out_of_band_changes": [
+    {
+      "timestamp": "2026-01-19T19:39:19Z",
+      "action": "restructure_listing_groups",
+      "campaign_id": "20815709270",
+      "asset_group_id": "6483780791",
+      "before": "22 filters (hvac parts supplies L1 subdivision with L2 subcategories)",
+      "after": "5 filters (INCLUDE: goodman 1, rheem, solace; EXCLUDE: everything else)",
+      "reason": "Goodman products were not showing in Shopping due to incorrect product type filters",
+      "reconciled": true,
+      "reconciled_snapshot_id": "2026-01-19T194619Z"
+    }
+  ]
 }

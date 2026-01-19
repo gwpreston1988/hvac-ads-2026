@@ -32,6 +32,7 @@ PROJECT_ROOT = CORE_DIR.parent
 SNAPSHOTS_DIR = PROJECT_ROOT / "snapshots"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 TEMPLATE_PATH = SCRIPT_DIR / "TEMPLATE.md"
+OUT_OF_BAND_LEDGER_PATH = PROJECT_ROOT / "diag" / "out_of_band_ledger.jsonl"
 
 # Campaign IDs for key campaigns (from _index.json)
 BRANDED_CAMPAIGN_ID = "20958985895"
@@ -154,6 +155,31 @@ def parse_utc_timestamp(ts_str: str) -> datetime:
 def get_utc_now() -> datetime:
     """Get current UTC time as timezone-aware datetime."""
     return datetime.now(timezone.utc)
+
+
+def load_out_of_band_ledger(max_entries: int = 10) -> list:
+    """
+    Load last N entries from out-of-band change ledger (JSONL format).
+    Returns empty list if file doesn't exist or is empty.
+    """
+    if not OUT_OF_BAND_LEDGER_PATH.exists():
+        return []
+
+    entries = []
+    try:
+        with open(OUT_OF_BAND_LEDGER_PATH, "r") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        entries.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue  # Skip malformed lines
+    except Exception:
+        return []
+
+    # Return last N entries (most recent last)
+    return entries[-max_entries:]
 
 
 # =============================================================================
@@ -420,6 +446,7 @@ class MetricsComputer:
 
         # Run all computations
         self._compute_provenance()
+        self._compute_out_of_band_changes()
         self._compute_confidence_section()
         self._compute_metadata()
         self._compute_executive_summary()
@@ -471,6 +498,74 @@ class MetricsComputer:
 
         self.placeholders["PROV_VALIDATION_ERRORS"] = errors_count
         self.placeholders["PROV_VALIDATION_WARNINGS"] = warnings_count
+
+    def _compute_out_of_band_changes(self):
+        """Compute Out-of-Band Changes section from ledger file."""
+        entries = load_out_of_band_ledger(max_entries=10)
+
+        if not entries:
+            self.placeholders["OUT_OF_BAND_CHANGES_SECTION"] = ""
+            return
+
+        # Get snapshot extraction timestamp for reconciliation linking
+        extraction_finished_str = self.loader.manifest.get("extraction_finished_utc", "")
+        extraction_finished = parse_utc_timestamp(extraction_finished_str)
+        snapshot_id = self.loader.snapshot_id
+
+        # Build the section
+        lines = []
+        lines.append("## Recent Out-of-Band Changes (Recorded)")
+        lines.append("")
+        lines.append("> **Note:** The following changes were executed outside the baseline apply engine and are recorded here for provenance.")
+        lines.append("")
+
+        for entry in reversed(entries):  # Most recent first
+            change_ts_str = entry.get("timestamp", "")
+            change_ts = parse_utc_timestamp(change_ts_str)
+
+            # Determine reconciliation status
+            reconciled = False
+            reconciled_snapshot = entry.get("reconciled_snapshot_id")
+            if reconciled_snapshot:
+                # Explicit reconciliation recorded
+                reconciled = True
+                reconciliation_note = f"Reconciled in snapshot `{reconciled_snapshot}`"
+            elif extraction_finished and change_ts and extraction_finished > change_ts:
+                # Implicit reconciliation: snapshot taken after change
+                reconciled = True
+                reconciliation_note = f"Reconciled in current snapshot `{snapshot_id}`"
+            else:
+                reconciliation_note = "Pending reconciliation"
+
+            status_marker = "✓" if reconciled else "⏳"
+
+            lines.append("| Field | Value |")
+            lines.append("|-------|-------|")
+            lines.append(f"| Timestamp (UTC) | `{change_ts_str}` |")
+            lines.append(f"| Action | {entry.get('action', 'Unknown')} |")
+
+            if entry.get("campaign_name"):
+                lines.append(f"| Campaign | {entry.get('campaign_name')} (ID: {entry.get('campaign_id', 'N/A')}) |")
+            elif entry.get("campaign_id"):
+                lines.append(f"| Campaign ID | {entry.get('campaign_id')} |")
+
+            if entry.get("asset_group_id"):
+                lines.append(f"| Asset Group | {entry.get('asset_group_id')} |")
+
+            if entry.get("before"):
+                lines.append(f"| Before | {entry.get('before')} |")
+            if entry.get("after"):
+                lines.append(f"| After | {entry.get('after')} |")
+            if entry.get("reason"):
+                lines.append(f"| Reason | {entry.get('reason')} |")
+
+            lines.append(f"| Reconciliation | {status_marker} {reconciliation_note} |")
+            lines.append("")
+
+        lines.append("---")
+        lines.append("")
+
+        self.placeholders["OUT_OF_BAND_CHANGES_SECTION"] = "\n".join(lines)
 
     def _compute_confidence_section(self):
         """Compute Confidence & Freshness section."""
@@ -1233,6 +1328,34 @@ class TemplateRenderer:
 
 def build_json_report(loader: SnapshotLoader, confidence: ConfidenceComputer, metrics: MetricsComputer) -> dict:
     """Build machine-readable JSON report for reports/latest.json."""
+    # Load out-of-band changes for JSON report
+    ledger_entries = load_out_of_band_ledger(max_entries=10)
+    extraction_finished_str = loader.manifest.get("extraction_finished_utc", "")
+    extraction_finished = parse_utc_timestamp(extraction_finished_str)
+
+    out_of_band_changes = []
+    for entry in ledger_entries:
+        change_ts = parse_utc_timestamp(entry.get("timestamp", ""))
+        reconciled = False
+        reconciled_snapshot = entry.get("reconciled_snapshot_id")
+        if reconciled_snapshot:
+            reconciled = True
+        elif extraction_finished and change_ts and extraction_finished > change_ts:
+            reconciled = True
+            reconciled_snapshot = loader.snapshot_id
+
+        out_of_band_changes.append({
+            "timestamp": entry.get("timestamp"),
+            "action": entry.get("action"),
+            "campaign_id": entry.get("campaign_id"),
+            "asset_group_id": entry.get("asset_group_id"),
+            "before": entry.get("before"),
+            "after": entry.get("after"),
+            "reason": entry.get("reason"),
+            "reconciled": reconciled,
+            "reconciled_snapshot_id": reconciled_snapshot,
+        })
+
     return {
         "snapshot_id": loader.snapshot_id,
         "snapshot_version": loader.manifest.get("snapshot_version"),
@@ -1253,6 +1376,7 @@ def build_json_report(loader: SnapshotLoader, confidence: ConfidenceComputer, me
             "shopping_eligibility": metrics.placeholders.get("SHOPPING_ELIGIBILITY_STATUS"),
             "biggest_risk": metrics.placeholders.get("BIGGEST_RISK_SENTENCE"),
         },
+        "out_of_band_changes": out_of_band_changes,
     }
 
 

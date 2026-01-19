@@ -22,6 +22,8 @@
 
 ---
 
+{{OUT_OF_BAND_CHANGES_SECTION}}
+
 ## Confidence & Freshness
 
 **Snapshot Age:** {{CONF_SNAPSHOT_AGE}}

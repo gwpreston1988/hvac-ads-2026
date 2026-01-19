@@ -1,0 +1,71 @@
+{
+  "extracted_at": "2026-01-19T19:46:33.623935Z",
+  "count": 8,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/sharedSets/11182753341",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "id": "11182753341",
+      "name": "Negatives",
+      "memberCount": "7"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11927866500",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "id": "11927866500",
+      "name": "Brand Terms - Auto Generated 20260109_1616",
+      "memberCount": "16"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11929385590",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "id": "11929385590",
+      "name": "Brand Terms - Auto Generated 20260109_1502",
+      "memberCount": "0"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11929391359",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "id": "11929391359",
+      "name": "Brand Terms - Auto Generated 20260109_1508",
+      "memberCount": "0"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11929396525",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "id": "11929396525",
+      "name": "Brand Terms - Auto Generated 20260109_1514",
+      "memberCount": "0"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11929404019",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "id": "11929404019",
+      "name": "Brand Terms - Auto Generated 20260109_1525",
+      "memberCount": "6"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11932597174",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "ENABLED",
+      "id": "11932597174",
+      "name": "BCD Brand Exclusions",
+      "memberCount": "9"
+    },
+    {
+      "resourceName": "customers/9256598060/sharedSets/11932597177",
+      "type": "NEGATIVE_KEYWORDS",
+      "status": "REMOVED",
+      "id": "11932597177",
+      "name": "Manufacturer Brand Exclusions",
+      "memberCount": "15"
+    }
+  ],
+  "api_note": "Using shared_set as proxy; dedicated brand_list API may have limited availability"
+}

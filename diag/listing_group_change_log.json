@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-19T19:39:19.015233+00:00",
+  "campaign_id": "20815709270",
+  "asset_group_id": "6483780791",
+  "action": "restructure_listing_groups",
+  "operations": {
+    "creates": 4,
+    "removes": 21
+  },
+  "before": {
+    "total_filters": 22,
+    "structure": "hvac parts supplies (L1 SUBDIVISION) with L2 subcategories"
+  },
+  "after": {
+    "total_filters": 5,
+    "included": [
+      "goodman 1",
+      "rheem",
+      "solace"
+    ],
+    "excluded": [
+      "Everything else (all other product types)"
+    ]
+  },
+  "effect": "PMax will now show ONLY Goodman, Rheem, Solace equipment. Parts/supplies excluded."
+}

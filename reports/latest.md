@@ -9,26 +9,49 @@
 
 | Field | Value |
 |-------|-------|
-| Snapshot ID | `2026-01-15T202326Z` |
+| Snapshot ID | `2026-01-19T194619Z` |
 | Snapshot Version | `A3.0` |
-| Extraction Started (UTC) | `2026-01-15T20:23:26.554143Z` |
-| Extraction Finished (UTC) | `2026-01-15T20:23:51.480532Z` |
+| Extraction Started (UTC) | `2026-01-19T19:46:19.430482Z` |
+| Extraction Finished (UTC) | `2026-01-19T19:46:42.699853Z` |
 | Google Ads Customer ID | `9256598060` |
 | Merchant Center ID | `5308355318` |
-| Raw Records Extracted | 17295 |
-| Normalized Records | 15145 |
+| Raw Records Extracted | 18484 |
+| Normalized Records | 16334 |
 | Validation Errors | 0 |
 | Validation Warnings | 0 |
 
 ---
 
+## Recent Out-of-Band Change (Recorded)
+
+> **Note:** The following change was executed outside the baseline apply engine and is recorded here for provenance.
+
+| Field | Value |
+|-------|-------|
+| Timestamp (UTC) | `2026-01-19T19:39:19Z` |
+| Campaign | Products merchant campaign (ID: 20815709270) |
+| Asset Group | 6483780791 |
+| Action | Restructure listing group filters |
+| Before | 22 filters (hvac parts supplies L1 subdivision with L2 subcategories) |
+| After | 5 filters (INCLUDE: goodman 1, rheem, solace; EXCLUDE: everything else) |
+| Reason | Goodman products were not showing in Shopping due to incorrect product type filters |
+| Status | ✓ System reconciled to current state via fresh snapshot |
+
+**API Notes (for future pipeline integration):**
+- `listingSource: "SHOPPING"` required on CREATE operations
+- CREATEs must precede REMOVEs in atomic mutate calls
+- Delete leaves before subdivision parents
+- Always maintain "everything else" child under root for tree validity
+
+---
+
 ## Confidence & Freshness
 
-**Snapshot Age:** 20.0 hours
+**Snapshot Age:** 1 minutes
 
-**Verdict:** 🟡 **YELLOW**
+**Verdict:** 🟢 **GREEN**
 
-- Snapshot age 20.0h > 6h threshold
+- Snapshot fresh and validated
 
 ### Account Fingerprint
 
@@ -39,11 +62,11 @@
 | Performance Max | 4 |
 | Search Campaigns | 3 |
 | **Branded Campaign** | BCD Branded (ID: 20958985895) |
-| Branded Bidding Strategy | MANUAL_CPC |
+| Branded Bidding Strategy | MAXIMIZE_CONVERSIONS |
 | Branded Enabled Keywords | 3 |
 | Top Keywords | buy comfort direct, buycomfortdirect, buycomfortdirect.com |
 | Branded Negative Keywords | 0 |
-| Last Branded Change | 2026-01-13 13:31:19.825871 |
+| Last Branded Change | 2026-01-16 19:51:21.482369 |
 
 
 ---
@@ -52,9 +75,9 @@
 
 | Field | Value |
 |-------|-------|
-| Snapshot ID | `2026-01-15T202326Z` |
-| Snapshot Timestamp (UTC) | `2026-01-15T20:23:51.480532Z` |
-| Report Generated (UTC) | `2026-01-16T16:24:26Z` |
+| Snapshot ID | `2026-01-19T194619Z` |
+| Snapshot Timestamp (UTC) | `2026-01-19T19:46:42.699853Z` |
+| Report Generated (UTC) | `2026-01-19T19:48:25Z` |
 | Data Sources | Google Ads (Search + PMax), Merchant Center |
 
 ---
@@ -63,20 +86,20 @@
 
 | Question | Answer |
 |----------|--------|
-| Are ads running? | ✓ Yes — 4 active campaigns, $4,399.21 spent last 7 days |
-| Is brand traffic protected? | WARN (see Section 4) |
-| Are products showing in Google Shopping? | ✓ 1,089/1,101 equipment approved (99%) |
+| Are ads running? | ✓ Yes — 4 active campaigns, $5,292.66 spent last 7 days |
+| Is brand traffic protected? | FAIL (see Section 4) |
+| Are products showing in Google Shopping? | ✓ 1,101/1,101 equipment approved (100%) |
 
 **Biggest current risk:**
-12 equipment products currently disapproved in Merchant Center. Check image links and landing pages.
+No urgent issues detected. Continue monitoring per checkpoints below.
 
 **What is stable today:**
 - Ad campaigns are active and spending normally
-- Merchant Center feed is 99% approved
+- Merchant Center feed is 100% approved
 
 ### What This Means
 
-Your advertising campaigns spent $4,399.21 over the last 7 days. Your equipment catalog has 1,089 items approved for Shopping ads. 12 equipment products are currently disapproved and need attention.
+Your advertising campaigns spent $5,292.66 over the last 7 days. Your equipment catalog has 1,101 items approved for Shopping ads.
 
 This summary answers the most common questions a business owner might have. "Are ads running" tells you if campaigns are active and serving. "Brand traffic protected" tells you if the Branded campaign is properly constrained to avoid budget waste. "Products showing" tells you if your inventory is visible in Google Shopping results.
 
@@ -174,18 +197,18 @@ These are listed for completeness. Paused campaigns do not spend money.
 
 | Campaign | Spend | Clicks | Impressions | Conversions | Conv. Value | ROAS |
 |----------|-------|--------|-------------|-------------|-------------|------|
-| Products merchant campaign | $3,697.94 | 1,444 | 120,508 | 16.95 | $11,590.61 | 3.13 |
-| BCD Branded | $519.76 | 70 | 766 | 3.00 | $893.81 | 1.72 |
-| BCD - Hardware Offensive - 202 | $128.62 | 997 | 11,294 | 0.00 | $0.00 | 0.00 |
+| Products merchant campaign | $4,492.69 | 2,309 | 186,982 | 25.31 | $26,853.86 | 5.98 |
+| BCD Branded | $423.23 | 68 | 831 | 4.00 | $1,743.40 | 4.12 |
+| BCD - Hardware Offensive - 202 | $323.85 | 2,742 | 30,838 | 0.00 | $0.00 | 0.00 |
 | Standard Shopping Campaign | $52.89 | 60 | 3,128 | 0.00 | $0.00 | 0.00 |
 
 ### Last 30 Days Summary
 
 | Campaign | Spend | Clicks | Impressions | Conversions | Conv. Value | ROAS |
 |----------|-------|--------|-------------|-------------|-------------|------|
-| Products merchant campaign | $17,536.40 | 8,036 | 782,448 | 74.40 | $37,268.27 | 2.13 |
-| BCD Branded | $1,634.87 | 264 | 1,958 | 19.52 | $12,301.23 | 7.52 |
-| BCD - Hardware Offensive - 202 | $128.62 | 997 | 11,294 | 0.00 | $0.00 | 0.00 |
+| Products merchant campaign | $17,729.37 | 7,540 | 709,597 | 74.94 | $48,719.53 | 2.75 |
+| BCD Branded | $1,406.14 | 242 | 1,804 | 17.66 | $12,364.38 | 8.79 |
+| BCD - Hardware Offensive - 202 | $325.61 | 2,795 | 31,455 | 0.00 | $0.00 | 0.00 |
 | Standard Shopping Campaign | $52.89 | 60 | 3,128 | 0.00 | $0.00 | 0.00 |
 
 ### How to Read This
@@ -203,43 +226,43 @@ These are listed for completeness. Paused campaigns do not spend money.
 
 ## SECTION 4 — Brand Protection Check
 
-**Brand Protection Check: WARN** — Avg CPC $6.19 > $2.00 threshold.
+**Brand Protection Check: FAIL** — Smart bidding (MAXIMIZE_CONVERSIONS) — must be MANUAL_CPC.
 
-**Risk signals:**
-- ⚠ Avg CPC $6.19 > $2.00 threshold
-- ⚠ 8 keyword change(s) in last 14 days
+**Issues (fix required):**
+- ❌ Smart bidding (MAXIMIZE_CONVERSIONS) — must be MANUAL_CPC
 
-*Structure is correct but operational metrics need attention.*
 
 ### Branded Campaign CPC by Period
 
 | Period | Avg CPC |
 |--------|---------|
-| Today (2026-01-15, partial) | N/A |
-| Yesterday | $0.54 |
-| Last 7 days | $7.43 |
-| Last 30 days | $6.19 |
+| Today (2026-01-19, partial) | N/A |
+| Yesterday | $1.64 |
+| Last 7 days | $6.22 |
+| Last 30 days | $5.81 |
 
 ### Branded Campaign Keyword Analysis
 
 | Metric | Value |
 |--------|-------|
-| Keywords analyzed | N/A (summary mode) |
-| Brand keywords | N/A |
-| Non-brand keywords | N/A (N/A) |
-| Total spend (snapshot period) | N/A |
+| Keywords analyzed | 3 enabled keywords |
+| Brand keywords | 3/3 keywords |
+| Non-brand keywords | 0 non-brand keywords (0.0%) |
+| Total spend (snapshot period) | $1406.14 total |
 
 ### Enabled Keywords in Branded Campaign
 
 | Keyword | Match Type | Classification |
 |---------|------------|----------------|
-| (detailed view disabled — use --deep-audit flag) | - | - |
+| buy comfort direct | PHRASE | ✓ Brand |
+| buycomfortdirect | PHRASE | ✓ Brand |
+| buycomfortdirect.com | EXACT | ✓ Brand |
 
 ### Issues Requiring Attention
 
 | Keyword | Match Type | Issue | Action Needed |
 |---------|------------|-------|---------------|
-| (detailed view disabled) | - | - | - |
+| (no issues detected) | - | - | - |
 
 **What this means:**
 The Brand Protection Check validates that the Branded campaign is constrained to brand terms only (exact/phrase match) with Manual CPC bidding. This prevents budget waste on generic searches that should go through other campaigns. A PASS result means the campaign structure is correct. A FAIL result identifies specific issues to address.
@@ -252,8 +275,8 @@ The Brand Protection Check validates that the Branded campaign is constrained to
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Approved | 1,089 | 98.9% |
-| Disapproved | 12 | 1.1% |
+| Approved | 1,101 | 100.0% |
+| Disapproved | 0 | 0.0% |
 | Pending | 0 | 0.0% |
 | **Total** | 1,101 | 100% |
 
@@ -261,26 +284,16 @@ The Brand Protection Check validates that the Branded campaign is constrained to
 
 | Brand | Total Products | Approved | Disapproved | Approval Rate |
 |-------|----------------|----------|-------------|---------------|
-| Rheem | 197 | 196 | 1 | 99.5% |
-| Goodman | 530 | 523 | 7 | 98.7% |
-| Solace | 349 | 345 | 4 | 98.9% |
+| Rheem | 197 | 197 | 0 | 100.0% |
+| Goodman | 530 | 530 | 0 | 100.0% |
+| Solace | 349 | 349 | 0 | 100.0% |
 | Daikin | 25 | 25 | 0 | 100.0% |
 
 ### Disapproved Products (If Any)
 
 | Offer ID | Title | Brand | Disapproval Reason | Fix Owner |
 |----------|-------|-------|-------------------|-----------|
-| S-GLZS4BA3610,S-AWST36LU1308A | SOLACE 3 Ton 14.3 SEER2 R-32 Heat Pump S | Solace | image_link_internal_error | Feed |
-| S-GLXT7CA6010,S-CAPTA6030C3,S-GRVT800805CN | SOLACE 5 Ton 17.2 SEER2 R-32 80% AFUE 80 | Solace | image_link_internal_error | Feed |
-| GLZS4MA1810 | Goodman 1.5 Ton Heat Pump 14.3 SEER2 7.8 | Goodman | image_link_internal_error | Feed |
-| CHPTA2426B3 | Goodman CHPTA2426B3 1½ - 2 Ton R-32 Evap | Goodman | image_link_internal_error | Feed |
-| S-GPHM54231 | Solace 3.5 Ton 15.2 SEER2 Packaged Air C | Solace | image_link_internal_error | Feed |
-| S-GPGM34810031 | Solace 4 Ton 13.4 SEER2 Packaged Gas/Ele | Solace | image_link_internal_error | Feed |
-| GLXT7CA4810 | Goodman 4 Ton R-32 Air Conditioner Conde | Goodman | landing_page_error | Site |
-| R962V0855A21M4SCAP | RHEEM R962V0855A21M4SCAP - 85,000 BTU 96 | Rheem | image_link_internal_error | Feed |
-| S-GLXS4BA3610,S-GR9S920603BNA,S-CAPTA3626B3 | SOLACE 3 Ton 14.3 SEER2 R-32 92% AFUE Ga | Solace | image_link_internal_error | Feed |
-| GXV6SS4810 | Goodman 4 Ton R-32 Air Conditioner Conde | Goodman | image_link_internal_error | Feed |
-| ... | (2 more) | ... | ... | ... |
+| (none) | - | - | - | - |
 
 **Fix Owner Legend:**
 - **Feed**: Issue with product data we send to Google (fix in BigCommerce or feed settings)
@@ -301,7 +314,7 @@ Disapproval is not a penalty. It means Google found an issue with the product da
 
 | Campaign | Bid Strategy | Target | Daily Budget | Notes |
 |----------|--------------|--------|--------------|-------|
-| BCD Branded | MANUAL_CPC | - | $200.00 | Manual bids |
+| BCD Branded | MAXIMIZE_CONVERSIONS | tCPA $70.83 | $200.00 | Automated |
 | Products PMax | MAXIMIZE_CONVERSION_VALUE | tROAS 1.36 | $750.00 | Automated |
 | Hardware Offensive | MAXIMIZE_CONVERSION_VALUE | tROAS 3.5 | $50.00 | Automated |
 
@@ -327,21 +340,21 @@ Disapproval is not a penalty. It means Google found an issue with the product da
 
 | Date | Resource Type | Change Type | Description |
 |------|---------------|-------------|-------------|
-|  | CAMPAIGN | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
-|  | CUSTOMER_ASSET | UNKNOWN |  |
 |  | AD_GROUP_CRITERION | UNKNOWN |  |
 |  | AD_GROUP_CRITERION | UNKNOWN |  |
-|  | CAMPAIGN | UNKNOWN |  |
-|  | CAMPAIGN_BUDGET | UNKNOWN |  |
-|  | CAMPAIGN | UNKNOWN |  |
+|  | AD_GROUP_CRITERION | UNKNOWN |  |
 |  | CAMPAIGN | UNKNOWN |  |
 |  | CAMPAIGN_CRITERION | UNKNOWN |  |
+|  | AD_GROUP_CRITERION | UNKNOWN |  |
+|  | AD | UNKNOWN |  |
+|  | AD | UNKNOWN |  |
+|  | CAMPAIGN_BUDGET | UNKNOWN |  |
 |  | CAMPAIGN | UNKNOWN |  |
+|  | CUSTOMER_ASSET | UNKNOWN |  |
+|  | CUSTOMER_ASSET | UNKNOWN |  |
+|  | CUSTOMER_ASSET | UNKNOWN |  |
+|  | CUSTOMER_ASSET | UNKNOWN |  |
+|  | CUSTOMER_ASSET | UNKNOWN |  |
 
 ### Change Summary
 
@@ -369,8 +382,8 @@ Disapproval is not a penalty. It means Google found an issue with the product da
 These items are functioning normally:
 
 - 4 campaigns are enabled and configured
-- Campaigns are spending normally ($4,399.21 last 7 days)
-- Merchant Center feed is 99% approved
+- Campaigns are spending normally ($5,292.66 last 7 days)
+- Merchant Center feed is 100% approved
 - Snapshot extraction completed with no validation errors
 
 ---
@@ -463,10 +476,10 @@ All data in this report comes from a point-in-time snapshot. No live API calls a
 
 | Field | Value |
 |-------|-------|
-| Snapshot Location | `snapshots/2026-01-15T202326Z/` |
-| Raw Files | 19 |
-| Normalized Files | 14 |
-| Extraction Duration | 24.93 seconds |
+| Snapshot Location | `snapshots/2026-01-19T194619Z/` |
+| Raw Files | 21 |
+| Normalized Files | 15 |
+| Extraction Duration | 23.27 seconds |
 
 ### What "Snapshot-Based" Means
 
@@ -493,7 +506,7 @@ This means:
 
 ## End of Report
 
-**Report generated from snapshot:** `2026-01-15T202326Z`
+**Report generated from snapshot:** `2026-01-19T194619Z`
 
 **Next scheduled snapshot:** Next manual run or scheduled automation
 

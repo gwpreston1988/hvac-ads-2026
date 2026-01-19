@@ -1,0 +1,1525 @@
+{
+  "extracted_at": "2026-01-19T19:46:31.744217Z",
+  "count": 217,
+  "records": [
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112668524550~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112668524550",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112724609140~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112724609140",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112733776493~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112733776493",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112733780198~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112733780198",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112737313295~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112737313295",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112737313316~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112737313316",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112737318410~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112737318410",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112738296697~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112738296697",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112741974802~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112741974802",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112741980715~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112741980715",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112765284966~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112765284966",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112765406889~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112765406889",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112769260494~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112769260494",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112769260512~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112769260512",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112769266878~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112769266878",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162907~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162907",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162910~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162910",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162913~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162913",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162916~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162916",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162919~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162919",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162922~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162922",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162925~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162925",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162928~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162928",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162931~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162931",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112772162940~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112772162940",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~112773145863~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/112773145863",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113040100452~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113040100452",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113040100455~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113040100455",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113040100458~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113040100458",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113040100461~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113040100461",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113040100464~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113040100464",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113172782774~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113172782774",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113172832412~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113172832412",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113175632074~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113175632074",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~113204816016~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/113204816016",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~114959880425~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/114959880425",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~114960304187~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/114960304187",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~114960304190~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/114960304190",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~114960304193~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/114960304193",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~114960304199~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/114960304199",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~115785008429~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/115785008429",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~115785008465~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/115785008465",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~115785008468~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/115785008468",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~115785008471~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/115785008471",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~115785008474~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/115785008474",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117220206350~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117220206350",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117220206356~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117220206356",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117220206362~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117220206362",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117221424485~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117221424485",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117231351262~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117231351262",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117591797402~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117591797402",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117591797405~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117591797405",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6482508720~117591797408~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6482508720",
+      "asset": "customers/9256598060/assets/117591797408",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684942~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115769684942",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684948~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115769684948",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684957~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115769684957",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684960~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115769684960",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115769684963~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115769684963",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788924~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115784788924",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115784788927~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115784788927",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~115785008474~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/115785008474",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~117231351262~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/117231351262",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122670670408~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/122670670408",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~122695171728~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/122695171728",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~123061499959~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/123061499959",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129892024619~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/129892024619",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~129892024622~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/129892024622",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~130953871520~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/130953871520",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138715129040~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/138715129040",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138715170284~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/138715170284",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138723440884~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/138723440884",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~138765472989~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/138765472989",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139059820018~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139059820018",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139417693493~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139417693493",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139418013599~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139418013599",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423520548~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139423520548",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423598107~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139423598107",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139423969900~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139423969900",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139464898494~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139464898494",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~139464961317~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/139464961317",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~140521257282~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/140521257282",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143938424330~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/143938424330",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~143986458597~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/143986458597",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~152147815019~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/152147815019",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~152878256831~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/152878256831",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~189340561457~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/189340561457",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~215100645133~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/215100645133",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~250940246393~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/250940246393",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~250940246396~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/250940246396",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255344919353~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255344919353",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255345310382~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255345310382",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255345310385~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255345310385",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255422252503~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255422252503",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255422281429~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255422281429",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~255454362054~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/255454362054",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139329971~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321139329971",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139329974~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321139329974",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321139417898~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321139417898",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321140387204~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321140387204",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321140453132~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321140453132",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321217335685~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321217335685",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321226750333~CALL_TO_ACTION_SELECTION",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321226750333",
+      "fieldType": "CALL_TO_ACTION_SELECTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6483780791~321263066196~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6483780791",
+      "asset": "customers/9256598060/assets/321263066196",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~112641865177~LOGO",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/112641865177",
+      "fieldType": "LOGO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~112668524550~BUSINESS_NAME",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/112668524550",
+      "fieldType": "BUSINESS_NAME",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~112719031700~LOGO",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/112719031700",
+      "fieldType": "LOGO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~115785008429~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/115785008429",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~115785008462~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/115785008462",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~115785008465~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/115785008465",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~115785008468~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/115785008468",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~115785008474~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/115785008474",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116290328167~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116290328167",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116290905001~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116290905001",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640108~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640108",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640111~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640111",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640114~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640114",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640117~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640117",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640120~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640120",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640123~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640123",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640126~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640126",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6484626908~116318640129~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6484626908",
+      "asset": "customers/9256598060/assets/116318640129",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115769684942~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115769684942",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115769684948~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115769684948",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115769684957~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115769684957",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115769684960~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115769684960",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115769684963~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115769684963",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115784788924~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115784788924",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115784788927~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115784788927",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~115785008474~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/115785008474",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~117231351262~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/117231351262",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~117255142371~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/117255142371",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~122670670408~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/122670670408",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~122695171728~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/122695171728",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~123061499959~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/123061499959",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~129892024619~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/129892024619",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~129892024622~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/129892024622",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~130953871520~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/130953871520",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~138715129040~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/138715129040",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~138715170284~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/138715170284",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~138723440884~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/138723440884",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~138765472989~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/138765472989",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139053879761~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139053879761",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139055981720~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139055981720",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139059198016~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139059198016",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139059820018~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139059820018",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139063061266~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139063061266",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139064323648~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139064323648",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139064329135~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139064329135",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139064705560~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139064705560",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139065600757~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139065600757",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139066161265~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139066161265",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139097049462~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139097049462",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139103550831~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139103550831",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139417693493~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139417693493",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139418013599~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139418013599",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139418080322~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139418080322",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139423520548~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139423520548",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139423598107~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139423598107",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139423708306~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139423708306",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139423969900~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139423969900",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139464898494~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139464898494",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139464961317~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139464961317",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139465454859~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139465454859",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139465592751~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139465592751",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~139465973700~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/139465973700",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~140521257282~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/140521257282",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~143938424330~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/143938424330",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~143945480311~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/143945480311",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~143953937210~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/143953937210",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~143986458597~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/143986458597",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6516129878~152878256831~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6516129878",
+      "asset": "customers/9256598060/assets/152878256831",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115769684942~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115769684942",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115769684948~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115769684948",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115769684957~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115769684957",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115769684960~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115769684960",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115769684963~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115769684963",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115784788924~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115784788924",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115784788927~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115784788927",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~115785008474~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/115785008474",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~117231351262~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/117231351262",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~117255142371~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/117255142371",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~122670670408~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/122670670408",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~122695171728~YOUTUBE_VIDEO",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/122695171728",
+      "fieldType": "YOUTUBE_VIDEO",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~129892024619~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/129892024619",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~129892024622~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/129892024622",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~130953871520~LONG_HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/130953871520",
+      "fieldType": "LONG_HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139059820018~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139059820018",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139063061266~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139063061266",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139103550831~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139103550831",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139417693493~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139417693493",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139418013599~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139418013599",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139423520548~DESCRIPTION",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139423520548",
+      "fieldType": "DESCRIPTION",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139423598107~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139423598107",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139423969900~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139423969900",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139464898494~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139464898494",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~139464961317~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/139464961317",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~140521257282~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/140521257282",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~143938424330~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/143938424330",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~143953937210~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/143953937210",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~143986458597~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/143986458597",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~152147815019~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/152147815019",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~152878256831~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/152878256831",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~189340561457~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/189340561457",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~215100645133~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/215100645133",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~250940246393~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/250940246393",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~250940246396~HEADLINE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/250940246396",
+      "fieldType": "HEADLINE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255344919353~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255344919353",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255345310382~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255345310382",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255345310385~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255345310385",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255422252503~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255422252503",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255422281429~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255422281429",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255454316592~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255454316592",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~255454362054~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/255454362054",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~289250115984~SQUARE_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/289250115984",
+      "fieldType": "SQUARE_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~289250180127~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/289250180127",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~289250213433~PORTRAIT_MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/289250213433",
+      "fieldType": "PORTRAIT_MARKETING_IMAGE",
+      "status": "ENABLED"
+    },
+    {
+      "resourceName": "customers/9256598060/assetGroupAssets/6610813176~289255103185~MARKETING_IMAGE",
+      "assetGroup": "customers/9256598060/assetGroups/6610813176",
+      "asset": "customers/9256598060/assets/289255103185",
+      "fieldType": "MARKETING_IMAGE",
+      "status": "ENABLED"
+    }
+  ]
+}

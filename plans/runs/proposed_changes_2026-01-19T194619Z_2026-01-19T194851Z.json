@@ -1,0 +1,248 @@
+{
+  "plan_id": "plan-2026-01-19T194619Z-2026-01-19T194851Z",
+  "plan_version": "C1.1",
+  "created_utc": "2026-01-19T19:48:51.682770+00:00",
+  "snapshot_id": "2026-01-19T194619Z",
+  "snapshot_version": "A3.0",
+  "sources": {
+    "google_ads_customer_id": "9256598060",
+    "google_ads_login_customer_id": "5194867886",
+    "merchant_center_id": "5308355318"
+  },
+  "mode": "DRY_RUN",
+  "plan_context": {
+    "brand_terms_version": "2026-01-19",
+    "brand_terms": [
+      "ruud",
+      "buy comfort",
+      "solace air",
+      "daikin",
+      "solace",
+      "bcd",
+      "rheem",
+      "buycomfortdirect",
+      "goodman",
+      "amana",
+      "comfort direct",
+      "buy comfort direct"
+    ],
+    "manufacturer_brands": [
+      "rheem",
+      "goodman",
+      "solace",
+      "daikin",
+      "ruud",
+      "amana"
+    ],
+    "thresholds": {
+      "brand_cpc_max": 2.0,
+      "roas_target": 4.0
+    },
+    "lookback_days": 30,
+    "planner_rules_applied": [
+      "rule:S1:broad_match_in_branded",
+      "rule:S2:non_brand_in_branded",
+      "rule:S3:branded_bidding_strategy",
+      "rule:S4:manufacturer_brand_in_assets",
+      "rule:S5:merchant_disapproved"
+    ],
+    "notes": "Generated with ruleset=safety, max_ops=50"
+  },
+  "guardrails": {
+    "max_total_ops": 50,
+    "max_ops_by_type": {
+      "ADS_SET_KEYWORD_STATUS": 20,
+      "ADS_ADD_NEGATIVE_KEYWORD": 20,
+      "ADS_SET_KEYWORD_MATCH_TYPE": 10,
+      "ADS_UPDATE_ASSET_TEXT": 5,
+      "ADS_REMOVE_ASSET": 5,
+      "ADS_SET_PMAX_BRAND_EXCLUSIONS": 5,
+      "MERCHANT_EXCLUDE_PRODUCT": 10,
+      "ADS_UPDATE_BID_STRATEGY": 0,
+      "ADS_UPDATE_BUDGET": 0
+    },
+    "forbid_budget_changes": true,
+    "forbid_campaign_pause": true,
+    "forbid_campaign_enable": false,
+    "max_budget_pct_change": 0,
+    "forbid_broad_match": true,
+    "forbid_manufacturer_brand_negatives": true,
+    "forbid_bid_strategy_changes": true,
+    "forbid_conversion_goal_changes": true,
+    "forbid_location_targeting_changes": true,
+    "forbid_url_expansion_changes": true,
+    "forbid_auto_apply_settings": true,
+    "max_text_edit_chars": 100,
+    "allowlist_campaign_ids": null,
+    "blocklist_campaign_ids": [],
+    "require_manual_approval_for_types": [
+      "ADS_REMOVE_ASSET",
+      "MERCHANT_EXCLUDE_PRODUCT"
+    ],
+    "require_precondition_match": true,
+    "abort_on_missing_entity": true,
+    "abort_on_first_error": false,
+    "max_risk_level": "MEDIUM"
+  },
+  "summary": {
+    "total_operations": 1,
+    "total_findings": 3,
+    "operations_by_type": {
+      "ADS_SET_PMAX_BRAND_EXCLUSIONS": 1
+    },
+    "operations_by_risk": {
+      "LOW": 0,
+      "MEDIUM": 1,
+      "HIGH": 0
+    },
+    "estimated_api_calls": 1,
+    "platforms_affected": [
+      "GOOGLE_ADS"
+    ],
+    "campaigns_affected": [],
+    "risk_score": "MEDIUM",
+    "risk_summary": "1 medium-risk | Findings: 2 INFO, 1 HIGH",
+    "requires_approval": false,
+    "approval_required_ops": [],
+    "findings": [
+      {
+        "rule_id": "rule:S2:non_brand_in_branded",
+        "level": "INFO",
+        "message": "Protected 3 brand keyword(s) in Branded campaign (not proposed for pause): buy comfort direct, buycomfortdirect, buycomfortdirect.com",
+        "entity_ref": null
+      },
+      {
+        "rule_id": "rule:S3:branded_bidding_strategy",
+        "level": "HIGH",
+        "message": "Branded campaign uses MAXIMIZE_CONVERSIONS instead of MANUAL_CPC - manual intervention required",
+        "entity_ref": "ads.campaign:20958985895"
+      },
+      {
+        "rule_id": "rule:S6:pmax_brand_exclusions",
+        "level": "INFO",
+        "message": "Proposed 1 PMax brand exclusion operation(s) for 5 brand terms",
+        "entity_ref": null
+      }
+    ]
+  },
+  "operations": [
+    {
+      "op_id": "op-001-e287b89a552d",
+      "op_type": "ADS_SET_PMAX_BRAND_EXCLUSIONS",
+      "entity_ref": "ads.campaign:20815709270",
+      "entity": {
+        "platform": "GOOGLE_ADS",
+        "entity_type": "CAMPAIGN",
+        "entity_id": "20815709270",
+        "entity_name": "Products merchant campaign",
+        "campaign_type": "PERFORMANCE_MAX",
+        "parent_refs": [
+          "ads.customer:9256598060"
+        ]
+      },
+      "intent": "Set brand exclusions for PMax campaign 'Products merchant campaign' to protect BCD branded traffic",
+      "before": {
+        "brand_list_id": null,
+        "brands": []
+      },
+      "after": {
+        "brand_list_id": "auto",
+        "brand_list_name": "BCD Brand Exclusions - Products merchant campaign",
+        "brands": [
+          "buy comfort",
+          "bcd",
+          "buycomfortdirect",
+          "comfort direct",
+          "buy comfort direct"
+        ]
+      },
+      "params": {
+        "campaign_id": "20815709270",
+        "action": "SET",
+        "brand_list_id": null,
+        "brand_list_name": "BCD Brand Exclusions - Products merchant campaign",
+        "brands": [
+          "buy comfort",
+          "bcd",
+          "buycomfortdirect",
+          "comfort direct",
+          "buy comfort direct"
+        ]
+      },
+      "preconditions": [
+        {
+          "path": "advertising_channel_type",
+          "op": "EQUALS",
+          "value": "PERFORMANCE_MAX",
+          "description": "Campaign must be Performance Max"
+        },
+        {
+          "path": "status",
+          "op": "EQUALS",
+          "value": "ENABLED",
+          "description": "Campaign must be enabled"
+        }
+      ],
+      "rollback": {
+        "type": "RESTORE_BEFORE",
+        "data": {
+          "brands": []
+        },
+        "notes": "Remove brand exclusion list from campaign"
+      },
+      "risk": {
+        "level": "MEDIUM",
+        "level_numeric": 2,
+        "reasons": [
+          "Brand exclusions affect which search queries trigger PMax ads",
+          "May reduce PMax reach for brand-related queries (desired behavior)"
+        ],
+        "mitigations": [
+          "Brand terms are from verified config file",
+          "Manufacturer brands are excluded from exclusion list",
+          "Rollback removes the brand exclusion list"
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "normalized/pmax/campaigns.json",
+          "key": "id",
+          "value": "20815709270",
+          "field_path": null,
+          "note": "PMax campaign without brand exclusions"
+        },
+        {
+          "snapshot_path": "core/configs/brand_terms.json",
+          "key": "brand_terms",
+          "value": [
+            "buy comfort",
+            "bcd",
+            "buycomfortdirect",
+            "comfort direct",
+            "buy comfort direct"
+          ],
+          "field_path": null,
+          "note": "Brand terms to exclude (manufacturer brands filtered out)"
+        }
+      ],
+      "evidence_query": "pmax_campaigns WHERE status='ENABLED' AND brand_exclusions IS NULL",
+      "created_from_rule": "rule:S6:pmax_brand_exclusions",
+      "approved": false,
+      "approval_notes": null
+    }
+  ],
+  "approvals": {
+    "plan_approved": false,
+    "approved_by": null,
+    "approved_at": null,
+    "approval_notes": null,
+    "operations_requiring_approval": [],
+    "operation_approvals": {}
+  },
+  "integrity": {
+    "snapshot_manifest_hash": null,
+    "plan_operations_hash": null,
+    "generated_by": "plan_changes.py",
+    "generator_version": "C2.0"
+  }
+}

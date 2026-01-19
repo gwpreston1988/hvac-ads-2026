@@ -1,0 +1,78 @@
+{
+  "extracted_at": "2026-01-19T19:46:20.875904Z",
+  "count": 8,
+  "records": [
+    {
+      "id": "154784588541",
+      "campaign_id": "20958985895",
+      "name": "Branded Terms",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "10000",
+      "labels": []
+    },
+    {
+      "id": "161992105091",
+      "campaign_id": "20837839885",
+      "name": "HVAC Services",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "10000",
+      "labels": []
+    },
+    {
+      "id": "162465487154",
+      "campaign_id": "20837839885",
+      "name": "Top Selling Prodiucts",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "10000",
+      "labels": []
+    },
+    {
+      "id": "163319302746",
+      "campaign_id": "20958985895",
+      "name": "Ad group 2",
+      "status": "PAUSED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "10000",
+      "labels": []
+    },
+    {
+      "id": "189856018285",
+      "campaign_id": "23447458056",
+      "name": "Ad group 1",
+      "status": "ENABLED",
+      "type": "SHOPPING_PRODUCT_ADS",
+      "cpc_bid_micros": "10000",
+      "labels": []
+    },
+    {
+      "id": "190099169894",
+      "campaign_id": "23445812072",
+      "name": "High-Efficiency Furnaces",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "3500000",
+      "labels": []
+    },
+    {
+      "id": "190099169934",
+      "campaign_id": "23445812072",
+      "name": "SEER2 Heat Pumps",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "4000000",
+      "labels": []
+    },
+    {
+      "id": "190099169974",
+      "campaign_id": "23445812072",
+      "name": "Private Label - Solace",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "cpc_bid_micros": "3000000",
+      "labels": []
+    }
+  ]
+}

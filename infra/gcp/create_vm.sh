@@ -43,13 +43,13 @@ echo ""
 # -----------------------------------------------------------------------------
 # STEP 1: Set project
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[1/7] Setting GCP project...${NC}"
+echo -e "${YELLOW}[1/8] Setting GCP project...${NC}"
 gcloud config set project "${GCP_PROJECT_ID}"
 
 # -----------------------------------------------------------------------------
 # STEP 2: Enable required APIs
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[2/7] Enabling required APIs...${NC}"
+echo -e "${YELLOW}[2/8] Enabling required APIs...${NC}"
 APIS=(
     "compute.googleapis.com"
     "iam.googleapis.com"
@@ -68,7 +68,7 @@ done
 # -----------------------------------------------------------------------------
 # STEP 3: Create service account (if not exists)
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[3/7] Creating service account...${NC}"
+echo -e "${YELLOW}[3/8] Creating service account...${NC}"
 SA_EMAIL="${SERVICE_ACCOUNT_NAME}@${GCP_PROJECT_ID}.iam.gserviceaccount.com"
 
 if gcloud iam service-accounts describe "${SA_EMAIL}" --project="${GCP_PROJECT_ID}" &>/dev/null; then
@@ -103,7 +103,7 @@ echo ""
 # -----------------------------------------------------------------------------
 # STEP 4: Reserve static IP (if not exists)
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[4/7] Reserving static IP...${NC}"
+echo -e "${YELLOW}[4/8] Reserving static IP...${NC}"
 if gcloud compute addresses describe "${STATIC_IP_NAME}" --region="${GCP_REGION}" &>/dev/null; then
     echo "  Static IP already exists: ${STATIC_IP_NAME}"
 else
@@ -121,7 +121,7 @@ echo -e "${GREEN}  External IP: ${EXTERNAL_IP}${NC}"
 # -----------------------------------------------------------------------------
 # STEP 5: Create firewall rules (if not exist)
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[5/7] Creating firewall rules...${NC}"
+echo -e "${YELLOW}[5/8] Creating firewall rules...${NC}"
 
 # Allow SSH (port 22)
 if gcloud compute firewall-rules describe "allow-ssh-hvac-ads" &>/dev/null; then
@@ -138,7 +138,16 @@ else
         --target-tags="${NETWORK_TAG}"
 fi
 
-# Allow MCP port (8080)
+# Allow MCP port (8080) - restricted to your IP
+# Get current IP if not set
+if [ -z "${MY_IP}" ]; then
+    echo "  Detecting your public IP..."
+    MY_IP=$(curl -s ifconfig.me)
+    echo -e "${GREEN}  Detected IP: ${MY_IP}${NC}"
+    echo -e "${YELLOW}  Port 8080 will be restricted to ${MY_IP}/32${NC}"
+    echo -e "${YELLOW}  To allow different IP, set MY_IP env var before running this script${NC}"
+fi
+
 if gcloud compute firewall-rules describe "allow-mcp-hvac-ads" &>/dev/null; then
     echo "  Firewall rule 'allow-mcp-hvac-ads' already exists"
 else
@@ -149,14 +158,14 @@ else
         --network=default \
         --action=ALLOW \
         --rules=tcp:8080 \
-        --source-ranges=0.0.0.0/0 \
+        --source-ranges="${MY_IP}/32" \
         --target-tags="${NETWORK_TAG}"
 fi
 
 # -----------------------------------------------------------------------------
 # STEP 6: Create VM instance
 # -----------------------------------------------------------------------------
-echo -e "${YELLOW}[6/7] Creating VM instance...${NC}"
+echo -e "${YELLOW}[6/8] Creating VM instance...${NC}"
 
 if gcloud compute instances describe "${VM_NAME}" --zone="${GCP_ZONE}" &>/dev/null; then
     echo -e "${YELLOW}  VM '${VM_NAME}' already exists. Skipping creation.${NC}"
@@ -171,13 +180,40 @@ else
         --boot-disk-type=pd-balanced \
         --address="${EXTERNAL_IP}" \
         --service-account="${SA_EMAIL}" \
-        --scopes=cloud-platform \
+        --scopes=https://www.googleapis.com/auth/webmasters.readonly,https://www.googleapis.com/auth/indexing,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write \
         --tags="${NETWORK_TAG}" \
         --metadata=enable-oslogin=TRUE
 fi
 
 # -----------------------------------------------------------------------------
-# STEP 7: Output summary
+# STEP 7: Upload bootstrap script to VM
+# -----------------------------------------------------------------------------
+echo -e "${YELLOW}[7/8] Uploading bootstrap script to VM...${NC}"
+
+# Get the directory where this script lives
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+BOOTSTRAP_SCRIPT="${SCRIPT_DIR}/bootstrap_vm.sh"
+
+if [ -f "${BOOTSTRAP_SCRIPT}" ]; then
+    echo "  Waiting for VM to be ready..."
+    sleep 10
+
+    echo "  Uploading ${BOOTSTRAP_SCRIPT} to VM..."
+    gcloud compute scp "${BOOTSTRAP_SCRIPT}" \
+        "${VM_NAME}:/tmp/bootstrap_vm.sh" \
+        --zone="${GCP_ZONE}" \
+        --quiet || {
+            echo -e "${YELLOW}  Warning: Could not upload bootstrap script. You'll need to copy it manually.${NC}"
+        }
+
+    echo -e "${GREEN}  Bootstrap script uploaded to /tmp/bootstrap_vm.sh${NC}"
+else
+    echo -e "${YELLOW}  Warning: Bootstrap script not found at ${BOOTSTRAP_SCRIPT}${NC}"
+    echo -e "${YELLOW}  You'll need to copy it manually to the VM${NC}"
+fi
+
+# -----------------------------------------------------------------------------
+# STEP 8: Output summary
 # -----------------------------------------------------------------------------
 echo ""
 echo -e "${GREEN}=============================================================================${NC}"
@@ -192,21 +228,34 @@ echo "  Service Acct: ${SA_EMAIL}"
 echo ""
 echo "Next Steps:"
 echo ""
-echo "1. SSH into the VM:"
+echo "1. Add service account to Google Search Console (REQUIRED for GSC/Indexing API):"
+echo -e "   ${GREEN}${SA_EMAIL}${NC}"
+echo "   "
+echo "   Manual steps (must be done in GSC UI):"
+echo "   a. Go to: https://search.google.com/search-console"
+echo "   b. Select property: buycomfortdirect.com"
+echo "   c. Settings → Users and permissions → Add user"
+echo "   d. Email: ${SA_EMAIL}"
+echo "   e. Permission level: Full (Owner recommended)"
+echo "   f. Click Add"
+echo ""
+echo "2. SSH into the VM:"
 echo -e "   ${GREEN}gcloud compute ssh ${VM_NAME} --zone=${GCP_ZONE}${NC}"
 echo ""
-echo "2. Run the bootstrap script on the VM:"
-echo "   curl -sSL https://raw.githubusercontent.com/gwpreston1988/hvac-ads-2026/main/infra/gcp/bootstrap_vm.sh | sudo bash"
+echo "3. Run the bootstrap script (already uploaded to /tmp):"
+echo -e "   ${GREEN}sudo bash /tmp/bootstrap_vm.sh${NC}"
 echo ""
-echo "   Or copy and run manually:"
-echo "   scp infra/gcp/bootstrap_vm.sh ${VM_NAME}:~/"
-echo "   gcloud compute ssh ${VM_NAME} --zone=${GCP_ZONE} -- 'sudo bash ~/bootstrap_vm.sh'"
-echo ""
-echo "3. Create .env file on VM:"
-echo "   gcloud compute ssh ${VM_NAME} --zone=${GCP_ZONE}"
+echo "4. Edit .env file on VM with your Google Ads OAuth token:"
 echo "   sudo nano /opt/hvac-ads-2026/.env"
+echo "   # Add GOOGLE_ADS_REFRESH_TOKEN (all other credentials are already set)"
 echo ""
-echo "4. Test the deployment:"
-echo "   curl http://${EXTERNAL_IP}:8080/health"
+echo "5. Restart containers after editing .env:"
+echo "   cd /opt/hvac-ads-2026"
+echo "   sudo docker compose restart"
 echo ""
-echo -e "${YELLOW}IMPORTANT: Add ${SA_EMAIL} as owner in Google Search Console for GSC/Indexing API access!${NC}"
+echo "6. Test the deployment:"
+echo "   MCP Health:  curl http://${EXTERNAL_IP}:8080/health"
+echo "   MCP Tools:   curl http://${EXTERNAL_IP}:8080/tools"
+echo "   Baseline:    sudo docker compose exec baseline bin/dump"
+echo ""
+echo -e "${GREEN}Firewall: Port 8080 restricted to ${MY_IP}/32${NC}"

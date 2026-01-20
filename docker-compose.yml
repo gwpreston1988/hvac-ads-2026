@@ -1,0 +1,89 @@
+# =============================================================================
+# HVAC-ADS-2026 Docker Compose
+# Phase D0: Containerization + MCP Server + Baseline CLI
+# =============================================================================
+
+version: "3.8"
+
+services:
+  # ---------------------------------------------------------------------------
+  # MCP Server (Main Application)
+  # ---------------------------------------------------------------------------
+  mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hvac-ads-mcp
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      - MCP_PORT=8080
+      - MCP_HOST=0.0.0.0
+    volumes:
+      # Mount data directories for persistence
+      - ./snapshots:/app/snapshots
+      - ./reports:/app/reports
+      - ./plans:/app/plans
+      - ./diag:/app/diag
+      # Mount configs (read-only)
+      - ./core/configs:/app/core/configs:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # ---------------------------------------------------------------------------
+  # Baseline CLI Runner
+  # ---------------------------------------------------------------------------
+  # This service provides a container for running baseline CLI commands:
+  #   docker compose exec baseline bin/dump
+  #   docker compose exec baseline bin/report --latest
+  #   docker compose exec baseline bin/plan --latest
+  #   docker compose exec baseline bin/apply --plan <path>
+  # ---------------------------------------------------------------------------
+  baseline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hvac-ads-baseline
+    env_file:
+      - .env
+    volumes:
+      # Mount data directories (read-write for dumps/reports/plans)
+      - ./snapshots:/app/snapshots
+      - ./reports:/app/reports
+      - ./plans:/app/plans
+      - ./diag:/app/diag
+      # Mount configs (read-only)
+      - ./core/configs:/app/core/configs:ro
+    # Keep container running for exec commands
+    command: ["sleep", "infinity"]
+    restart: unless-stopped
+
+  # ---------------------------------------------------------------------------
+  # PostgreSQL (For Phase D - not active in D0, but defined for future)
+  # ---------------------------------------------------------------------------
+  # postgres:
+  #   image: postgres:16-alpine
+  #   container_name: hvac-ads-postgres
+  #   environment:
+  #     POSTGRES_DB: hvac_ads
+  #     POSTGRES_USER: ${POSTGRES_USER:-hvac}
+  #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-hvac_dev_password}
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+  #   restart: unless-stopped
+
+# volumes:
+#   postgres_data:
+
+networks:
+  default:
+    name: hvac-ads-network

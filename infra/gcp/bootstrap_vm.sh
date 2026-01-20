@@ -159,9 +159,9 @@ GSC_SITE_URL=https://buycomfortdirect.com
 # -----------------------------------------------------------------------------
 # Twilio
 # -----------------------------------------------------------------------------
-TWILIO_ACCOUNT_SID=ACfdf6dbf2b3e7d1d6f1ee0caeafc403c0
-TWILIO_AUTH_TOKEN=2cc78fd285abf99e55a5327bf798e7b4
-TWILIO_FORWARD_TO_NUMBER=+17703633124
+TWILIO_ACCOUNT_SID=YOUR_TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN=YOUR_TWILIO_AUTH_TOKEN
+TWILIO_FORWARD_TO_NUMBER=YOUR_FORWARD_TO_NUMBER
 
 # -----------------------------------------------------------------------------
 # BigCommerce (optional)

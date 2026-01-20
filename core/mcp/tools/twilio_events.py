@@ -11,7 +11,7 @@ Phase D0 returns NOT_IMPLEMENTED - no live API calls.
 
 Future implementation will use:
 - Twilio REST API
-- Credentials: TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN
+- Credentials: TWILIO_ACCOUNT_SID + (TWILIO_AUTH_TOKEN or TWILIO_API_SECRET)
 
 Parameters:
 - event_type: Type of events (calls, messages, or all)
@@ -65,7 +65,7 @@ def twilio_events(params: dict[str, Any]) -> dict[str, Any]:
         "message": "Twilio events query is not yet implemented",
         "phase": "D0",
         "api_access": "READ",
-        "credentials_required": ["TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN"],
+        "credentials_required": ["TWILIO_ACCOUNT_SID", "TWILIO_AUTH_TOKEN or TWILIO_API_SECRET"],
         "parameters_received": {
             "event_type": event_type,
             "start_date": start_date,

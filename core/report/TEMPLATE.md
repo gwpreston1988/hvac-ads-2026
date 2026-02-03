@@ -264,6 +264,18 @@ Disapproval is not a penalty. It means Google found an issue with the product da
 
 ---
 
+## SECTION 5B — Organic Visibility (Search Console)
+
+{{GSC_SECTION}}
+
+---
+
+## SECTION 5C — Google Recommendations Truth Signals
+
+{{TRUTH_SIGNALS_SECTION}}
+
+---
+
 ## SECTION 6 — Bidding & Cost Control Status
 
 | Campaign | Bid Strategy | Target | Daily Budget | Notes |
@@ -285,6 +297,8 @@ Disapproval is not a penalty. It means Google found an issue with the product da
 - **Non-branded search** CPCs are often higher because many advertisers compete for generic terms.
 
 ---
+
+{{BUDGET_INTELLIGENCE_SECTION}}
 
 ## SECTION 7 — Recent Changes & Risk Check
 

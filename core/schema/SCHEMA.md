@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document defines the complete file structure and purpose of each snapshot produced by `dump_state.py`. Snapshots are immutable, timestamped captures of Google Ads and Merchant Center state.
+This document defines the complete file structure and purpose of each snapshot produced by `dump_state.py`. Snapshots are immutable, timestamped captures of Google Ads, Merchant Center, and Google Search Console state.
 
 ---
 
@@ -35,10 +35,14 @@ snapshots/
     │   │   ├── campaign_assets.json
     │   │   └── url_expansion.json
     │   │
-    │   └── merchant/
-    │       ├── products.json
-    │       ├── product_statuses.json
-    │       └── account_issues.json
+    │   ├── merchant/
+    │   │   ├── products.json
+    │   │   ├── product_statuses.json
+    │   │   └── account_issues.json
+    │   │
+    │   └── gsc/                          # Google Search Console
+    │       ├── sites.json                # Verified sites
+    │       └── search_analytics.json     # Raw search analytics (last 30 days)
     │
     └── normalized/                       # Flattened, consistent representations
         ├── ads/
@@ -57,9 +61,14 @@ snapshots/
         │   ├── assets.json
         │   └── listing_groups.json
         │
-        └── merchant/
-            ├── products.json
-            └── issues.json
+        ├── merchant/
+        │   ├── products.json
+        │   └── issues.json
+        │
+        └── gsc/                          # Google Search Console (aggregated)
+            ├── queries.json              # Top queries by impressions
+            ├── pages.json                # Top pages by impressions
+            └── summary.json              # Overall stats
 ```
 
 ---
@@ -106,6 +115,18 @@ snapshots/
 | `raw/merchant/products.json` | All products with attributes: title, brand, price, GTIN, availability |
 | `raw/merchant/product_statuses.json` | Eligibility per destination: Shopping, Free Listings, status reasons |
 | `raw/merchant/account_issues.json` | Account-level issues and warnings |
+
+### Google Search Console
+
+| File | Purpose |
+|------|---------|
+| `raw/gsc/sites.json` | Verified sites in GSC account |
+| `raw/gsc/search_analytics.json` | Raw search analytics data (last 30 days) with all dimensions |
+| `normalized/gsc/queries.json` | Top queries aggregated across all dimensions |
+| `normalized/gsc/pages.json` | Top landing pages aggregated across all dimensions |
+| `normalized/gsc/summary.json` | Overall stats: total clicks, impressions, avg CTR, avg position |
+
+**Note:** GSC data is READ-ONLY. The dump phase retrieves organic search data for correlation with paid campaigns. No indexing writes or mutations are performed.
 
 ---
 

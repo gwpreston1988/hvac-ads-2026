@@ -65,6 +65,12 @@ SUPPORTED_OP_TYPES = {
     "ADS_REMOVE_NEGATIVE_KEYWORD",
     "ADS_UPDATE_ASSET_TEXT",
     "MERCHANT_EXCLUDE_PRODUCT",
+    "ADS_SET_PMAX_BRAND_EXCLUSIONS",
+}
+
+# Manufacturer brands that must NOT be added to exclusion lists
+MANUFACTURER_BRANDS = {
+    "rheem", "goodman", "solace", "daikin", "ruud", "amana",
 }
 
 # Risk level mapping
@@ -530,7 +536,8 @@ class PreconditionChecker:
                 campaign.id,
                 campaign.name,
                 campaign.status,
-                campaign.bidding_strategy_type
+                campaign.bidding_strategy_type,
+                campaign.advertising_channel_type
             FROM campaign
             WHERE campaign.id = {campaign_id}
         """
@@ -544,7 +551,8 @@ class PreconditionChecker:
             "id": str(c.get("id", "")),
             "name": c.get("name", ""),
             "status": c.get("status", ""),
-            "bidding_strategy": c.get("biddingStrategyType", "")
+            "bidding_strategy": c.get("biddingStrategyType", ""),
+            "advertising_channel_type": c.get("advertisingChannelType", "")
         }
 
     def _fetch_asset(self, asset_id: str, entity: dict) -> Optional[dict]:
@@ -650,6 +658,8 @@ class OperationExecutor:
                 result = self._execute_update_asset_text(op, result)
             elif op_type == "MERCHANT_EXCLUDE_PRODUCT":
                 result = self._execute_merchant_exclude_product(op, result)
+            elif op_type == "ADS_SET_PMAX_BRAND_EXCLUSIONS":
+                result = self._execute_set_pmax_brand_exclusions(op, result)
             else:
                 result["status"] = "UNSUPPORTED"
                 result["error"] = f"Unsupported operation type: {op_type}"
@@ -858,6 +868,93 @@ class OperationExecutor:
             # Real implementation would update supplemental feed
             result["status"] = "NOT_IMPLEMENTED"
             result["error"] = "Merchant product exclusion requires supplemental feed implementation"
+
+        return result
+
+    def _execute_set_pmax_brand_exclusions(self, op: dict, result: dict) -> dict:
+        """Execute setting brand exclusions for a PMax campaign.
+
+        Brand exclusions are implemented via brand lists attached to campaigns.
+        This operation creates or updates a brand list and attaches it to the campaign.
+
+        GUARDRAILS:
+        1. Campaign must be PERFORMANCE_MAX type
+        2. Manufacturer brands (rheem, goodman, etc.) must NOT be in exclusion list
+           unless override_manufacturer_exclusions is set
+        """
+        entity = op.get("entity", {})
+        params = op.get("params", {})
+        approvals = op.get("approvals", {})
+
+        campaign_id = params.get("campaign_id") or entity.get("entity_id", "")
+        action = params.get("action", "SET")
+        brands = params.get("brands", [])
+        brand_list_name = params.get("brand_list_name", "BCD Brand Exclusions")
+
+        # GUARDRAIL 1: Verify campaign is PERFORMANCE_MAX
+        campaign_type = self._get_campaign_type(campaign_id)
+        if campaign_type != "PERFORMANCE_MAX":
+            result["status"] = "FAILED"
+            result["error"] = (
+                f"ADS_SET_PMAX_BRAND_EXCLUSIONS only allowed on PERFORMANCE_MAX campaigns. "
+                f"Campaign {campaign_id} is type: {campaign_type}"
+            )
+            return result
+
+        # GUARDRAIL 2: Check for manufacturer brands in exclusion list
+        override_manufacturers = approvals.get("override_manufacturer_exclusions", False)
+        if not override_manufacturers:
+            manufacturer_found = []
+            for brand in brands:
+                brand_lower = brand.lower()
+                for mfg in MANUFACTURER_BRANDS:
+                    if mfg.lower() in brand_lower:
+                        manufacturer_found.append(f"{brand} (contains {mfg})")
+                        break
+
+            if manufacturer_found:
+                result["status"] = "FAILED"
+                result["error"] = (
+                    f"Manufacturer brands cannot be added to exclusion list: {', '.join(manufacturer_found)}. "
+                    f"Set approvals.override_manufacturer_exclusions=true to override."
+                )
+                return result
+
+        # Build the API request info
+        result["api_request"] = {
+            "operation": "SET_PMAX_BRAND_EXCLUSIONS",
+            "campaign_id": campaign_id,
+            "action": action,
+            "brand_list_name": brand_list_name,
+            "brands": brands,
+            "brand_count": len(brands),
+        }
+
+        if self.dry_run:
+            result["status"] = "DRY_RUN_SUCCESS"
+            result["api_response"] = {
+                "dry_run": True,
+                "would_create_brand_list": brand_list_name,
+                "would_attach_to_campaign": campaign_id,
+                "brands_to_exclude": brands,
+                "brand_count": len(brands),
+                "note": "Brand exclusions use Google Ads Brand List API (account-level resource)"
+            }
+        else:
+            # Real implementation notes:
+            # 1. Check if brand list already exists: GET /brandLists
+            # 2. Create brand list if needed: POST /brandLists
+            # 3. Add brands to list: POST /brandLists/{id}:addBrands
+            # 4. Attach list to campaign via CampaignCriterion with brand_list type
+            #
+            # Note: Brand lists require brands to exist in Google's verified brand database.
+            # Arbitrary strings may not be accepted.
+            result["status"] = "NOT_IMPLEMENTED"
+            result["error"] = (
+                "Brand exclusion API implementation pending. "
+                "Requires: BrandListService (account-level) + CampaignCriterionService (brand_list type). "
+                "Note: Google requires brands to exist in their verified database."
+            )
 
         return result
 

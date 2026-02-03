@@ -1,0 +1,11 @@
+#!/bin/bash
+# =============================================================================
+# Review Pack CLI - Generate advisory review pack for proposed plans
+# =============================================================================
+
+# Find project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Run the Python script
+exec python3 "$PROJECT_ROOT/core/judge/cli_review_pack.py" "$@"

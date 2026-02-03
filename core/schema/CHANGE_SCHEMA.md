@@ -325,6 +325,116 @@ Each operation is an object describing a single atomic change.
 | `MERCHANT_EXCLUDE_PRODUCT` | MERCHANT_CENTER | MEDIUM | Mark product excluded via supplemental feed |
 | `MERCHANT_INCLUDE_PRODUCT` | MERCHANT_CENTER | MEDIUM | Remove exclusion from supplemental feed |
 | `MERCHANT_UPDATE_ATTRIBUTE` | MERCHANT_CENTER | MEDIUM | Update product attribute via supplemental |
+| `ADS_SET_PMAX_BRAND_EXCLUSIONS` | GOOGLE_ADS | MEDIUM | Set brand exclusion list on PMax campaign |
+
+---
+
+## PMax Brand Exclusions (ADS_SET_PMAX_BRAND_EXCLUSIONS)
+
+Performance Max campaigns do NOT support standard negative keywords (Google treats them as UBERVERSAL).
+Instead, brand protection is achieved through **Brand Exclusion Lists**.
+
+### API Background
+
+- Brand lists are account-level resources: `customers/{customer_id}/brandLists/{brand_list_id}`
+- Brand lists can contain verified brand names from Google's brand database
+- PMax campaigns reference brand lists via `campaign_criterion` with `brand_list` type
+- Google Ads API v19: `CampaignCriterionService` with `brand_list` field
+
+### Operation Structure
+
+```json
+{
+  "op_id": "op-001",
+  "op_type": "ADS_SET_PMAX_BRAND_EXCLUSIONS",
+  "platform": "google_ads",
+  "entity_ref": "ads.campaign:20815709270",
+  "entity": {
+    "entity_type": "CAMPAIGN",
+    "entity_id": "20815709270",
+    "entity_name": "Products merchant campaign",
+    "campaign_type": "PERFORMANCE_MAX",
+    "parent_refs": ["ads.customer:9256598060"]
+  },
+  "description": "Set brand exclusions for PMax campaign to protect BCD branded traffic",
+  "risk_level": "MEDIUM",
+  "requires_approval": false,
+  "params": {
+    "campaign_id": "20815709270",
+    "action": "SET",
+    "brand_list_id": null,
+    "brand_list_name": "BCD Brand Exclusions",
+    "brands": ["buy comfort direct", "buycomfortdirect", "bcd"]
+  },
+  "before": {
+    "brand_list_id": null,
+    "brands": []
+  },
+  "after": {
+    "brand_list_id": "auto",
+    "brands": ["buy comfort direct", "buycomfortdirect", "bcd"]
+  },
+  "preconditions": [
+    {
+      "path": "advertising_channel_type",
+      "op": "EQUALS",
+      "value": "PERFORMANCE_MAX",
+      "description": "Campaign must be Performance Max"
+    },
+    {
+      "path": "status",
+      "op": "EQUALS",
+      "value": "ENABLED",
+      "description": "Campaign must be enabled"
+    }
+  ],
+  "evidence": [
+    {
+      "type": "config_reference",
+      "source": "core/configs/brand_terms.json",
+      "note": "Brand terms from config that should be excluded from PMax"
+    }
+  ],
+  "rollback": {
+    "type": "RESTORE_BEFORE",
+    "operation": {
+      "op_type": "ADS_SET_PMAX_BRAND_EXCLUSIONS",
+      "params": {
+        "campaign_id": "20815709270",
+        "action": "SET",
+        "brands": []
+      }
+    },
+    "notes": "Remove brand exclusion list from campaign"
+  }
+}
+```
+
+### Params Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `campaign_id` | `string` | Yes | PMax campaign ID |
+| `action` | `enum` | Yes | `SET` (replace all), `ADD` (append), `REMOVE` (delete specific) |
+| `brand_list_id` | `string` | No | Existing brand list ID (if attaching existing list) |
+| `brand_list_name` | `string` | No | Name for auto-created brand list |
+| `brands` | `array` | Yes | Brand names to include in exclusion list |
+
+### Guardrails
+
+1. **Campaign Type Check**: Operation MUST fail if target campaign is not `PERFORMANCE_MAX`
+2. **Manufacturer Brand Protection**: By default, manufacturer brands (rheem, goodman, daikin, etc.)
+   MUST NOT be added to exclusion lists. This prevents blocking traffic for products we sell.
+   Override with `approvals.override_manufacturer_exclusions: true` if explicitly needed.
+3. **Empty Brands Warning**: If `brands` array is empty, emit a warning finding but proceed.
+4. **Brand Verification**: Brands should be verifiable against Google's brand database where possible.
+
+### API Limitations
+
+- Brand lists require brands to exist in Google's verified brand database
+- Not all brand name variations may be recognized (e.g., "bcd" might not match)
+- Account-level brand lists are shared across campaigns
+- Maximum brands per list: 1000 (per Google Ads API limits)
 
 ---
 
@@ -799,3 +909,4 @@ Optional hashes and checksums for verification.
 |---------|------|---------|
 | C1.0 | 2026-01-16 | Initial schema definition |
 | C1.1 | 2026-01-16 | Added entity_ref canonical format, machine-parseable precondition DSL, resolvable evidence pointers, deterministic rollback types, plan_context, additional guardrails, risk level enforcement rules |
+| C1.2 | 2026-01-16 | Added ADS_SET_PMAX_BRAND_EXCLUSIONS operation type for PMax brand protection via brand lists (replacing unsupported campaign-level negative keywords) |

@@ -67,6 +67,7 @@ DEFAULT_GUARDRAILS = {
         "ADS_SET_KEYWORD_MATCH_TYPE": 10,
         "ADS_UPDATE_ASSET_TEXT": 5,
         "ADS_REMOVE_ASSET": 5,
+        "ADS_SET_PMAX_BRAND_EXCLUSIONS": 5,
         "MERCHANT_EXCLUDE_PRODUCT": 10,
         "ADS_UPDATE_BID_STRATEGY": 0,
         "ADS_UPDATE_BUDGET": 0,
@@ -494,6 +495,7 @@ class PlanBuilder:
         self._rule_s3_branded_bidding_strategy()
         self._rule_s4_manufacturer_brand_in_assets()
         self._rule_s5_merchant_disapproved()
+        self._rule_s6_pmax_brand_exclusions()
 
     def _rule_s1_broad_match_in_branded(self):
         """
@@ -930,6 +932,186 @@ class PlanBuilder:
                 rule_id,
                 "INFO",
                 f"{disapproved_count} disapproved products found; {excluded_count} in discontinued list (proposed for exclusion)",
+            )
+
+    def _rule_s6_pmax_brand_exclusions(self):
+        """
+        Rule S6: Propose brand exclusions for PMax campaigns.
+
+        PMax campaigns do NOT support standard negative keywords (Google API returns
+        OPERATION_NOT_PERMITTED_FOR_CONTEXT for UBERVERSAL campaigns).
+
+        Instead, brand protection is achieved via Brand Exclusion Lists.
+        This rule proposes ADS_SET_PMAX_BRAND_EXCLUSIONS for each PMax campaign
+        that does not have brand exclusions configured.
+
+        Action: Propose ADS_SET_PMAX_BRAND_EXCLUSIONS (MEDIUM risk).
+        """
+        rule_id = "rule:S6:pmax_brand_exclusions"
+
+        # CRITICAL: Require brand_terms to be non-empty
+        if not self.brand_terms:
+            self.add_finding(
+                rule_id,
+                "WARNING",
+                "brand_terms list is empty - cannot propose PMax brand exclusions",
+            )
+            return
+
+        # Load PMax campaigns
+        pmax_campaigns = self.loader.pmax_campaigns.get("records", [])
+
+        if not pmax_campaigns:
+            self.add_finding(rule_id, "INFO", "No PMax campaigns found")
+            return
+
+        # Load existing brand exclusions from snapshot
+        brand_exclusions = {}
+        try:
+            brand_excl_path = self.loader.snapshot_dir / "normalized" / "pmax" / "brand_exclusions.json"
+            if brand_excl_path.exists():
+                with open(brand_excl_path) as f:
+                    brand_excl_data = json.load(f)
+                    for crit in brand_excl_data.get("pmax_negative_criteria", []):
+                        cid = str(crit.get("campaign_id", ""))
+                        if cid:
+                            brand_exclusions.setdefault(cid, []).append(crit)
+        except Exception:
+            pass  # Continue without exclusion data
+
+        customer_id = self.loader.manifest.get("accounts", {}).get("google_ads", {}).get("customer_id", "")
+        ops_proposed = 0
+
+        for campaign in pmax_campaigns:
+            campaign_id = str(campaign.get("id", ""))
+            campaign_name = campaign.get("name", "")
+            campaign_status = campaign.get("status", "")
+
+            # Only propose for ENABLED campaigns
+            if campaign_status != "ENABLED":
+                continue
+
+            # Check if already has brand exclusions
+            existing_exclusions = brand_exclusions.get(campaign_id, [])
+            if existing_exclusions:
+                self.add_finding(
+                    rule_id,
+                    "INFO",
+                    f"PMax campaign '{campaign_name}' already has {len(existing_exclusions)} negative criteria configured",
+                )
+                continue
+
+            # Propose brand exclusions for this campaign
+            entity_ref = make_entity_ref("GOOGLE_ADS", "campaign", campaign_id)
+            op_id = self._next_op_id("ADS_SET_PMAX_BRAND_EXCLUSIONS", entity_ref, rule_id)
+
+            # Filter out manufacturer brands from brand_terms (they should NOT be excluded)
+            safe_brand_terms = [
+                term for term in self.brand_terms
+                if not any(mfg.lower() in term.lower() for mfg in MANUFACTURER_BRANDS)
+            ]
+
+            if not safe_brand_terms:
+                self.add_finding(
+                    rule_id,
+                    "WARNING",
+                    f"No safe brand terms to exclude for '{campaign_name}' (all terms contain manufacturer brands)",
+                )
+                continue
+
+            op = {
+                "op_id": op_id,
+                "op_type": "ADS_SET_PMAX_BRAND_EXCLUSIONS",
+                "entity_ref": entity_ref,
+                "entity": {
+                    "platform": "GOOGLE_ADS",
+                    "entity_type": "CAMPAIGN",
+                    "entity_id": campaign_id,
+                    "entity_name": campaign_name,
+                    "campaign_type": "PERFORMANCE_MAX",
+                    "parent_refs": [
+                        f"ads.customer:{customer_id}",
+                    ],
+                },
+                "intent": f"Set brand exclusions for PMax campaign '{campaign_name}' to protect BCD branded traffic",
+                "before": {
+                    "brand_list_id": None,
+                    "brands": [],
+                },
+                "after": {
+                    "brand_list_id": "auto",
+                    "brand_list_name": f"BCD Brand Exclusions - {campaign_name}",
+                    "brands": safe_brand_terms,
+                },
+                "params": {
+                    "campaign_id": campaign_id,
+                    "action": "SET",
+                    "brand_list_id": None,
+                    "brand_list_name": f"BCD Brand Exclusions - {campaign_name}",
+                    "brands": safe_brand_terms,
+                },
+                "preconditions": [
+                    {
+                        "path": "advertising_channel_type",
+                        "op": "EQUALS",
+                        "value": "PERFORMANCE_MAX",
+                        "description": "Campaign must be Performance Max",
+                    },
+                    {
+                        "path": "status",
+                        "op": "EQUALS",
+                        "value": "ENABLED",
+                        "description": "Campaign must be enabled",
+                    },
+                ],
+                "rollback": {
+                    "type": "RESTORE_BEFORE",
+                    "data": {"brands": []},
+                    "notes": "Remove brand exclusion list from campaign",
+                },
+                "risk": {
+                    "level": "MEDIUM",
+                    "level_numeric": 2,
+                    "reasons": [
+                        "Brand exclusions affect which search queries trigger PMax ads",
+                        "May reduce PMax reach for brand-related queries (desired behavior)",
+                    ],
+                    "mitigations": [
+                        "Brand terms are from verified config file",
+                        "Manufacturer brands are excluded from exclusion list",
+                        "Rollback removes the brand exclusion list",
+                    ],
+                },
+                "evidence": [
+                    {
+                        "snapshot_path": "normalized/pmax/campaigns.json",
+                        "key": "id",
+                        "value": campaign_id,
+                        "field_path": None,
+                        "note": f"PMax campaign without brand exclusions",
+                    },
+                    {
+                        "snapshot_path": "core/configs/brand_terms.json",
+                        "key": "brand_terms",
+                        "value": safe_brand_terms,
+                        "field_path": None,
+                        "note": "Brand terms to exclude (manufacturer brands filtered out)",
+                    },
+                ],
+                "evidence_query": f"pmax_campaigns WHERE status='ENABLED' AND brand_exclusions IS NULL",
+                "created_from_rule": rule_id,
+                "approved": False,
+                "approval_notes": None,
+            }
+
+            self.add_operation(op)
+            ops_proposed += 1
+
+        if ops_proposed > 0:
+            self.add_finding(
+                rule_id,
+                "INFO",
+                f"Proposed {ops_proposed} PMax brand exclusion operation(s) for {len(safe_brand_terms)} brand terms",
             )
 
 

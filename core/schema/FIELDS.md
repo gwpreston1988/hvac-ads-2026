@@ -661,3 +661,92 @@ Same structure as raw but with derived fields:
 | `AVERAGE` | `AVERAGE` |
 | `ABOVE_AVERAGE` | `ABOVE_AVERAGE` |
 | `UNKNOWN` | `UNKNOWN` |
+
+---
+
+## Google Search Console
+
+### raw/gsc/sites.json
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `extracted_at` | string | yes | ISO 8601 extraction timestamp | `"2026-01-15T14:30:52Z"` |
+| `count` | number | yes | Number of verified sites | `1` |
+| `records` | array | yes | Array of site objects | `[...]` |
+
+#### Site Record
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `siteUrl` | string | yes | Verified site URL | `"https://buycomfortdirect.com/"` |
+| `permissionLevel` | string | yes | Permission level | `"siteOwner"` |
+
+### raw/gsc/search_analytics.json
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `extracted_at` | string | yes | ISO 8601 extraction timestamp | `"2026-01-15T14:30:52Z"` |
+| `site_url` | string | yes | Site URL queried | `"https://buycomfortdirect.com"` |
+| `date_range` | object | yes | Query date range | `{"start": "2025-12-16", "end": "2026-01-14"}` |
+| `count` | number | yes | Number of rows | `15234` |
+| `records` | array | yes | Array of analytics rows | `[...]` |
+| `note` | string | no | Implementation note | `"Daily-level data with all dimensions"` |
+
+#### Search Analytics Row
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `keys` | array | yes | Dimension values [query, page, device, country, date] | `["rheem furnace", "https://...", "MOBILE", "USA", "2026-01-14"]` |
+| `clicks` | number | yes | Number of clicks | `12` |
+| `impressions` | number | yes | Number of impressions | `456` |
+| `ctr` | number | yes | Click-through rate | `0.0263` |
+| `position` | number | yes | Average position | `8.3` |
+
+### normalized/gsc/queries.json
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `count` | number | yes | Number of unique queries | `1234` |
+| `records` | array | yes | Array of query objects | `[...]` |
+
+#### Query Record
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `query` | string | yes | Search query text | `"rheem furnace"` |
+| `clicks` | number | yes | Total clicks (aggregated) | `45` |
+| `impressions` | number | yes | Total impressions (aggregated) | `2340` |
+| `ctr` | number | yes | Overall CTR | `0.0192` |
+| `position` | number | yes | Weighted average position | `7.2` |
+
+### normalized/gsc/pages.json
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `count` | number | yes | Number of unique pages | `234` |
+| `records` | array | yes | Array of page objects | `[...]` |
+
+#### Page Record
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `page` | string | yes | Landing page URL | `"https://buycomfortdirect.com/product/rheem"` |
+| `clicks` | number | yes | Total clicks (aggregated) | `123` |
+| `impressions` | number | yes | Total impressions (aggregated) | `5678` |
+| `ctr` | number | yes | Overall CTR | `0.0217` |
+| `position` | number | yes | Weighted average position | `6.8` |
+
+### normalized/gsc/summary.json
+
+| Field | Type | Required | Description | Example |
+|-------|------|----------|-------------|---------|
+| `extracted_at` | string | yes | ISO 8601 extraction timestamp | `"2026-01-15T14:30:52Z"` |
+| `site_url` | string | yes | Site URL | `"https://buycomfortdirect.com"` |
+| `date_range` | object | yes | Date range | `{"start": "2025-12-16", "end": "2026-01-14"}` |
+| `summary` | object | yes | Aggregate stats | `{...}` |
+| `summary.total_clicks` | number | yes | Total clicks across all queries | `1234` |
+| `summary.total_impressions` | number | yes | Total impressions | `45678` |
+| `summary.avg_ctr` | number | yes | Overall CTR | `0.0270` |
+| `summary.avg_position` | number | yes | Overall weighted average position | `7.5` |
+
+**Note:** All GSC data is READ-ONLY. Position is weighted by impressions. CTR is calculated as clicks/impressions. No live API calls are made during query - all data comes from snapshots.

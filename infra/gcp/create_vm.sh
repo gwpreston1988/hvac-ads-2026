@@ -110,7 +110,7 @@ else
     echo "  Creating static IP: ${STATIC_IP_NAME}"
     gcloud compute addresses create "${STATIC_IP_NAME}" \
         --region="${GCP_REGION}" \
-        --network-tier=STANDARD
+        --network-tier=PREMIUM
 fi
 
 EXTERNAL_IP=$(gcloud compute addresses describe "${STATIC_IP_NAME}" \

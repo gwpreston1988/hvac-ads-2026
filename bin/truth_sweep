@@ -1,0 +1,12 @@
+#!/bin/bash
+# =============================================================================
+# Truth Sweep Wrapper
+# Runs the Google Surfaces diagnostic collector
+# =============================================================================
+
+# Find project root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+
+# Run the Python script
+exec python3 "$PROJECT_ROOT/diag/truth_sweep_google_surfaces.py" "$@"

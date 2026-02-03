@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+
+# Environment files (contain secrets)
+.env
+.env.local
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Snapshots (contain real customer data)
+snapshots/
+
+# Generated reports (contain real customer data)
+reports/*.json
+reports/*.md
+!reports/INDEX.md
+
+# Generated plans (contain real customer data)
+plans/runs/
+
+# Diagnostic data (may contain real customer data)
+diag/review_packs/
+diag/truth_sweep/
+diag/*.md
+diag/*.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

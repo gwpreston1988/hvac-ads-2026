@@ -216,6 +216,76 @@ class MerchantCenterClient:
 
 
 # =============================================================================
+# GOOGLE SEARCH CONSOLE API CLIENT
+# =============================================================================
+
+
+class GoogleSearchConsoleClient:
+    """Minimal Google Search Console API client for read-only operations."""
+
+    def __init__(self, site_url: str, access_token: str):
+        self.site_url = site_url
+        self.access_token = access_token
+        self.base_url = "https://www.googleapis.com/webmasters/v3"
+
+    def _headers(self):
+        return {
+            "Authorization": f"Bearer {self.access_token}",
+            "Content-Type": "application/json",
+        }
+
+    def list_sites(self) -> list:
+        """List all verified sites for this account."""
+        url = f"{self.base_url}/sites"
+
+        response = requests.get(url, headers=self._headers())
+
+        if response.status_code != 200:
+            raise Exception(f"GSC API error {response.status_code}: {response.text}")
+
+        data = response.json()
+        return data.get("siteEntry", [])
+
+    def query_search_analytics(
+        self,
+        start_date: str,
+        end_date: str,
+        dimensions: list[str] = None,
+        row_limit: int = 25000
+    ) -> list:
+        """Query search analytics data.
+
+        Args:
+            start_date: Start date (YYYY-MM-DD)
+            end_date: End date (YYYY-MM-DD)
+            dimensions: List of dimensions (query, page, device, country, date)
+            row_limit: Maximum rows to return (API max is 25,000)
+
+        Returns:
+            List of search analytics rows
+        """
+        if dimensions is None:
+            dimensions = ["query", "page", "device", "country", "date"]
+
+        url = f"{self.base_url}/sites/{requests.utils.quote(self.site_url, safe='')}/searchAnalytics/query"
+
+        payload = {
+            "startDate": start_date,
+            "endDate": end_date,
+            "dimensions": dimensions,
+            "rowLimit": row_limit,
+        }
+
+        response = requests.post(url, headers=self._headers(), json=payload)
+
+        if response.status_code != 200:
+            raise Exception(f"GSC API error {response.status_code}: {response.text}")
+
+        data = response.json()
+        return data.get("rows", [])
+
+
+# =============================================================================
 # DATA FETCHERS - RAW
 # =============================================================================
 
@@ -720,6 +790,101 @@ def fetch_url_expansion(client: GoogleAdsClient) -> dict:
     }
 
 
+def fetch_brand_lists(client: GoogleAdsClient) -> dict:
+    """Fetch account-level brand lists.
+
+    Brand lists are used for PMax brand exclusions. Each brand list can contain
+    multiple verified brand names from Google's brand database.
+
+    API Resource: customers/{customer_id}/brandLists/{brand_list_id}
+    """
+    query = """
+        SELECT
+            shared_set.resource_name,
+            shared_set.id,
+            shared_set.name,
+            shared_set.type,
+            shared_set.status,
+            shared_set.member_count
+        FROM shared_set
+        WHERE shared_set.type = 'NEGATIVE_KEYWORDS'
+        ORDER BY shared_set.id
+    """
+    # Note: Google Ads API v19 uses shared_set for negative keyword lists.
+    # Brand lists (for brand exclusions) may require BrandService which has limited availability.
+    # We capture shared_sets as the closest available structure.
+    try:
+        results = client.search(query)
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": len(results),
+            "records": [r.get("sharedSet", {}) for r in results],
+            "api_note": "Using shared_set as proxy; dedicated brand_list API may have limited availability"
+        }
+    except Exception as e:
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": 0,
+            "records": [],
+            "api_note": f"Brand lists query failed: {str(e)}. This is expected if brand lists are not configured."
+        }
+
+
+def fetch_pmax_brand_exclusions(client: GoogleAdsClient) -> dict:
+    """Fetch brand exclusion criteria attached to PMax campaigns.
+
+    Brand exclusions are implemented via campaign_criterion with negative=true
+    and a brand_list reference. This captures the relationship between
+    PMax campaigns and their brand exclusion configurations.
+
+    Note: Google Ads API may not expose brand exclusions directly via GAQL.
+    We attempt to fetch any negative campaign criteria that might indicate
+    brand exclusions.
+    """
+    query = """
+        SELECT
+            campaign_criterion.resource_name,
+            campaign_criterion.campaign,
+            campaign_criterion.criterion_id,
+            campaign_criterion.negative,
+            campaign_criterion.type,
+            campaign.id,
+            campaign.name,
+            campaign.advertising_channel_type
+        FROM campaign_criterion
+        WHERE campaign.advertising_channel_type = 'PERFORMANCE_MAX'
+            AND campaign_criterion.negative = true
+        ORDER BY campaign.id
+    """
+    try:
+        results = client.search(query)
+        records = []
+        for r in results:
+            cc = r.get("campaignCriterion", {})
+            c = r.get("campaign", {})
+            records.append({
+                "resource_name": cc.get("resourceName"),
+                "campaign_id": str(c.get("id", "")),
+                "campaign_name": c.get("name", ""),
+                "criterion_id": str(cc.get("criterionId", "")),
+                "criterion_type": cc.get("type", ""),
+                "negative": cc.get("negative", False),
+            })
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": len(records),
+            "records": records,
+            "api_note": "PMax negative criteria (brand exclusions may be a subset)"
+        }
+    except Exception as e:
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": 0,
+            "records": [],
+            "api_note": f"PMax brand exclusions query failed: {str(e)}. Brand exclusions may not be configured."
+        }
+
+
 # =============================================================================
 # MERCHANT CENTER FETCHERS - RAW
 # =============================================================================
@@ -758,6 +923,83 @@ def fetch_merchant_account_issues(client: MerchantCenterClient) -> dict:
         "count": len(issues),
         "records": issues,
     }
+
+
+# =============================================================================
+# GOOGLE SEARCH CONSOLE FETCHERS - RAW
+# =============================================================================
+
+
+def fetch_gsc_sites(client: GoogleSearchConsoleClient) -> dict:
+    """Fetch verified sites from Google Search Console."""
+    try:
+        sites = client.list_sites()
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": len(sites),
+            "records": sites,
+        }
+    except Exception as e:
+        # If GSC permissions missing, return empty data with error note
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "count": 0,
+            "records": [],
+            "error": str(e),
+            "note": "GSC API access may not be configured or permissions missing",
+        }
+
+
+def fetch_gsc_search_analytics(client: GoogleSearchConsoleClient, days: int = 30) -> dict:
+    """Fetch search analytics data from Google Search Console.
+
+    Args:
+        client: GSC client
+        days: Number of days to fetch (default: 30)
+
+    Returns:
+        Dict with search analytics rows including:
+        - keys: [query, page, device, country, date]
+        - clicks, impressions, ctr, position
+    """
+    try:
+        # Calculate date range (last N days)
+        end_date = datetime.utcnow().date()
+        start_date = end_date - timedelta(days=days - 1)
+
+        start_date_str = start_date.strftime("%Y-%m-%d")
+        end_date_str = end_date.strftime("%Y-%m-%d")
+
+        # Query with all dimensions for maximum granularity
+        rows = client.query_search_analytics(
+            start_date=start_date_str,
+            end_date=end_date_str,
+            dimensions=["query", "page", "device", "country", "date"],
+            row_limit=25000
+        )
+
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "site_url": client.site_url,
+            "date_range": {
+                "start": start_date_str,
+                "end": end_date_str,
+            },
+            "count": len(rows),
+            "records": rows,
+            "note": "Daily-level data with all dimensions. No aggregation applied.",
+        }
+    except Exception as e:
+        # If GSC permissions missing, return empty data with error note
+        return {
+            "extracted_at": datetime.utcnow().isoformat() + "Z",
+            "site_url": client.site_url if client else None,
+            "date_range": {},
+            "count": 0,
+            "records": [],
+            "error": str(e),
+            "note": "GSC API access may not be configured or permissions missing",
+        }
 
 
 # =============================================================================
@@ -1177,6 +1419,48 @@ def normalize_listing_groups(raw: dict) -> dict:
     }
 
 
+def normalize_brand_exclusions(raw_brand_lists: dict, raw_brand_exclusions: dict) -> dict:
+    """Normalize brand exclusions data.
+
+    Combines brand lists with campaign-level exclusion criteria to provide
+    a unified view of PMax brand protection configuration.
+
+    Returns:
+        Normalized brand exclusions with campaign associations
+    """
+    records = []
+
+    # Process brand exclusion criteria from campaigns
+    for r in raw_brand_exclusions.get("records", []):
+        records.append({
+            "campaign_id": r.get("campaign_id"),
+            "campaign_name": r.get("campaign_name"),
+            "criterion_id": r.get("criterion_id"),
+            "criterion_type": r.get("criterion_type"),
+            "negative": r.get("negative", False),
+        })
+
+    # Include brand lists info
+    brand_lists = []
+    for bl in raw_brand_lists.get("records", []):
+        brand_lists.append({
+            "id": bl.get("id"),
+            "name": bl.get("name"),
+            "type": bl.get("type"),
+            "status": bl.get("status"),
+            "member_count": bl.get("memberCount"),
+        })
+
+    return {
+        "extracted_at": raw_brand_exclusions.get("extracted_at") or raw_brand_lists.get("extracted_at"),
+        "pmax_negative_criteria_count": len(records),
+        "brand_lists_count": len(brand_lists),
+        "pmax_negative_criteria": records,
+        "brand_lists": brand_lists,
+        "api_note": raw_brand_exclusions.get("api_note", "") + "; " + raw_brand_lists.get("api_note", "")
+    }
+
+
 # =============================================================================
 # MERCHANT CENTER NORMALIZERS
 # =============================================================================
@@ -1327,6 +1611,145 @@ def normalize_merchant_product_status(statuses_raw: dict) -> dict:
         "merchant_id": statuses_raw.get("merchant_id"),
         "count": len(records),
         "records": records,
+    }
+
+
+# =============================================================================
+# GOOGLE SEARCH CONSOLE NORMALIZERS
+# =============================================================================
+
+
+def normalize_gsc_search_analytics(raw: dict) -> dict:
+    """Normalize GSC search analytics into separate queries and pages views.
+
+    Returns:
+        Dict with:
+        - queries: Top queries by impressions
+        - pages: Top pages by impressions
+        - summary: Overall stats
+    """
+    rows = raw.get("records", [])
+
+    if not rows:
+        return {
+            "extracted_at": raw.get("extracted_at"),
+            "site_url": raw.get("site_url"),
+            "date_range": raw.get("date_range", {}),
+            "queries": {"count": 0, "records": []},
+            "pages": {"count": 0, "records": []},
+            "summary": {
+                "total_clicks": 0,
+                "total_impressions": 0,
+                "avg_ctr": 0,
+                "avg_position": 0,
+            },
+        }
+
+    # Aggregate by query (sum across all pages/devices/countries/dates)
+    queries_agg = {}
+    for row in rows:
+        keys = row.get("keys", [])
+        if len(keys) < 5:
+            continue  # Skip malformed rows
+
+        query = keys[0]  # First dimension is query
+        clicks = row.get("clicks", 0)
+        impressions = row.get("impressions", 0)
+        position = row.get("position", 0)
+
+        if query not in queries_agg:
+            queries_agg[query] = {
+                "query": query,
+                "clicks": 0,
+                "impressions": 0,
+                "position_sum": 0,
+                "position_count": 0,
+            }
+
+        queries_agg[query]["clicks"] += clicks
+        queries_agg[query]["impressions"] += impressions
+        queries_agg[query]["position_sum"] += position * impressions
+        queries_agg[query]["position_count"] += impressions
+
+    # Aggregate by page (sum across all queries/devices/countries/dates)
+    pages_agg = {}
+    for row in rows:
+        keys = row.get("keys", [])
+        if len(keys) < 5:
+            continue
+
+        page = keys[1]  # Second dimension is page
+        clicks = row.get("clicks", 0)
+        impressions = row.get("impressions", 0)
+        position = row.get("position", 0)
+
+        if page not in pages_agg:
+            pages_agg[page] = {
+                "page": page,
+                "clicks": 0,
+                "impressions": 0,
+                "position_sum": 0,
+                "position_count": 0,
+            }
+
+        pages_agg[page]["clicks"] += clicks
+        pages_agg[page]["impressions"] += impressions
+        pages_agg[page]["position_sum"] += position * impressions
+        pages_agg[page]["position_count"] += impressions
+
+    # Compute averages and format records
+    queries_records = []
+    for q in queries_agg.values():
+        avg_position = q["position_sum"] / q["position_count"] if q["position_count"] > 0 else 0
+        ctr = q["clicks"] / q["impressions"] if q["impressions"] > 0 else 0
+        queries_records.append({
+            "query": q["query"],
+            "clicks": q["clicks"],
+            "impressions": q["impressions"],
+            "ctr": round(ctr, 4),
+            "position": round(avg_position, 1),
+        })
+
+    pages_records = []
+    for p in pages_agg.values():
+        avg_position = p["position_sum"] / p["position_count"] if p["position_count"] > 0 else 0
+        ctr = p["clicks"] / p["impressions"] if p["impressions"] > 0 else 0
+        pages_records.append({
+            "page": p["page"],
+            "clicks": p["clicks"],
+            "impressions": p["impressions"],
+            "ctr": round(ctr, 4),
+            "position": round(avg_position, 1),
+        })
+
+    # Sort by impressions descending
+    queries_records.sort(key=lambda x: x["impressions"], reverse=True)
+    pages_records.sort(key=lambda x: x["impressions"], reverse=True)
+
+    # Compute summary stats
+    total_clicks = sum(q["clicks"] for q in queries_records)
+    total_impressions = sum(q["impressions"] for q in queries_records)
+    avg_ctr = total_clicks / total_impressions if total_impressions > 0 else 0
+    avg_position = sum(q["position"] * q["impressions"] for q in queries_records) / total_impressions if total_impressions > 0 else 0
+
+    return {
+        "extracted_at": raw.get("extracted_at"),
+        "site_url": raw.get("site_url"),
+        "date_range": raw.get("date_range", {}),
+        "queries": {
+            "count": len(queries_records),
+            "records": queries_records,
+        },
+        "pages": {
+            "count": len(pages_records),
+            "records": pages_records,
+        },
+        "summary": {
+            "total_clicks": total_clicks,
+            "total_impressions": total_impressions,
+            "avg_ctr": round(avg_ctr, 4),
+            "avg_position": round(avg_position, 1),
+        },
     }
 
 
@@ -1484,7 +1907,7 @@ def main():
     extraction_started_utc = datetime.utcnow().isoformat() + "Z"
 
     print("=" * 60)
-    print(f"STATE DUMP - GOOGLE ADS + MERCHANT CENTER  [v{SNAPSHOT_VERSION}]")
+    print(f"STATE DUMP - ADS + MERCHANT + GSC  [v{SNAPSHOT_VERSION}]")
     print("=" * 60)
     print()
 
@@ -1507,9 +1930,12 @@ def main():
         print("ERROR: GOOGLE_ADS_CUSTOMER_ID not set")
         sys.exit(1)
 
+    gsc_site_url = os.getenv("GSC_SITE_URL")
+
     print(f"Google Ads Customer ID: {customer_id}")
     print(f"Google Ads Login Customer ID: {login_customer_id or '(none)'}")
     print(f"Merchant Center ID: {merchant_id or '(none)'}")
+    print(f"GSC Site URL: {gsc_site_url or '(none)'}")
     print(f"Change history: {days} days")
     print()
 
@@ -1518,6 +1944,7 @@ def main():
     access_token = get_access_token()
     ads_client = GoogleAdsClient(customer_id, access_token, login_customer_id)
     merchant_client = MerchantCenterClient(merchant_id, access_token) if merchant_id else None
+    gsc_client = GoogleSearchConsoleClient(gsc_site_url, access_token) if gsc_site_url else None
     print("OK")
     print()
 
@@ -1527,9 +1954,11 @@ def main():
     raw_ads_dir = snapshot_dir / "raw" / "ads"
     raw_pmax_dir = snapshot_dir / "raw" / "pmax"
     raw_merchant_dir = snapshot_dir / "raw" / "merchant"
+    raw_gsc_dir = snapshot_dir / "raw" / "gsc"
     norm_ads_dir = snapshot_dir / "normalized" / "ads"
     norm_pmax_dir = snapshot_dir / "normalized" / "pmax"
     norm_merchant_dir = snapshot_dir / "normalized" / "merchant"
+    norm_gsc_dir = snapshot_dir / "normalized" / "gsc"
 
     errors = []
 
@@ -1689,6 +2118,24 @@ def main():
         errors.append({"file": "url_expansion", "error": str(e)})
         raw_url_expansion = {"extracted_at": datetime.utcnow().isoformat() + "Z", "count": 0, "records": []}
 
+    print("  Brand Lists...", end=" ", flush=True)
+    try:
+        raw_brand_lists = fetch_brand_lists(ads_client)
+        print(f"{raw_brand_lists['count']} records")
+    except Exception as e:
+        print(f"ERROR: {e}")
+        errors.append({"file": "brand_lists", "error": str(e)})
+        raw_brand_lists = {"extracted_at": datetime.utcnow().isoformat() + "Z", "count": 0, "records": [], "api_note": str(e)}
+
+    print("  PMax Brand Exclusions...", end=" ", flush=True)
+    try:
+        raw_pmax_brand_exclusions = fetch_pmax_brand_exclusions(ads_client)
+        print(f"{raw_pmax_brand_exclusions['count']} records")
+    except Exception as e:
+        print(f"ERROR: {e}")
+        errors.append({"file": "pmax_brand_exclusions", "error": str(e)})
+        raw_pmax_brand_exclusions = {"extracted_at": datetime.utcnow().isoformat() + "Z", "count": 0, "records": [], "api_note": str(e)}
+
     print()
 
     # ==========================================================================
@@ -1731,6 +2178,42 @@ def main():
         print()
 
     # ==========================================================================
+    # FETCH RAW DATA - GOOGLE SEARCH CONSOLE
+    # ==========================================================================
+    raw_gsc_sites = {"extracted_at": datetime.utcnow().isoformat() + "Z", "count": 0, "records": []}
+    raw_gsc_search_analytics = {"extracted_at": datetime.utcnow().isoformat() + "Z", "count": 0, "records": []}
+
+    if gsc_client:
+        print("Fetching Google Search Console data...")
+
+        print("  Sites...", end=" ", flush=True)
+        try:
+            raw_gsc_sites = fetch_gsc_sites(gsc_client)
+            if raw_gsc_sites.get("error"):
+                print(f"SKIPPED: {raw_gsc_sites.get('note', 'No access')}")
+            else:
+                print(f"{raw_gsc_sites['count']} sites")
+        except Exception as e:
+            print(f"ERROR: {e}")
+            errors.append({"file": "gsc_sites", "error": str(e)})
+
+        print("  Search Analytics (30 days)...", end=" ", flush=True)
+        try:
+            raw_gsc_search_analytics = fetch_gsc_search_analytics(gsc_client, days=30)
+            if raw_gsc_search_analytics.get("error"):
+                print(f"SKIPPED: {raw_gsc_search_analytics.get('note', 'No access')}")
+            else:
+                print(f"{raw_gsc_search_analytics['count']} rows")
+        except Exception as e:
+            print(f"ERROR: {e}")
+            errors.append({"file": "gsc_search_analytics", "error": str(e)})
+
+        print()
+    else:
+        print("Skipping Google Search Console (no GSC_SITE_URL)")
+        print()
+
+    # ==========================================================================
     # WRITE RAW FILES
     # ==========================================================================
     print("Writing raw files...")
@@ -1752,6 +2235,8 @@ def main():
     write_json(raw_pmax_dir / "listing_groups.json", raw_listing_groups)
     write_json(raw_pmax_dir / "campaign_assets.json", raw_pmax_campaign_assets)
     write_json(raw_pmax_dir / "url_expansion.json", raw_url_expansion)
+    write_json(raw_pmax_dir / "brand_lists.json", raw_brand_lists)
+    write_json(raw_pmax_dir / "brand_exclusions.json", raw_pmax_brand_exclusions)
 
     # Write merchant files (if data available)
     if merchant_client and raw_merchant_products.get("count", 0) > 0:
@@ -1759,10 +2244,17 @@ def main():
         write_json(raw_merchant_dir / "product_statuses.json", raw_merchant_product_statuses)
         write_json(raw_merchant_dir / "account_issues.json", raw_merchant_account_issues)
 
+    # Write GSC files (always write, even if empty, to maintain structure)
+    if gsc_client:
+        write_json(raw_gsc_dir / "sites.json", raw_gsc_sites)
+        write_json(raw_gsc_dir / "search_analytics.json", raw_gsc_search_analytics)
+
     print(f"  Written to {raw_ads_dir}")
     print(f"  Written to {raw_pmax_dir}")
     if merchant_client:
         print(f"  Written to {raw_merchant_dir}")
+    if gsc_client:
+        print(f"  Written to {raw_gsc_dir}")
     print()
 
     # ==========================================================================
@@ -1784,6 +2276,7 @@ def main():
     norm_pmax_campaigns = normalize_pmax_campaigns(raw_pmax_campaigns)
     norm_asset_groups = normalize_asset_groups(raw_asset_groups, raw_asset_group_assets)
     norm_listing_groups = normalize_listing_groups(raw_listing_groups)
+    norm_brand_exclusions = normalize_brand_exclusions(raw_brand_lists, raw_pmax_brand_exclusions)
 
     # Normalize Merchant Center data
     norm_merchant_products = {"extracted_at": None, "count": 0, "records": []}
@@ -1794,6 +2287,19 @@ def main():
             raw_merchant_products, raw_merchant_product_statuses, validation_errors
         )
         norm_merchant_product_status = normalize_merchant_product_status(raw_merchant_product_statuses)
+
+    # Normalize Google Search Console data
+    norm_gsc_analytics = {
+        "extracted_at": None,
+        "site_url": None,
+        "date_range": {},
+        "queries": {"count": 0, "records": []},
+        "pages": {"count": 0, "records": []},
+        "summary": {"total_clicks": 0, "total_impressions": 0, "avg_ctr": 0, "avg_position": 0},
+    }
+
+    if gsc_client and raw_gsc_search_analytics.get("count", 0) > 0:
+        norm_gsc_analytics = normalize_gsc_search_analytics(raw_gsc_search_analytics)
 
     print("  Done")
     print()
@@ -1831,16 +2337,30 @@ def main():
         ],
     }
     write_json(norm_pmax_dir / "assets.json", norm_pmax_assets)
+    write_json(norm_pmax_dir / "brand_exclusions.json", norm_brand_exclusions)
 
     # Write normalized merchant files (if data available)
     if merchant_client and norm_merchant_products.get("count", 0) > 0:
         write_json(norm_merchant_dir / "products.json", norm_merchant_products)
         write_json(norm_merchant_dir / "product_status.json", norm_merchant_product_status)
 
+    # Write normalized GSC files (always write, even if empty)
+    if gsc_client:
+        write_json(norm_gsc_dir / "queries.json", norm_gsc_analytics["queries"])
+        write_json(norm_gsc_dir / "pages.json", norm_gsc_analytics["pages"])
+        write_json(norm_gsc_dir / "summary.json", {
+            "extracted_at": norm_gsc_analytics["extracted_at"],
+            "site_url": norm_gsc_analytics["site_url"],
+            "date_range": norm_gsc_analytics["date_range"],
+            "summary": norm_gsc_analytics["summary"],
+        })
+
     print(f"  Written to {norm_ads_dir}")
     print(f"  Written to {norm_pmax_dir}")
     if merchant_client:
         print(f"  Written to {norm_merchant_dir}")
+    if gsc_client:
+        print(f"  Written to {norm_gsc_dir}")
     print()
 
     # ==========================================================================
@@ -1862,11 +2382,14 @@ def main():
     duration = time.time() - start_time
 
     # Calculate file counts based on what was written
-    raw_file_count = 16  # Ads + PMax base
-    norm_file_count = 12  # Ads + PMax base
+    raw_file_count = 18  # Ads + PMax base (including brand_lists + brand_exclusions)
+    norm_file_count = 13  # Ads + PMax base (including brand_exclusions)
     if merchant_client and raw_merchant_products.get("count", 0) > 0:
         raw_file_count += 3  # products, product_statuses, account_issues
         norm_file_count += 2  # products, product_status
+    if gsc_client:
+        raw_file_count += 2  # sites, search_analytics
+        norm_file_count += 3  # queries, pages, summary
 
     manifest = {
         "snapshot_id": timestamp,
@@ -1882,10 +2405,14 @@ def main():
             "merchant_center": {
                 "merchant_id": merchant_id,
             } if merchant_id else None,
+            "google_search_console": {
+                "site_url": gsc_site_url,
+            } if gsc_site_url else None,
         },
         "api_versions": {
             "google_ads": GOOGLE_ADS_API_VERSION,
             "merchant_center": MERCHANT_CENTER_API_VERSION if merchant_id else None,
+            "google_search_console": "v3" if gsc_site_url else None,
         },
         "file_counts": {
             "raw": raw_file_count,
@@ -1906,9 +2433,13 @@ def main():
                 "asset_groups": raw_asset_groups.get("count", 0),
                 "asset_group_assets": raw_asset_group_assets.get("count", 0),
                 "listing_groups": raw_listing_groups.get("count", 0),
+                "brand_lists": raw_brand_lists.get("count", 0),
+                "pmax_brand_exclusions": raw_pmax_brand_exclusions.get("count", 0),
                 "merchant_products": raw_merchant_products.get("count", 0),
                 "merchant_product_statuses": raw_merchant_product_statuses.get("count", 0),
                 "merchant_account_issues": raw_merchant_account_issues.get("count", 0),
+                "gsc_sites": raw_gsc_sites.get("count", 0),
+                "gsc_search_analytics": raw_gsc_search_analytics.get("count", 0),
             },
             "normalized": {
                 "campaigns": norm_campaigns.get("count", 0),
@@ -1920,9 +2451,13 @@ def main():
                 "assets": norm_assets.get("count", 0),
                 "asset_groups": norm_asset_groups.get("count", 0),
                 "listing_groups": norm_listing_groups.get("count", 0),
+                "brand_exclusions": norm_brand_exclusions.get("pmax_negative_criteria_count", 0),
+                "brand_lists": norm_brand_exclusions.get("brand_lists_count", 0),
                 "change_events": norm_change_history.get("count", 0),
                 "merchant_products": norm_merchant_products.get("count", 0),
                 "merchant_disapproved": norm_merchant_products.get("disapproved_count", 0),
+                "gsc_queries": norm_gsc_analytics["queries"].get("count", 0),
+                "gsc_pages": norm_gsc_analytics["pages"].get("count", 0),
             },
         },
         "validation": {
@@ -1998,11 +2533,11 @@ def main():
     if validation_errors:
         print(f"  {snapshot_dir}/errors.jsonl")
     print(f"  {snapshot_dir}/raw/ads/ (10 files)")
-    print(f"  {snapshot_dir}/raw/pmax/ (6 files)")
+    print(f"  {snapshot_dir}/raw/pmax/ (8 files)")
     if merchant_client and raw_merchant_products.get("count", 0) > 0:
         print(f"  {snapshot_dir}/raw/merchant/ (3 files)")
     print(f"  {snapshot_dir}/normalized/ads/ (8 files)")
-    print(f"  {snapshot_dir}/normalized/pmax/ (4 files)")
+    print(f"  {snapshot_dir}/normalized/pmax/ (5 files)")
     if merchant_client and norm_merchant_products.get("count", 0) > 0:
         print(f"  {snapshot_dir}/normalized/merchant/ (2 files)")
 
